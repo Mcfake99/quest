@@ -1,0 +1,658 @@
+/**
+ * Official past papers (PDF) stored under public/papers/<subject>/.
+ * Downloaded from AQA (aqa.org.uk resources, served from AQA's cdn.sanity.io asset store)
+ * and Pearson (qualifications.pearson.com). Copyright remains with the exam boards.
+ * kind: QP = question paper, MS = mark scheme, INS = insert / source material.
+ */
+export type PastPaperKind = "QP" | "MS" | "INS";
+
+export type PastPaperFile = {
+  id: string;
+  subjectId: string;
+  board: "AQA" | "Edexcel";
+  spec: string;
+  series: string;
+  paper: string;
+  kind: PastPaperKind;
+  title: string;
+  /** Public URL served by the app. */
+  file: string;
+  /** Original download URL. */
+  source: string;
+};
+
+export const PAST_PAPER_FILES: PastPaperFile[] = [
+  {
+    id: "edexcel-1bs0-paper1-jun2025-ms",
+    subjectId: "business",
+    board: "Edexcel",
+    spec: "1BS0",
+    series: "June 2025",
+    paper: "1",
+    kind: "MS",
+    title: "1BS0 Paper 1 Mark scheme - June 2025",
+    file: "/papers/business/edexcel-1bs0-paper1-jun2025-ms.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Business/2017/Exam-materials/1bs0-01-rms-20250821.pdf",
+  },
+  {
+    id: "edexcel-1bs0-paper1-jun2025-qp",
+    subjectId: "business",
+    board: "Edexcel",
+    spec: "1BS0",
+    series: "June 2025",
+    paper: "1",
+    kind: "QP",
+    title: "1BS0 Paper 1 Question paper - June 2025",
+    file: "/papers/business/edexcel-1bs0-paper1-jun2025-qp.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Business/2017/Exam-materials/1bs0-01-que-20250510.pdf",
+  },
+  {
+    id: "edexcel-1bs0-paper2-jun2025-ms",
+    subjectId: "business",
+    board: "Edexcel",
+    spec: "1BS0",
+    series: "June 2025",
+    paper: "2",
+    kind: "MS",
+    title: "1BS0 Paper 2 Mark scheme - June 2025",
+    file: "/papers/business/edexcel-1bs0-paper2-jun2025-ms.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Business/2017/Exam-materials/1bs0-02-rms-20250821.pdf",
+  },
+  {
+    id: "edexcel-1bs0-paper2-jun2025-qp",
+    subjectId: "business",
+    board: "Edexcel",
+    spec: "1BS0",
+    series: "June 2025",
+    paper: "2",
+    kind: "QP",
+    title: "1BS0 Paper 2 Question paper - June 2025",
+    file: "/papers/business/edexcel-1bs0-paper2-jun2025-qp.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Business/2017/Exam-materials/1bs0-02-que-20250517.pdf",
+  },
+  {
+    id: "aqa-8464-biology-paper1h-jun2025-ms",
+    subjectId: "biology",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "1H",
+    kind: "MS",
+    title: "Mark scheme (Higher): Paper 1 Biology - June 2025",
+    file: "/papers/combined-science-biology/aqa-8464-biology-paper1h-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/4847ca8961b6fa99dace2049737eaad5d76fff2a.pdf",
+  },
+  {
+    id: "aqa-8464-biology-paper1h-jun2025-qp",
+    subjectId: "biology",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "1H",
+    kind: "QP",
+    title: "Question paper (Higher): Paper 1 Biology - June 2025",
+    file: "/papers/combined-science-biology/aqa-8464-biology-paper1h-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/f6ae968b094c13c675bd2e4ce6e82c920c0a23ce.pdf",
+  },
+  {
+    id: "aqa-8464-biology-paper2h-jun2025-ms",
+    subjectId: "biology",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "2H",
+    kind: "MS",
+    title: "Mark scheme (Higher): Paper 2 Biology - June 2025",
+    file: "/papers/combined-science-biology/aqa-8464-biology-paper2h-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/22263e6bfd1f0c54fb7158c735f4caba44f58b2c.pdf",
+  },
+  {
+    id: "aqa-8464-biology-paper2h-jun2025-qp",
+    subjectId: "biology",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "2H",
+    kind: "QP",
+    title: "Question paper (Higher): Paper 2 Biology - June 2025",
+    file: "/papers/combined-science-biology/aqa-8464-biology-paper2h-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/43e367a0282ef3fd7595ae7f6935a8f0b9a426dc.pdf",
+  },
+  {
+    id: "aqa-8464-chemistry-paper1h-jun2025-ins",
+    subjectId: "chemistry",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "1H",
+    kind: "INS",
+    title: "Insert (Higher): Paper 1 Chemistry - June 2025",
+    file: "/papers/combined-science-chemistry/aqa-8464-chemistry-paper1h-jun2025-ins.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/a9cc695d41bb3f8288b530a84ef753181eb3aa27.pdf",
+  },
+  {
+    id: "aqa-8464-chemistry-paper1h-jun2025-ms",
+    subjectId: "chemistry",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "1H",
+    kind: "MS",
+    title: "Mark scheme (Higher): Paper 1 Chemistry - June 2025",
+    file: "/papers/combined-science-chemistry/aqa-8464-chemistry-paper1h-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/4f1159c009450178f2d4b11c66d93334a807345f.pdf",
+  },
+  {
+    id: "aqa-8464-chemistry-paper1h-jun2025-qp",
+    subjectId: "chemistry",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "1H",
+    kind: "QP",
+    title: "Question paper (Higher): Paper 1 Chemistry - June 2025",
+    file: "/papers/combined-science-chemistry/aqa-8464-chemistry-paper1h-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/443d1b55eb5d5071ef530a684092dd5ebb493c59.pdf",
+  },
+  {
+    id: "aqa-8464-chemistry-paper2h-jun2025-ins",
+    subjectId: "chemistry",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "2H",
+    kind: "INS",
+    title: "Insert (Higher): Paper 2 Chemistry - June 2025",
+    file: "/papers/combined-science-chemistry/aqa-8464-chemistry-paper2h-jun2025-ins.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/6ba459362d2807112bdc15550f69a4960eece8da.pdf",
+  },
+  {
+    id: "aqa-8464-chemistry-paper2h-jun2025-ms",
+    subjectId: "chemistry",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "2H",
+    kind: "MS",
+    title: "Mark scheme (Higher): Paper 2 Chemistry - June 2025",
+    file: "/papers/combined-science-chemistry/aqa-8464-chemistry-paper2h-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/aab375dfa2e8e3223a154b55d53f28426412edd1.pdf",
+  },
+  {
+    id: "aqa-8464-chemistry-paper2h-jun2025-qp",
+    subjectId: "chemistry",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "2H",
+    kind: "QP",
+    title: "Question paper (Higher): Paper 2 Chemistry - June 2025",
+    file: "/papers/combined-science-chemistry/aqa-8464-chemistry-paper2h-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/9555e568f9626fb73491b7a1d9abf678d95f70bc.pdf",
+  },
+  {
+    id: "aqa-8464-physics-paper1h-jun2025-ins",
+    subjectId: "physics",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "1H",
+    kind: "INS",
+    title: "Insert (Higher): Paper 1 Physics - June 2025",
+    file: "/papers/combined-science-physics/aqa-8464-physics-paper1h-jun2025-ins.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/cc4072c45b8a06d4ce431b612210d599ad08f714.pdf",
+  },
+  {
+    id: "aqa-8464-physics-paper1h-jun2025-ms",
+    subjectId: "physics",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "1H",
+    kind: "MS",
+    title: "Mark scheme (Higher): Paper 1 Physics - June 2025",
+    file: "/papers/combined-science-physics/aqa-8464-physics-paper1h-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/bc69c89df31a9a4805e1948984dde3080aa1168a.pdf",
+  },
+  {
+    id: "aqa-8464-physics-paper1h-jun2025-qp",
+    subjectId: "physics",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "1H",
+    kind: "QP",
+    title: "Question paper (Higher): Paper 1 Physics - June 2025",
+    file: "/papers/combined-science-physics/aqa-8464-physics-paper1h-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/1ef695e518420a8a41ede4fbb5368380454c18ee.pdf",
+  },
+  {
+    id: "aqa-8464-physics-paper2h-jun2025-ins",
+    subjectId: "physics",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "2H",
+    kind: "INS",
+    title: "Insert (Higher): Paper 2 Physics - June 2025",
+    file: "/papers/combined-science-physics/aqa-8464-physics-paper2h-jun2025-ins.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/83b24f0c972f309cb452cdc82e3800aef7a0b2b8.pdf",
+  },
+  {
+    id: "aqa-8464-physics-paper2h-jun2025-ms",
+    subjectId: "physics",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "2H",
+    kind: "MS",
+    title: "Mark scheme (Higher): Paper 2 Physics - June 2025",
+    file: "/papers/combined-science-physics/aqa-8464-physics-paper2h-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/499715589c92d30c59e08f3b860fb9780dbc2e2a.pdf",
+  },
+  {
+    id: "aqa-8464-physics-paper2h-jun2025-qp",
+    subjectId: "physics",
+    board: "AQA",
+    spec: "8464",
+    series: "June 2025",
+    paper: "2H",
+    kind: "QP",
+    title: "Question paper (Higher): Paper 2 Physics - June 2025",
+    file: "/papers/combined-science-physics/aqa-8464-physics-paper2h-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/557ab3ffa78e39ea43e17a70cec009a36b1ddb9b.pdf",
+  },
+  {
+    id: "aqa-8700-paper1-jun2025-ins",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8700",
+    series: "June 2025",
+    paper: "1",
+    kind: "INS",
+    title: "Insert: Paper 1 Explorations in creative reading and writing - June 2025",
+    file: "/papers/english-language/aqa-8700-paper1-jun2025-ins.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/7590eea6fb0f53a8098a7d5ce126265a18db878d.pdf",
+  },
+  {
+    id: "aqa-8700-paper1-jun2025-ms",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8700",
+    series: "June 2025",
+    paper: "1",
+    kind: "MS",
+    title: "Mark scheme: Paper 1 Explorations in creative reading and writing - June 2025",
+    file: "/papers/english-language/aqa-8700-paper1-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/4d8eecb028d7aae94db02b661700045a72ad9832.pdf",
+  },
+  {
+    id: "aqa-8700-paper1-jun2025-qp",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8700",
+    series: "June 2025",
+    paper: "1",
+    kind: "QP",
+    title: "Question paper: Paper 1 Explorations in creative reading and writing - June 2025",
+    file: "/papers/english-language/aqa-8700-paper1-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/e59fe981d54968960dd8be4badab686c7f38a6f8.pdf",
+  },
+  {
+    id: "aqa-8700-paper2-jun2025-ins",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8700",
+    series: "June 2025",
+    paper: "2",
+    kind: "INS",
+    title: "Insert: Paper 2 Writers viewpoints and perspectives - June 2025",
+    file: "/papers/english-language/aqa-8700-paper2-jun2025-ins.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/fb5a5f46957c41aa6dcddd59c96bf4c5fa602df0.pdf",
+  },
+  {
+    id: "aqa-8700-paper2-jun2025-ms",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8700",
+    series: "June 2025",
+    paper: "2",
+    kind: "MS",
+    title: "Mark scheme: Paper 2 Writers viewpoints and perspectives - June 2025",
+    file: "/papers/english-language/aqa-8700-paper2-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/6b5bfb98110c819b5e7cc4f82511f554d2ba642f.pdf",
+  },
+  {
+    id: "aqa-8700-paper2-jun2025-qp",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8700",
+    series: "June 2025",
+    paper: "2",
+    kind: "QP",
+    title: "Question paper: Paper 2 Writers viewpoints and perspectives - June 2025",
+    file: "/papers/english-language/aqa-8700-paper2-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/38bc69939e242143e11361555a50fb6fbeb72229.pdf",
+  },
+  {
+    id: "aqa-8702-paper1-jun2025-ms",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8702",
+    series: "June 2025",
+    paper: "1",
+    kind: "MS",
+    title: "Mark scheme: Paper 1 Shakespeare and the 19th-century novel - June 2025",
+    file: "/papers/english-literature/aqa-8702-paper1-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/2963f9403378e2816a2606a45366dde1934b9a69.pdf",
+  },
+  {
+    id: "aqa-8702-paper1-jun2025-qp",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8702",
+    series: "June 2025",
+    paper: "1",
+    kind: "QP",
+    title: "Question paper: Paper 1 Shakespeare and the 19th-century novel - June 2025",
+    file: "/papers/english-literature/aqa-8702-paper1-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/8751b63839666230833bae71b052dde9bb60f492.pdf",
+  },
+  {
+    id: "aqa-8702-paper2-jun2025-ms",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8702",
+    series: "June 2025",
+    paper: "2",
+    kind: "MS",
+    title: "Mark scheme: Paper 2 Modern texts and poetry - June 2025",
+    file: "/papers/english-literature/aqa-8702-paper2-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/49efd01e02032667f676ec38406415c17aaed3db.pdf",
+  },
+  {
+    id: "aqa-8702-paper2-jun2025-qp",
+    subjectId: "english",
+    board: "AQA",
+    spec: "8702",
+    series: "June 2025",
+    paper: "2",
+    kind: "QP",
+    title: "Question paper: Paper 2 Modern texts and poetry - June 2025",
+    file: "/papers/english-literature/aqa-8702-paper2-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/3f417b090f10ffc94943d0ba2ec6450b5f06fb2b.pdf",
+  },
+  {
+    id: "aqa-8145-paper1-america-1840-1895-jun2025-ins",
+    subjectId: "history",
+    board: "AQA",
+    spec: "8145",
+    series: "June 2025",
+    paper: "1A-A",
+    kind: "INS",
+    title:
+      "Insert: Paper 1 Section A Option A America, 1840-1895: Expansion and consolidation - June 2025",
+    file: "/papers/history/aqa-8145-paper1-america-1840-1895-jun2025-ins.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/4a27fd776b9cbebc4f5a73bdf360f102dab7e562.pdf",
+  },
+  {
+    id: "aqa-8145-paper1-america-1840-1895-jun2025-ms",
+    subjectId: "history",
+    board: "AQA",
+    spec: "8145",
+    series: "June 2025",
+    paper: "1A-A",
+    kind: "MS",
+    title:
+      "Mark scheme: Paper 1 Section A Option A America, 1840-1895: Expansion and consolidation - June 2025",
+    file: "/papers/history/aqa-8145-paper1-america-1840-1895-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/3e4ef8d1b897252687306eb24ae45ec98c54d9eb.pdf",
+  },
+  {
+    id: "aqa-8145-paper1-america-1840-1895-jun2025-qp",
+    subjectId: "history",
+    board: "AQA",
+    spec: "8145",
+    series: "June 2025",
+    paper: "1A-A",
+    kind: "QP",
+    title:
+      "Question paper: Paper 1 Section A Option A America, 1840-1895: Expansion and consolidation - June 2025",
+    file: "/papers/history/aqa-8145-paper1-america-1840-1895-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/f7b27fa68cf7495ccf904187ae591ba09d239b34.pdf",
+  },
+  {
+    id: "aqa-8145-paper1-asia-1950-1975-jun2025-ins",
+    subjectId: "history",
+    board: "AQA",
+    spec: "8145",
+    series: "June 2025",
+    paper: "1B-D",
+    kind: "INS",
+    title: "Insert: Paper 1 Section B Option D Conflict and tension in Asia, 1950-1975 - June 2025",
+    file: "/papers/history/aqa-8145-paper1-asia-1950-1975-jun2025-ins.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/3154cc6d6a2cfa787a2cbcc025579e7e8442fb11.pdf",
+  },
+  {
+    id: "aqa-8145-paper1-asia-1950-1975-jun2025-ms",
+    subjectId: "history",
+    board: "AQA",
+    spec: "8145",
+    series: "June 2025",
+    paper: "1B-D",
+    kind: "MS",
+    title:
+      "Mark scheme: Paper 1 Section B Option D Conflict and tension in Asia, 1950-1975 - June 2025",
+    file: "/papers/history/aqa-8145-paper1-asia-1950-1975-jun2025-ms.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/43f39e0dd6dad1b3d657d4af06756f6df636f5b0.pdf",
+  },
+  {
+    id: "aqa-8145-paper1-asia-1950-1975-jun2025-qp",
+    subjectId: "history",
+    board: "AQA",
+    spec: "8145",
+    series: "June 2025",
+    paper: "1B-D",
+    kind: "QP",
+    title:
+      "Question paper: Paper 1 Section B Option D Conflict and tension in Asia, 1950-1975 - June 2025",
+    file: "/papers/history/aqa-8145-paper1-asia-1950-1975-jun2025-qp.pdf",
+    source:
+      "https://cdn.sanity.io/files/p28bar15/green/9d0655dfdb0709cd0bda815aed8181aff15c13d1.pdf",
+  },
+  {
+    id: "edexcel-1ma1-paper1h-jun2025-ms",
+    subjectId: "maths",
+    board: "Edexcel",
+    spec: "1MA1",
+    series: "June 2025",
+    paper: "1H",
+    kind: "MS",
+    title: "1MA1 Paper 1H Mark scheme - June 2025",
+    file: "/papers/maths/edexcel-1ma1-paper1h-jun2025-ms.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Mathematics/2015/Exam-materials/1ma1-1h-rms-20250821.pdf",
+  },
+  {
+    id: "edexcel-1ma1-paper1h-jun2025-qp",
+    subjectId: "maths",
+    board: "Edexcel",
+    spec: "1MA1",
+    series: "June 2025",
+    paper: "1H",
+    kind: "QP",
+    title: "1MA1 Paper 1H Question paper - June 2025",
+    file: "/papers/maths/edexcel-1ma1-paper1h-jun2025-qp.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Mathematics/2015/Exam-materials/1ma1-1h-que-20250516.pdf",
+  },
+  {
+    id: "edexcel-1ma1-paper2h-jun2025-ms",
+    subjectId: "maths",
+    board: "Edexcel",
+    spec: "1MA1",
+    series: "June 2025",
+    paper: "2H",
+    kind: "MS",
+    title: "1MA1 Paper 2H Mark scheme - June 2025",
+    file: "/papers/maths/edexcel-1ma1-paper2h-jun2025-ms.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Mathematics/2015/Exam-materials/1ma1-2h-rms-20250821.pdf",
+  },
+  {
+    id: "edexcel-1ma1-paper2h-jun2025-qp",
+    subjectId: "maths",
+    board: "Edexcel",
+    spec: "1MA1",
+    series: "June 2025",
+    paper: "2H",
+    kind: "QP",
+    title: "1MA1 Paper 2H Question paper - June 2025",
+    file: "/papers/maths/edexcel-1ma1-paper2h-jun2025-qp.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Mathematics/2015/Exam-materials/1ma1-2h-que-20250605.pdf",
+  },
+  {
+    id: "edexcel-1ma1-paper3h-jun2025-ms",
+    subjectId: "maths",
+    board: "Edexcel",
+    spec: "1MA1",
+    series: "June 2025",
+    paper: "3H",
+    kind: "MS",
+    title: "1MA1 Paper 3H Mark scheme - June 2025",
+    file: "/papers/maths/edexcel-1ma1-paper3h-jun2025-ms.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Mathematics/2015/Exam-materials/1ma1-3h-rms-20250821.pdf",
+  },
+  {
+    id: "edexcel-1ma1-paper3h-jun2025-qp",
+    subjectId: "maths",
+    board: "Edexcel",
+    spec: "1MA1",
+    series: "June 2025",
+    paper: "3H",
+    kind: "QP",
+    title: "1MA1 Paper 3H Question paper - June 2025",
+    file: "/papers/maths/edexcel-1ma1-paper3h-jun2025-qp.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Mathematics/2015/Exam-materials/1ma1-3h-que-20250612.pdf",
+  },
+  {
+    id: "edexcel-1sp0-paper1h-listening-jun2025-ms",
+    subjectId: "spanish",
+    board: "Edexcel",
+    spec: "1SP0",
+    series: "June 2025",
+    paper: "1H",
+    kind: "MS",
+    title: "1SP0 Paper 1H Mark scheme - June 2025",
+    file: "/papers/spanish/edexcel-1sp0-paper1h-listening-jun2025-ms.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Spanish/2016/Exam-materials/1sp0-1h-rms-20250821.pdf",
+  },
+  {
+    id: "edexcel-1sp0-paper1h-listening-jun2025-qp",
+    subjectId: "spanish",
+    board: "Edexcel",
+    spec: "1SP0",
+    series: "June 2025",
+    paper: "1H",
+    kind: "QP",
+    title: "1SP0 Paper 1H Question paper - June 2025",
+    file: "/papers/spanish/edexcel-1sp0-paper1h-listening-jun2025-qp.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Spanish/2016/Exam-materials/1sp0-1h-que-20250611.pdf",
+  },
+  {
+    id: "edexcel-1sp0-paper3h-reading-jun2025-ms",
+    subjectId: "spanish",
+    board: "Edexcel",
+    spec: "1SP0",
+    series: "June 2025",
+    paper: "3H",
+    kind: "MS",
+    title: "1SP0 Paper 3H Mark scheme - June 2025",
+    file: "/papers/spanish/edexcel-1sp0-paper3h-reading-jun2025-ms.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Spanish/2016/Exam-materials/1sp0-3h-rms-20250821.pdf",
+  },
+  {
+    id: "edexcel-1sp0-paper3h-reading-jun2025-qp",
+    subjectId: "spanish",
+    board: "Edexcel",
+    spec: "1SP0",
+    series: "June 2025",
+    paper: "3H",
+    kind: "QP",
+    title: "1SP0 Paper 3H Question paper - June 2025",
+    file: "/papers/spanish/edexcel-1sp0-paper3h-reading-jun2025-qp.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Spanish/2016/Exam-materials/1sp0-3h-que-20250611.pdf",
+  },
+  {
+    id: "edexcel-1sp0-paper4h-writing-jun2025-ms",
+    subjectId: "spanish",
+    board: "Edexcel",
+    spec: "1SP0",
+    series: "June 2025",
+    paper: "4H",
+    kind: "MS",
+    title: "1SP0 Paper 4H Mark scheme - June 2025",
+    file: "/papers/spanish/edexcel-1sp0-paper4h-writing-jun2025-ms.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Spanish/2016/Exam-materials/1sp0-4h-rms-20250821.pdf",
+  },
+  {
+    id: "edexcel-1sp0-paper4h-writing-jun2025-qp",
+    subjectId: "spanish",
+    board: "Edexcel",
+    spec: "1SP0",
+    series: "June 2025",
+    paper: "4H",
+    kind: "QP",
+    title: "1SP0 Paper 4H Question paper - June 2025",
+    file: "/papers/spanish/edexcel-1sp0-paper4h-writing-jun2025-qp.pdf",
+    source:
+      "https://qualifications.pearson.com/content/dam/pdf/GCSE/Spanish/2016/Exam-materials/1sp0-4h-que-20250618.pdf",
+  },
+];
+
+export function pastPapersFor(subjectId: string): PastPaperFile[] {
+  return PAST_PAPER_FILES.filter((item) => item.subjectId === subjectId);
+}

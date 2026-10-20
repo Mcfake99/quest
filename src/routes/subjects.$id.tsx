@@ -1,6 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
+import { PdfLinks } from "@/components/game/RealPartView";
 import { Progress } from "@/components/ui/progress";
+import { PAST_PAPER_FILES } from "@/lib/game/exam/past-papers";
+import { realPapersFor, topicsFor } from "@/lib/game/exam/real/lookup";
+import { cardsFor } from "@/lib/game/flashcards";
 import { SUBJECT_ICONS } from "@/lib/game/icons";
 import { QUESTIONS_BY_SUBJECT, subjectMastery } from "@/lib/game/questions";
 import { useGameStore } from "@/lib/game/store";
@@ -106,6 +110,8 @@ function SubjectHall() {
         ) : null}
       </div>
 
+      <PastPapers id={id} />
+
       <section className="mt-10">
         <h2 className="font-display text-2xl">Topics</h2>
         <ul className="mt-4 divide-y divide-border rounded-xl bg-surface shadow-[var(--shadow-border)]">
@@ -124,5 +130,71 @@ function SubjectHall() {
         </ul>
       </section>
     </div>
+  );
+}
+
+function PastPapers({ id }: { id: SubjectId }) {
+  const papers = realPapersFor(id);
+  const files = PAST_PAPER_FILES.filter((f) => f.subjectId === id);
+  if (!papers.length && !files.length) return null;
+  const topics = topicsFor(id).slice(0, 8);
+  const cards = cardsFor(id).length;
+  return (
+    <section className="mt-10">
+      <div className="flex flex-wrap items-baseline justify-between gap-3">
+        <h2 className="font-display text-2xl">Past papers · June 2025</h2>
+        <Link to="/mistakes" className="text-sm text-muted hover:text-fg">
+          Mistakes list
+        </Link>
+      </div>
+      <p className="mt-1 text-sm text-muted">The official question papers (QP), mark schemes (MS) and inserts (INS).</p>
+      <ul className="mt-4 divide-y divide-border rounded-xl bg-surface shadow-[var(--shadow-border)]">
+        {papers.map((paper) => (
+          <li key={paper.id} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
+            <div className="min-w-0">
+              <p className="text-sm">{paper.title}</p>
+              <p className="text-xs text-muted">
+                {paper.board} {paper.spec} · {paper.minutes} min · {paper.coverMarks} marks
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <Button asChild size="sm">
+                <Link to="/mock/$paperId" params={{ paperId: paper.id }}>
+                  Real mock
+                </Link>
+              </Button>
+              <PdfLinks qp={paper.qp} ms={paper.ms} ins={paper.insert} />
+            </div>
+          </li>
+        ))}
+      </ul>
+      <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+        <Button asChild variant="secondary" className="flex-1">
+          <Link to="/flashcards/$subject" params={{ subject: id }}>
+            Flashcards · {cards}
+          </Link>
+        </Button>
+        <Button asChild variant="secondary" className="flex-1">
+          <Link to="/quiz/$subject" params={{ subject: id }} search={{ topic: "" }}>
+            Quick quiz from the papers
+          </Link>
+        </Button>
+      </div>
+      {topics.length ? (
+        <div className="mt-3 flex flex-wrap gap-2">
+          {topics.map((t) => (
+            <Link
+              key={t.topic}
+              to="/quiz/$subject"
+              params={{ subject: id }}
+              search={{ topic: t.topic }}
+              className="inline-flex min-h-9 items-center rounded-full bg-raised px-3 text-xs text-muted shadow-[var(--shadow-border)] hover:text-fg"
+            >
+              {t.topic} · {t.count}
+            </Link>
+          ))}
+        </div>
+      ) : null}
+    </section>
   );
 }

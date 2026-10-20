@@ -11,12 +11,17 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as LoginRouteImport } from './routes/login'
+import { Route as MistakesRouteImport } from './routes/mistakes'
+import { Route as PapersRouteImport } from './routes/papers'
 import { Route as PlayRouteImport } from './routes/play'
 import { Route as ProgressRouteImport } from './routes/progress'
 import { Route as ReviseRouteImport } from './routes/revise'
 import { Route as ShopRouteImport } from './routes/shop'
 import { Route as SubjectsRouteImport } from './routes/subjects'
 import { Route as ExamPaperIdRouteImport } from './routes/exam.$paperId'
+import { Route as FlashcardsSubjectRouteImport } from './routes/flashcards.$subject'
+import { Route as MockPaperIdRouteImport } from './routes/mock.$paperId'
+import { Route as QuizSubjectRouteImport } from './routes/quiz.$subject'
 import { Route as SubjectsIdRouteImport } from './routes/subjects.$id'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
@@ -28,6 +33,16 @@ const IndexRoute = IndexRouteImport.update({
 const LoginRoute = LoginRouteImport.update({
   id: '/login',
   path: '/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MistakesRoute = MistakesRouteImport.update({
+  id: '/mistakes',
+  path: '/mistakes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PapersRoute = PapersRouteImport.update({
+  id: '/papers',
+  path: '/papers',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PlayRoute = PlayRouteImport.update({
@@ -60,6 +75,21 @@ const ExamPaperIdRoute = ExamPaperIdRouteImport.update({
   path: '/exam/$paperId',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FlashcardsSubjectRoute = FlashcardsSubjectRouteImport.update({
+  id: '/flashcards/$subject',
+  path: '/flashcards/$subject',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MockPaperIdRoute = MockPaperIdRouteImport.update({
+  id: '/mock/$paperId',
+  path: '/mock/$paperId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QuizSubjectRoute = QuizSubjectRouteImport.update({
+  id: '/quiz/$subject',
+  path: '/quiz/$subject',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SubjectsIdRoute = SubjectsIdRouteImport.update({
   id: '/$id',
   path: '/$id',
@@ -74,24 +104,34 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
+  '/mistakes': typeof MistakesRoute
+  '/papers': typeof PapersRoute
   '/play': typeof PlayRoute
   '/progress': typeof ProgressRoute
   '/revise': typeof ReviseRoute
   '/shop': typeof ShopRoute
   '/subjects': typeof SubjectsRouteWithChildren
   '/exam/$paperId': typeof ExamPaperIdRoute
+  '/flashcards/$subject': typeof FlashcardsSubjectRoute
+  '/mock/$paperId': typeof MockPaperIdRoute
+  '/quiz/$subject': typeof QuizSubjectRoute
   '/subjects/$id': typeof SubjectsIdRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
+  '/mistakes': typeof MistakesRoute
+  '/papers': typeof PapersRoute
   '/play': typeof PlayRoute
   '/progress': typeof ProgressRoute
   '/revise': typeof ReviseRoute
   '/shop': typeof ShopRoute
   '/subjects': typeof SubjectsRouteWithChildren
   '/exam/$paperId': typeof ExamPaperIdRoute
+  '/flashcards/$subject': typeof FlashcardsSubjectRoute
+  '/mock/$paperId': typeof MockPaperIdRoute
+  '/quiz/$subject': typeof QuizSubjectRoute
   '/subjects/$id': typeof SubjectsIdRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
@@ -99,12 +139,17 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
+  '/mistakes': typeof MistakesRoute
+  '/papers': typeof PapersRoute
   '/play': typeof PlayRoute
   '/progress': typeof ProgressRoute
   '/revise': typeof ReviseRoute
   '/shop': typeof ShopRoute
   '/subjects': typeof SubjectsRouteWithChildren
   '/exam/$paperId': typeof ExamPaperIdRoute
+  '/flashcards/$subject': typeof FlashcardsSubjectRoute
+  '/mock/$paperId': typeof MockPaperIdRoute
+  '/quiz/$subject': typeof QuizSubjectRoute
   '/subjects/$id': typeof SubjectsIdRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
@@ -113,36 +158,51 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/login'
+    | '/mistakes'
+    | '/papers'
     | '/play'
     | '/progress'
     | '/revise'
     | '/shop'
     | '/subjects'
     | '/exam/$paperId'
+    | '/flashcards/$subject'
+    | '/mock/$paperId'
+    | '/quiz/$subject'
     | '/subjects/$id'
     | '/api/auth/$'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/login'
+    | '/mistakes'
+    | '/papers'
     | '/play'
     | '/progress'
     | '/revise'
     | '/shop'
     | '/subjects'
     | '/exam/$paperId'
+    | '/flashcards/$subject'
+    | '/mock/$paperId'
+    | '/quiz/$subject'
     | '/subjects/$id'
     | '/api/auth/$'
   id:
     | '__root__'
     | '/'
     | '/login'
+    | '/mistakes'
+    | '/papers'
     | '/play'
     | '/progress'
     | '/revise'
     | '/shop'
     | '/subjects'
     | '/exam/$paperId'
+    | '/flashcards/$subject'
+    | '/mock/$paperId'
+    | '/quiz/$subject'
     | '/subjects/$id'
     | '/api/auth/$'
   fileRoutesById: FileRoutesById
@@ -150,12 +210,17 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   LoginRoute: typeof LoginRoute
+  MistakesRoute: typeof MistakesRoute
+  PapersRoute: typeof PapersRoute
   PlayRoute: typeof PlayRoute
   ProgressRoute: typeof ProgressRoute
   ReviseRoute: typeof ReviseRoute
   ShopRoute: typeof ShopRoute
   SubjectsRoute: typeof SubjectsRouteWithChildren
   ExamPaperIdRoute: typeof ExamPaperIdRoute
+  FlashcardsSubjectRoute: typeof FlashcardsSubjectRoute
+  MockPaperIdRoute: typeof MockPaperIdRoute
+  QuizSubjectRoute: typeof QuizSubjectRoute
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
 }
 
@@ -173,6 +238,20 @@ declare module '@tanstack/react-router' {
       path: '/login'
       fullPath: '/login'
       preLoaderRoute: typeof LoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mistakes': {
+      id: '/mistakes'
+      path: '/mistakes'
+      fullPath: '/mistakes'
+      preLoaderRoute: typeof MistakesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/papers': {
+      id: '/papers'
+      path: '/papers'
+      fullPath: '/papers'
+      preLoaderRoute: typeof PapersRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/play': {
@@ -217,6 +296,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ExamPaperIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/flashcards/$subject': {
+      id: '/flashcards/$subject'
+      path: '/flashcards/$subject'
+      fullPath: '/flashcards/$subject'
+      preLoaderRoute: typeof FlashcardsSubjectRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mock/$paperId': {
+      id: '/mock/$paperId'
+      path: '/mock/$paperId'
+      fullPath: '/mock/$paperId'
+      preLoaderRoute: typeof MockPaperIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quiz/$subject': {
+      id: '/quiz/$subject'
+      path: '/quiz/$subject'
+      fullPath: '/quiz/$subject'
+      preLoaderRoute: typeof QuizSubjectRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/subjects/$id': {
       id: '/subjects/$id'
       path: '/$id'
@@ -249,12 +349,17 @@ const SubjectsRouteWithChildren = SubjectsRoute._addFileChildren(
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   LoginRoute: LoginRoute,
+  MistakesRoute: MistakesRoute,
+  PapersRoute: PapersRoute,
   PlayRoute: PlayRoute,
   ProgressRoute: ProgressRoute,
   ReviseRoute: ReviseRoute,
   ShopRoute: ShopRoute,
   SubjectsRoute: SubjectsRouteWithChildren,
   ExamPaperIdRoute: ExamPaperIdRoute,
+  FlashcardsSubjectRoute: FlashcardsSubjectRoute,
+  MockPaperIdRoute: MockPaperIdRoute,
+  QuizSubjectRoute: QuizSubjectRoute,
   ApiAuthSplatRoute: ApiAuthSplatRoute,
 }
 export const routeTree = rootRouteImport

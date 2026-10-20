@@ -1,5 +1,5 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { BarChart3, BookOpen, Flame, Gift, LayoutGrid, Store, Volume2, VolumeX } from "lucide-react";
+import { BarChart3, BookOpen, FileText, Flame, Gift, LayoutGrid, Store, Volume2, VolumeX } from "lucide-react";
 import type { ReactNode } from "react";
 import { AuthSlot } from "@/components/layout/AuthSlot";
 import { Button } from "@/components/ui/button";
@@ -12,13 +12,14 @@ import { cn } from "@/lib/utils";
 const NAV = [
   { to: "/", label: "Hall", icon: LayoutGrid },
   { to: "/subjects", label: "Subjects", icon: BookOpen },
+  { to: "/papers", label: "Papers", icon: FileText },
   { to: "/progress", label: "Ledger", icon: BarChart3 },
   { to: "/shop", label: "Exchange", icon: Store },
 ] as const;
 
 export function AppShell({ children }: { children: ReactNode }) {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
-  const play = pathname.startsWith("/play") || pathname.startsWith("/exam") || pathname.startsWith("/revise");
+  const play = pathname.startsWith("/play") || pathname.startsWith("/exam") || pathname.startsWith("/mock") || pathname.startsWith("/revise");
   const login = pathname === "/login";
   const name = useGameStore((s) => s.name);
   const xp = useGameStore((s) => s.xp);
@@ -120,7 +121,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       </div>
 
       <nav className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-bg/95 backdrop-blur-sm md:hidden">
-        <div className="mx-auto grid max-w-lg grid-cols-4 px-2 pb-[env(safe-area-inset-bottom)]">
+        <div className="mx-auto grid max-w-lg grid-cols-5 px-2 pb-[env(safe-area-inset-bottom)]">
           {NAV.map((item) => {
             const active = item.to === "/" ? pathname === "/" : pathname.startsWith(item.to);
             const Icon = item.icon;
