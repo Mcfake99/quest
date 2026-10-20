@@ -1,0 +1,278 @@
+import type { ExamPaper } from "./types";
+
+/** Original Unit 2 practice paper. Same rules and mark pattern as a Business Perceptions paper. Not an official paper. */
+export const businessU2: ExamPaper = {
+  id: "business-u2",
+  subject: "Business",
+  unit: "Unit 2: Business Perceptions",
+  minutes: 90,
+  totalMarks: 60,
+  calculator: true,
+  blurb:
+    "An original 90-minute practice paper. Same shape as a Business Unit 2 exam: 60 marks, two case studies, calculator allowed, every part answered. The businesses and the figures are QuestForge’s — this is not an official paper.",
+  rules: [
+    "Answer every part. Question 1 is one case. Question 2 is a second case. You can move between them before you hand the paper in.",
+    "Spend about 10 minutes reading each case, then about 35 minutes answering that question.",
+    "A calculator is allowed. The clock is 1 hour 30 minutes from the moment you start, and it keeps running if you refresh.",
+    "You will not see the mark scheme, or whether an answer is right, until you hand the paper in.",
+    "Write in your own words. An answer is credited when it contains the idea, not when it copies a mark scheme sentence.",
+    "On the calculations, put the final figure in the answer box. Working is credited if the figure is wrong but the method is right.",
+  ],
+  questions: [
+    {
+      number: 1,
+      marks: 30,
+      minutes: 45,
+      stimulus: [
+        "Fenwick Outdoor sells walking boots, waterproof jackets and rucksacks. It has shops in the north of England, its own website, and a place on a large online marketplace. There is no shop in the south. Click and collect is offered from the shops. A warehouse holds the stock for online orders.",
+        "In 2024 Fenwick opened more shops. That cost £500,000, and rent rose by £500,000. Wages are the largest cost, about £14.1 million in 2024.",
+        "Fenwick pays shop and warehouse staff the national living wage. It stocks fairtrade products where it can, and it gives 10% of its profit to junior sports clubs. Some weekend staff are on zero-hour contracts. A report said one fabric supplier had been accused of animal cruelty, and another of using child labour. Fenwick has not yet checked every overseas factory.",
+      ],
+      parts: [
+        {
+          id: "u2q1a",
+          kind: "written",
+          command: "describe",
+          marks: 2,
+          prompt: "Describe what is meant by the term product portfolio.",
+          points: [
+            { id: "range", label: "The range of products, or the product mix, that a business sells", patterns: ["range", "mix", "different products", "different types", "all the products", "collection", "variety", "portfolio of"] },
+            { id: "segments", label: "It can attract different customers or market segments", patterns: ["segment", "different customer", "different market", "more than one type of customer", "wider market"] },
+            { id: "case", label: "Applied to this business, such as boots, jackets and rucksacks", patterns: ["boot", "jacket", "rucksack", "fenwick"] },
+          ],
+          model:
+            "A product portfolio is the range of products a business sells, sometimes called the product mix. A fuller answer says it can attract different customers, or gives Fenwick’s boots, jackets and rucksacks. The range alone is a limited description. The mix, the customers, or the case makes it detailed.",
+        },
+        {
+          id: "u2q1b",
+          kind: "number",
+          marks: 2,
+          working: true,
+          prompt: "State the formula for net profit margin. Use it to calculate Fenwick Outdoor’s net profit margin in 2024.",
+          table: {
+            columns: ["2023", "2024"],
+            rows: [
+              { label: "Revenue (£)", cells: ["58,250,000", "65,400,000"] },
+              { label: "Cost of sales (£)", cells: ["20,387,500", "24,852,000"] },
+              { label: "Gross profit (£)", cells: ["37,862,500", "40,548,000"] },
+              { label: "Expenses (£)", cells: ["20,050,000", "22,395,000"] },
+              { label: "Net profit (£)", cells: ["17,812,500", "18,153,000"], strong: true },
+            ],
+          },
+          blanks: [
+            {
+              id: "npm",
+              label: "Net profit margin in 2024 (%)",
+              marks: 2,
+              answers: [27.7568807339],
+              tolerance: 0.25,
+              methodMarks: 1,
+              methodPatterns: ["net profit", "sales revenue", "sales", "npm", "/ revenue", "÷ revenue", "x 100", "× 100", "18153000", "18,153,000", "65400000", "65,400,000"],
+            },
+          ],
+          model:
+            "Net profit margin = net profit ÷ sales revenue × 100. £18,153,000 ÷ £65,400,000 × 100 = 27.76%. Also accept 27.8% or 28%. The percentage scores 2. The formula, with a wrong percentage, scores 1.",
+        },
+        {
+          id: "u2q1c",
+          kind: "written",
+          command: "analyse",
+          marks: 4,
+          prompt: "Analyse the financial performance of Fenwick Outdoor in 2023 and 2024.",
+          figureHints: ["58,250", "65,400", "18,153", "17,812", "14.1", "500,000", "7,150", "27.8", "28%"],
+          points: [
+            { id: "sales", label: "Revenue was higher in 2024", patterns: ["revenue rose", "revenue increased", "higher revenue", "sales rose", "sales increased", "bigger sales", "turnover", "65,400", "65400000", "7,150", "7150000"] },
+            { id: "profit", label: "Gross profit and net profit were both higher in 2024", patterns: ["gross profit", "net profit rose", "profit increased", "higher profit", "bigger profit", "more profit", "18,153", "18153000", "340"] },
+            { id: "costs", label: "Cost of sales, wages, rent or expenses also rose", patterns: ["cost of sales", "expenses rose", "expenses increased", "higher expenses", "wages", "rent", "14.1", "500,000", "500000"] },
+            { id: "why", label: "A reason, such as new shops, more stock, or higher wages", patterns: ["new shop", "new store", "more stock", "more staff", "living wage", "suppliers", "margin"] },
+          ],
+          model:
+            "Revenue rose from £58,250,000 to £65,400,000, an increase of £7,150,000. Gross profit and net profit were both higher. Net profit only rose by £340,500, to £18,153,000, because cost of sales and expenses rose as well. Wages, about £14.1 million, are the largest cost, and the new shops added £500,000 plus £500,000 more rent. Use at least two figures, then say why the results changed.",
+        },
+        {
+          id: "u2q1d",
+          kind: "written",
+          command: "explain",
+          marks: 2,
+          prompt: "Explain how a rise in VAT might impact a business.",
+          points: [
+            { id: "tax", label: "VAT is a tax on goods and services, or a tax on spending", patterns: ["tax", "indirect"] },
+            { id: "price", label: "A rise makes most goods more expensive and can cut sales", patterns: ["more expensive", "dearer", "higher price", "prices rise", "price rise", "fewer sales", "sales fall", "buy less", "demand"] },
+            { id: "absorb", label: "The business may absorb the VAT, which cuts the margin", patterns: ["absorb", "margin", "pay the extra", "not pass", "profit"] },
+            { id: "exempt", label: "Some goods, such as children’s clothes, are exempt", patterns: ["exempt", "children", "zero rate", "not charged"] },
+          ],
+          model:
+            "VAT is a tax on most goods and services. A higher rate makes prices higher if the shop passes it on, so customers buy less. If the shop absorbs it, the profit on each sale falls. Either impact, after saying what VAT is, scores the marks. Children’s clothes are an example of a product that may not be affected.",
+        },
+        {
+          id: "u2q1e",
+          kind: "written",
+          command: "explain",
+          marks: 6,
+          prompt: "Explain how a business might use the recruitment process to appoint a manager.",
+          points: [
+            { id: "analysis", label: "Identify the vacancy, or do a job analysis", patterns: ["job analysis", "vacancy", "how many manager", "why the vacancy"] },
+            { id: "docs", label: "Write a job description: hours, place, pay", patterns: ["job description", "hours", "salary", "location of the job", "duties"] },
+            { id: "spec", label: "Write a person specification: skills, experience, qualities", patterns: ["person spec", "experience", "qualification", "skills needed", "personal qualit"] },
+            { id: "advert", label: "Advertise internally or externally, for example an agency", patterns: ["advert", "agency", "internal", "noticeboard", "external", "newspaper"] },
+            { id: "apply", label: "Use an application form or CV", patterns: ["application", "cv", "apply"] },
+            { id: "short", label: "Shortlist the best candidates", patterns: ["shortlist", "short list", "best candidate"] },
+            { id: "interview", label: "Interview, and possibly test, the shortlist", patterns: ["interview", "face to face", "face-to-face", "test"] },
+            { id: "check", label: "Take up references", patterns: ["reference"] },
+            { id: "offer", label: "Select the person and agree a start date after notice", patterns: ["appoint", "offer the job", "job offer", "notice", "contract", "select"] },
+          ],
+          model:
+            "Fenwick would write a job description and a person specification so applicants know the shop-manager duties and the skills required. It would advertise, read the applications, and shortlist. Interviews, and maybe a short task on the shop floor, show who can manage staff. References and a contract then confirm the appointment. Three of those stages, each explained, can score 6.",
+        },
+        {
+          id: "u2q1f",
+          kind: "written",
+          command: "explain",
+          marks: 6,
+          prompt: "Explain the advantages and disadvantages to Fenwick Outdoor of using multi-channel distribution.",
+          points: [
+            { id: "reach", group: "for", label: "The website reaches customers who have no shop nearby", patterns: ["no shop", "south", "not near", "further away", "rest of the", "wider", "more customer", "more people"] },
+            { id: "choice", group: "for", label: "Customers can choose the channel, or try goods then buy online", patterns: ["convenient", "choose", "try", "click and collect", "in the shop", "instore", "in store"] },
+            { id: "online", group: "for", label: "An online channel keeps up with competitors", patterns: ["competitor", "online sales", "website", "marketplace", "essential"] },
+            { id: "cheapgrowth", group: "for", label: "Online growth can cost less than opening more shops", patterns: ["cheaper than", "fraction of the cost", "less than opening", "500,000"] },
+            { id: "cost", group: "against", label: "Running every channel is expensive to keep updated", patterns: ["cost", "expensive", "fees", "maintain", "update the website"] },
+            { id: "clash", group: "against", label: "The website can take sales away from the shops", patterns: ["take sales", "shops lose", "empty", "compete with", "cannibalis", "buy online instead"] },
+            { id: "tech", group: "against", label: "A poor or broken website damages the reputation", patterns: ["website down", "technical", "out of date", "poor website", "it support", "crash"] },
+            { id: "delivery", group: "against", label: "Delivery over a long distance costs more", patterns: ["delivery cost", "bulky", "long distance", "postage", "shipping"] },
+          ],
+          model:
+            "The shops are only in the north, so the website lets people in the south buy, and click and collect suits customers who want the item quickly. Online selling can also grow sales without another £500,000 shop. Against that, the channels cost money to run, the website can empty the shops, and a poor site or a long delivery harms the sale. Both sides, using Fenwick, are what the 6 marks need.",
+        },
+        {
+          id: "u2q1g",
+          kind: "written",
+          command: "consider",
+          marks: 8,
+          prompt: "Consider how ethical issues affect Fenwick Outdoor.",
+          figureHints: ["living wage", "fairtrade", "10%", "zero-hour", "zero hour", "child", "animal"],
+          points: [
+            { id: "wage-for", group: "for", label: "The national living wage can motivate staff and raise productivity", patterns: ["living wage", "motivate", "productiv", "higher pay", "keep staff"] },
+            { id: "wage-against", group: "against", label: "Wages are high, about £14.1 million, which squeezes profit", patterns: ["14.1", "wage cost", "high wage", "cost of wages", "expensive wage"] },
+            { id: "fair", group: "for", label: "Fairtrade products attract customers who share that belief", patterns: ["fairtrade", "fair trade", "ethical product", "same belief"] },
+            { id: "charity", group: "for", label: "Giving 10% of profit to junior sports clubs builds reputation", patterns: ["10%", "10 percent", "charit", "junior", "donation", "good cause", "reputation"] },
+            { id: "charity-cost", group: "against", label: "Donating profit means the owners keep less", patterns: ["keep less", "less profit", "gives away", "costs more", "higher cost"] },
+            { id: "zero", group: "against", label: "Zero-hour contracts can look like exploitation and put customers off", patterns: ["zero-hour", "zero hour", "no guaranteed", "exploit"] },
+            { id: "zero-for", group: "for", label: "Zero-hour contracts cut the wage bill when the shops are quiet", patterns: ["not paying", "when quiet", "only when needed", "lower the wage"] },
+            { id: "harm", group: "against", label: "Animal cruelty or child labour in the supply chain damages the brand", patterns: ["animal", "child", "labour", "labor", "boycott", "supplier", "news", "reputation"] },
+          ],
+          model:
+            "Paying the national living wage and stocking fairtrade goods can win loyal customers, and giving 10% of profit to junior sports clubs helps the name. The wage bill is already about £14.1 million, the donation keeps less of the profit, and zero-hour contracts may drive shoppers away even though they save money when trade is quiet. Accusations about animal cruelty or child labour would hurt the brand unless Fenwick checks its factories, and checking costs money. Both the benefit and the cost, using these policies, are what the 8 marks need.",
+        },
+      ],
+    },
+    {
+      number: 2,
+      marks: 30,
+      minutes: 45,
+      stimulus: [
+        "Calder Bearings is a private limited company in Halifax. It makes sealed bearings for bicycles and e-bikes, and it sells them to bicycle makers in the UK. The owners live in Halifax.",
+        "The global market for these bearings was worth $6.9 billion in 2018. It is estimated to be worth $10.4 billion in 2025.",
+        "Leeds Bradford Airport is nearby, the M62 runs past the mill, and there is a rail freight terminal in the town. A ferry port can be reached the same day. About 2 million people live within an hour’s drive. A steel stockholder is on the next industrial estate.",
+        "Steel is ordered in large quantities because that earns a discount, and the goods are not perishable. They take weeks to arrive, so Calder cannot wait and order at the last minute. The mill store is large, but it is nearly full. Some older sizes have not sold.",
+        "Calder has never sold outside the UK. A buyer in Belgium wants a regular monthly order, paid in euros. UK growth has slowed, while the world market is still rising. Sending bearings further costs more, and the fitting notes are only in English.",
+      ],
+      parts: [
+        {
+          id: "u2q2a",
+          kind: "number",
+          marks: 2,
+          working: true,
+          prompt: "Calculate the estimated percentage increase in the global value of this bearing market between 2018 and 2025.",
+          blanks: [
+            {
+              id: "pct",
+              label: "Percentage increase",
+              marks: 2,
+              answers: [50.72463768],
+              tolerance: 0.35,
+              methodMarks: 1,
+              methodPatterns: ["3.5", "10.4", "6.9", "10.4-6.9", "10.4 - 6.9", "3.5/6.9", "3.5 / 6.9"],
+            },
+          ],
+          model:
+            "Increase = 10.4 − 6.9 = 3.5. Percentage increase = 3.5 ÷ 6.9 × 100 = 50.7%. Also accept 51% or 50.72%. 50.7% on its own scores 2. The difference 3.5, or the correct division with a wrong percentage, scores 1.",
+        },
+        {
+          id: "u2q2b",
+          kind: "written",
+          command: "describe",
+          marks: 4,
+          prompt: "Describe how Calder Bearings might provide good customer service.",
+          points: [
+            { id: "greet", label: "Greet the customer, including a clear welcome on the website", patterns: ["greet", "welcome", "easy to use", "home page", "homepage"] },
+            { id: "interact", label: "Let customers interact: phone, email, images or an enquiry form", patterns: ["interact", "phone", "telephone", "email", "e-mail", "enquiry", "images", "picture"] },
+            { id: "needs", label: "Help them find what they need, for example a search or a filter", patterns: ["need", "want", "search", "filter", "choose the right", "right bearing"] },
+            { id: "feedback", label: "Ask for feedback and answer complaints before reviews turn bad", patterns: ["feedback", "complaint", "review", "respond", "put right"] },
+          ],
+          model:
+            "Name a stage, then apply it. Greeting: the site should be easy to use and show the range. Interacting: phone, email or an enquiry form, with pictures of the bearings. Needs: a search so a maker can find the right size. Feedback: answer complaints quickly, before a bad review. Two ways, described for Calder, score 4.",
+        },
+        {
+          id: "u2q2c",
+          kind: "written",
+          command: "explain",
+          marks: 4,
+          prompt: "Explain two reasons why Calder Bearings might have chosen to locate in Halifax.",
+          points: [
+            { id: "home", label: "The owners live in Halifax, so they know the local market", patterns: ["owner", "live", "their home", "local market", "where they live"] },
+            { id: "air", label: "The airport lets imported materials arrive quickly", patterns: ["airport", "plane", "import", "abroad"] },
+            { id: "road", label: "The motorway lets couriers reach customers across the UK", patterns: ["m62", "motorway", "courier", "across the uk", "road"] },
+            { id: "ferry", label: "The ferry shortens deliveries from abroad, such as Belgium", patterns: ["ferry", "belgium", "port", "channel"] },
+            { id: "rail", label: "Rail moves stock from suppliers quickly", patterns: ["rail", "train", "freight"] },
+            { id: "people", label: "A large nearby population is a large market", patterns: ["2 million", "population", "many people", "customer base", "large market"] },
+          ],
+          model:
+            "Any two, each explained. The owners live there, so they know the area. The airport, the M62, the rail terminal and the ferry all cut the time and cost of moving bearings. About 2 million people live within an hour, so the market is close. The same transport point cannot be credited twice. “Infrastructure” on its own is not enough.",
+        },
+        {
+          id: "u2q2d",
+          kind: "written",
+          command: "evaluate",
+          marks: 8,
+          prompt: "Evaluate Calder Bearings’ decision to use a traditional method of stock control and buy in large quantities.",
+          figureHints: ["6.9", "10.4", "full", "weeks"],
+          points: [
+            { id: "scale", group: "for", label: "Bulk buying cuts the cost of each unit", patterns: ["economies of scale", "bulk", "cheaper", "lower cost", "unit cost", "discount"] },
+            { id: "ready", group: "for", label: "Stock on hand means customers are not kept waiting", patterns: ["in stock", "on hand", "straight away", "not wait", "quick", "ready"] },
+            { id: "jit", group: "for", label: "Last-minute ordering will not work because delivery takes weeks", patterns: ["just in time", "jit", "weeks", "long delivery", "not perishable", "cannot wait", "lead time"] },
+            { id: "space", group: "against", label: "A full store costs space, and the stock may need security", patterns: ["warehouse", "storage", "space", "full", "security", "theft"] },
+            { id: "damage", group: "against", label: "Stored stock can be damaged and then cannot be sold", patterns: ["damage", "broken", "scrap"] },
+            { id: "old", group: "against", label: "Older sizes can become outdated and hard to sell", patterns: ["outdated", "older", "obsolete", "unsold", "left over"] },
+            { id: "cash", group: "against", label: "A lot of cash is tied up in stock", patterns: ["cash", "tied up", "money tied", "investment in stock"] },
+          ],
+          model:
+            "Buying a large amount at once lowers the cost of each bearing, and Calder has to hold stock because deliveries take weeks and the product does not go off. Against that, the store is nearly full, cash is tied up, older sizes may never sell, and damaged stock is wasted. Both sides and a judgement are what the 8 marks need.",
+        },
+        {
+          id: "u2q2e",
+          kind: "written",
+          command: "advise",
+          marks: 12,
+          prompt: "Advise whether Calder Bearings should trade internationally.",
+          figureHints: ["6.9", "10.4", "50.7", "belgium", "euro"],
+          points: [
+            { id: "market", group: "for", label: "The world market is set to rise from $6.9 billion to $10.4 billion", patterns: ["6.9", "10.4", "50.7", "51%", "growing", "bigger market", "more customers"] },
+            { id: "risk", group: "for", label: "Sales abroad spread the risk if UK sales fall", patterns: ["spread the risk", "spread risk", "if uk", "uk fall", "not only the uk", "another market"] },
+            { id: "brand", group: "for", label: "Selling abroad can raise the brand’s profile", patterns: ["brand", "reputation", "awareness", "known abroad"] },
+            { id: "scale", group: "for", label: "More sales can mean cheaper buying in bulk", patterns: ["economies of scale", "buy more", "lower price per", "bulk"] },
+            { id: "place", group: "for", label: "The airport, motorway and ferry make exporting easier", patterns: ["airport", "ferry", "motorway", "m62", "close to"] },
+            { id: "fx-for", group: "for", label: "A favourable exchange rate can increase revenue", patterns: ["exchange rate rise", "pound weaker", "extra revenue", "favourable exchange", "favorable exchange"] },
+            { id: "transport", group: "against", label: "Longer delivery costs more and can push prices up", patterns: ["transport", "shipping", "delivery cost", "further", "postage"] },
+            { id: "language", group: "against", label: "Language and translated fitting notes cost money and cause errors", patterns: ["language", "translat", "english", "communicat"] },
+            { id: "law", group: "against", label: "Other countries have different laws, so research is needed", patterns: ["legal", "law", "regulation", "market research"] },
+            { id: "fx-against", group: "against", label: "The exchange rate can also cut what Calder receives", patterns: ["exchange", "euro", "currency", "less revenue"] },
+            { id: "fit", group: "against", label: "The product may not suit every foreign market", patterns: ["not appeal", "not want", "different market", "may not sell"] },
+            { id: "rival", group: "against", label: "Established foreign competitors already sell there", patterns: ["competition", "competitor", "already sell", "rival"] },
+          ],
+          model:
+            "The market is estimated to grow from $6.9 billion to $10.4 billion, about 50.7%, so there are customers beyond the UK, and sales abroad would soften a fall at home. Halifax is near an airport and a ferry, which helps. Against that, delivery costs rise with distance, the fitting notes are only in English, the euro can move the wrong way, and other firms are already in those markets. A top answer uses both sides, the market figures, and a clear recommendation.",
+        },
+      ],
+    },
+  ],
+};
