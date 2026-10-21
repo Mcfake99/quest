@@ -20,15 +20,26 @@ export type RealPart = {
   options?: string[];
   /** Correct option(s) for mcq parts. */
   answer?: string[];
+  /** Final answer, hand-checked against the mark scheme. */
   numeric?: number;
+  /** Other final answers the scheme allows (e.g. 6.8 for 6.75). */
+  accept?: number[];
   /** Mark scheme text for this part, as extracted from the official MS. */
   scheme: string;
   topic: string;
   /** The part relies on a figure, table, source or diagram — open the PDF page. */
   seePaper?: boolean;
+  /** How the scheme text was matched: exact label, child labels, question heading, or "pdf" (none). */
+  schemeSource?: "exact" | "children" | "heading" | "manual" | "pdf";
 };
 
-export type RealQuestion = { number: number; marks: number; parts: RealPart[] };
+export type RealQuestion = {
+  number: number;
+  marks: number;
+  parts: RealPart[];
+  /** Either/or tasks: answer one part; each carries the question total. */
+  alternatives?: boolean;
+};
 
 export type RealPaper = {
   id: string;

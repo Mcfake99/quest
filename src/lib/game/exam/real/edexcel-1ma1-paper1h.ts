@@ -28,8 +28,9 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "page": 2,
      "kind": "numeric",
      "scheme": "6  M1  for a complete factor tree for 54 or 120 with no more than one  Condone the inclusion of 1 for this\narithmetic error  mark\n\nor for listing at least 4 correct factors (with no more than 1  Factors of 54: 1, 2, 3, 6, 9, 18, 27, 54\nincorrect) of 54 or 120, could be in factor pairs  Factors of 120: 1, 2, 3, 4, 5, 6, 8, 10,\n12, 15, 20, 24, 30, 40, 60, 120\n\nor for the prime factors of 54 (2, 3, 3, 3) or 120 (2, 2, 2, 3, 5)  Prime factors may be seen in a\ndiagram eg a Venn diagram\nA1  cao\n\nSCB1 for an answer of 2 or 3 or 2 × 3 if M0 scored",
+     "schemeSource": "exact",
      "topic": "Number",
-     "numeric": 6.0
+     "numeric": 6
     }
    ]
   },
@@ -41,10 +42,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:2(a)",
      "label": "2(a)",
      "marks": 3,
-     "prompt": "Work out the probability that Chris will take a blue counter.\n\nThere are 45 red counters in the bag.",
+     "prompt": "Colour: red, white, blue, green\nProbability: red 0.3, white 0.1, blue 2x, green x\n\nWork out the probability that Chris will take a blue counter.",
      "page": 3,
      "kind": "numeric",
      "scheme": "0.4  P1  for 1 – 0.3 – 0.1 (= 0.6) or 0.3 + 0.1 + 2x + x = 1  Award this mark for any two\nprobabilities that sum to 0.6\n\nP1  for “0.6” ÷ 3 (= 0.2) or 3x = “0.6”  Allow P1P1A0 for P(green) = 0.4\nAward P1P1A0 for 0.4 with incorrect\nor for “0.6” ÷ 3 × 2  0.4\nsubsequent working eg\n0.6\nA1  for 0.4 oe  If no answer on answer line then check\ntable\n\n0.4\nA0 for",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
      "lead": "There are only red counters, white counters, blue counters and green counters in a bag.\nChris is going to take at random a counter from the bag.\n\nThe table shows the probability that he will take a red counter and the probability that\nhe will take a white counter.\n\nColour  red  white  blue  green\n\nProbability  0.3  0.1\n\nThere are twice as many blue counters as there are green counters in the bag.",
      "numeric": 0.4,
@@ -58,8 +60,10 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "page": 3,
      "kind": "numeric",
      "scheme": "150  M1  for complete method to find the total number of counters\neg 45 ÷ 0.3 or 45 ÷ 3 × 10 oe\nor\n45 + 45 ÷ 3 + 45 ÷ 3 × 4 + 45 ÷ 3 × 2 ( = 45 + 15 + 60 + 30)  ft their table\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
-     "numeric": 150.0
+     "numeric": 150,
+     "lead": "There are 45 red counters in the bag."
     }
    ]
   },
@@ -71,10 +75,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:3(a)",
      "label": "3(a)",
      "marks": 2,
-     "prompt": "Complete the table of values for y = x 2 + x – 4\n\nx  –3  –2  –1  0  1  2\n\ny  2  –4",
+     "prompt": "Complete the table of values for y = x² + x – 4\n\nx  –3  –2  –1  0  1  2\n\ny  2  –4",
      "page": 4,
      "kind": "self",
      "scheme": "(2),–2,(–4), –4, –2, 2  B2  for all 4 values correct\n\n(B1  for 2 or 3 correct values)",
+     "schemeSource": "exact",
      "topic": "Algebra",
      "seePaper": true
     },
@@ -82,10 +87,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:3(b)",
      "label": "3(b)",
      "marks": 2,
-     "prompt": "On the grid, draw the graph of y = x 2 + x – 4 for values of x from –3 to 2\n\ny\n\n–3  –2  –1  O  1  2  x\n–1\n\n–2\n\n–3\n\n–4\n\n–5",
+     "prompt": "On the grid, draw the graph of y = x² + x – 4 for values of x from –3 to 2\n\ny\n\n–3  –2  –1  O  1  2  x\n–1\n\n–2\n\n–3\n\n–4\n\n–5",
      "page": 4,
      "kind": "self",
      "scheme": "Graph drawn  B2  for a fully correct graph  Accept a freehand curve drawn that is\nnot made of line segments\nCurve must not have a horizontal\nsegment between (–1, –4) and (0, –4)\nrequired range\n(B1  ft (dep on B1 in (a)) for plotting at least 5 of the points from their\ntable correctly)",
+     "schemeSource": "exact",
      "topic": "Algebra",
      "seePaper": true
     },
@@ -93,10 +99,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:3(c)",
      "label": "3(c)",
      "marks": 1,
-     "prompt": "Write down the coordinates of the turning point of the graph of y = x 2 + x – 4\n\n( ____ ,  ____ )",
+     "prompt": "Write down the coordinates of the turning point of the graph of y = x² + x – 4\n\n( ____ ,  ____ )",
      "page": 4,
      "kind": "self",
      "scheme": "– 0.5, – 4.25  B1  ft their graph with a single turning point\nor for x coordinate = – 0.5 and y coordinate = – 4.25 oe",
+     "schemeSource": "exact",
      "topic": "Algebra",
      "seePaper": true
     }
@@ -110,12 +117,13 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:4(a)",
      "label": "4(a)",
      "marks": 5,
-     "prompt": "Work out the value of n.\nYou must show all your working.\n\nn =  ____\n10 milk chocolates from the box are eaten.",
+     "prompt": "Work out the value of n.\nYou must show all your working.\n\nn = ____",
      "page": 5,
      "kind": "numeric",
      "scheme": "4.5  P1  for a process to find the number of dark chocolates,\n\neg 280 × oe (= 40)\n\nP1  for a process to find one part of the ratio for milk chocolates to\nwhite chocolates\neg (280 – “40”) ÷ (1 + 3) (= 60)\n\nP1  for a process to find the number of white chocolates,  Condone milk, white incorrectly\neg “60” × 3 (= 180) or 280 – “40” – “60” (= 180)  labelled\n\nP1  for a ratio of white chocolates : dark chocolates  Labels not required for this mark, but\neg “180” : “40” oe  if seen must be correct\nor for a process to find the value of n  Must be a 2-part ratio\neg “180” ÷ “40”  Allow “40” : “180” if labelled as dark\nchocolate : white chocolate oe\n\nA1  (dep P3) for 4.5 oe  A correct answer with no supportive\nworking gets 0 marks\nCondone answer of 4.5 : 1",
+     "schemeSource": "exact",
      "topic": "Algebra",
-     "lead": "There are 280 chocolates in a box.\nThere are only dark chocolates, milk chocolates and white chocolates.\n\nof the 280 chocolates are dark chocolates.\nThe number of milk chocolates : the number of white chocolates = 1 : 3\nThe number of white chocolates : the number of dark chocolates = n : 1",
+     "lead": "There are 280 chocolates in a box.\nThere are only dark chocolates, milk chocolates and white chocolates.\n\n1/7 of the 280 chocolates are dark chocolates.\nThe number of milk chocolates : the number of white chocolates = 1 : 3\nThe number of white chocolates : the number of dark chocolates = n : 1",
      "numeric": 4.5
     },
     {
@@ -126,7 +134,9 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "No with reason  C1  for No with reason  Reason must refer to or imply both\nAcceptable examples  dark and white chocolates\nNo, the number of dark chocolates and white chocolates has not\nchanged\nNo, the ratio of n:1 only involved white and dark chocolates\nNo, eating milk chocolates doesn’t change the rest\nNo, the ratio of dark to white chocolates doesn’t change\nNot acceptable examples\nYes,…\nNo, it doesn’t matter how many milk chocolates are eaten\nNo, the number of white chocolates doesn’t change\nNo, the number of dark chocolates doesn’t change",
-     "topic": "Number"
+     "schemeSource": "exact",
+     "topic": "Number",
+     "lead": "10 milk chocolates from the box are eaten."
     }
    ]
   },
@@ -138,10 +148,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:5",
      "label": "5",
      "marks": 3,
-     "prompt": "Work out 5.7 × 102 + 9.8 × 103\nGive your answer in standard form.",
+     "prompt": "Work out 5.7 × 10² + 9.8 × 10³\nGive your answer in standard form.",
      "page": 6,
      "kind": "self",
-     "scheme": "1.037 × 104  M1  for 570 or 9800 or 0.57 × 103 or 98 × 102\n\nA1  for 10370 oe eg 10.37 × 103 or 103.7 × 102\n\nA1  for 1.037 × 104",
+     "scheme": "1.037 × 10⁴  M1  for 570 or 9800 or 0.57 × 10³ or 98 × 10²\n\nA1  for 10370 oe eg 10.37 × 10³ or 103.7 × 10²\n\nA1  for 1.037 × 10⁴",
+     "schemeSource": "exact",
      "topic": "Geometry and measures"
     }
    ]
@@ -154,12 +165,13 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:6",
      "label": "6",
      "marks": 4,
-     "prompt": "AB, BC, CD and DE are four sides of a regular polygon with n sides.\n\nA\n\nB\n\nC  X\n\nD  Y\n\nE\n\nBCX is an equilateral triangle.\nCDYX is a square.\nWork out the value of n.\nYou must show all your working.\n\nn =  ____\n\n3\u001e2  m",
+     "prompt": "AB, BC, CD and DE are four sides of a regular polygon with n sides.\n\nBCX is an equilateral triangle.\nCDYX is a square.\nWork out the value of n.\nYou must show all your working.\n\nn = ____",
      "page": 7,
      "kind": "numeric",
      "scheme": "12  P1  for (interior angle =) (180 ÷ 3) + (360 ÷ 4) (= 150)  150 may be seen on diagram.\n\nP1  for (exterior angle =) 180 – “150” (= 30)  May be seen on diagram\nor  Exterior angle of 30 implies P1P1\n(n − 2) × 180\nfor “150” =  oe\nn\n\nP1  for 360 ÷ “30”\nor\nfor a correct process to solve the equation as far as “30”n = 360\n\nA1  cao  A correct answer with no supportive\nworking gets 0 marks\n\nMinimum supportive working is P1P1\nor\nTrials of interior angle sum\nFinding 1800 ÷ 150 = 12 oe with 12 as\nanswer scores P1P1P1A1",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 12.0
+     "numeric": 12
     }
    ]
   },
@@ -171,20 +183,22 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:7(a)",
      "label": "7(a)",
      "marks": 1,
-     "prompt": "Simplify\n2\u001fm\n\n5x",
+     "prompt": "Simplify  3(2 − m)² / (2 − m)",
      "page": 8,
      "kind": "self",
-     "scheme": "6 – 3m  B1  for 6 – 3m oe  Accept 3(2 – m)",
+     "scheme": "Answer: 6 − 3m (accept 3(2 − m))\n\n6 – 3m  B1  for 6 – 3m oe  Accept 3(2 – m)",
+     "schemeSource": "exact",
      "topic": "Algebra"
     },
     {
      "id": "edexcel-1ma1-paper1h:7(b)",
      "label": "7(b)",
      "marks": 3,
-     "prompt": "Solve 7 + x   –8",
+     "prompt": "Solve  7 + x ≤ 5x/2 − 8",
      "page": 8,
      "kind": "self",
-     "scheme": "x ≥ 10  M1  for a correct first step working with an inequality or an equation,  Can work with an equation or incorrect\n5x  5x  inequality symbol for both M marks\neg 7 + x + 8 ≤  − 8 + 8 or 15 + x ≤\n2  2\n5x  3x  For M marks step must be carried out\nor 7 + x − x ≤  − 8 − x or 7 ≤  −8  not just intention shown.\n2  2  For example, if you see\n5x  5x\nor 7 × 2 + x × 2 ≤ × 2 − 8 × 2 or 14 + 2 x ≤ 5 x − 16  7+x≤  −8\n2  2\n+8  +8\n5x\naward M1 for k + x ≤  where k > 7\n\nor indicating –x and reaching\n\n7 ≤ kx − 8 where k <\n\nor indicating multiplying by 2 and\nobtaining an equation or inequality\nwith no more than one term incorrect\nand no term unchanged.\n\nM1  (dep M1) for a correct second step,  The first 2 marks can be awarded for\neg subtracts x from both sides or adds 8 to both sides or subtracts 2x  critical value of 10, eg x = 10\nfrom both sides or multiplies both sides by 2\n\nor gives the critical value of 10\n\nA1  for x ≥ 10 as final answer  Accept 10 ≤ x",
+     "scheme": "Answer: x ≥ 10\n\nx ≥ 10  M1  for a correct first step working with an inequality or an equation,  Can work with an equation or incorrect\n5x  5x  inequality symbol for both M marks\neg 7 + x + 8 ≤  − 8 + 8 or 15 + x ≤\n2  2\n5x  3x  For M marks step must be carried out\nor 7 + x − x ≤  − 8 − x or 7 ≤  −8  not just intention shown.\n2  2  For example, if you see\n5x  5x\nor 7 × 2 + x × 2 ≤ × 2 − 8 × 2 or 14 + 2 x ≤ 5 x − 16  7+x≤  −8\n2  2\n+8  +8\n5x\naward M1 for k + x ≤  where k > 7\n\nor indicating –x and reaching\n\n7 ≤ kx − 8 where k <\n\nor indicating multiplying by 2 and\nobtaining an equation or inequality\nwith no more than one term incorrect\nand no term unchanged.\n\nM1  (dep M1) for a correct second step,  The first 2 marks can be awarded for\neg subtracts x from both sides or adds 8 to both sides or subtracts 2x  critical value of 10, eg x = 10\nfrom both sides or multiplies both sides by 2\n\nor gives the critical value of 10\n\nA1  for x ≥ 10 as final answer  Accept 10 ≤ x",
+     "schemeSource": "exact",
      "topic": "Algebra"
     },
     {
@@ -195,6 +209,7 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "2.5 < y < 4  M1  for a correct first step,  For M mark condone use of “=” and\nincorrect inequality signs\neg 9 – 4 < 2y < 12 – 4 or 5 < 2y < 8\nFor M mark step must be carried out\nor 9 ÷ 2 < y + 2 < 12 ÷ 2 or 4.5 < y + 2 < 6  not just intention shown.\nFor example, if you see\nor showing 2.5 and 4 as the critical values  9 < 2y + 4 < 12\n–4  –4  –4\naward M1 for a < 2y < b where a < 9\nand b < 12\n\nor if you see\n9 < 2y + 4 < 12\n÷2  ÷2  ÷2\naward M1 for a < y + 2 < b where\na < 9 and b < 12\n\nA1  for 2.5 < y < 4 oe as final answer  Accept y > 2.5 and y < 4 oe",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]
@@ -207,10 +222,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:8(a)",
      "label": "8(a)",
      "marks": 2,
-     "prompt": "Prove that triangle ABC is similar to triangle ADE.\n\nED = 20 cm  CB = 30 cm  AC = 18 cm",
+     "prompt": "AEC and ADB are straight lines.\nED is parallel to CB.\nProve that triangle ABC is similar to triangle ADE.",
      "page": 9,
      "kind": "self",
      "scheme": "Proof  M1  for identifying angle A as common\nor for angle AED = angle ACB or angle ADE = angle ABC with\nappropriate reason(s)\neg corresponding angles are equal\nor co-interior angles add up to 180 and angles on a straight line add\nup to 180\n\nC1  for completing the proof by identifying a second pair of equal  Statement can be implied by\nangles with appropriate reason(s) and a statement that the angles in  identifying a third pair of equal angles\neach triangle are the same  (no reason needed)",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
      "lead": "ABC is a right-angled triangle.\n\nA\n\n18 cm\n20 cm  D\nE\n\nC  30 cm  B\n\nAEC and ADB are straight lines.\nED is parallel to CB."
     },
@@ -218,12 +234,13 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:8(b)",
      "label": "8(b)",
      "marks": 3,
-     "prompt": "Work out the length of EC.\n\n____  cm",
+     "prompt": "ED = 20 cm, CB = 30 cm, AC = 18 cm\nWork out the length of EC.\n\n____ cm",
      "page": 9,
      "kind": "numeric",
-     "scheme": "6  2  AE 18\nP1  for a scale factor of 1.5 or  oe or for  =  oe\n3  20 30\nP1  for a process to find the length of AE,\n20 × 18\neg 18 ÷ 1.5 (= 12) oe or (AE =)  oe\n\nor for a complete process to find the length of EC,\n\neg 18 × (1 − ) oe\n\nA1  cao",
+     "scheme": "Answer: 6 cm (scale factor 1.5, AE = 18 ÷ 1.5 = 12, EC = 18 − 12)\n\n6  2  AE 18\nP1  for a scale factor of 1.5 or  oe or for  =  oe\n3  20 30\nP1  for a process to find the length of AE,\n20 × 18\neg 18 ÷ 1.5 (= 12) oe or (AE =)  oe\n\nor for a complete process to find the length of EC,\n\neg 18 × (1 − ) oe\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Number",
-     "numeric": 6.0
+     "numeric": 6
     }
    ]
   },
@@ -239,6 +256,7 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "Rotation  B2  for rotation 90o (anticlockwise) about (– 1, 0)  Accept 270 o clockwise\no\n90 (anticlockwise)\nabout (– 1, 0)  Award no marks if more than one\ntransformation is given\n(B1  for any 2 of the 3 aspects)",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
      "lead": "y\n\nB  A\n\n–7  –6  –5  –4  –3  –2  –1 O  1  2  3  4  5  6  7  x\n–1\n\n–2\n\n–3\n\n–4\n\n–5\n\n–6\n\n–7"
     },
@@ -246,10 +264,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:9(b)",
      "label": "9(b)",
      "marks": 2,
-     "prompt": "Enlarge the triangle by scale factor  centre (–1, –3)\n2  (2)",
+     "prompt": "Enlarge the triangle by scale factor ½, centre (−1, −3)",
      "page": 11,
      "kind": "self",
      "scheme": "Enlargement  B2  for correct enlargement with vertices at (1,0), (3,0), (1,2)  Award for clear intention, shading not\nneeded\n(B1  for correct size and orientation but incorrect position\nor 2 out of 3 vertices correctly placed)",
+     "schemeSource": "exact",
      "topic": "Geometry and measures"
     }
    ]
@@ -265,7 +284,8 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "prompt": "Prove that the difference in the squares of two consecutive even numbers is always\na multiple of 4",
      "page": 12,
      "kind": "self",
-     "scheme": "Proof  M1  for writing expressions for two consecutive even numbers,  For both M marks accept use of linear\neg 2n and 2n + 2 or 2n – 2 and 2n or 2n + 2 and 2n + 4 oe  expressions with a difference of 2,\n(assuming n is any integer)  eg n and n + 2 or n + 1 and n + 3\n\nM1  (dep M1) for correctly expanding the squares of both expressions,  Expressions need not be simplified for\nthis mark\neg (2n + 2)2 = 4n2 + 4n + 4n + 4 and (2n)2 = 4n2\nor (2n)2 = 4n2 and (2n – 2)2 = 4n2 – 4n – 4n + 4\nor (2n + 4)2 = 4n2 + 8n + 8n + 16 and (2n + 2)2 = 4n2 + 4n + 4n + 4\n\nor for a correct expression using the difference of two squares\n\neg (2n + 2 + 2n)(2n + 2 – 2n) oe\nor (2n + 2n – 2)( 2n – (2n – 2)) oe\n\nC1  for a complete proof without any errors leading to eg 4(2n + 1) or  4n2 + 8n + 4 – 4n2 = 8n + 4\n4(2n – 1) or to a statement that eg 8n + 4 is a multiple of 4 because  4n2 – (4n2 – 8n + 4) = 8n – 4\n8n and 4 are both multiples of 4\nAccept eg (2n)2 – (2n + 2)2\n= 4n2 – (4n2 + 4n + 4n + 4)\n= –8n – 4\n= 4(–2n – 1)\n\nA proof using eg n and n + 2 must\ninclude a statement that n is even for\nthe C mark to be awarded and a proof\nusing eg n + 1 and n + 3 must include a\nstatement that n is odd",
+     "scheme": "Proof  M1  for writing expressions for two consecutive even numbers,  For both M marks accept use of linear\neg 2n and 2n + 2 or 2n – 2 and 2n or 2n + 2 and 2n + 4 oe  expressions with a difference of 2,\n(assuming n is any integer)  eg n and n + 2 or n + 1 and n + 3\n\nM1  (dep M1) for correctly expanding the squares of both expressions,  Expressions need not be simplified for\nthis mark\neg (2n + 2)² = 4n² + 4n + 4n + 4 and (2n)² = 4n²\nor (2n)² = 4n² and (2n – 2)² = 4n² – 4n – 4n + 4\nor (2n + 4)² = 4n² + 8n + 8n + 16 and (2n + 2)² = 4n² + 4n + 4n + 4\n\nor for a correct expression using the difference of two squares\n\neg (2n + 2 + 2n)(2n + 2 – 2n) oe\nor (2n + 2n – 2)( 2n – (2n – 2)) oe\n\nC1  for a complete proof without any errors leading to eg 4(2n + 1) or  4n² + 8n + 4 – 4n² = 8n + 4\n4(2n – 1) or to a statement that eg 8n + 4 is a multiple of 4 because  4n² – (4n² – 8n + 4) = 8n – 4\n8n and 4 are both multiples of 4\nAccept eg (2n)² – (2n + 2)²\n= 4n² – (4n² + 4n + 4n + 4)\n= –8n – 4\n= 4(–2n – 1)\n\nA proof using eg n and n + 2 must\ninclude a statement that n is even for\nthe C mark to be awarded and a proof\nusing eg n + 1 and n + 3 must include a\nstatement that n is odd",
+     "schemeSource": "exact",
      "topic": "Number"
     }
    ]
@@ -281,9 +301,10 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "prompt": "T is inversely proportional to w.\nw is directly proportional to the cube root of d.\n\nWhen w = 6, T = 20\nWhen w = 1, d = 8\nFind the value of d when T = 48\n\nd =  ____",
      "page": 13,
      "kind": "numeric",
-     "scheme": "125  P1  for setting up an equation with a constant term,  Condone the use of ‘α’ instead of ‘=’\nk  for the first two P marks\neg T =  or w = K 3 d  Equation can be implied by correct\nw\nsubstitution\n\nP1  for a process to substitute values in one equation,\nk  1\neg 20 = or k = 120 or 1 = K 3 8 or K = oe\n6  2\n\nP1  (dep P2) for combining the two equations ft their values of k and K,  120  13\nT=  w=  d\nw  2\n\"120\"\neg T =  oe\n\n\" \"3 d\n\nOR for a correct process to find the value of w when T = 48,\n\n\"120\"\neg w =  (= 2.5 oe)\n\nP1  \"120\"\nfor substitution into their formula, eg 48 =\n\n\" \"3 d\n\nOR for substitution of found value of w in the equation for d,\n\neg \"2.5\" = \" \" 3 d\n\nA1  cao",
+     "scheme": "125  P1  for setting up an equation with a constant term,  Condone the use of ‘α’ instead of ‘=’\nk  for the first two P marks\neg T =  or w = K³ d  Equation can be implied by correct\nw\nsubstitution\n\nP1  for a process to substitute values in one equation,\nk  1\neg 20 = or k = 120 or 1 = K³ 8 or K = oe\n6  2\n\nP1  (dep P2) for combining the two equations ft their values of k and K,  120  13\nT=  w=  d\nw  2\n\"120\"\neg T =  oe\n\n\" \"3 d\n\nOR for a correct process to find the value of w when T = 48,\n\n\"120\"\neg w =  (= 2.5 oe)\n\nP1  \"120\"\nfor substitution into their formula, eg 48 =\n\n\" \"3 d\n\nOR for substitution of found value of w in the equation for d,\n\neg \"2.5\" = \" \"³ d\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Ratio and proportion",
-     "numeric": 125.0
+     "numeric": 125
     }
    ]
   },
@@ -297,11 +318,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "marks": 3,
      "prompt": "Work out an estimate of the gradient of the graph at t = 3\nYou must show how you get your answer.",
      "page": 14,
-     "kind": "numeric",
-     "scheme": "10  M1  for a tangent drawn at t = 3  A tangent must be seen to award any\nmarks\n\n30  This mark can be awarded if the\nM1  for a complete method to find the gradient from tangent, eg\n3  tangent is drawn at t ≠ 3\n\nA1  for answer in the range 8.5 to 11.5 or ft acceptable tangent at t = 3  a\nAccept answers in the form  where a\nb\nand b are integers\n\nAward 0 marks for a correct answer (in\nthe range) with no (or incorrect)\nsupportive working",
+     "kind": "self",
+     "scheme": "Answer: an estimate of the gradient (about 10) from a tangent drawn at t = 3; the scheme accepts a range\n\n10  M1  for a tangent drawn at t = 3  A tangent must be seen to award any\nmarks\n\n30  This mark can be awarded if the\nM1  for a complete method to find the gradient from tangent, eg\n3  tangent is drawn at t ≠ 3\n\nA1  for answer in the range 8.5 to 11.5 or ft acceptable tangent at t = 3  a\nAccept answers in the form  where a\nb\nand b are integers\n\nAward 0 marks for a correct answer (in\nthe range) with no (or incorrect)\nsupportive working",
+     "schemeSource": "exact",
      "topic": "Algebra",
      "lead": "The graph shows the velocity, v m/s, of a particle t seconds after it starts to move.\n\nVelocity (v m/s)\n\n0  1  2  3  4  5  6\nTime (t seconds)",
-     "numeric": 10.0,
      "seePaper": true
     },
     {
@@ -312,6 +333,7 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "Acceleration or rate  C1  for a correct explanation  Award if extra information is given\nof change of velocity  provided not contradictory or incorrect\nAcceptable examples\nacceleration  Accept ‘speed’ for ‘velocity’\nrate of change of velocity\nincrease in velocity each second\nhow quickly the velocity increases\nincrease in velocity over time\nthe rate at which the particle is accelerating\n\nNot acceptable examples\nrate of change\nincrease in velocity\nthe velocity per second\nvelocity ÷ time\nas time increases so does the velocity\nhow steep the line is\nthe acceleration of the particle and how far it got",
+     "schemeSource": "exact",
      "topic": "Algebra"
     },
     {
@@ -322,8 +344,9 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "page": 15,
      "kind": "numeric",
      "scheme": "220  M1  for a method to find an appropriate area,  Must have one correct expression for\nthe award of this mark\n1  1  May be seen as a rectangle added to a\neg  × 30 × 2 (= 30) oe or (30 + 50) × (4 − 2) (=\n80) oe  triangle\n2  2\n\nor × (50 + 60) × (6 − 4) (= 110) oe\n\nor for a method to find an estimate for the area of at least one\nrectangle with height at intersection of midpoint and curve,\n\neg 2 × 16 (= 32) oe or 2 × 42 (= 84) oe or 2 × 56 (= 112) oe\n\nM1  for a complete method,  Allow 1 error in v values used\n1  1  1\neg × 30 × 2 + (30 + 50) × 2 + (50 + 60) × 2\n2  2  2\n\nor × 2 × (0 + 60 + 2(30 + 50))\n\nor 2 × 16 + 2 × 42 + 2 × 56\n\nA1  for 220 or 228  Allow 228 only if it comes from\nrectangle/midpoint method",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 220.0
+     "numeric": 220
     }
    ]
   },
@@ -335,12 +358,12 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:13",
      "label": "13",
      "marks": 5,
-     "prompt": "x = 0.2  y = 0.681\nWork out the value of xy.\n\nGive your answer as a fraction in its simplest form.",
+     "prompt": "x = 0.2̇   y = 0.68̇1̇  (recurring decimals)\nWork out the value of xy.\nGive your answer as a fraction in its simplest form.",
      "page": 16,
-     "kind": "numeric",
-     "scheme": "5  M1  for 10x = 2.2̇ or 2.22…\n\nor (10x – x =) 2.2̇ – 0.2̇ (= 2)\n2  20 22\nor 2.22… – 0.22… (= 2) or  oe fraction  eg  ,\n9  90 99\n\nM1  for a method using two recurring decimals that leads to a\nterminating decimal difference, using correct multiples of y\n\neg (1000y – 10y =) 681.8̇ 1̇ – 6.8̇ 1̇ (= 675)\n675\nor 681.81… – 6.81… (= 675) or\n990\nor (100y – y) = 68.1̇ 8̇ – 0.68̇ 1̇ (= 67.5)\n67.5\nor 68.181… – 0.681… (= 67.5) or\n\nA1  2  675  67.5\nfor ( x =)  oe and ( y =)  oe  Accept ( y =)\n9  990  99\n\nM1  2  675  Award 4 marks for an answer\nfor “  ”×“  ”\n9  990  5  15 135 1350\nequivalent to  , eg  ,  ,\n33  99 891 8910\nunless from incorrect working\nA1  cao",
-     "topic": "Algebra",
-     "numeric": 5.0
+     "kind": "self",
+     "scheme": "Answer: 5/33  (x = 2/9, y = 15/22)\n\n5  M1  for 10x = 2.2̇ or 2.22…\n\nor (10x – x =) 2.2̇ – 0.2̇ (= 2)\n2  20 22\nor 2.22… – 0.22… (= 2) or  oe fraction  eg  ,\n9  90 99\n\nM1  for a method using two recurring decimals that leads to a\nterminating decimal difference, using correct multiples of y\n\neg (1000y – 10y =) 681.8̇ 1̇ – 6.8̇ 1̇ (= 675)\n675\nor 681.81… – 6.81… (= 675) or\n990\nor (100y – y) = 68.1̇ 8̇ – 0.68̇ 1̇ (= 67.5)\n67.5\nor 68.181… – 0.681… (= 67.5) or\n\nA1  2  675  67.5\nfor ( x =)  oe and ( y =)  oe  Accept ( y =)\n9  990  99\n\nM1  2  675  Award 4 marks for an answer\nfor “  ”×“  ”\n9  990  5  15 135 1350\nequivalent to  , eg  ,  ,\n33  99 891 8910\nunless from incorrect working\nA1  cao",
+     "schemeSource": "exact",
+     "topic": "Algebra"
     }
    ]
   },
@@ -356,6 +379,7 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "No  5 4  20  5 4  20  Accept equivalent probabilities\nP1  for P(OO) = × (=  ) or P(OE) = × (=  )\n(supported)  9 8  72  9 8  72  throughout\n4 5  20  4 3  12\nor P(EO) = × (=  ) or P(EE) = × (=  )\n9 8  72  9 8  72\n\nP1  5 4  20  4 3  12\nfor P(OO) =  × (=  ) and P(EE) = × (=  )\n9 8  72  9 8  72\n5 4  20  4 5  20\nOR for P(OE) = × (=  ) and P(EO) = × (=  )\n9 8  72  9 8  72\n4 3  12\nand P(EE) = × (=  )\n9 8  72\n\nP1  for a process to find probability of sum being even,  Sample space diagram or listing:\n5 4  4 3  32  32\neg P(OO) + P(EE) = × + × (=  )  Award P3 for P(sum even) =\n9 8  9 8  72  72\n\nor P(product even) =  , P4 for both\n\nP1  for a process to work with probability of product being even,\n4 5 5 4  4 3  52\neg P(EO) + P(OE) + P(EE) = × + × + × (=  )\n9 8 9 8  9 8  72\n5 4  52\nor 1 – P(OO) = 1 – × (=  )\n9 8  72\n\nC1  32  52\nfor No supported by correct probabilities, eg  and\n72  72\n41  56\nSC B2 for  and  and No\n81  81\n41  56\nSC B1 for  and  with no decision or incorrect decision\n81  81",
+     "schemeSource": "exact",
      "topic": "Probability and statistics"
     }
    ]
@@ -370,10 +394,10 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "marks": 4,
      "prompt": "The histogram gives information about the weights, in grams, of some biscuits.\n\nFrequency 6\ndensity\n\n0  10  20  30  40  50  60\nWeight (grams)\n\nOne of these biscuits is taken at random.\nWork out an estimate for the probability that the biscuit will have a weight\nbetween 20 grams and 40 grams.",
      "page": 18,
-     "kind": "numeric",
-     "scheme": "130  M1  for a method to find the frequency (or area) of one relevant interval,  Evidence for this mark may be seen on\noe  the diagram\n400\neg 3 × 10 (= 30) or 5 × 20 (= 100) or 8 × 15 (= 120)\nor 10 × 15 (= 150) or 5 × 10 (= 50) or 8 × 10 (= 80)  Accept equivalent methods\n\nor, using 1 cm2 = 1 unit, 3 × 2 (= 6) or 5 × 4 (= 20) or 8 × 3 (= 24)  For M marks condone use of 2.5 for fd\nor 10 × 3 (= 30) or 5 × 2 (= 10) or 8 × 2 (= 16)  of 3 and/or 4.5 for fd of 5\n\nM1  for a method to find the total frequency (or area),\n\neg “30” + “100” + “120” + “150” (= 400)\nor “6” + “20” + “24” + “30” (= 80)\n\nM1  for a method to find the frequency (or area) between 20 g and 40 g,\n\neg “50” + “80” (= 130) or “10” + “16” (= 26)\n\n130  Accept any equivalent fraction,\nA1  for  oe\n400  decimal form, 0.32(5) or 0.33 or\npercentage form, 32.(5)% or 33%",
-     "topic": "Probability and statistics",
-     "numeric": 130.0
+     "kind": "self",
+     "scheme": "Answer: 130/400 = 13/40 (oe)\n\n130  M1  for a method to find the frequency (or area) of one relevant interval,  Evidence for this mark may be seen on\noe  the diagram\n400\neg 3 × 10 (= 30) or 5 × 20 (= 100) or 8 × 15 (= 120)\nor 10 × 15 (= 150) or 5 × 10 (= 50) or 8 × 10 (= 80)  Accept equivalent methods\n\nor, using 1 cm² = 1 unit, 3 × 2 (= 6) or 5 × 4 (= 20) or 8 × 3 (= 24)  For M marks condone use of 2.5 for fd\nor 10 × 3 (= 30) or 5 × 2 (= 10) or 8 × 2 (= 16)  of 3 and/or 4.5 for fd of 5\n\nM1  for a method to find the total frequency (or area),\n\neg “30” + “100” + “120” + “150” (= 400)\nor “6” + “20” + “24” + “30” (= 80)\n\nM1  for a method to find the frequency (or area) between 20 g and 40 g,\n\neg “50” + “80” (= 130) or “10” + “16” (= 26)\n\n130  Accept any equivalent fraction,\nA1  for  oe\n400  decimal form, 0.32(5) or 0.33 or\npercentage form, 32.(5)% or 33%",
+     "schemeSource": "exact",
+     "topic": "Probability and statistics"
     }
    ]
   },
@@ -385,21 +409,24 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:16(a)",
      "label": "16(a)",
      "marks": 2,
-     "prompt": "Rationalise the denominator of\n\nGive your answer in its simplest form.\n\n27 − 1\ncan be written in the form a + b 3 where a and b are integers.\n2− 3",
+     "prompt": "Rationalise the denominator of  35/√7\nGive your answer in its simplest form.",
      "page": 19,
      "kind": "self",
-     "scheme": "5 7  35  7  35 7  35 − 7  −35 7\nM1  for  ×  (=  ) or  ×  (=  )\n7  7  7  7 − 7  −7\n\nA1  for 5 7 or 175",
+     "scheme": "Answer: 5√7\n\n5 7  35  7  35 7  35 − 7  −35 7\nM1  for  ×  (=  ) or  ×  (=  )\n7  7  7  7 − 7  −7\n\nA1  for 5 7 or 175",
+     "schemeSource": "exact",
      "topic": "Ratio and proportion"
     },
     {
      "id": "edexcel-1ma1-paper1h:16(b)",
      "label": "16(b)",
      "marks": 4,
-     "prompt": "Work out the value of a and the value of b.\n\na =  ____ b =  ____",
+     "prompt": "Work out the value of a and the value of b.\n\na = ____  b = ____",
      "page": 19,
      "kind": "self",
-     "scheme": "a = 7, b = 5  B1  for 27 = 3 3 or 2 27 = 6 3  B1 can be awarded whenever this is\nseen, which might be later in the\nprocess.\nP1  for process to rationalise the denominator,\n\n27 − 1 2 + 3  3 3 −1 2 + 3\neg  ×  or  ×  oe\n2− 3 2+ 3  2− 3 2+ 3\n\nP1  (dep on previous P1) for expanding terms, condone one error in\nnumerator or denominator,\n\n2 27 + 27 3 − 2 − 3  6 3+3 3 3−2− 3\neg  or\n4+2 3−2 3− 3 3  4+2 3−2 3− 3 3\n\nor 6 3 + 9 − 2 − 3 oe\n\nA1  for a = 7, b = 5  Accept 7 + 5 3",
-     "topic": "Number"
+     "scheme": "Answer: a = 7, b = 5\n\na = 7, b = 5  B1  for 27 = 3 3 or 2 27 = 6 3  B1 can be awarded whenever this is\nseen, which might be later in the\nprocess.\nP1  for process to rationalise the denominator,\n\n27 − 1 2 + 3  3 3 −1 2 + 3\neg  ×  or  ×  oe\n2− 3 2+ 3  2− 3 2+ 3\n\nP1  (dep on previous P1) for expanding terms, condone one error in\nnumerator or denominator,\n\n2 27 + 27 3 − 2 − 3  6 3+3 3 3−2− 3\neg  or\n4+2 3−2 3− 3 3  4+2 3−2 3− 3 3\n\nor 6 3 + 9 − 2 − 3 oe\n\nA1  for a = 7, b = 5  Accept 7 + 5 3",
+     "schemeSource": "exact",
+     "topic": "Number",
+     "lead": "(√27 − 1) / (2 − √3) can be written in the form a + b√3 where a and b are integers."
     }
    ]
   },
@@ -411,10 +438,11 @@ export const edexcel_1ma1_paper1h: RealPaper = {
      "id": "edexcel-1ma1-paper1h:17",
      "label": "17",
      "marks": 5,
-     "prompt": "g(x) = 1 – 3x  h(x) = 2x2 – 1\nShow that 3gh(x) + hg(x) = 0 has just one solution for x.",
+     "prompt": "g(x) = 1 – 3x  h(x) = 2x² – 1\nShow that 3gh(x) + hg(x) = 0 has just one solution for x.",
      "page": 20,
      "kind": "self",
-     "scheme": "Shown  M1  for method to finding gh(x), eg gh(x) = 1 – 3(2x2 – 1)  2\n= 1 – 6x + 3\n= 4 – 6x2\n\nM1  for method to find hg(x), eg hg(x) = 2(1 – 3x)2 – 1  = 2(1 – 3x – 3x + 9x2) – 1\n= 2 – 12x + 18x2 – 1\n= 1 – 12x + 18x2\n\nM1  (dep M2) for method to find 3gh(x) + hg(x)  Expressions for gh(x) and hg(x) may\nhave been incorrectly expanded and\neg 3(1 – 3(2x2 – 1)) + 2(1 – 3x)2 – 1 (= 0)  simplified\n\nM1  for expanding all brackets as far as at least  Need not be fully simplified but must\n3 – 18x2 + 9 + 2 – 12x + 18x2 – 1 (= 0)  be correct\n\nC1  for reducing to a linear equation eg 13 – 12x = 0 and stating that this\ngives just one solution\n\nor stating x =  oe\n\nQuestion 9(b)\n\ny\nModifications to the mark scheme for Modified Large Print (MLP) papers: 1MA1 1H\n\nOnly mark scheme amendments are shown where the enlargement or modification of the paper requires a change in the mark scheme.\nNotes apply to both MLP papers and Braille papers unless otherwise stated.\n\nThe following tolerances should be accepted on marking MLP papers, unless otherwise stated below:\nAngles: ±5º\nMeasurements of length: ±5 mm\nPAPER: 1MA1_1H\nQuestion  Modification  Mark scheme notes\n2  Wording added: Look at the table for Question 2 in the Diagram Booklet.  Standard mark scheme\n\n3  (a)  Wording added: ‘below’.  Standard mark scheme\nWording added: ‘There are four spaces to fill.’\nBraille: Wording added ‘by writing the missing values labelled (i) to (iv).’\nTable turned vertical.",
+     "scheme": "Shown  M1  for method to finding gh(x), eg gh(x) = 1 – 3(2x² – 1)  2\n= 1 – 6x + 3\n= 4 – 6x²\n\nM1  for method to find hg(x), eg hg(x) = 2(1 – 3x)² – 1  = 2(1 – 3x – 3x + 9x²) – 1\n= 2 – 12x + 18x² – 1\n= 1 – 12x + 18x²\n\nM1  (dep M2) for method to find 3gh(x) + hg(x)  Expressions for gh(x) and hg(x) may\nhave been incorrectly expanded and\neg 3(1 – 3(2x² – 1)) + 2(1 – 3x)² – 1 (= 0)  simplified\n\nM1  for expanding all brackets as far as at least  Need not be fully simplified but must\n3 – 18x² + 9 + 2 – 12x + 18x² – 1 (= 0)  be correct\n\nC1  for reducing to a linear equation eg 13 – 12x = 0 and stating that this\ngives just one solution\n\nor stating x =  oe\n\nQuestion 9(b)\n\ny\nModifications to the mark scheme for Modified Large Print (MLP) papers: 1MA1 1H\n\nOnly mark scheme amendments are shown where the enlargement or modification of the paper requires a change in the mark scheme.\nNotes apply to both MLP papers and Braille papers unless otherwise stated.\n\nThe following tolerances should be accepted on marking MLP papers, unless otherwise stated below:\nAngles: ±5º\nMeasurements of length: ±5 mm\nPAPER: 1MA1_1H\nQuestion  Modification  Mark scheme notes\n2  Wording added: Look at the table for Question 2 in the Diagram Booklet.  Standard mark scheme\n\n3  (a)  Wording added: ‘below’.  Standard mark scheme\nWording added: ‘There are four spaces to fill.’\nBraille: Wording added ‘by writing the missing values labelled (i) to (iv).’\nTable turned vertical.",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]

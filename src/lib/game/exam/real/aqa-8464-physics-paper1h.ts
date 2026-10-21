@@ -28,6 +28,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "any two from  2  AO2\n\n•  chemical store (of the\nfuel) decreases\n\n•  thermal store (of engine /\ngases / surroundings)\nincreases\n\n•  kinetic energy (of the\nengine / car) increases\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "lead": "Fossil fuels are burned in car engines and in power stations."
     },
@@ -39,6 +40,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "biofuel  allow a named biofuel  1  AO1\nallow biogas  6.1.3\nallow wood\n\nignore fossil fuels\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Energy"
     },
     {
@@ -49,6 +51,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "(by a) battery  allow (by an) electric motor  1  AO3\nor  6.1.3\n(by) electricity\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Energy",
      "seePaper": true
     },
@@ -56,10 +59,11 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "id": "aqa-8464-physics-paper1h:01.4",
      "label": "01.4",
      "marks": 1,
-     "prompt": "The proportion of electricity that is generated using renewable energy resources has\nincreased since the year 2013.\n\nWhich conclusion is correct?\n\nUse Figure 1.\nTick () one box.\n\nThe amount of fossil fuel that is burned to generate electricity each year\nhas decreased.\n\nThe concentration of carbon dioxide in the atmosphere has decreased.\n\nThe rate of increase of the mean temperature of the atmosphere\nhas decreased.",
+     "prompt": "The proportion of electricity that is generated using renewable energy resources has\nincreased since the year 2013.\n\nWhich conclusion is correct?\n\nUse Figure 1.\nTick (✓) one box.\n\nThe amount of fossil fuel that is burned to generate electricity each year\nhas decreased.\n\nThe concentration of carbon dioxide in the atmosphere has decreased.\n\nThe rate of increase of the mean temperature of the atmosphere\nhas decreased.",
      "page": 4,
      "kind": "self",
      "scheme": "the amount of fossil fuel that is  1  AO3\nburned to generate electricity  6.1.3\neach year has decreased\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Energy",
      "seePaper": true
     },
@@ -71,6 +75,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "many generators are required  allow named device such as  1  AO3\nor  wind turbines for generators  6.1.3\nlots of resources are required\nignore unreliable\n\nso it is expensive  1\n\nif no other mark awarded allow 1\nmark for lack of political will\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Energy"
     },
     {
@@ -81,6 +86,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "hydro-electric power  AO1\n\nloss of habitat  1\n\nwind power\n\nnegative visual impact  allow dangerous for birds  1\nallow noise pollution",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)"
     }
    ]
@@ -97,9 +103,10 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 6,
      "kind": "numeric",
      "scheme": "13 800 = 0.75 × c × 20  1  AO2\n\nRPA14\n\n13 800  1\nc=\n0.75 × 20\n\nc = 920 (J/kg °C)  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "lead": "A student investigated the specific heat capacity of aluminium.\n\nThe student used an electric heater to increase the temperature of an\naluminium block.\n\nThe student measured the:\n• mass of the block\n• energy transferred to the block\n• temperature change of the block.\n\nTable 1 shows the results.\n\nTable 1\n\nMass in kilograms  0.75\n\nEnergy transferred in joules  13 800\n\nTemperature change in °C  20",
-     "numeric": 920.0,
+     "numeric": 920,
      "seePaper": true
     },
     {
@@ -110,6 +117,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "Level 3: The method would lead to the production of a valid  5–6  AO1\noutcome. The key steps are identified and logically sequenced.  6.1.1.3\nRPA14\n\nLevel 2: The method would not necessarily lead to a valid  3–4\noutcome. Most steps are identified, but the method is not fully\nlogically sequenced.\n\nLevel 1: The method would not lead to a valid outcome. Some  1–2\nrelevant steps are identified, but links are not made clear.\n\nNo relevant content  0\n\nIndicative content\n\nMass\n• use a top pan balance to measure mass of block\n\nEnergy transfer\n• use a joulemeter to measure energy\n• connect heater to a joulemeter\n• measure initial energy and switch on\n• switch off and measure final energy\n• calculate the difference between initial and final energy\n\n• use an ammeter, voltmeter and stopwatch\n• calculate energy transferred\n\nTemperature change\n• use a thermometer to measure temperature\n• measure the initial temperature\n• measure the final temperature\n• calculate the difference between initial and final temperature\n\nfor Level 3 answers must describe all three measurements\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Energy",
      "seePaper": true
     },
@@ -117,10 +125,11 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "id": "aqa-8464-physics-paper1h:02.3",
      "label": "02.3",
      "marks": 2,
-     "prompt": "Wrapping the aluminium block in insulation makes the value for the specific heat\n\ncapacity of aluminium more accurate.\n\nWhich are two reasons why?\nTick () two boxes.\n\nThe amount of wasted energy is less.\n\nThe energy transferred to the aluminium block is greater.\n\nThe insulation heats the aluminium block.\n\nThe power of the electric heater increases.\n\nThe temperature increase of the aluminium block is greater.  11",
+     "prompt": "Wrapping the aluminium block in insulation makes the value for the specific heat\n\ncapacity of aluminium more accurate.\n\nWhich are two reasons why?\nTick (✓) two boxes.\n\nThe amount of wasted energy is less.\n\nThe energy transferred to the aluminium block is greater.\n\nThe insulation heats the aluminium block.\n\nThe power of the electric heater increases.\n\nThe temperature increase of the aluminium block is greater.  11",
      "page": 8,
      "kind": "self",
      "scheme": "the amount of wasted energy is  1  AO3\nless  6.1.1.3\n\nthe temperature increase of the  1  RPA14\naluminium block is greater",
+     "schemeSource": "exact",
      "topic": "Energy"
     }
    ]
@@ -137,6 +146,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "circuit with a cell, (switch) and  allow battery for cell  1  AO2\nresistor in series\n\nammeter in series (with the  1  AO1\nresistor and the cell)\n\nvoltmeter in parallel with resistor  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "lead": "A student investigated the resistance of a resistor.",
      "seePaper": true
@@ -149,8 +159,9 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 10,
      "kind": "numeric",
      "scheme": "I = 0.45 (A)  subsequent marks may be  1  AO2\nawarded if an incorrectly / not  6.2.1.3\nconverted value of I is used\n\n2.7 = 0.45 × R  1\n\n2.7  1\nR=\n0.45\n\nR = 6 (Ω)  allow 6.0 (Ω)  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Electricity",
-     "numeric": 6.0
+     "numeric": 6
     },
     {
      "id": "aqa-8464-physics-paper1h:03.3",
@@ -160,6 +171,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "straight line through the origin in  1  AO1\nboth 1st and 3rd quadrant  6.2.1.4\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Electricity",
      "seePaper": true
     },
@@ -170,7 +182,8 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "prompt": "Figure 3 shows five resistors with the same resistance but different power ratings.\n\nFigure 3\n\nThe power rating of a resistor is the maximum energy the resistor can transfer each\nsecond without overheating.\n\nEach resistor has a resistance of 2.2 kΩ.\n\nDetermine which resistors in Figure 3 are suitable to be used in a circuit that has a\nmaximum current of 0.012 A.\n\nUse the Physics Equations Sheet.\n\nSuitable resistors  12",
      "page": 12,
      "kind": "self",
-     "scheme": "R = 2200 (Ω)  subsequent marks may be  1  AO2\nawarded if an incorrectly / not\nconverted value of R is used\n\nP = 0.0122 × 2200  1  AO2\n\nP = 0.3168 (W)  allow P = 0.32  1  AO2\nallow P = 0.317\n\nresistors A, B and C  dependent on MP1 and MP3  1  AO3\n\nOR\nthe first three marks may be  6.2.4.1\nawarded for calculating Imax for\nany of the resistors\n\nR = 2200 (Ω) (1)  subsequent marks may be\nawarded if an incorrectly / not\nconverted value of R is used\n\n2.0 = I2 × 2200 (1)\n\nI = 0.030…(1)\n\nresistors A, B and C (1)  dependent on MP1 and MP3",
+     "scheme": "R = 2200 (Ω)  subsequent marks may be  1  AO2\nawarded if an incorrectly / not\nconverted value of R is used\n\nP = 0.012² × 2200  1  AO2\n\nP = 0.3168 (W)  allow P = 0.32  1  AO2\nallow P = 0.317\n\nresistors A, B and C  dependent on MP1 and MP3  1  AO3\n\nOR\nthe first three marks may be  6.2.4.1\nawarded for calculating Imax for\nany of the resistors\n\nR = 2200 (Ω) (1)  subsequent marks may be\nawarded if an incorrectly / not\nconverted value of R is used\n\n2.0 = I² × 2200 (1)\n\nI = 0.030…(1)\n\nresistors A, B and C (1)  dependent on MP1 and MP3",
+     "schemeSource": "exact",
      "topic": "Electricity",
      "seePaper": true
     }
@@ -188,6 +201,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 13,
      "kind": "self",
      "scheme": "alpha particle  AO1\n\n(a particle consisting of) two  allow helium nucleus  1\nneutrons and two protons (from\nthe nucleus)\n\nbeta particle\n\n(a high-speed) electron (from  1\nthe nucleus)\n\ngamma ray\n\n(a high frequency / energy)  1\nelectromagnetic wave / radiation\n(from the nucleus)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "lead": "Three types of radiation emitted by unstable nuclei are:\n\n• alpha particle\n• beta particle\n• gamma ray."
     },
@@ -199,6 +213,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 13,
      "kind": "self",
      "scheme": "198  0  1 mark for the top row  1  AO1\n\n80  –1  1 mark for the bottom row  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "seePaper": true
     },
@@ -210,6 +225,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "2.75 (days)  allow 2.7 to 2.8  2  AO2\nallow an answer consistent with  6.4.2.3\na correct pair of values for\nactivity\n\nallow 1 mark for a horizontal line\ndrawn from 11\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Atomic structure"
     },
     {
@@ -220,6 +236,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "activity = 6.0 (kBq)  subsequent marks may be  1  AO3\nawarded if an activity of 7.0\n(kBq) is used\n\n22 – 6.0  1  AO2\n×100\n\n72.7…(%)  1  AO2\n\n73 (%)  allow a percentage calculated  1  AO2\nusing data from the graph given\nto two significant figures\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)"
     },
     {
@@ -230,6 +247,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "Any two from:  2  AO3\n\n• beta only has a short range\n(in tissue)\n\n• increases the chance of\nkilling the cancer cells\n\n• decreases the risk to healthy\ncells\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)"
     },
     {
@@ -240,6 +258,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "the risk of removing the sample  allow the risk of leaving the  1  AO3\nis greater than the risk of leaving  sample in the patient is very  6.4.2.1\nthe sample in the patient  small  6.4.2.4\nor\nthe activity will reduce to a safe\nlevel in a short time",
+     "schemeSource": "exact",
      "topic": "Atomic structure"
     }
    ]
@@ -256,6 +275,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "230 (V)  allow about 230 (V)  1  AO1\n\n50 (Hz)  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "lead": "Figure 5 shows a laptop computer, and a charger plugged into the mains supply.\n\nFigure 5",
      "seePaper": true
@@ -268,6 +288,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "live – brown  1  AO1\n\nneutral – blue  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)"
     },
     {
@@ -278,6 +299,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "alternating (potential difference)  1  AO1\ncontinuously changes direction  6.2.3.1\n\ndirect (potential difference) is  1\nalways in the same direction\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Electricity"
     },
     {
@@ -288,6 +310,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 18,
      "kind": "self",
      "scheme": "energy / power is transferred by  1  AO2\nthe laptop (when being used)\n\n(so) the power delivered to the  allow (so) the rate at which  1  AO3\nbattery is reduced  energy is transferred to the\nbattery is lower\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)"
     },
     {
@@ -298,6 +321,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 19,
      "kind": "numeric",
      "scheme": "P = 15 × 4.8  1  AO2\n\nP = 72 (W)  1  6.2.4.2\n\nΔP = 97 – 72 = 25 (W)  1\n\n225 000  subsequent marks may be  1\n25 =  awarded if an incorrect / not\nt\nconverted value of E is used.\n\nt = 9000 (s)  1\n\nt = 2.5 (hours)  1",
+     "schemeSource": "exact",
      "topic": "Electricity",
      "numeric": 2.5
     }
@@ -311,10 +335,11 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "id": "aqa-8464-physics-paper1h:06.1",
      "label": "06.1",
      "marks": 4,
-     "prompt": "The cube has a density of 4200 kg/m3.\n\nDetermine the mass of the cube.\n\nUse the Physics Equations Sheet.\n\nMass =  kg",
+     "prompt": "The cube has a density of 4200 kg/m³.\n\nDetermine the mass of the cube.\n\nUse the Physics Equations Sheet.\n\nMass =  kg",
      "page": 21,
      "kind": "self",
      "scheme": "subsequent marks may be  6.3.1.1\nawarded if volume is incorrectly\ncalculated\n\nm  1\n4200 =\n125\n\nm = 4200 × 125  1\n\nm = 525 000 (kg)  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Particle model of matter",
      "lead": "A system is designed to store excess energy from the National Grid.\n\n• Excess energy from the National Grid powers a motor that lifts a large cube.\n• To transfer the energy back to the National Grid, the cube is allowed to fall.\n• The falling cube turns a generator which produces electricity.\n\nFigure 6 shows the cube before it is lifted and after it is lifted.\n\nFigure 6",
      "seePaper": true
@@ -327,6 +352,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 21,
      "kind": "self",
      "scheme": "(the greater the density) the  1  AO1\ngreater the mass (for a given\nvolume)\n\n(so) a greater amount of energy  1  AO3\ncan be stored\n\nOR  6.1.1.2\n\n(the greater the density) the\nsmaller the volume (for a given\nmass) (1)\n\n(so) the same amount of energy\ncan be stored (for a smaller\nvolume) (1)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Energy"
     },
     {
@@ -337,6 +363,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 22,
      "kind": "self",
      "scheme": "measure the energy input from  allow measure the energy input  1  AO3\nthe National Grid and measure  to the motor and measure the\nthe energy output to the  energy output from the\nNational Grid  generator\n\n(then) use the equation:  MP2 dependent on MP1  1  AO1\nenergy output\nefficiency =\nenergy input\n\nif no other mark awarded, allow 1 mark for:\n\nenergy released when lowering the block\nefficiency =\nenergy stored when raising block\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "seePaper": true
     },
@@ -348,6 +375,7 @@ export const aqa_8464_physics_paper1h: RealPaper = {
      "page": 22,
      "kind": "self",
      "scheme": "use a motor with a greater  allow increase the power of the  1  AO1\npower  motor  6.1.1.4\n\n(so) the cube / weight / mass is  MP2 dependent on MP1  1\nlifted more quickly",
+     "schemeSource": "exact",
      "topic": "Energy",
      "seePaper": true
     }

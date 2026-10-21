@@ -28,6 +28,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "mucho  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture",
      "lead": "Carlos habla de lo que hace en su tiempo libre.\nRellena el espacio de cada frase con una palabra del recuadro. Hay más palabras\nque espacios.\n\npoco  tenis  hermano  padre\n\ndocumentales  caminar  baloncesto\n\ndormir  mucho  series  madre"
     },
@@ -39,6 +40,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "documentales  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -49,6 +51,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "baloncesto  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -59,6 +62,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "caminar  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -69,6 +73,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "padre  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     }
    ]
@@ -85,6 +90,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "Miguel  (1)\n\nnumber  Mark",
+     "schemeSource": "exact",
      "topic": "Identity and culture",
      "lead": "Una joven habla de sus amigos y las asignaturas.\n\n¿Qué dice?\nEscoge entre Sara, Miguel, Eva y Paco. Puedes usar las palabras más de una vez."
     },
@@ -96,6 +102,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "Sara  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -106,6 +113,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "Paco  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -116,6 +124,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "Sara  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -126,6 +135,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "Eva  (1)\nSECTION B",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     }
    ]
@@ -141,7 +151,8 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "prompt": "Aitana is talking about a recycling competition.\nWhat does she mention?\nListen to the recording and complete the sentences by putting a cross  in the\ncorrect box for each question.\n(i) Aitana is entering the competition with …\n\nA her best friend.\n\nB three classmates.\n\nC her year group.\n\nD her brother.\n\n(ii) … is organising the competition.\n\nA A local company\n\nB A charity\n\nC Her science teacher\n\nD The school\n\n(iii) They are going to make a …\n\nA pair of shoes.\n\nB handbag.\n\nC car.\n\nD guitar.\n\n(iv) The competition will take place …\n\nA in the summer.\n\nB on Monday.\n\nC in two weeks.\n\nD next weekend.\n\nWorking abroad",
      "page": 4,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "3(i)\nB Three classmates  (1)\n\n3(ii)\nA A local company  (1)\n\n3(iii)\nB a handbag  (1)\n\n3(iv)\nD next weekend  (1)",
+     "schemeSource": "children",
      "topic": "Work and future plans"
     }
    ]
@@ -158,6 +169,7 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "D he speaks German well.  (3)\nF he lives by himself.\nG he often sees his parents.",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     }
    ]
@@ -173,7 +185,8 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "prompt": "A tourist is asking about trips in Tenerife.\n\nWhat do you find out?\nListen to the recording and put a cross  in the correct box for each question.\n(i) The weather is affecting visits to the …\n\nA volcano.\n\nB beaches.\n\nC fishing villages.\n\nD castle.\n\n(ii) The only transport available is a …\n\nA bus.\nB car.\n\nC bike.\n\nD taxi.\n\n(iii) Restaurants are …\n\nA modern.\nB noisy.\n\nC pricey.\n\nD popular.\n\nExchange programme",
      "page": 6,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "5(i)\nA volcano  (1)\n\n5(ii)\nC bike  (1)\n\n5(iii)\nD popular  (1)",
+     "schemeSource": "children",
      "topic": "Identity and culture"
     }
    ]
@@ -189,7 +202,8 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "prompt": "Laura and Iván are talking about their recent school exchange to Italy.\n\nWhat do you find out?\nListen to the recording and answer the following questions in English. You do not\nneed to write in full sentences.\nPart (a)\n(i) Why did Laura take part in the exchange?\n\n(ii) Why did she choose a small town?\n\nPart (b)\n(iii) What did Iván most enjoy?\n\n(iv) What does he say about the family he stayed with? Give two details.\n\nCareers",
      "page": 7,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "6(a)(i)\nTo improve her language skills  (1)\n\n6(a)(ii)\nKind/kinder/friendly/nice people  (1)\n\n6(b)(iii)\nThe night life  (1)\n\n6(b)(iv)\n-Two of the following:  -animated  (2)\n- lively  -mascot\n- talk a lot (to him)  - the house was comfortable\n- have many pets\n- make him feel comfortable",
+     "schemeSource": "children",
      "topic": "Work and future plans"
     }
    ]
@@ -202,10 +216,11 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "id": "edexcel-1sp0-paper1h-listening:7",
      "label": "7",
      "marks": 5,
-     "prompt": "Celia and Ibrahim are talking about their future plans.\n\nWhat do they say?\nListen to their conversation and answer the following questions in English. You do\nnot need to write in full sentences.\nPart (a)\n(i) What would Celia like to be in the future?\n\n(ii) What would she enjoy the most?\n\n(iii) What would the only disadvantage be?\n\nPart (b)\n(iv) What is Ibrahim´s ideal job?\n\n(v) What is his objective in the next five years?\n\n\n\nInternational Paella Day",
+     "prompt": "Celia and Ibrahim are talking about their future plans.\n\nWhat do they say?\nListen to their conversation and answer the following questions in English. You do\nnot need to write in full sentences.\nPart (a)\n(i) What would Celia like to be in the future?\n\n(ii) What would she enjoy the most?\n\n(iii) What would the only disadvantage be?\n\nPart (b)\n(iv) What is Ibrahim´s ideal job?\n\n(v) What is his objective in the next five years?\n\n\n\nInternational Paella Day",
      "page": 8,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "7(a)(i)\nA (professional) singer  (1)\n\n7(a)(ii)\nWriting her (own) songs/lyrics  - writing music  (1)\n\n7(a)(iii)\nEITHER  (1)\n- Spending time away from home\nOR\n-Travelling\n\n7(b)(iv)\nEITHER  (1)\n- IT technician/computer engineer\nOR\n-to repair computers\n\n7(b)(v)\n-To have his own company/to work for  (1)\nhimself.",
+     "schemeSource": "children",
      "topic": "Work and future plans"
     }
    ]
@@ -221,7 +236,8 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "prompt": "Antonio is talking about how International Paella Day is celebrated.\n\nWhat does Antonio say?\nListen to the interview and put a cross  in the correct box for each question.\nPart (a)\n(i) This celebration started …\n\nA last September.\n\nB eight years ago.\n\nC in 2020.\n\nD more than 20 years ago.\n\n(ii) This year the cook is his …\n\nA brother.\n\nB mother.\n\nC father.\n\nD grandfather.\n\n(iii) Last year people made a huge paella in the …\n\nA local park.\n\nB stadium.\n\nC town square.\n\nD sports centre.\n\nPart (b)\n(i) The most popular activities on the day are the …\n\nA cooking courses.\n\nB music festivals.\n\nC online photo competitions.\n\nD visits to the rice fields.\n\n(ii) All these activities …\n\nA are free of charge.\n\nB need booking.\n\nC are outdoors.\n\nD are for adults only.\n\n(iii) Last year the winning photo was of …\n\nA a famous chef.\n\nB the smallest paella.\n\nC a black rice paella.\n\nD an American tourist.\n\nWhere I live",
      "page": 10,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "8(a)(i)\nB eight years ago  (1)\n\n8(a)(ii)\nC father  (1)\n\n8(a)(iii)\nC town Square  (1)\n\n8(b)(i)\nD visits to the rice fields  (1)\n\n8(b)(ii)\nA are free of charge  (1)\n\n8(b)(iii)\nB the smallest paella  (1)",
+     "schemeSource": "children",
      "topic": "Home, town and travel"
     }
    ]
@@ -237,7 +253,8 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "prompt": "Edu and Sofía are talking about their home town.\n\nWhat do they say?\nListen to their conversation and answer the following questions in English. You do\nnot need to write in full sentences.\nPart (a)\n(i) When did Sofía’s family move to the area?\n\n(ii) How did her parents manage the cost of buying their house? Give one detail.\n\n(iii) What do Sofía’s parents like about the area? Give two details.\n\n(iv) What does Sofía least like about her area? Give one detail.\n\nPart (b)\n(i) How does Edu describe his area? Give one detail.\n\n(ii) What is the best thing about living in his area?\n\n(iii) What does he say about his house?\n\n(iv) What improvements would Edu make? Give two details.\n\nMobile phones in schools",
      "page": 12,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "9(a)(i)\nWhen she was a baby  (1)\n\n9(a)(ii)\nEITHER  They lived abroad  (1)\ngood salaries\nOR\nThey saved\n\n9(a)(iii)\ngreen spaces  skate park  (2)\nAND\n(leisure) activities\n\n9(a)(iv)\nEITHER  -cold weather  (1\nThe winter weather\nOR  -rain\nFloods/flooding\n\n9(b)(i)\nEITHER  (1)\nbusy\nOR\nlots of (good) shops/businesses\n\n9(b)(ii)\nIt has all you need  (1)\n\n9(b)(iii)\nNot well-located/in a good location  (1)\n\n9(b)(iv)\nAny two of the following  (2)\n-more places to recycle\n-a bigger (indoor) pool\n-more police at weekends",
+     "schemeSource": "children",
      "topic": "School"
     }
    ]
@@ -250,10 +267,11 @@ export const edexcel_1sp0_paper1h_listening: RealPaper = {
      "id": "edexcel-1sp0-paper1h-listening:10",
      "label": "10",
      "marks": 4,
-     "prompt": "You are listening to a news bulletin.\n\nWhat does the reporter say?\n(i) Choose the two correct answers.\n\nA Student performance has fallen.\n\nB Mobile phones have been banned for months.\n\nC Mobile phones must be kept in bags.\n\nD Teachers can take mobile phones away.\n\nE Having no mobile phones in school is a popular decision.\n\n(ii) Choose the two correct answers.\n\nA A levels are increasing in popularity these days.\n\nB Students like to do vocational courses.\n\nC Being in the classroom is the best way to learn.\n\nD Students like to research information on their mobile phones.\n\nE Controlling computer usage is easy.\n\n\n\n",
+     "prompt": "You are listening to a news bulletin.\n\nWhat does the reporter say?\n(i) Choose the two correct answers.\n\nA Student performance has fallen.\n\nB Mobile phones have been banned for months.\n\nC Mobile phones must be kept in bags.\n\nD Teachers can take mobile phones away.\n\nE Having no mobile phones in school is a popular decision.\n\n(ii) Choose the two correct answers.\n\nA A levels are increasing in popularity these days.\n\nB Students like to do vocational courses.\n\nC Being in the classroom is the best way to learn.\n\nD Students like to research information on their mobile phones.\n\nE Controlling computer usage is easy.\n\n\n\n",
      "page": 14,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "10(i)\nA, E  (2)\n\n10(ii)\nB, E  (2)\nPaper 1: Listening and understanding in Spanish Transcript\n\nHigher Tier\n\nSECTION A\n\nMi tiempo libre\nPregunta 1\n\nM1  Cuando estoy libre no puedo parar de leer. Aunque veo muchas series,\nprefiero los documentales. También practico tenis, pero en septiembre voy a\njugar al baloncesto. Los domingos por la mañana salgo a pasear, pero mi\nhermano aprovecha para dormir. Ayer fui al cine con mi padre. Mi madre\nestaba resfriada.\n\nLas asignaturas\nPregunta 2\n\nF2  Sara siempre suspende historia, pero le encantan los idiomas. Habla francés\nmuy bien. Tiene claro que quiere estudiar en el extranjero. Sin embargo, a\nMiguel se le dan muy bien las matemáticas, pero le molesta su profesor\nporque les da muchos deberes. No es justo. Eva saca las mejores notas en\nquímica. Es más, quiere trabajar en un laboratorio. A Paco no le gusta nada\nestudiar, pero disfruta haciendo deporte\n\nSECTION B\n\nA recycling competition\nQuestion 3\nF1  Voy a participar en una competición de reciclaje con tres alumnos de\nmi clase. La organiza una compañía del pueblo. Nuestro profesor de\nciencias está emocionado. Nos gustaría hacer un coche o una\nguitarra, pero es muy difícil. Vamos a hacer un bolso con papel\nreciclado. Ya tenemos el diseño. Tenemos que quedar el lunes\nporque el día de la competición es el domingo que viene. Hay poco\ntiempo para prepararnos.\n\nWorking abroad\nQuestion 4\nM2  Trabajo para una compañía española en Alemania. Organizo viajes.\nReservo vuelos y alojamiento para clientes. Me encanta el trabajo y\nha sido muy fácil desde el principio. Hablo alemán perfectamente y\nme encanta practicarlo con mis colegas en la oficina. Cuando\nllegué, tuve que compartir piso. Sin embargo, ahora tengo un\napartamento para mí solo. Mis padres viven en España, pero\nafortunadamente me visitan bastante.\n\nAt the tourist office\n\nQuestion 5\nF1  Queremos hacer una excursión, ¿qué nos recomienda?\nM1  Hay muchas opciones diferentes: las playas negras, el castillo o los\npueblos de pesca del norte. Desafortunadamente no se puede\nvisitar el volcán por el fuerte viento.\nF1  Nos encanta pescar.\nM1  El autobús ya se ha ido y no quedan coches para alquilar. Pero\ntenemos bicicletas. Os recomiendo comer en uno de los\nrestaurantes tradicionales. Llamad para reservar porque siempre\nestán llenos. No cuestan mucho y son excelentes.\n\nExchange programme\nQuestion 6\n\nPart (a)\nM2  Laura, ¿por qué has participado en el intercambio a Italia?\nF2  Para mejorar mis habilidades en el idioma. Empecé a estudiar\nitaliano hace cinco a …",
+     "schemeSource": "children",
      "topic": "School"
     }
    ]

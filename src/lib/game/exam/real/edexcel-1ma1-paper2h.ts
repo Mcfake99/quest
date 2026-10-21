@@ -27,7 +27,8 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "prompt": "Express 250 as a product of its prime factors.",
      "page": 2,
      "kind": "self",
-     "scheme": "2 × 53  M1  for a complete method to find prime factors; could be shown on a  Condone the inclusion of 1s for this\ncomplete factor tree with no more than one arithmetic error or by  mark\ndivision by prime factors with no more than one error\nor for 2, 5, 5, 5\n\nA1  accept 2 × 5 × 5 × 5",
+     "scheme": "Answer: 2 × 5³\n\n2 × 53  M1  for a complete method to find prime factors; could be shown on a  Condone the inclusion of 1s for this\ncomplete factor tree with no more than one arithmetic error or by  mark\ndivision by prime factors with no more than one error\nor for 2, 5, 5, 5\n\nA1  accept 2 × 5 × 5 × 5",
+     "schemeSource": "exact",
      "topic": "Number"
     },
     {
@@ -38,8 +39,9 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 2,
      "kind": "numeric",
      "scheme": "150  M1  for at least 3 multiples of both 30 and 25 (can include 30 and 25)  30, 60, 90, 120, 150, 180, 210, 240\nor for the prime factors 2, 3, 5 and 5, 5 (could be shown in a factor tree  25, 50, 75, 100, 125, 150, 175\nwith no more than 1 arithmetic error or Venn diagram or table)  30 = 2 × 3 × 5\nor identifies the factors 5, 5 and 6 (may be seen in a grid)  25 = 5 × 5\nor for a different common multiple, eg 300  Condone the inclusion of 1s for this\nmark\n\nA1  150 or 2 × 3 × 5 × 5 oe",
+     "schemeSource": "exact",
      "topic": "Number",
-     "numeric": 150.0
+     "numeric": 150
     }
    ]
   },
@@ -53,10 +55,10 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "marks": 3,
      "prompt": "Sid, Tam and Musa share £6900 in the ratio 2 : 3 : 5\nWork out how much money each person receives.\n\nSid £ ____\n\nTam £ ____\n\nMusa £ ____",
      "page": 3,
-     "kind": "numeric",
-     "scheme": "1380  M1  for beginning to work with ratio,  Award M0 for a correct value\n2070  eg 6900 ÷ (2 + 3 + 5) (= 690)  assigned to an incorrect person\n3450  or 6900 ÷ 2 (= 3450) or 6900 ÷ 5 (= 1380)\nor one accurate value correctly assigned\n\nM1  for full method to find the value for two people,  Award M0 for a correct value\neg two of: “690” × 2 (= 1380) or “690” × 3 (= 2070)  assigned to an incorrect person\nor “690” ×5 (= 3450)\nor (6900 – “3450”) ÷ 5 × 2 (= 1380)\nor (6900 – “3450”) ÷ 5 × 3 (= 2070)\nor (6900 – “1380”) ÷ 8 × 3 (= 2070)\nor (6900 – “1380”) ÷ 8 × 5 (= 3450)\nor 6900 ÷ 2 (= 3450) and 6900 ÷ 5 (= 1380)\n\nA1  for Sid (£) 1380  Correct values not assigned or\nTam (£) 2070  assigned to an incorrect person,\nMusa (£) 3450  coming from an incorrect method,\neg (Sid =) 6900 ÷ 2 =3450 and\nIf M1M0, award SCB2 for Sid (£) 3450  (Tam =) 6900 ÷ 3 =2300 and\nTam (£) 2070  (Musa =) 6900 ÷ 5 =1380\nMusa (£) 1380  will score no marks",
-     "topic": "Ratio and proportion",
-     "numeric": 1380.0
+     "kind": "self",
+     "scheme": "Answer: Sid £1380, Tam £2070, Musa £3450\n\n1380  M1  for beginning to work with ratio,  Award M0 for a correct value\n2070  eg 6900 ÷ (2 + 3 + 5) (= 690)  assigned to an incorrect person\n3450  or 6900 ÷ 2 (= 3450) or 6900 ÷ 5 (= 1380)\nor one accurate value correctly assigned\n\nM1  for full method to find the value for two people,  Award M0 for a correct value\neg two of: “690” × 2 (= 1380) or “690” × 3 (= 2070)  assigned to an incorrect person\nor “690” ×5 (= 3450)\nor (6900 – “3450”) ÷ 5 × 2 (= 1380)\nor (6900 – “3450”) ÷ 5 × 3 (= 2070)\nor (6900 – “1380”) ÷ 8 × 3 (= 2070)\nor (6900 – “1380”) ÷ 8 × 5 (= 3450)\nor 6900 ÷ 2 (= 3450) and 6900 ÷ 5 (= 1380)\n\nA1  for Sid (£) 1380  Correct values not assigned or\nTam (£) 2070  assigned to an incorrect person,\nMusa (£) 3450  coming from an incorrect method,\neg (Sid =) 6900 ÷ 2 =3450 and\nIf M1M0, award SCB2 for Sid (£) 3450  (Tam =) 6900 ÷ 3 =2300 and\nTam (£) 2070  (Musa =) 6900 ÷ 5 =1380\nMusa (£) 1380  will score no marks",
+     "schemeSource": "exact",
+     "topic": "Ratio and proportion"
     }
    ]
   },
@@ -68,13 +70,14 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:3(a)",
      "label": "3(a)",
      "marks": 4,
-     "prompt": "Work out the number of bags of gravel Macsen will need.\n\n____  bags\n\nMacsen finds that each bag of gravel only covers an area of 11 m2",
+     "prompt": "Work out the number of bags of gravel Macsen will need.\n\n____ bags",
      "page": 4,
      "kind": "numeric",
-     "scheme": "6  P1  for a process to find a relevant area, eg 16 × 14 ÷ 2 (= 112)  49\n2  May be implied by  \n7  4\nor     ( = 38.4...)\n2\nP1  for a process to find the shaded area,\neg “112” – “38.4...” (= 73.51...)\nor “8.96” – “3.07…” (= 5.88…)\n\nP1  for a complete process to find the number of bags required for a full or\npartial area, eg “73.51...” ÷ 12.5 (= 5.88...)\nor “112” ÷ 12.5 (= 8.96) or “38.4…” ÷ 12.5 (= 3.07...)\nor [area] ÷ 12.5  [area] can be any area but cannot be\nor uses12.5 in a build up method to exceed [area],  a length.\neg 12.5 × 6 (= 75) oe\n\nA1  cao",
+     "scheme": "6  P1  for a process to find a relevant area, eg 16 × 14 ÷ 2 (= 112)  49\n2  May be implied by  π\n7  4\nor π ×   ( = 38.4...)\n2\nP1  for a process to find the shaded area,\neg “112” – “38.4...” (= 73.51...)\nor “8.96” – “3.07…” (= 5.88…)\n\nP1  for a complete process to find the number of bags required for a full or\npartial area, eg “73.51...” ÷ 12.5 (= 5.88...)\nor “112” ÷ 12.5 (= 8.96) or “38.4…” ÷ 12.5 (= 3.07...)\nor [area] ÷ 12.5  [area] can be any area but cannot be\nor uses12.5 in a build up method to exceed [area],  a length.\neg 12.5 × 6 (= 75) oe\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "lead": "Here is a plan of part of Macsen’s garden.\nThere is a circle inside a triangle.\n\nThe circle has a diameter of 7 m.\n\n14 m\n\n7m\n\n16 m\n\nMacsen will cover the shaded area with gravel.\nGravel is sold in bags.\nEach bag of gravel covers an area of 12.5 m2",
-     "numeric": 6.0
+     "lead": "Here is a plan of part of Macsen’s garden.\nThere is a circle inside a triangle.\n\nThe circle has a diameter of 7 m.\n\n14 m\n\n7m\n\n16 m\n\nMacsen will cover the shaded area with gravel.\nGravel is sold in bags.\nEach bag of gravel covers an area of 12.5 m²",
+     "numeric": 6
     },
     {
      "id": "edexcel-1ma1-paper2h:3(b)",
@@ -84,7 +87,9 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "Statement  C1  for a valid statement relating to effect on number of bags needed, eg\nAcceptable examples\nWill need more bags\nIt will increase\nWill need an extra bag or will now need 7 bags\nHe won’t have enough\nThere is no change (ft their [area] but must be supported by calculation)\n\nNot acceptable examples\nWill cover less area\nNeeds to change the number of bags needed\nThere is no change (unsupported or incorrect ft their [area])\nHe may need more bags\nA calculation using 11 with no supporting statement",
-     "topic": "Number"
+     "schemeSource": "exact",
+     "topic": "Number",
+     "lead": "Macsen finds that each bag of gravel only covers an area of 11 m²"
     }
    ]
   },
@@ -100,6 +105,7 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "Explanation  C1  for valid explanation identifying mistake,\n\nAcceptable examples\nIt’s on the wrong side of circle\nShe shaded inside the circle (but should be outside)\nShaded where P can’t be\nShe shaded/drew less than 2cm\nShe shaded at most 2 cm\nP should be outside (or on) the circle\nShe shaded around point C not (at least) 2cm from point C\nNadia should have shaded away from the circle\n\nNot acceptable examples\nShading is wrong or she shaded it incorrectly\nRegion is in the wrong place\nDoesn’t fit inside the circle\nShe shaded all the points between C and where all the points P could be\nThe question says at least 2cm and not only 2cm away\nShe shaded in too close\nShe shaded a circle not a square or should’ve drawn/shaded a square",
+     "schemeSource": "exact",
      "topic": "Number",
      "seePaper": true
     }
@@ -113,11 +119,13 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:5",
      "label": "5",
      "marks": 3,
-     "prompt": "This year the total weight of potatoes grown on a farm is  less than last year.\n\nThis year the total weight of potatoes grown is 8000 tonnes.\nWork out the total weight of potatoes grown last year.\n\n____  tonnes",
+     "prompt": "This year the total weight of potatoes grown on a farm is 1/5 less than last year.\n\nThis year the total weight of potatoes grown is 8000 tonnes.\nWork out the total weight of potatoes grown last year.\n\n____ tonnes",
      "page": 6,
-     "kind": "self",
-     "scheme": "10 000  M1  4\nfor recognising 8000 is\n\neg 8000 ÷ 4 (= 2000)\n\nor = 8000\n\nor 8000 = 80% or 8000 ÷ 80 (= 100)\nor x  0.8 = 8000\n\nM1  for a complete method,\neg “2000” × 5\n\nor 8000 \n\nor “100” × 100\n8000\nor\n0.8\n\nA1  cao",
-     "topic": "Number"
+     "kind": "numeric",
+     "scheme": "10 000  M1  4\nfor recognising 8000 is\n\neg 8000 ÷ 4 (= 2000)\n\nor = 8000\n\nor 8000 = 80% or 8000 ÷ 80 (= 100)\nor x × 0.8 = 8000\n\nM1  for a complete method,\neg “2000” × 5\n\nor 8000 ×\n\nor “100” × 100\n8000\nor\n0.8\n\nA1  cao",
+     "schemeSource": "exact",
+     "topic": "Number",
+     "numeric": 10000
     }
    ]
   },
@@ -132,9 +140,10 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "prompt": "Here are two lists of numbers.\n\nList A  276  400  157  139\n\nList B  530  500  270  x  440  320\n\nmean of list A : mean of list B = 3 : 5\nWork out the value of x.\n\nx =  ____",
      "page": 7,
      "kind": "numeric",
-     "scheme": "370  P1  for finding the mean of list A, eg (276 + 400 + 157 + 139) ÷ 4 (= 243)\nOR an expression for the mean of list B, eg\n2060 + x \n( 530 + 500 + 270 + x + 440 + 320 )  6  =   oe\n  6  \n\nP1  for beginning to work with ratio,  [A] is what they believe to be the\neg “243” ÷ 3 (= 81) or [A]  3  mean of A\nor \"243\" 5 ( = 1215 ) or  A  5  [B] must be clearly their mean of B\nand be an expression including x\n 2060 + x    2060 + x \nOR \"    \" 3 or  B  3 or \"    \"  5 or  B  5\n  6      6  \n\nP1  for completing the work with ratio,\neg “81” × 5 (= 405) or  A  3  5 or  B  3  5\n 2060 + x  3\nor \"    \"\n  6   5\nOR forms a suitable equation,\n2060 + x    2060 + x \neg \"243\" 5 = 3  \"    \" or [A]  5 = 3  \"   \"\n  6      6  \n\nP1  for working with mean of list B,\neg “405” ×6 (= 2430) or  A  3  5  6\nOR\nfor process to remove brackets and denominator, eg\n\"243\" 5  2 = \"2060 + x \" or  A   5  2 = \"2060 + x \" or\n2060 + x = \"405\" 6\n\nA1  cao",
+     "scheme": "370  P1  for finding the mean of list A, eg (276 + 400 + 157 + 139) ÷ 4 (= 243)\nOR an expression for the mean of list B, eg\n2060 + x \n( 530 + 500 + 270 + x + 440 + 320 ) ÷ 6  =   oe\n  6  \n\nP1  for beginning to work with ratio,  [A] is what they believe to be the\neg “243” ÷ 3 (= 81) or [A] ÷ 3  mean of A\nor \"243\"× 5 ( = 1215 ) or [ A] × 5  [B] must be clearly their mean of B\nand be an expression including x\n 2060 + x    2060 + x \nOR \"    \"× 3 or [ B] × 3 or \"    \" ÷ 5 or [ B] ÷ 5\n  6      6  \n\nP1  for completing the work with ratio,\neg “81” × 5 (= 405) or [ A] ÷ 3 × 5 or [ B] × 3 ÷ 5\n 2060 + x  3\nor \"    \"×\n  6   5\nOR forms a suitable equation,\n2060 + x    2060 + x \neg \"243\"× 5 = 3 × \"    \" or [A] × 5 = 3 × \"   \"\n  6      6  \n\nP1  for working with mean of list B,\neg “405” ×6 (= 2430) or [ A] ÷ 3 × 5 × 6\nOR\nfor process to remove brackets and denominator, eg\n\"243\"× 5 × 2 = \"2060 + x \" or [ A ] × 5 × 2 = \"2060 + x \" or\n2060 + x = \"405\"× 6\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
-     "numeric": 370.0
+     "numeric": 370
     }
    ]
   },
@@ -150,6 +159,7 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 8,
      "kind": "numeric",
      "scheme": "60.3  M1  7  Other methods are possible but only\nfor a correct trig statement, eg tan x = 4\naward this mark at the point of an\nequation with x as the only unknown\nA1  60.2 to 60.42",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
      "numeric": 60.3
     }
@@ -163,12 +173,13 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:8",
      "label": "8",
      "marks": 3,
-     "prompt": "Metal rods are made from steel with density 8 g/cm3\nEach metal rod has a volume of 1500 cm3\nThe maximum mass of metal rods that can be put on a trolley is 300 kg.\nWork out the greatest number of metal rods that can be put on the trolley.",
+     "prompt": "Metal rods are made from steel with density 8 g/cm³\nEach metal rod has a volume of 1500 cm³\nThe maximum mass of metal rods that can be put on a trolley is 300 kg.\nWork out the greatest number of metal rods that can be put on the trolley.",
      "page": 8,
      "kind": "numeric",
-     "scheme": "25  P1  for working with density  P marks can be awarded in either\neg 8 ×1500 (= 12 000)  order\nor [density] ×1500  [density] is 8 × 10n\nCondone 8×1500×300 for this mark\nonly\nP1  for a conversion,  P marks can be awarded in either\n8  order\neg “12 000” ÷ 1000 (= 12) or  ( = 0.008)  [mass] must be what they believe to\n1000\nor 300 × 1000 (= 300 000)  be mass following a calculation that\nor [mass] ÷ 1000  uses 8 and 1500 but not 300\n\nA1  cao",
+     "scheme": "25  P1  for working with density  P marks can be awarded in either\neg 8 ×1500 (= 12 000)  order\nor [density] ×1500  [density] is 8 × 10ⁿ\nCondone 8×1500×300 for this mark\nonly\nP1  for a conversion,  P marks can be awarded in either\n8  order\neg “12 000” ÷ 1000 (= 12) or  ( = 0.008)  [mass] must be what they believe to\n1000\nor 300 × 1000 (= 300 000)  be mass following a calculation that\nor [mass] ÷ 1000  uses 8 and 1500 but not 300\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 25.0
+     "numeric": 25
     }
    ]
   },
@@ -180,10 +191,11 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:9",
      "label": "9",
      "marks": 2,
-     "prompt": "3x–1 (4x – x3) = a + bxn for all the values of x that are not zero.\nFind the value of a, the value of b and the value of n.\n\na =  ____\n\nb =  ____\n\nn =  ____\n\n14 − x",
+     "prompt": "3x⁻¹(4x − x³) = a + bxⁿ for all the values of x that are not zero.\nFind the value of a, the value of b and the value of n.\n\na = ____\nb = ____\nn = ____",
      "page": 9,
      "kind": "self",
-     "scheme": "12, – 3, 2  B2  all correct  12 – 3x2 seen in working space gets\nB2 unless contradicted\n\n(B1  for one or two correct)  May be seen in an expression of the\ncorrect form, eg a + bx n",
+     "scheme": "Answer: a = 12, b = −3, n = 2\n\n12, – 3, 2  B2  all correct  12 – 3x² seen in working space gets\nB2 unless contradicted\n\n(B1  for one or two correct)  May be seen in an expression of the\ncorrect form, eg a + bxⁿ",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]
@@ -196,11 +208,13 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:10",
      "label": "10",
      "marks": 2,
-     "prompt": "Solve  = 3x\n\nx =  ____",
+     "prompt": "Solve  (14 − x)/3 = 3x\n\nx = ____",
      "page": 9,
-     "kind": "self",
-     "scheme": "1.4  M1  14 − x  For M mark, step must be carried\nfor a correct first step eg   3 = 3x  3  out not just intention shown.\n\nFor example if you see\n141  1  1\nor  − x + x = 3 x + x oe  14 − x\n3 3  3  3  = 3x\n\n3  3\nOnly award M1 when you see\n14 − x = kx where k > 3\nA1  14\noe, eg",
-     "topic": "Algebra"
+     "kind": "numeric",
+     "scheme": "1.4  M1  14 − x  For M mark, step must be carried\nfor a correct first step eg  × 3 = 3x × 3  out not just intention shown.\n\nFor example if you see\n141  1  1\nor  − x + x = 3 x + x oe  14 − x\n3 3  3  3  = 3x\n\n×3  ×3\nOnly award M1 when you see\n14 − x = kx where k > 3\nA1  14\noe, eg",
+     "schemeSource": "exact",
+     "topic": "Algebra",
+     "numeric": 1.4
     }
    ]
   },
@@ -216,6 +230,7 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "0.2,  B2  all placed correctly\n0.15,0.85,0.15\n(B1  for 2 or 3 placed correctly)",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
      "lead": "Freya and Ria each do an exam.\nThe probability that Freya will pass the exam is 0.8\n\nThe probability that Ria will pass the exam is 0.85",
      "seePaper": true
@@ -228,6 +243,7 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 10,
      "kind": "numeric",
      "scheme": "0.29  M1  for one correct product, ft their tree diagram  Working for part (b) may be seen in\neg 0.8 × 0.85 (= 0.68) or 0.8 × “0.15” (= 0.12)  part (a)\nor “0.2” × “0.85” (= 0.17) or “0.2” × “0.15” (= 0.03)  To apply ft values must be <1\n\nM1  for a complete method, ft their tree diagram\neg “0.2” × “0.85” + 0.8 × “0.15” or 1 ‒ (0.8 × 0.85 + “0.2” × “0.15”)\n\nA1  for 0.29 oe or ft their tree diagram  Cannot award A1ft if answer > 1",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
      "numeric": 0.29
     }
@@ -245,6 +261,7 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "Drawn  B3  for a fully correct box plot  See diagram at end of scheme\nMin = 21\n(B2  for 3 or 4 correctly plotted values including box and whiskers/tails)  LQ = 31\nMed = 35\n(B1  for 2 correctly plotted values including box or whiskers/tails or 5 correct  UQ = 42\nvalues plotted or clearly identified and no box or whiskers/tails)  Max = 80",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
      "lead": "The table gives some information about the ages, in years, of 32 actors.\n\nLowest age  21\n\nHighest age  80\n\nLower quartile  31\n\nUpper quartile  42\n\nMedian  35",
      "seePaper": true
@@ -253,12 +270,13 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:12(b)",
      "label": "12(b)",
      "marks": 1,
-     "prompt": "Work out an estimate for the number of these actors with an age\nbetween 31 years and 42 years.\n\nMary says,\n“At least one of the actors is 35 years old because the median is 35”",
+     "prompt": "Work out an estimate for the number of these actors with an age between 31 years and 42 years.",
      "page": 11,
      "kind": "numeric",
      "scheme": "16  B1  cao",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
-     "numeric": 16.0
+     "numeric": 16
     },
     {
      "id": "edexcel-1ma1-paper2h:12(c)",
@@ -268,7 +286,9 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "Explanation  C1  Acceptable examples  Figures need not be stated, but if\nNot true as the median could be the average of two ages  they are, they must be correct\nNo, the median is not always one of the numbers in the data\nBecause there is an even amount of numbers, there must be 2 in the\nmiddle that have a mean of 35\nShe could be correct if the middle two numbers are both 35\n\nNot acceptable examples\nYes…\nNo more are between 31-35 than 35-42\nNo as there is an even number at least two must be 35\nNo the median is just the average\nWe can’t tell from the graph\nBecause there is an even amount of numbers\nNot true as we do not know the exact ages of all data.",
-     "topic": "Number"
+     "schemeSource": "exact",
+     "topic": "Number",
+     "lead": "Mary says,\n“At least one of the actors is 35 years old because the median is 35”"
     }
    ]
   },
@@ -280,10 +300,11 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:13",
      "label": "13",
      "marks": 3,
-     "prompt": "Show that (2x + 3)(x – 1)(x + 2) can be written in the form\nax3 + bx2 + cx + d where a, b, c and d are integers.",
+     "prompt": "Show that (2x + 3)(x − 1)(x + 2) can be written in the form\nax³ + bx² + cx + d where a, b, c and d are integers.",
      "page": 12,
      "kind": "self",
-     "scheme": "Shown  M1  for a method to find the product of any two linear expressions (3 out of  Note that, for example, 2x 2 + x in\n4 terms correct or 4 terms ignoring signs)  the expansion of (2x + 3)(x ‒ 1) is\neg 2 x − 2 x + 3x − 3 ( = 2 x + x − 3) or x − x + 2 x − 2 ( = x + x − 2 ) or  regarded as 3 correct terms\n2  2  2  2\n\n(\n2 x 2 + 4 x + 3x + 6 = 2 x 2 + 7 x + 6  )\nM1  (dep on M1) for a complete method to obtain all terms, half of which are  First product must be quadratic with\ncorrect  at least 3 terms but need not be\n(ft their first product)  simplified or may be simplified\neg 2 x3 − 2 x 2 + 3x 2 + 4 x 2 − 3x − 4 x + 6 x − 6  incorrectly\nor 2 x3 − 2 x 2 + 4 x 2 − 4 x + 3x 2 − 3x + 6 x − 6\nor 2 x3 + 4 x 2 + 3x 2 + 6 x − 2 x 2 − 4 x − 3x − 6\nor 2 x 3 + 4 x 2 + x 2 − 3x + 2 x − 6\nor 2 x 3 + 2 x 2 + 3 x 2 − 4 x + 3 x − 6\nor 2 x 3 − 2 x 2 + 7 x 2 − 7 x + 6 x − 6\n\nC1  for 2 x3 + 5 x 2 − x − 6 from correct working  Accept a = 2, b = 5, c = −1, d = −6\nCondone −1x",
+     "scheme": "Shown  M1  for a method to find the product of any two linear expressions (3 out of  Note that, for example, 2x² + x in\n4 terms correct or 4 terms ignoring signs)  the expansion of (2x + 3)(x ‒ 1) is\neg 2 x − 2 x + 3x − 3 ( = 2 x + x − 3) or x − x + 2 x − 2 ( = x + x − 2 ) or  regarded as 3 correct terms\n2  2  2  2\n\n(\n2 x 2 + 4 x + 3x + 6 = 2 x² + 7 x + 6  )\nM1  (dep on M1) for a complete method to obtain all terms, half of which are  First product must be quadratic with\ncorrect  at least 3 terms but need not be\n(ft their first product)  simplified or may be simplified\neg 2 x³ − 2 x 2 + 3x 2 + 4 x 2 − 3x − 4 x + 6 x − 6  incorrectly\nor 2 x³ − 2 x 2 + 4 x 2 − 4 x + 3x² − 3x + 6 x − 6\nor 2 x³ + 4 x 2 + 3x 2 + 6 x − 2 x² − 4 x − 3x − 6\nor 2 x³ + 4 x 2 + x 2 − 3x + 2 x − 6\nor 2 x³ + 2 x 2 + 3 x 2 − 4 x + 3 x − 6\nor 2 x³ − 2 x 2 + 7 x 2 − 7 x + 6 x − 6\n\nC1  for 2 x³ + 5 x² − x − 6 from correct working  Accept a = 2, b = 5, c = −1, d = −6\nCondone −1x",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]
@@ -298,9 +319,11 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "marks": 3,
      "prompt": "There are 15 dogs in a dog show.\nOne dog is awarded first prize.\nA different dog is awarded second prize.\n\nThere are 12 cats in a cat show.\nOne cat is awarded first prize.\nA different cat is awarded second prize.\nWork out how many different ways these four prizes can be awarded.",
      "page": 13,
-     "kind": "self",
-     "scheme": "27 720  P1  for 15 × 14 (= 210) or 12 × 11 (= 132) or 15 12 ( = 180 )  If values given as probabilities can\naward P marks only\n\nP1  for a complete method eg 15 × 14 × 12 × 11  If a correct product seen and divided\n(by 2 or 4 or 24) award P marks\nA1  cao\n\nSCB1 for an answer of 342 if P0 awarded",
-     "topic": "Number"
+     "kind": "numeric",
+     "scheme": "27 720  P1  for 15 × 14 (= 210) or 12 × 11 (= 132) or 15 ×12 ( = 180 )  If values given as probabilities can\naward P marks only\n\nP1  for a complete method eg 15 × 14 × 12 × 11  If a correct product seen and divided\n(by 2 or 4 or 24) award P marks\nA1  cao\n\nSCB1 for an answer of 342 if P0 awarded",
+     "schemeSource": "exact",
+     "topic": "Number",
+     "numeric": 27720
     }
    ]
   },
@@ -312,10 +335,11 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:15(a)",
      "label": "15(a)",
      "marks": 4,
-     "prompt": "On the grid, show by shading, the region that satisfies all of these inequalities.\n\nx+y<5  y>1  x>2  y < 3x – 2\n\nLabel the region R.\n\ny\n\n–6  –4  –2  O  2  4  6  x\n\n–2\n\n–4\n\n–6\n\nRon says,\n“I can remove one of the four inequalities from the grid so that the region R\nwill not change.”\nRon is correct.",
+     "prompt": "On the grid, show by shading, the region that satisfies all of these inequalities.\n\nx + y < 5   y > 1   x > 2   y < 3x − 2\n\nLabel the region R.",
      "page": 14,
      "kind": "self",
      "scheme": "Region shown  B4  for a fully correct region identified  See diagram at end of mark scheme\nCan exclude y = 3x – 2 for B4\n(B3  for drawing three correct lines)  Condone solid lines for all marks\nRegion can be identified by shading\nin or shading out\n(B2  for drawing two correct lines, must include at least one of x + y = 5  Lines need to be long enough to\nor y = 3x – 2 )  enclose the region\n\n(B1  for drawing x = 2 and y = 1 correctly\nOR for drawing x + y = 5 correctly\nOR for drawing y = 3x – 2 correctly)",
+     "schemeSource": "exact",
      "topic": "Algebra",
      "seePaper": true
     },
@@ -326,8 +350,10 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "prompt": "Which inequality can be removed so that the region R will not change?",
      "page": 14,
      "kind": "self",
-     "scheme": "y  3x − 2  B1  (dep on B1 in (a)) for y  3x − 2 or ft their diagram if 1 line is redundant  Condone use of ‘=’ or ' ' and\n3x − 2",
-     "topic": "Algebra"
+     "scheme": "y < 3x − 2  B1  (dep on B1 in (a)) for y < 3x − 2 or ft their diagram if 1 line is redundant  Condone use of ‘=’ or ' ' and\n3x − 2",
+     "schemeSource": "exact",
+     "topic": "Algebra",
+     "lead": "Ron says,\n“I can remove one of the four inequalities from the grid so that the region R will not change.”\nRon is correct."
     }
    ]
   },
@@ -339,12 +365,13 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:16(a)",
      "label": "16(a)",
      "marks": 4,
-     "prompt": "Work out the height, h cm, of the smaller jar.\nGive your answer correct to 1 decimal place.\n\n____ cm\nThe surface area of the smaller jar is A cm2\nThe surface area of the larger jar is pA cm2",
+     "prompt": "Work out the height, h cm, of the smaller jar.\nGive your answer correct to 1 decimal place.\n\n____ cm",
      "page": 15,
      "kind": "numeric",
-     "scheme": "4.9  P1  for beginning to work with scale factors\n3  3\nh   12   90  1   1350\neg   or   or   =  or  ( = 15 ) or 90 : 1350 oe\n 12  h  1350  15   90\n\n3  3\nh  90   12 \nP1  for equating scale factors eg    =  or   = \"15\" or for\n 12  1350  h\n\nfinding the linear scale factor, eg 3  or  3\n\"15\" ( = 2.46(6...) )\n1350\n\n90  90  12\nfor a complete method eg 3 12 \n\nP1  or 12  3  or\n1350  1350  \" 3 \"15\" \"  (  )\nA1  for answers in the range 4.8 to 4.9",
+     "scheme": "4.9  P1  for beginning to work with scale factors\n3  3\nh   12   90  1   1350\neg   or   or   =  or  ( = 15 ) or 90 : 1350 oe\n 12  h  1350  15   90\n\n3  3\nh  90   12 \nP1  for equating scale factors eg    =  or   = \"15\" or for\n 12  1350  h\n\nfinding the linear scale factor, eg³  or  3\n\"15\" ( = 2.46(6...) )\n1350\n\n90  90  12\nfor a complete method eg³ 12 ×\n\nP1  or 12 × 3  or\n1350  1350  \" 3 \"15\" \"  (  )\nA1  for answers in the range 4.8 to 4.9",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "lead": "Two jars are mathematically similar.\n\n12 cm\n1350 cm3\nh cm\n90 cm3",
+     "lead": "Two jars are mathematically similar.\nThe larger jar has height 12 cm and volume 1350 cm³.\nThe smaller jar has height h cm and volume 90 cm³.",
      "numeric": 4.9
     },
     {
@@ -354,8 +381,10 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "prompt": "Find the exact value of p.\n\np =  ____",
      "page": 15,
      "kind": "self",
-     "scheme": "B1  If given in an acceptable form, then\n( )\n2  2  1\n(15 ) 3\n\nfor 15 3 or  3\n15 or 3 152 or 225 3  given as a decimal, isw and award",
-     "topic": "Number"
+     "scheme": "Answer: p = 15^(2/3) = ∛225 (oe, e.g. (∛15)²)\n\nB1  If given in an acceptable form, then\n( )\n2  2  1\n(15 ) 3\n\nfor 15³ or  3\n15 or 3 152 or 225³  given as a decimal, isw and award",
+     "schemeSource": "exact",
+     "topic": "Number",
+     "lead": "The surface area of the smaller jar is A cm²\nThe surface area of the larger jar is pA cm²"
     }
    ]
   },
@@ -367,13 +396,17 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:17",
      "label": "17",
      "marks": 2,
-     "prompt": "Here is a sketch of part of the graph of y = k x where k is a positive constant.\n\ny\n\n(–1, 1.5)\nO  x\n\nThe graph passes through the point with coordinates (–1, 1.5)\nFind the value of k.\n\nk =  ____",
+     "prompt": "Here is a sketch of part of the graph of y = kˣ where k is a positive constant.\n\ny\n\n(–1, 1.5)\nO  x\n\nThe graph passes through the point with coordinates (–1, 1.5)\nFind the value of k.\n\nk =  ____",
      "page": 16,
      "kind": "numeric",
-     "scheme": "2  M1  1\nfor correct substitution, eg 1.5 = k −1 oe or\n3  1.5\nA1  1  Accept rounded or truncated to 2dp\noe but not  or better\n1.5",
+     "scheme": "Answer: k = 2/3 (accept 0.67 or better)\n\n2  M1  1\nfor correct substitution, eg 1.5 = k −1 oe or\n3  1.5\nA1  1  Accept rounded or truncated to 2dp\noe but not  or better\n1.5",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 2.0,
-     "seePaper": true
+     "seePaper": true,
+     "numeric": 0.6667,
+     "accept": [
+      0.67
+     ]
     }
    ]
   },
@@ -385,10 +418,11 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:18",
      "label": "18",
      "marks": 3,
-     "prompt": "At the start of year n, the population of deer in a park is Dn\nAt the start of the following year, the population of the deer is Dn + 1\n\nD n + 1 = K Dn  where K is a constant.\n\nAt the start of 2019, the population of the deer was 2000\nAt the start of 2020, the population of the deer was 2400\nShow that, at the start of 2022, the population of the deer was greater than 3000",
+     "prompt": "At the start of year n, the population of deer in a park is Dₙ\nAt the start of the following year, the population of the deer is Dₙ₊₁\n\nDₙ₊₁ = K·Dₙ  where K is a constant.\n\nAt the start of 2019, the population of the deer was 2000\nAt the start of 2020, the population of the deer was 2400\nShow that, at the start of 2022, the population of the deer was greater than 3000",
      "page": 17,
      "kind": "self",
-     "scheme": "Shown  M1  for beginning to find K eg 2400 = K  2000 or K = 1.2 oe  M marks can be awarded in either\norder\nM1  For a correct method to find the value for 2021 or 2022, eg  1.22 = 1.44\n2400  \"1.2\" ( = 2880) or 2400  (\"1.2\")  ( = 3456 ) or\n\n2000  (\"1.2\") ( = 2880 ) or 2000  (\"1.2\") ( = 3456 )\n2  3\n\nOR method to find rate leading to 3000 in 2022, eg\n3000\n3  ( = 1.144...)\n2000\n\nC1  for comparative figures eg 3456 (and 3000)  3000 need not be restated to award\nOR 3000 ÷ 2880 = 1.041... and 1.2  this mark\nOR 1.144… and 1.2  If comparison made with 2023 or\nbeyond do not award C1",
+     "scheme": "Shown  M1  for beginning to find K eg 2400 = K × 2000 or K = 1.2 oe  M marks can be awarded in either\norder\nM1  For a correct method to find the value for 2021 or 2022, eg  1.2² = 1.44\n2400 × \"1.2\" ( = 2880) or 2400 × (\"1.2\")  ( = 3456 ) or\n\n2000 × (\"1.2\") ( = 2880 ) or 2000 × (\"1.2\") ( = 3456 )\n2  3\n\nOR method to find rate leading to 3000 in 2022, eg\n3000\n3  ( = 1.144...)\n2000\n\nC1  for comparative figures eg 3456 (and 3000)  3000 need not be restated to award\nOR 3000 ÷ 2880 = 1.041... and 1.2  this mark\nOR 1.144… and 1.2  If comparison made with 2023 or\nbeyond do not award C1",
+     "schemeSource": "exact",
      "topic": "Geometry and measures"
     }
    ]
@@ -405,8 +439,9 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "page": 18,
      "kind": "numeric",
      "scheme": "17  P1  BG  Other methods are possible for all P\nfor a process to use trigonometry to find BG eg  = tan 27 or  marks but only award the mark at\n\n7.64(28…)  the point of an equation with the\ncorrect length or angle as the only\nunknown\nP1  15\nfor a process to find to find EG eg  = cos 52 or 24.3(64...)\nEG\n\nP1  for a process to use trigonometry to find angle GEB eg\n\"7.64...\"\ntan GEB =\n\"24.36...\"\nA1  for an answer in the range 17 to 17.6",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 17.0
+     "numeric": 17
     }
    ]
   },
@@ -418,10 +453,11 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:20",
      "label": "20",
      "marks": 5,
-     "prompt": "y\n\nL\n\nA\nD\n\nO  B  x\n\nIn the diagram\nA is the point (0, 8)\nB is the point (16, 0)\nThe point D divides the line segment AB in the ratio 1 : 3\nThe line L passes through D.\nThe gradient of L is 3\nL passes through the point with coordinates (–2, f )\nShow that f < –4",
+     "prompt": "In the diagram\nA is the point (0, 8)\nB is the point (16, 0)\nThe point D divides the line segment AB in the ratio 1 : 3\nThe line L passes through D.\nThe gradient of L is 3\nL passes through the point with coordinates (−2, f)\nShow that f < −4",
      "page": 19,
      "kind": "self",
-     "scheme": "Shown  M1  1  First two marks may be seen in\nfor the method to find a coordinate of the point D eg   16 ( = 4 ) or  either order\n1+ 3\nAccept 4 or 6 stated or (6, 4)\n\n 8 ( = 6 ) or (4, 6) labelled\n1+ 3\n\nM1  for a correct form for L, eg y = 3x + c  Condone incorrect value for c when\nawarding this mark\n[6] − f\nOR a correct equation for the gradient of L, eg  = 3\n[4] − −2\n\nM1  for correct substitution to find c  [4] must be clearly identified as the\neg [6] = 3  [4] + c or y − [6] = 3 ( x − [4])  x-coordinate of D if incorrect\nAward of this mark implies the\nor c = [6] − [4] 3 ( = −0.928...)  previous mark\n[6] must be clearly identified as the\nOR starts to rearrange equation for gradient, eg [6] − f = ([4] − −2 ) 3  y-coordinate of D if incorrect\n\nM1  (dep on previous M1)for the method to substitute in ‒2, eg\n3  ( −2 ) + [6] − 3  [4] or  3  ( −2 ) + [c]  [c] must be clearly what they have\nfound to be the y-intercept of L and\nOR a correct unevaluated expression for f, eg f = [6] − ([4] − −2 ) 3  must have come from correct\nprocesses to evaluate\n\nC1  accurate figure eg f = −4.39... or −4.39...  −4  −4.39... must come from correct\nworking\nAccept −4.4 or better",
+     "scheme": "Shown  M1  1  First two marks may be seen in\nfor the method to find a coordinate of the point D eg  × 16 ( = 4 ) or  either order\n1+ 3\nAccept 4 or 6 stated or (6, 4)\n\n× 8 ( = 6 ) or (4, 6) labelled\n1+ 3\n\nM1  for a correct form for L, eg y = 3x + c  Condone incorrect value for c when\nawarding this mark\n[6] − f\nOR a correct equation for the gradient of L, eg  = 3\n[4] − −2\n\nM1  for correct substitution to find c  [4] must be clearly identified as the\neg [6] = 3 × [4] + c or y − [6] = 3 ( x − [4])  x-coordinate of D if incorrect\nAward of this mark implies the\nor c = [6] − [4] 3 ( = −0.928...)  previous mark\n[6] must be clearly identified as the\nOR starts to rearrange equation for gradient, eg [6] − f = ([4] − −2 ) 3  y-coordinate of D if incorrect\n\nM1  (dep on previous M1)for the method to substitute in ‒2, eg\n3 × ( −2 ) + [6] − 3 × [4] or  3 × ( −2 ) + [c]  [c] must be clearly what they have\nfound to be the y-intercept of L and\nOR a correct unevaluated expression for f, eg f = [6] − ([4] − −2 ) 3  must have come from correct\nprocesses to evaluate\n\nC1  accurate figure eg f = −4.39... or −4.39... < −4  −4.39... must come from correct\nworking\nAccept −4.4 or better",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
      "seePaper": true
     }
@@ -438,7 +474,8 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "prompt": "Solve (3x – 1)(5x + 2) < 0",
      "page": 20,
      "kind": "self",
-     "scheme": "2  1  B2  2  1  May be given as two separate\n− x  for −  x  oe  inequalities\n5  3  5  3\n\n(B1  2  1  Accept −0.4 and 0.33 (or better)\nFor correct critical values of −  and  oe)\n5  3",
+     "scheme": "Answer: −2/5 < x < 1/3\n\n2  1  B2  2  1  May be given as two separate\n− <x<  for −  <x<  oe  inequalities\n5  3  5  3\n\n(B1  2  1  Accept −0.4 and 0.33 (or better)\nFor correct critical values of −  and  oe)\n5  3",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]
@@ -451,10 +488,11 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:22",
      "label": "22",
      "marks": 3,
-     "prompt": "The equation of circle A is x2 + y2 = 25\n\n0\u001b\nCircle A is translated by the vector  \u0019 to give circle B.\n\n2 \u001a\nSketch circle B.\nShow the coordinates of\nthe centre of circle B\nand the points where circle B meets the y-axis.\n\ny\n\nO  x",
+     "prompt": "The equation of circle A is x² + y² = 25\n\nCircle A is translated by the vector (0, −2) (column vector: 0 across, −2 up) to give circle B.\n\nSketch circle B.\nShow the coordinates of\nthe centre of circle B\nand the points where circle B meets the y-axis.",
      "page": 21,
      "kind": "self",
-     "scheme": "Circle radius 5  B3  for a correct sketch of a circle with centre (0, –2) and intercepts (0, 3)  See diagram at end of scheme\ncentre (0, –2) and  and (0, –7) labelled  Allow freehand circles\n(0, 3) and (0, –7)  Ignore intersections with x axis for\nlabelled  (B2  for a sketch of a circle with two of the 3 points indicated, or for a sketch  all marks\nof a circle with correct centre and radius of 5 labelled or stated)  Accepts points marked with correct\ny-coordinate, eg −2 on y-axis for\n(B1  for a sketch of a circle with the correct centre or states correct centre  centre\nand radius, but does not sketch)",
+     "scheme": "Answer: circle radius 5, centre (0, −2), meeting the y-axis at (0, 3) and (0, −7)\n\nCircle radius 5  B3  for a correct sketch of a circle with centre (0, –2) and intercepts (0, 3)  See diagram at end of scheme\ncentre (0, –2) and  and (0, –7) labelled  Allow freehand circles\n(0, 3) and (0, –7)  Ignore intersections with x axis for\nlabelled  (B2  for a sketch of a circle with two of the 3 points indicated, or for a sketch  all marks\nof a circle with correct centre and radius of 5 labelled or stated)  Accepts points marked with correct\ny-coordinate, eg −2 on y-axis for\n(B1  for a sketch of a circle with the correct centre or states correct centre  centre\nand radius, but does not sketch)",
+     "schemeSource": "exact",
      "topic": "Geometry and measures"
     }
    ]
@@ -467,12 +505,13 @@ export const edexcel_1ma1_paper2h: RealPaper = {
      "id": "edexcel-1ma1-paper2h:23",
      "label": "23",
      "marks": 5,
-     "prompt": "ABCD is a quadrilateral.\n\nA  B\n\n125\n6 cm\n\nD  12 cm\n\n9 cm\n\nC\n\nFind the size of angle ABC.\nGive your answer correct to the nearest degree.\n\n°\n\n\n\n",
+     "prompt": "ABCD is a quadrilateral (the side lengths and angles are on the diagram in the paper: 6 cm, 9 cm, 12 cm and 125°).\nFind the size of angle ABC.\nGive your answer correct to the nearest degree.\n\n____ °",
      "page": 22,
      "kind": "numeric",
-     "scheme": "73  P1  for process to work with cosine\n(  )\neg DB = 12 + 9 − 2  12  9  cos 60 ( = 117 )\n2  2  2\n\nP1  for a correct order of operations to find DB, eg  225 − 216  cos 60  117 = 3 13\nor  \"117\" ( = 10.8...)  Can be implied by correct use in\nsubsequent calculations\n\nP1  sin CBD  sin 60  3rd and 4th P1 can be awarded in any\nfor working with sine rule and 60° eg  =  or  order\n9  [ DB]\n[DB] must be clearly identified but\nsin CBD = 0.720... or CBD = 46.10...  may not be correct, but cannot be 6\nor 9 or 12\nP1  sin ABD  sin125  CBD and ABD may be given as a\nfor working with sine rule and 125° eg  =  or  variable, award marks unless\n6  [ DB]\ncontradicted\nsin ABD = 0.454... or ABD = 27.02...\n\nA1  for answer within the range 72.5 to 73.5\nQuestion 12a\nQu15\n\nR\nQu22\n\n(0, 3)\n\n× (0, −2)\n\n(0, −7)\nModifications to the mark scheme for Modified Large Print (MLP) papers: 1MA1 2H\n\nOnly mark scheme amendments are shown where the enlargement or modification of the paper requires a change in the mark scheme.\nNotes apply to both MLP papers and Braille papers unless otherwise stated.\n\nThe following tolerances should be accepted on marking MLP papers, unless otherwise stated below:\nAngles: ±5º\nMeasurements of length: ±5 mm\nPAPER: 1MA1_2H\nQuestion  Modification  Mark scheme notes\n3  Wording changed: ‘Look at the diagram for Question 3 in the Diagram Booklet. It shows a  Standard mark scheme\nplan…’\nm changed to metres.\nWording added: ‘The triangle has a base of 16 metres and a height of 14 metres.’\nDiagram enlarged. Open headed arrows.\n\n4  Wording changed: ‘Look at the diagram for Question 4 in the Diagram Booklet. It shows point C  Standard mark scheme\non a grid. 1 square length on the grid represents 1cm.’\nWording added: ‘in the Diagram Booklet’\nDiagram enlarged. Cross changed to a solid dot.\n\n6  Wording changed: ‘Two lists of numbers are shown below.’  Standard mark scheme\nBraille: Wording changed ‘Below are two lists of numbers’\n\n7  Wording changed: ‘Look at the diagram for Question 7 in the Diagram Booklet. It shows right-  Standard mark scheme\nangled triangle ABC. AB = 7cm BC = 4cm Angle BCA = x° Angle ABC is a right angle.’\nDiagram enlarged. Angles moved outside of angle arcs and angle arcs made smaller.\n\n9  Letter ‘a’ changed to ‘p’ and letter ‘b’ changed to ‘q’  Standard mark scheme but note the\nchange of letters\n\n11  (a)  Wording added: ‘Look at the diagram for Question 11 in the Diagram Booklet. It shows an  Standard mark scheme but note change\nincomplete probability tree …",
+     "scheme": "73  P1  for process to work with cosine\n(  )\neg DB = 12 + 9 − 2 × 12 × 9 × cos 60 ( = 117 )\n2  2  2\n\nP1  for a correct order of operations to find DB, eg  225 − 216 × cos 60  117 = 3 13\nor  \"117\" ( = 10.8...)  Can be implied by correct use in\nsubsequent calculations\n\nP1  sin CBD  sin 60  3rd and 4th P1 can be awarded in any\nfor working with sine rule and 60° eg  =  or  order\n9  [ DB]\n[DB] must be clearly identified but\nsin CBD = 0.720... or CBD = 46.10...  may not be correct, but cannot be 6\nor 9 or 12\nP1  sin ABD  sin125  CBD and ABD may be given as a\nfor working with sine rule and 125° eg  =  or  variable, award marks unless\n6  [ DB]\ncontradicted\nsin ABD = 0.454... or ABD = 27.02...\n\nA1  for answer within the range 72.5 to 73.5\nQuestion 12a\nQu15\n\nR\nQu22\n\n(0, 3)\n\n× (0, −2)\n\n(0, −7)\nModifications to the mark scheme for Modified Large Print (MLP) papers: 1MA1 2H\n\nOnly mark scheme amendments are shown where the enlargement or modification of the paper requires a change in the mark scheme.\nNotes apply to both MLP papers and Braille papers unless otherwise stated.\n\nThe following tolerances should be accepted on marking MLP papers, unless otherwise stated below:\nAngles: ±5º\nMeasurements of length: ±5 mm\nPAPER: 1MA1_2H\nQuestion  Modification  Mark scheme notes\n3  Wording changed: ‘Look at the diagram for Question 3 in the Diagram Booklet. It shows a  Standard mark scheme\nplan…’\nm changed to metres.\nWording added: ‘The triangle has a base of 16 metres and a height of 14 metres.’\nDiagram enlarged. Open headed arrows.\n\n4  Wording changed: ‘Look at the diagram for Question 4 in the Diagram Booklet. It shows point C  Standard mark scheme\non a grid. 1 square length on the grid represents 1cm.’\nWording added: ‘in the Diagram Booklet’\nDiagram enlarged. Cross changed to a solid dot.\n\n6  Wording changed: ‘Two lists of numbers are shown below.’  Standard mark scheme\nBraille: Wording changed ‘Below are two lists of numbers’\n\n7  Wording changed: ‘Look at the diagram for Question 7 in the Diagram Booklet. It shows right-  Standard mark scheme\nangled triangle ABC. AB = 7cm BC = 4cm Angle BCA = x° Angle ABC is a right angle.’\nDiagram enlarged. Angles moved outside of angle arcs and angle arcs made smaller.\n\n9  Letter ‘a’ changed to ‘p’ and letter ‘b’ changed to ‘q’  Standard mark scheme but note the\nchange of letters\n\n11  (a)  Wording added: ‘Look at the diagram for Question 11 in the Diagram Booklet. It shows an  Standard mark scheme but note change\nincomplete probability tree …",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 73.0
+     "numeric": 73
     }
    ]
   }

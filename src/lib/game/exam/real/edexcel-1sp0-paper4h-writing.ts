@@ -9,16 +9,16 @@ export const edexcel_1sp0_paper4h_writing: RealPaper = {
  "series": "June 2025",
  "title": "Spanish 1SP0 Paper 4H · Writing",
  "minutes": 80,
- "totalMarks": 108,
+ "totalMarks": 60,
  "coverMarks": 60,
  "qp": "/papers/spanish/edexcel-1sp0-paper4h-writing-jun2025-qp.pdf",
  "ms": "/papers/spanish/edexcel-1sp0-paper4h-writing-jun2025-ms.pdf",
  "insert": null,
- "choice": true,
+ "choice": false,
  "questions": [
   {
    "number": 1,
-   "marks": 40,
+   "marks": 20,
    "parts": [
     {
      "id": "edexcel-1sp0-paper4h-writing:1(a)",
@@ -27,7 +27,8 @@ export const edexcel_1sp0_paper4h_writing: RealPaper = {
      "prompt": "Escribe un email a tu amigo Miguel.\nDebes mencionar los siguientes puntos:\n•  los problemas con el medioambiente\n•  tu opinión sobre los coches eléctricos\n•  lo que hiciste para el medioambiente en el pasado\n•  cómo vas a viajar en el futuro.\nEscribe aproximadamente 80–90 palabras en español.\n\nIf you answer Question 1(b) put a cross in the box  .\n\nHealthy lifestyle",
      "page": 2,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "Question 1 – Higher tier (20 marks)\n\nFor this question, students’ work is marked by Pearson using assessment\ncriteria given in two mark grids:\n• communication and content\n• linguistic knowledge and accuracy.\n\nThis question contains four bullet points that form part of the task. Failure to cover all\nfour bullet points will impact on the marks that can be awarded against the\nrequirements of the two mark grids for this question (see below). There is no\nrequirement for even coverage of the bullet points in any band. However in order to\naccess marks in the top band students must refer to all bullet points and meet the\nother assessment criteria in the top band.\n\nThis question requires students to write in an informal style (see Additional guidance\nbelow).\n\nThe student is expected to produce 80–90 words for this task. The number of words is\napproximate and students will not be penalised for writing more or fewer words than\nrecommended in the word count. All work produced by the student must be marked.",
+     "schemeSource": "heading",
      "topic": "Identity and culture"
     },
     {
@@ -37,14 +38,16 @@ export const edexcel_1sp0_paper4h_writing: RealPaper = {
      "prompt": "Escribe un email a tu amiga Paula.\nDebes mencionar los siguientes puntos:\n•  una actividad física que haces normalmente\n•  tu opinión sobre la comida rápida\n•  el deporte que hiciste la semana pasada\n•  lo que vas a hacer para estar sano en el futuro.\nEscribe aproximadamente 80–90 palabras en español.\n\nChoose either Question 2(a) or Question 2(b).\n\nIf you answer Question 2(a) put a cross in the box  .\n\nSchool trips",
      "page": 4,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "Question 1 – Higher tier (20 marks)\n\nFor this question, students’ work is marked by Pearson using assessment\ncriteria given in two mark grids:\n• communication and content\n• linguistic knowledge and accuracy.\n\nThis question contains four bullet points that form part of the task. Failure to cover all\nfour bullet points will impact on the marks that can be awarded against the\nrequirements of the two mark grids for this question (see below). There is no\nrequirement for even coverage of the bullet points in any band. However in order to\naccess marks in the top band students must refer to all bullet points and meet the\nother assessment criteria in the top band.\n\nThis question requires students to write in an informal style (see Additional guidance\nbelow).\n\nThe student is expected to produce 80–90 words for this task. The number of words is\napproximate and students will not be penalised for writing more or fewer words than\nrecommended in the word count. All work produced by the student must be marked.",
+     "schemeSource": "heading",
      "topic": "School"
     }
-   ]
+   ],
+   "alternatives": true
   },
   {
    "number": 2,
-   "marks": 56,
+   "marks": 28,
    "parts": [
     {
      "id": "edexcel-1sp0-paper4h-writing:2(a)",
@@ -53,7 +56,8 @@ export const edexcel_1sp0_paper4h_writing: RealPaper = {
      "prompt": "Escribe un artículo para interesar a la gente en las excursiones escolares.\nDebes mencionar los siguientes puntos:\n•  tu opinión sobre las excursiones escolares\n•  una excursión con tu colegio en el pasado\n•  si es importante viajar al extranjero\n•  un sitio que quieres visitar en el futuro.\nJustifica tus ideas y tus opiniones.\nEscribe aproximadamente 130–150 palabras en español.\n\nIf you answer Question 2(b) put a cross in the box  .\n\nFriendships",
      "page": 6,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "Question 2 – Higher tier (28 marks)\n\nFor this question, students’ work is marked by Pearson using assessment\ncriteria contained in two mark grids:\n• communication and content\n• linguistic knowledge and accuracy.\n\nThis question contains four bullet points that form part of the task. Failure to cover all 4\nbullet points will impact on the marks that can be awarded against the requirements of\nthe two mark grids for this question (see below). There is no requirement for even\ncoverage of the bullet points in any band. However in order to access marks in the top\nband students must refer to all bullet points and meet the other assessment criteria in\nthe top band.\n\nThis question requires students to write in a formal register/style (see Additional\nguidance below).\n\nThe student is expected to produce 130–150 words for this task. The number of words\nis approximate and students will not be penalised for writing more or fewer words\nthan recommended in the word count. All work produced by the student must be\nmarked.",
+     "schemeSource": "heading",
      "topic": "School"
     },
     {
@@ -63,10 +67,12 @@ export const edexcel_1sp0_paper4h_writing: RealPaper = {
      "prompt": "Escribe un artículo para convencer a la gente de la importancia de los amigos.\nDebes mencionar los siguientes puntos:\n•  lo que piensas de tener amigos\n•  algo que hiciste con otros jóvenes en el pasado\n•  si es importante pasar tiempo con otras personas\n•  lo que quieres hacer con amigos después de los exámenes.\nJustifica tus ideas y tus opiniones.\nEscribe aproximadamente 130–150 palabras en español.\n\nMy town",
      "page": 9,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "Question 2 – Higher tier (28 marks)\n\nFor this question, students’ work is marked by Pearson using assessment\ncriteria contained in two mark grids:\n• communication and content\n• linguistic knowledge and accuracy.\n\nThis question contains four bullet points that form part of the task. Failure to cover all 4\nbullet points will impact on the marks that can be awarded against the requirements of\nthe two mark grids for this question (see below). There is no requirement for even\ncoverage of the bullet points in any band. However in order to access marks in the top\nband students must refer to all bullet points and meet the other assessment criteria in\nthe top band.\n\nThis question requires students to write in a formal register/style (see Additional\nguidance below).\n\nThe student is expected to produce 130–150 words for this task. The number of words\nis approximate and students will not be penalised for writing more or fewer words\nthan recommended in the word count. All work produced by the student must be\nmarked.",
+     "schemeSource": "heading",
      "topic": "Home, town and travel"
     }
-   ]
+   ],
+   "alternatives": true
   },
   {
    "number": 3,
@@ -79,7 +85,8 @@ export const edexcel_1sp0_paper4h_writing: RealPaper = {
      "prompt": "Traduce el texto siguiente al español.\n\nThe good thing about where I live is that we have green spaces. We can do activities\nlike walking and horse riding. Two months ago, my family and I went to an open-air\ncinema in the main square. To improve our town, a library will open at the end of\nthe year.",
      "page": 12,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "Question 3 – Higher tier (12 marks)\n\nTranslation mark grid and example response\n\nThe Translation mark grid assesses both communication and content and linguistic\nknowledge and accuracy. When awarding marks, the student’s response across the whole\nparagraph should be considered.\n\nMark  Descriptor\n0  No rewardable material\n1–3  •  Meaning of some individual words or phrases is conveyed; frequent\nomissions/incorrectly communicated words and phrases/mother-tongue\ninterference\n•  Some straightforward structures are accurate but regular errors prevent\nmeaning of individual phrases/sentences being conveyed\n4–6  •  The meaning of the passage is partially communicated, some words and\nphrases are omitted/incorrectly communicated\n•  Language and structures are accurate in some phrases and sentences but\nsome errors prevent meaning being conveyed\n7–9  •  The meaning of the passage is mostly communicated, occasional words are\nomitted/incorrectly communicated\n•  Mostly accurate language and structures; errors occur that occasionally\nhinder clarity and in rare instances prevent meaning being conveyed\n10–12  •  The meaning of the passage is fully communicated\n•  Consistently accurate language and structures, any errors do not hinder\nclarity\n\nQuestion  Example response\n\nLo bueno de donde vivo es que tenemos zonas verdes.\nPodemos hacer actividades como ir de paseo o montar a\ncaballo. Hace dos meses, mi familia y yo fuimos a un cine\nal aire libre en la plaza principal. Para mejorar nuestro\npueblo, una biblioteca abrirá al final del año.\n\nAdditional guidance\n\nErrors: students are not expected to produce perfect, error-free writing in order to\naccess the top band as errors are also made by native speakers. The mark grid\ndescribes the frequency of errors and the impact that errors have on coherence.\n\nErrors that do not hinder clarity:\n• errors that do not affect meaning, for example gender, adjectival agreements\n• infrequent errors that do not distract the reader from the content and which result\nin coherent writing.\nErrors that hinder clarity:\n\n• errors that make writing difficult to understand immediately (even if the meaning is\neventually understood)/errors that force readers to re-read in order to understand\nwhat is meant, for example inappropriate tense formation, mismatch of subject and\nthe possessive adjective\n• frequent errors hinder clarity as they will distract the reader from the content of\nthe writing.\n\nErrors that prevent meaning being conveyed:\n• errors that mean the reader cannot understand the message\n• errors that convey the wrong message\n• errors that make it unclear who is carrying out the action, for example using the\nincorrect person of the verb\n• mother-tongue interference.\n\nNB: these are examples only and do not constitute a finite list.",
+     "schemeSource": "heading",
      "topic": "Home, town and travel"
     }
    ]

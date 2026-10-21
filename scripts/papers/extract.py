@@ -2,10 +2,14 @@
 
 Run: python3 scripts/papers/extract.py  (needs poppler-utils `pdftotext`).
 Writes src/lib/game/exam/real/<paper-id>.ts and src/lib/game/exam/real/index.ts.
-Heuristic: question numbers, marks and sub-parts are reliable; option lists and
-numeric answers are only auto-marked when the scheme states them plainly.
+Question numbers, marks and sub-parts come from the papers; MCQ answers come from
+the scheme; numeric auto-marks only from the hand-checked VERIFIED_NUMERIC table.
+Powers are recovered from glyph positions (richtext.py). Needs PyMuPDF.
 """
 import json, os, re, subprocess, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import richtext  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PAPERS = os.path.join(ROOT, "public", "papers")
@@ -135,7 +139,7 @@ ROMAN = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"]
 
 def dedent_page(page):
     """Pearson pages carry a 'DO NOT WRITE IN THIS AREA' margin that shifts the text right."""
-    lines = [l.replace("\t", " ") for l in page.split("\n")]
+    lines = [re.sub(r"\(\s+([a-z]|[ivx]+)\s*\)|\(([a-z]|[ivx]+)\s+\)", lambda m: f"({m.group(1) or m.group(2)})", l.replace("\t", " ")) for l in page.split("\n")]
     real = [l for l in lines if l.strip() and not JUNK.search(l)]
     if not real:
         return lines
@@ -179,7 +183,7 @@ def parse_qp(text, board):
                     label = f"{n}" + (m.group(2) or "") + (m.group(3) or "")
                     started = (n, label, m.group(4))
                 elif qnum and cur is not None:
-                    m2 = re.match(r"^\s{0,14}(\([a-z]\))?\s*(\([ivx]+\))?\s+(\S.*)$", line)
+                    m2 = re.match(r"^\s{0,30}(\([a-z]\))?\s*(\([ivx]+\))?\s+(\S.*)$", line)
                     if m2 and (m2.group(1) or m2.group(2)):
                         letter = m2.group(1)
                         roman = m2.group(2)
@@ -294,7 +298,7 @@ def parse_ms(text, board):
                     label, rest = lab if "." not in lab else f"{lab[:2]}.{int(lab[3:])}", m.group(2)
                     qnum = n
         else:
-            m = re.match(r"^\s{0,3}(?:Q\s*)?(\d{1,2})\s*(\([a-z]\))?\s*(\([ivx]+\))?(?=\s)(.*)$", line)
+            m = re.match(r"^\s{0,6}(?:Q\s*)?(\d{1,2})\s*(\([a-z]\))?\s*(\([ivx]+\))?(?=\s)(.*)$", line)
             if m and qnum <= int(m.group(1)) <= qnum + 1 and not re.search(r"^\s*\d+\s+(All|The|If|Examiners|Mark|Where|When|Crossed|Choice|Incorrect|Follow|Ignoring|Probability|Linear|Range|Number|Use|Word|Misread|Parts)\b", line):
                 qnum = int(m.group(1))
                 label, rest = f"{qnum}{m.group(2) or ''}{m.group(3) or ''}", m.group(4)
@@ -325,21 +329,31 @@ def parse_ms(text, board):
     return out
 
 
-def ms_lookup(ms, label, board):
+def heading_sections(ms_text):
+    """Level-of-response schemes (English Literature, Spanish writing) are headed 'Question 28.1' or 'Question 1 – Higher tier'."""
+    out = {}
+    marks = [(m.start(), m.group(1)) for m in re.finditer(r"(?m)^\s{0,4}(?:Section [A-C]:[^\n]*?)?Question (\d+(?:\.\d)?)\b", ms_text)]
+    for i, (pos, lab) in enumerate(marks):
+        end = marks[i + 1][0] if i + 1 < len(marks) else len(ms_text)
+        chunk = clean_lines(ms_text[pos:end].split("\n"))
+        if len(chunk) > 80:
+            out.setdefault(lab, chunk[:4000] + (" …" if len(chunk) > 4000 else ""))
+    return out
+
+
+def ms_lookup(ms, label, board, headed=None):
+    """Returns (scheme text, source) where source is exact | children | heading | ''."""
     if label in ms:
-        return ms[label]
-    if board == "AQA":
-        base = label.split(".")[0]
-        if base in ms:
-            return ms[base]
-    else:
-        # MS sometimes splits 4(i) where the QP shows 4 then (i)
-        m = re.match(r"^(\d+)(\([a-z]\))?(\([ivx]+\))?$", label)
-        if m and m.group(3) and f"{m.group(1)}{m.group(3)}" in ms:
-            return ms[f"{m.group(1)}{m.group(3)}"]
-        if m and f"{m.group(1)}" in ms:
-            return ms[m.group(1)]
-    return ""
+        return ms[label], "exact"
+    kids = [k for k in ms if k.startswith(label) and k != label and k[len(label)] in "(."]
+    if kids:
+        return "\n\n".join(f"{k}\n{ms[k]}" for k in kids), "children"
+    headed = headed or {}
+    num = label.split(".")[0].lstrip("0") if board == "AQA" else re.match(r"\d+", label).group(0)
+    for cand in (label.lstrip("0"), num):
+        if cand in headed:
+            return headed[cand], "heading"
+    return "", ""
 
 
 def mcq_answer(scheme, options, board):
@@ -363,6 +377,88 @@ def mcq_answer(scheme, options, board):
 
 
 NUM = r"-?\d[\d,]*(?:\.\d+)?"
+
+
+# Final answers that were checked by hand against the rendered mark-scheme pages
+# (value first, then any other answers the scheme allows). Only these parts are
+# auto-marked as numeric; everything else is self-marked against the scheme.
+VERIFIED_NUMERIC = {
+    "aqa-8464-biology-paper2h:03.6": [105],
+    "aqa-8464-physics-paper1h:02.1": [920],
+    "aqa-8464-physics-paper1h:03.2": [6],
+    "aqa-8464-physics-paper1h:05.5": [2.5],
+    "aqa-8464-physics-paper2h:01.2": [2.2, 2.24],  # MS: v = 2.2… (1 500 000 / 670 000 = 2.238…)
+    "aqa-8464-physics-paper2h:01.3": [1700],
+    "aqa-8464-physics-paper2h:02.1": [6.75, 6.8],  # MS: a = 6.75, allow 6.8 (was wrongly stored as 2)
+    "aqa-8464-physics-paper2h:05.4": [0.375, 0.38],
+    "edexcel-1ma1-paper1h:1": [6],
+    "edexcel-1ma1-paper1h:2(a)": [0.4],
+    "edexcel-1ma1-paper1h:2(b)": [150],
+    "edexcel-1ma1-paper1h:4(a)": [4.5],
+    "edexcel-1ma1-paper1h:6": [12],
+    "edexcel-1ma1-paper1h:11": [125],
+    "edexcel-1ma1-paper1h:12(b)": [220],
+    "edexcel-1ma1-paper2h:1(b)": [150],
+    "edexcel-1ma1-paper2h:3(a)": [6],
+    "edexcel-1ma1-paper2h:6": [370],
+    "edexcel-1ma1-paper2h:7": [60.3],
+    "edexcel-1ma1-paper2h:8": [25],
+    "edexcel-1ma1-paper2h:11(b)": [0.29],
+    "edexcel-1ma1-paper2h:19": [17],
+    "edexcel-1ma1-paper2h:23": [73],
+    "edexcel-1ma1-paper3h:3": [60],
+    "edexcel-1ma1-paper3h:6": [630],
+    "edexcel-1ma1-paper3h:8": [44.9],
+    "edexcel-1ma1-paper3h:10": [12.6],
+    "edexcel-1ma1-paper3h:11(a)": [2],
+    "edexcel-1ma1-paper3h:12(b)": [160],
+    "edexcel-1ma1-paper3h:14": [23.3],
+    "edexcel-1ma1-paper3h:16": [15],
+    "edexcel-1ma1-paper3h:19": [633],
+    "edexcel-1ma1-paper3h:20": [57],
+}
+# Symbol-font glyphs (Private Use Area) that pdftotext passes through.
+PUA = str.maketrans({"\uf0b4": "×", "\uf0b8": "÷", "\uf070": "π", "\uf0a2": "", "\uf0b1": "±", "\uf02d": "−",
+                     "\uf03d": "=", "\uf02b": "+", "\uf0a3": "≤", "\uf0b3": "≥", "\uf0d6": "√", "\uf071": "θ",
+                     "\uf0b0": "°", "\uf061": "α", "\uf0e6": "", "\uf0f6": "", "\uf0e8": "", "\uf0f8": "", "\uf0e7": "", "\uf0f7": "",
+                     "\uf03c": "<", "\uf050": "✓", "\uf05b": "[", "\uf05d": "]", "\uf06c": "λ", "\uf06d": "μ",
+                     "\uf084": "≤", "\uf0a1": "○", "\uf0d0": "∠", "\uf0ee": "", "\uf0fa": "•", "\uf0fc": "✓"})
+
+
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "overrides.json"), encoding="utf-8") as _fh:
+    OVERRIDES = {k: v for k, v in json.load(_fh).items() if not k.startswith("_")}
+
+
+def apply_override(part, o):
+    """Hand-checked fixes (overrides.json): retyped maths, moved context, verified answers."""
+    if not o:
+        return
+    for key in ("prompt", "lead"):
+        if key in o:
+            part[key] = o[key]
+    if "answer" in o:
+        part["scheme"] = f"Answer: {o['answer']}\n\n{part['scheme']}"
+        part["schemeSource"] = part.get("schemeSource") if part.get("schemeSource") != "pdf" else "manual"
+    if "numeric" in o:
+        part["kind"] = "numeric"
+        part["numeric"] = o["numeric"][0]
+        if len(o["numeric"]) > 1:
+            part["accept"] = o["numeric"][1:]
+        else:
+            part.pop("accept", None)
+    if o.get("kind") == "self":
+        part["kind"] = "self"
+        part.pop("numeric", None)
+        part.pop("accept", None)
+
+
+def tidy(text, rich):
+    if not text:
+        return text
+    text = richtext.repair(text.translate(PUA), rich)
+    # Standard form with a negative power, e.g. "× 10−3" or "× 10–7" -> "× 10⁻³".
+    text = re.sub(r"× 10\s?[−–-](\d{1,2})\b", lambda m: "× 10⁻" + m.group(1).translate(richtext.SUP), text)
+    return text
 
 
 def numeric_answer(prompt, scheme, board, marks):
@@ -416,6 +512,9 @@ def build(stem, subj_dir, files):
         minutes = 45  # 40 minutes plus 5 minutes' reading time (front cover)
     raw = parse_qp(qp_text, board)
     ms = parse_ms(ms_text, board)
+    headed = heading_sections(ms_text)
+    rich = richtext.rich_lines(os.path.join(PAPERS, subj_dir, qp_file))
+    rich_ms = richtext.rich_lines(os.path.join(PAPERS, subj_dir, files["ms"])) if "ms" in files else {}
     qp_url = f"/papers/{subj_dir}/{qp_file}"
     ins_url = f"/papers/{subj_dir}/{files['ins']}" if "ins" in files else None
     questions = {}
@@ -424,15 +523,27 @@ def build(stem, subj_dir, files):
         text = clean_lines(p["lines"])
         if p["marks"] == 0 and board == "AQA" and "." not in p["label"] and not re.search(r"\?", text[-200:] if text else ""):
             # Context paragraph before 0 1 . 1 etc.
-            pending_lead += ("\n\n" if pending_lead else "") + text
+            pending_lead += ("\n\n" if pending_lead else "") + tidy(text, rich)
             continue
         if p["marks"] == 0 and board != "AQA":
-            pending_lead += ("\n\n" if pending_lead else "") + text
+            pending_lead += ("\n\n" if pending_lead else "") + tidy(text, rich)
             continue
-        scheme = ms_lookup(ms, p["label"], board)
+        scheme, source = ms_lookup(ms, p["label"], board, headed)
         opts = options_for(text, board)
         ans = mcq_answer(scheme, opts, board)
-        num = None if opts else numeric_answer(text, scheme, board, p["marks"])
+        pid = f"{stem}:{p['label']}"
+        verified = VERIFIED_NUMERIC.get(pid)
+        num = None if opts or not verified else verified[0]
+        text = tidy(text, rich)
+        scheme = tidy(scheme, rich_ms)
+        if opts:
+            opts = [tidy(o, rich) for o in opts]
+            if any(len(o) > 3 for o in opts):  # stray page numbers caught as options
+                opts = [o for o in opts if not re.fullmatch(r"\d{1,2}", o)]
+        if ans:
+            ans = [tidy(a, rich) for a in ans]
+            if opts and not all(a in opts for a in ans):
+                ans = None
         kind = "mcq" if (opts and ans) else ("numeric" if num is not None else "self")
         part = {
             "id": f"{stem}:{p['label']}",
@@ -442,6 +553,7 @@ def build(stem, subj_dir, files):
             "page": p["page"],
             "kind": kind,
             "scheme": scheme or "See the official mark scheme PDF for this part.",
+            "schemeSource": source or "pdf",
             "topic": topic_for(subject, scheme, text),
         }
         if pending_lead:
@@ -455,12 +567,26 @@ def build(stem, subj_dir, files):
                 part["prompt"] = text[: cut.end()].strip()
         if num is not None:
             part["numeric"] = num
+            if len(verified) > 1:
+                part["accept"] = verified[1:]
         if FIG.search(text) or (part.get("lead") and FIG.search(part["lead"])):
             part["seePaper"] = True
         if p.get("spag"):
             part["spag"] = p["spag"]
         questions.setdefault(p["q"], []).append(part)
-    qs = [{"number": n, "marks": sum(x["marks"] + x.get("spag", 0) for x in ps), "parts": ps} for n, ps in sorted(questions.items())]
+    for ps in questions.values():
+        for part in ps:
+            apply_override(part, OVERRIDES.get(part["id"]))
+    official = {int(a): int(b) for a, b in re.findall(r"\(Total for Question (\d+) (?:is|=) (\d+) marks?\)", qp_text)}
+    qs = []
+    for n, ps in sorted(questions.items()):
+        own = sum(x["marks"] + x.get("spag", 0) for x in ps)
+        q = {"number": n, "marks": own, "parts": ps}
+        if n in official and own > official[n] and len({x["marks"] for x in ps}) == 1:
+            # Either/or tasks: each option carries the full question total.
+            q["marks"] = official[n]
+            q["alternatives"] = True
+        qs.append(q)
     total = sum(q["marks"] for q in qs)
     cover_total = re.search(r"maximum mark for this paper is (\d+)|total mark for this paper is (\d+)", qp_text, re.I)
     return {

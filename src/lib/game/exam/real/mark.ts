@@ -37,7 +37,8 @@ export function autoMark(part: RealPart, answer: RealAnswer | undefined): number
   }
   if (part.kind === "numeric" && typeof part.numeric === "number") {
     const text = typeof answer === "string" ? answer : "";
-    return numericCorrect(text, part.numeric) ? part.marks : null;
+    const targets = [part.numeric, ...(part.accept ?? [])];
+    return targets.some((t) => numericCorrect(text, t)) ? part.marks : null;
   }
   return null;
 }

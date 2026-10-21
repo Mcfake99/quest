@@ -28,6 +28,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "She did not like working Nights/evenings  (1)\nTo work nights  some nights\nHad to work night shifts She worked late into\nShe has to work at night the night/ long hours\nDid not get enough\nsleep\n\nShe lived too far",
+     "schemeSource": "exact",
      "topic": "Work and future plans",
      "lead": "Read what Mariana says about her jobs.\n\nMe llamo Mariana. En mi primer trabajo pasé seis meses en una granja cerca de donde\nvivía. Dejé este trabajo porque algunas veces tenía que trabajar por las noches.\nHace más de ocho meses que estoy trabajando en una agencia de viajes. Mi trabajo es\ninteresante y siempre tengo cosas que hacer. Algunos días puedo trabajar desde mi casa.\nEn el futuro quiero aprender idiomas para así poder hablar con mis clientes en su idioma.\n\nAnswer the following questions in English. You do not need to write in full sentences."
     },
@@ -39,6 +40,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "Works in a travel  Agent/ agency  (1)\ntravel agent  agent/ agency  Plane / job /\nholiday agency  Employment\nemergency",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     },
     {
@@ -49,6 +51,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "- Talk/ communicate To help her clients  (1)\nwith clients /\nSpeak with her  customers  Likes studying\nclients  languages / likes\nTo speak with more  languages\nclients/ customers\n- to speak with\nSpeak with her clients in (more) people\ntheir own language / in\nother languages\n\n(because) her clients\nspeak different languages\n\nSo the clients understand\nwhat she says",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     }
    ]
@@ -65,6 +68,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "does not like living in the  (1)\ncity/ town  city\nDoes not / did not\nlike the city  Father dislikes city life",
+     "schemeSource": "exact",
      "topic": "Home, town and travel",
      "lead": "Read the extract from the text. Ramón talks about his father’s decision.\n\nLa semana pasada, al volver del colegio, mi madre me dijo,\n—Ramón, tenemos que hablar. A tu padre no le gusta la ciudad y ha decidido\nque viviremos en otra parte.\nHemos encontrado una casa antigua en un lugar tranquilo, pero yo quisiera\nquedarme en la casa donde estamos ahora. Los abuelos viven cerca y me\nayudan mucho.\n—¿Adónde vamos a ir mamá?\nLlorando, mi madre me contestó — Vamos a vivir en Tiersa. No me gusta ese\npueblo porque está muy lejos de aquí y hay muy pocas cosas que hacer.\n\n(Source: My new life by Ángel Burgas)\n\nAnswer the following questions in English. You do not need to write in full sentences."
     },
@@ -76,6 +80,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "EITHER  (1)\nThey live close to their  nice / kind /\nEITHER  house  friendly\nlive near by\nOR  they live separately\nOR\nthey help her / him / them\na lot  the grandparents\nthey help her  they are very helpful  need help.\n\nThe mother helps\nthe grandparents",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -86,6 +91,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "-she is crying  (1)\n\ncrying  - it needs to mention the  upset/ sad\nverb SHE SAYS/she tells\nthat:  Ramón says that she\nis unhappy because\n-she does not want to  she does not want to\nmove to another town.  live in Tiersa.\n-she does not like Tiersa\n/ the town where she is  she contests /\ngoing to move.  argues against\n-she does not want to  moving\nleave her parents.\nsentence starting\nwith\nit says that..",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -96,6 +102,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "It is very small  (1)\nEITHER\nEITHER  It is very far  there are no shops\n\nit is far  OR  It is boring\n\nOR  there are very few things to there are little\ndo  things to do\nthere is very little there is nothing to do there\nto do  are no amenities  there are very little\nthere are not many places things to do\nto go to",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     }
    ]
@@ -112,6 +119,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "he is a nurse  Doctor / works in (1)\nHe is a nurse  a hospital /\ninfirmary",
+     "schemeSource": "exact",
      "topic": "Work and future plans",
      "lead": "Read Gonzalo’s blog about a job search online.\n\nSoy Gonzalo y soy enfermero. Hay aplicaciones* que te ayudan a encontrar el empleo\nperfecto. Cuando utilicé la aplicación de una empresa solo tuve que rellenar un formulario\nmuy corto.\nAl día siguiente de enviar mi solicitud, recibí varios anuncios de trabajo que me\ninteresaban. Esta empresa tiene muchos anuncios de empleo para trabajar a tiempo\nparcial o en clínicas privadas, que es lo que yo busco. Lo mejor es que tu puedes trabajar\ndentro y fuera de España.\nEs la única aplicación que te permite hablar desde tu móvil con un empleado en la oficina.\nEsta persona contestará todas tus preguntas.\n*aplicación/aplicaciones – App\n\nAnswer the questions in English. You do not need to write in full sentences."
     },
@@ -123,6 +131,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "Complete a short  Ask about a job/ (1)\nquestionnaire application / read the advert\nEITHER  job application.  (s)\nComplete a form\nSend/ Submit an\napplication\nOR\nUse an app\nDownload an App",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     },
     {
@@ -133,6 +142,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "EITHER  (1)\npart-time\nEITHER  Clinic\npart-time  OR\nhospital\nOR\nin a private clinic\nin a private clinic",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     },
     {
@@ -143,16 +153,18 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "(work) in the north/ the  (Work) indoors  (1)\nEITHER  south/ the\nmiddle/different parts of  you can visit/travel\n(work) in Spain\nSpain.  to Spain\n\nOR  (work) (in different jobs)  you have to speak\nall over the world  Spanish\n(work) overseas\ngo/will go to Spain  went to Spain (the\njob is in the\nfuture)",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     },
     {
      "id": "edexcel-1sp0-paper3h-reading:3(e)",
      "label": "3(e)",
      "marks": 1,
-     "prompt": "How can you get more information about jobs? Give one detail.\n\nQUESTION 4 BEGINS ON THE NEXT PAGE.\n\n\n\nSira by Maria Dueñas",
+     "prompt": "How can you get more information about jobs? Give one detail.\n\nQUESTION 4 BEGINS ON THE NEXT PAGE.\n\n\n\nSira by Maria Dueñas",
      "page": 4,
      "kind": "self",
      "scheme": "speak with an employee of to speak with an  (1)\nthe company/over the  employee from the\nspeak with  phone  App company\nsomeone in the\noffice  phone / call the office/  use the App to ask\nthe company from your  questions\nmobile/ to get\ninformation/ answers  ask questions when\nyou go to the office\nask questions from your\nphone",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     }
    ]
@@ -168,7 +180,8 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "prompt": "Read the extract from the text. Sira is looking for somewhere to live.\n\nSira llegó hace dos días para alquilar una casa compartida en Madrid. La\nprimera casa que vio está en un lugar tranquilo. El alquiler es bajo que es lo\nque quiere, pero la casa viene sin muebles.\nLa segunda casa está al lado de un polideportivo que tiene piscina y gimnasio.\nEsto es lo que Sira quiere y en seguida decide alquilar la casa. A su hijo le gusta\nhacer deportes y nadar.\n¡Tiene suerte! Esta casa está a cinco minutos de la entrada a la autopista. Su\noficina y el colegio de su hijo están lejos, pero Sira irá en el coche a ambos\nlugares.\n\n(Source: ‘Sira’, Dueñas, María, Fecha de la edición: 2021)\n\nPut a cross  in the correct box.\n(i) Sira …\n\nA wants to move from Madrid.\n\nB wants to live alone.\n\nC arrived in Madrid yesterday.\n\nD wants to rent a house.\n\n(ii) The first house she sees is …\n\nA in a noisy area.\n\nB unfurnished.\n\nC very expensive.\n\nD too small.\n\n(iii) The second house she sees …\n\nA is perfect for her.\n\nB is in the town centre.\n\nC has a private pool.\n\nD is very big.\n\n(iv) Sira’s son …\n\nA prefers the first house.\n\nB is lazy.\n\nC is sporty.\n\nD has his own car.\n\n(v) The chosen house is near …\n\nA the coach station.\n\nB her office.\n\nC her son’s school.\n\nD the motorway.\n\nSchools",
      "page": 6,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "4(i)\nD  (1)\n\n4(ii)\nB  (1)\n\n4(iii)\nA  (1)\n\n4(iv)\nC  (1)\n\n4(v)\nD  (1)",
+     "schemeSource": "children",
      "topic": "School"
     }
    ]
@@ -185,6 +198,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "Carmen  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture",
      "lead": "Read what these people say about their schools.\n\nNora En mi instituto todos los profesores nos dan muchos deberes. Yo creo\nque en lugar de los deberes sería mejor hacer cosas como proyectos. Por\nejemplo, podría escribir sobre un museo que me interesa después de visitarlo.\nLaura Yo creo que los exámenes son muy importantes porque me enseñan a\nser responsable y a organizar mi tiempo. Yo siempre estudio para los exámenes\ncon un grupo de amigos porque así podemos ayudarnos si no entendemos\nalguna cosa.\nCarmen Los deberes son necesarios, pero creo que se deberían hacer dentro\ndel horario escolar y no cuando llegas a casa. Así todos tendríamos las tardes\nlibres para hacer actividades extraescolares.\nMatilde Mis compañeros y yo creemos que se deben hacer muchos cambios\nen el instituto. Tenemos un nuevo director que ha creado algunas reglas que\nno sirven para nada y son demasiado estrictas. Cosas como dejar los móviles\nen casa.\n\nWho says what?\nEnter either Nora, Laura, Carmen or Matilde in the gaps below. Some names may be\n\nused more than once or not at all."
     },
@@ -196,6 +210,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "Matilde  (1)\n\nQuestion number  Mark",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -206,6 +221,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "Laura  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -216,16 +232,29 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "Nora  (1)",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     },
     {
      "id": "edexcel-1sp0-paper3h-reading:5(e)",
      "label": "5(e)",
-     "marks": 2,
-     "prompt": "What does Nora want to introduce?\n\n(f ) Why does Laura think that exams are important? Give one detail.\n\nEl BiciBús",
+     "marks": 1,
+     "prompt": "What does Nora want to introduce?",
      "page": 9,
      "kind": "self",
      "scheme": "to do changes in the (1)\n(to do) projects  -projects instead of  school\nhomework\nmore/better\n-homework projects  projects\n\n-to write about things that to visit museums\nyou are interested in, i.e.\nto write about museum  to do trips for school\nafter your visit /a trip.  projects",
+     "schemeSource": "exact",
+     "topic": "Identity and culture"
+    },
+    {
+     "id": "edexcel-1sp0-paper3h-reading:5(f)",
+     "label": "5(f)",
+     "marks": 1,
+     "prompt": "Why does Laura think that exams are important? Give one detail.\n\nEl BiciBús",
+     "page": 9,
+     "kind": "self",
+     "scheme": "you become / they force  (1)\nyou to / make you to be  Responsible/\nEITHER  more responsible  responsibility\n\nto be responsible  (you learn about/ it\norganise/ organising\nteaches you ) responsibility\n/ organisation\nOR\nthe exams/ they (can help\nto manage your  / can allow you) to\ntime  organise your time",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     }
    ]
@@ -241,7 +270,8 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "prompt": "Read this newspaper article about a new project.\n\nEl BiciBús es nuevo. Es un grupo de niños y adultos en bicicletas que va desde sus\ncasas hasta la escuela. Este proyecto comenzó hace cuatro meses en un barrio\nde Barcelona. Todos los viernes las calles están cerradas a los vehículos. Al mismo\ntiempo se puede ver a los niños que salen de sus casas. Acompañados de sus padres,\ntodos esperan en las paradas de autobús.\nPara tener la mayor seguridad, la guardia civil pone dos policías en bicicletas que van\ndelante y detrás del BiciBús.\nEl famoso doctor Ferrer nos da su opinión y dice: “Estos días los niños van a todas\npartes en coche. El BiciBús es una manera maravillosa de hacer ejercicio. También es\nuna forma segura y sana de transporte.”\nEste proyecto ha tenido más éxito del que se esperaba. Varios barrios de diferentes\nciudades en toda Europa están copiando lo que hacen en Barcelona.\n\n(i) What does the article tell us about the BiciBús?\nPut a cross  in each of the three correct boxes.\n\nA There is a BiciBús in every Spanish city.\n\nB Children go to school by bike.\n\nC This project started four years ago.\n\nD BiciBús operates one day a week.\n\nE  Travelling by car is dangerous.\n\nF  Other cities are using the same idea.\n\nG Teachers and pupils travel together.\n\nAnswer the following questions in English. You do not need to write in full sentences.\n(ii) How do the police support the BiciBús project?\n\n(iii) What advantages does Doctor Ferrer mention? Give one detail.\n\nSECTION B\nProteger nuestras costas",
      "page": 10,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "6(i)\nB, D and F  (3)\n\n6(ii)\n(1)\n-(every Friday,) two  they take part in\nthey accompany  policemen go / travel / the project / join\n/escort the Bicibús ride their bikes (with the in (too vague)\nBiciBús)\nmention of\n-the policeman go in  motorbikes or cars\nfront/ behind/around\nfollow the Bicibús/ the  they take/travel\nbikes / the children  ON\nthe Bicibús\nthe police protect /\nescort  they use/look\n/guard / offer security to after/guard the\n(the children in) the  bikes\nú\n\n6(iii)\nGood for your health /  Fewer cars  (1)\nhealthier\nEITHER  better transport\nHealthy /  Safe and secure – offers\nsecurity  Protect the\nOR  environment\n(Good) exercise  Encourages / makes children\nand adults to do exercise\nOR\nSafe  Healthy way to travel / of\ntransportation/ transport -\nsecure form of transport",
+     "schemeSource": "children",
      "topic": "School"
     }
    ]
@@ -257,7 +287,8 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "prompt": "Lee este anuncio en una revista.\n\nComo todos los años, haremos la limpieza de costas en nuestro pueblo el último día\ndel verano. Esta campaña es muy exitosa pero no se hace en otras regiones.\nSiempre tenemos gente nueva que nos quiere ayudar. Algunos voluntarios son\npersonas de los alrededores. Todos son jóvenes o viejos que quieren cuidar el mar.\n¿Te interesa esta campaña?\nEstaremos en la playa desde las nueve menos cuarto hasta las doce y media. No\nnecesitas llamar antes. Debes traer algo para protegerte del sol, pero no necesitas\nnada para beber ni comer.\n\nPon una cruz  en la casilla correcta.\n(i) La limpieza de costas se hace …\n\nA al final del verano.\n\nB en otras regiones.\n\nC todas las mañanas.\n\nD al principio del año.\n\n(ii) En nuestra región esta campaña …\n\nA es algo nuevo.\n\nB tiene mucho éxito.\n\nC no recibe mucha ayuda.\n\nD será diferente este año.\n\n(iii) Todos los voluntarios son …\n\nA de diferentes edades.\n\nB familias locales.\n\nC gente muy joven.\n\nD turistas extranjeros.\n\n(iv) Para participar tienes que …\n\nA ir por la tarde.\n\nB empezar a mediodía.\n\nC ir a la playa.\n\nD llamar antes de ir.\n\n(v) Tienes que traer …\n\nA comida.\n\nB agua.\n\nC móvil.\n\nD sombrero.\n\nLos jóvenes y sus familias",
      "page": 12,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "7(i)\nA  (1)\n\n7(ii)\nB  (1)\n\n7(iii)\nA  (1)\n\n7(iv)\nC  (1)\n\n7(v)\nD  (1)",
+     "schemeSource": "children",
      "topic": "Identity and culture"
     }
    ]
@@ -274,6 +305,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "Mamen  (1)",
+     "schemeSource": "exact",
      "topic": "Home, town and travel",
      "lead": "Lee lo que dicen estos jóvenes.\n\nAlfredo  Me levanto muy temprano para hacer el reparto de los periódicos. Gano mi\npropio dinero y lo gasto en regalos para mi familia.\nMamen  Quisiera salir hasta más tarde. Siempre debo volver a casa a las diez. A mis\namigos sus padres les permiten volver a las doce.\nFernando  Mi padre me paga mucho por pasar la aspiradora cada semana. Gracias a él,\npuedo ahorrar para hacer un viaje con mis compañeros.\nLola  Mis padres son estrictos. Para ellos las notas son muy importantes. No veo a\nmis amigos a menudo porque paso horas repasando para mis exámenes.\n\nEmpareja la descripción con el nombre de la persona. Escoge entre: Alfredo, Mamen,\nFernando y Lola. Puedes usar los nombres más de una vez."
     },
@@ -285,6 +317,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "Lola  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -295,6 +328,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "Fernando  (1)",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -305,16 +339,18 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "Alfredo  (1)",
+     "schemeSource": "exact",
      "topic": "Work and future plans"
     },
     {
      "id": "edexcel-1sp0-paper3h-reading:8(e)",
      "label": "8(e)",
      "marks": 1,
-     "prompt": "Estoy muy agradecido a mi padre:  ____\n\nQUESTION 9 BEGINS ON THE NEXT PAGE.\n\n\n\nProblemas en el hotel",
+     "prompt": "Estoy muy agradecido a mi padre:  ____\n\nQUESTION 9 BEGINS ON THE NEXT PAGE.\n\n\n\nProblemas en el hotel",
      "page": 14,
      "kind": "self",
      "scheme": "Fernando  (1)\n\nKey Ideas  Answer  Reject  Mark",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     }
    ]
@@ -331,6 +367,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "Any untargeted lifts. (1)\nAccept any targeted lifts\nhabía otro cliente  that answer the question\nprecisely.\npagué mucho por esta\nla habitación estaba  habitación\nocupada\n\notro cliente en la\nhabitación\n\nKey Ideas  Answer  Reject  Mark",
+     "schemeSource": "exact",
      "topic": "Identity and culture",
      "lead": "Lee lo que Raúl escribió al hotel que visitó recientemente.\n\nEstimada Sra. López:\nQuiero quejarme por la mala atención que recibí en su hotel. Por anticipado reservé\nla mejor de sus habitaciones y pagué mucho dinero por ella. Lo peor fue que al llegar\nal hotel me dijeron que en mi habitación había otro cliente hasta el próximo fin de\nsemana.\nTuve que pedir otra habitación, y me mostraron unas que no se parecían en nada a la\nque reservé. Al final, elegí una de ellas.\nEl servicio de limpieza no era suficiente. Un día se olvidaron dejarme bastantes toallas.\nDespués de varias llamadas a recepción, decidí bajar a buscarlas yo mismo.\nEn mi opinión todos estos problemas muestran la falta de formación que tienen\nsus empleados. La experiencia que tuve fue muy mala y creo que ustedes deberían\ndevolverme el dinero extra que he pagado. Si no lo hacen, voy a compartir las opiniones\nque tengo sobre mi estancia en su hotel.\nAtentamente,\nRaúl Alborta\n\nContesta las preguntas en español. No tienes que escribir frases completas."
     },
@@ -342,6 +379,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "(1)\n-no eran como la  no se parecían en nada\neran diferentes  habitación que reservó  (must refer to the\nroom or the\n-me mostraron unas que no reservation to avoid\nse parecían en nada a la ambiguity)\nque reservé.\n\n-no le gustaban\n\nKey Idea  Answer  Reject  Mark",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -352,6 +390,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "-se olvidaron dejar  (1)\n(bastantes) toallas  decidí / decidió bajar\n-no había toallas en  a buscarlas .\nsu habitación  -para traer toallas (para su\nhabitación)\n\nel servicio (de limpieza) no\nera suficiente / era malo\n\n-nadie contestó el teléfono\nen recepción.\n\n-porque recepción no\nmandó toallas\n\n-(le/les) falta entrenamiento",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -362,6 +401,7 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "(1)\nno tienen suficiente /  los empleados son el\n(les) falta  necesitan más  problema\nformación  entrenamiento\n\ndeben mejorar la atención\nal cliente\n\n(todos estos problemas\nmuestran) la falta de\nformación que tienen sus\nempleados",
+     "schemeSource": "exact",
      "topic": "Identity and culture"
     },
     {
@@ -371,7 +411,8 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "prompt": "Según Raúl, ¿qué debería hacer el hotel?\n\nSECTION C\nTranslation",
      "page": 17,
      "kind": "self",
-     "scheme": "(1)\ndevolver el dinero a Raúl  -voy a compartir las\ndevolver el dinero  opiniones que tengo\ndevolverse / devolverle el  sobre mi estancia en\ndinero extra que pagó  su hotel\n\nSECTION C\n\nKey Idea  Indicative content  Mark\n\n10  Los problemas del medioambiente son serios. En mi  (7)\ncolegio es obligatorio reciclar todos los papeles y la\nsemana pasada fuimos a buscar basura en el parque.\nSiempre apago mi ordenador cuando termino para\nahorrar energía. En el futuro voy a trabajar en la\nprotección de animales en diferentes países del mundo.\n\nEnvironmental problems are serious. In my school it\nis compulsory to recycle all the paper and last week\nwe went to look for rubbish in the park. I always\nturn off my computer when I finish to save energy.\nIn the future I am going to work to protect animals\nin different countries around the world.\n\nMark  Descriptor\n0  No rewardable communication.\n1–3  The meaning of the passage is partially communicated.\nSome errors in the translation prevent meaning being conveyed,\ne.g.\nfrequent use of incorrect words, omitted phrases, incorrect\ntenses.\n4–6  The meaning of the passage is mostly communicated.\nOccasional errors affect the flow or clarity of the\ntranslation, e.g. incorrect words, omitted words, inexact\nsyntax.\n7  The meaning of the passage is fully communicated.\nAny errors do not detract from the overall\neffectiveness of the translation.\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "scheme": "(1)\ndevolver el dinero a Raúl  -voy a compartir las\ndevolver el dinero  opiniones que tengo\ndevolverse / devolverle el  sobre mi estancia en\ndinero extra que pagó  su hotel\n\nSECTION C\n\nKey Idea  Indicative content  Mark",
+     "schemeSource": "exact",
      "topic": "Translation"
     }
    ]
@@ -384,10 +425,11 @@ export const edexcel_1sp0_paper3h_reading: RealPaper = {
      "id": "edexcel-1sp0-paper3h-reading:10",
      "label": "10",
      "marks": 7,
-     "prompt": "Translate this passage into English.\n\nLos problemas del medioambiente son serios. En mi colegio es obligatorio reciclar\ntodos los papeles y la semana pasada fuimos a buscar basura en el parque. Siempre\napago mi ordenador cuando termino para ahorrar energía. En el futuro voy a trabajar\nen la protección de animales en diferentes países del mundo.\n\n\n\n",
+     "prompt": "Translate this passage into English.\n\nLos problemas del medioambiente son serios. En mi colegio es obligatorio reciclar\ntodos los papeles y la semana pasada fuimos a buscar basura en el parque. Siempre\napago mi ordenador cuando termino para ahorrar energía. En el futuro voy a trabajar\nen la protección de animales en diferentes países del mundo.\n\n\n\n",
      "page": 18,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "Los problemas del medioambiente son serios. En mi  (7)\ncolegio es obligatorio reciclar todos los papeles y la\nsemana pasada fuimos a buscar basura en el parque.\nSiempre apago mi ordenador cuando termino para\nahorrar energía. En el futuro voy a trabajar en la\nprotección de animales en diferentes países del mundo.\n\nEnvironmental problems are serious. In my school it\nis compulsory to recycle all the paper and last week\nwe went to look for rubbish in the park. I always\nturn off my computer when I finish to save energy.\nIn the future I am going to work to protect animals\nin different countries around the world.\n\nMark  Descriptor\n0  No rewardable communication.\n1–3  The meaning of the passage is partially communicated.\nSome errors in the translation prevent meaning being conveyed,\ne.g.\nfrequent use of incorrect words, omitted phrases, incorrect\ntenses.\n4–6  The meaning of the passage is mostly communicated.\nOccasional errors affect the flow or clarity of the\ntranslation, e.g. incorrect words, omitted words, inexact\nsyntax.\n7  The meaning of the passage is fully communicated.\nAny errors do not detract from the overall\neffectiveness of the translation.\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "schemeSource": "exact",
      "topic": "Translation"
     }
    ]

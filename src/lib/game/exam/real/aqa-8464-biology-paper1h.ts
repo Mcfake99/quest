@@ -28,6 +28,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 2,
      "kind": "self",
      "scheme": "do not accept more than one line from a box on the left\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "lead": "The heart is an organ that pumps blood around the body.\n\nFigure 1 is a model of the heart and shows the direction of blood flow.\n\nFigure 1",
      "seePaper": true
@@ -36,10 +37,11 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "id": "aqa-8464-biology-paper1h:01.2",
      "label": "01.2",
      "marks": 1,
-     "prompt": "Heart rate is controlled by a group of cells.\n\nThe group of cells acts as a pacemaker.\n\nWhere would the pacemaker be located in Figure 1?\nTick () one box.",
+     "prompt": "Heart rate is controlled by a group of cells.\n\nThe group of cells acts as a pacemaker.\n\nWhere would the pacemaker be located in Figure 1?\nTick (✓) one box.",
      "page": 3,
      "kind": "mcq",
      "scheme": "F  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "options": [
       "C",
@@ -60,6 +62,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "1  AO2\n(more) respiration (in  do not accept anaerobic\nmitochondria)  respiration\n\n(which) releases more energy  allow (muscles) need more  1  AO2\nenergy\ndo not accept energy produced\n/ made / created\ndo not accept provides more\nenergy for respiration\n\n(so the heart) muscle contracts  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "seePaper": true
     },
@@ -71,6 +74,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "any two from:  2  AO3\n\n• fast / increased heart rate  allow irregular heartbeat\n\n• fast / increased breathing  ignore shortness of breath\n(rate)\n\n• tiredness  allow fatigue\n\n• pale skin  allow blue skin (due to poor\noxygenation)\nallow cold / cool skin (to the\ntouch)\nallow cyanosis\n\n• heart attack  allow blood clots\nallow chest pain\nallow stroke\n\n• difficulty exercising\n\n• difficulty gaining weight\n\nallow increased sweating\nallow frequent chest infections\nallow swelling in legs / feet /\nabdomen\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     },
     {
@@ -81,6 +85,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "any two from:  2  AO3\n\n• heavy / internal bleeding\n\n• infection  allow named infection e.g.\nMRSA\nignore risk of disease\n• damaging blood vessels\n\n• damaging the heart  allow blood clots\nallow stroke\nallow heart attack\nallow irregular heartbeat\n\n• risk from anaesthetic\n\n• risk of rejection (of the mesh /\ntube)\nignore damage unqualified",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     }
    ]
@@ -97,6 +102,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "touch / contact (with  allow through droplets / air /  1  AO2\ncontaminated surfaces / skin /  coughs / sneezes  4.3.1.1\nblisters)  ignore sexual intercourse\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Infection and response",
      "lead": "Chickenpox is an infectious disease that affects young children."
     },
@@ -108,6 +114,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "(chickenpox) is caused by a  allow antibiotics (only) treat  1  AO2\nvirus  bacterial infections  4.3.1.8\nallow chickenpox is not caused\nby bacteria\n\nignore antibiotic resistance\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Infection and response"
     },
     {
@@ -118,6 +125,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "inactive / dead / weakened  allow inactive / dead / weakened  1  AO1\n(named) pathogen  virus / bacteria / fungi /  4.3.1.7\nmicroorganism\n\nallow proteins / antigens (from\nthe pathogen)\n\nallow the mRNA (from the\npathogen)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Infection and response"
     },
     {
@@ -128,6 +136,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "(for) toxicity or check not  allow check for side-effects  1  AO1\npoisonous / harmful  allow to check it is safe  4.3.1.9\n\nignore to check it is not\ndangerous\n\n(for) efficacy or to see if it works  1\n\n(for) dose or how much is  1\nneeded\n\nallow interaction with other\ndrugs\nallow to find out when a booster\nvaccination would be needed\nallow to find out how long it\noffers protection against the\npathogen for\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Infection and response"
     },
     {
@@ -138,6 +147,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "Level 3: Relevant points (reasons / causes) are identified, given in  5–6  AO1\ndetail and logically linked to form a clear account.  4.2.2.3\n\nLevel 2: Relevant points (reasons / causes) are identified, and  3–4\nthere are attempts at logical linking. The resulting account is not\nfully clear.\n\nLevel 1: Points are identified, and stated simply but their relevance  1–2\nis not clear and there is no attempt at logical linking.\n\nNo relevant content  0\n\nIndicative content\n\nhow a vaccine works (primary):\n• white blood cells stimulated / respond\n• (by) producing antibodies\n• (antibodies) are specific to microorganism / microbe / virus /\nchickenpox\n• (antibodies) bind with antigens\n• reference to memory cells\n\nwhen chickenpox virus enters the body (secondary):\no virus / pathogen is destroyed faster / quickly\no (because) production of correct antibodies\no (because) antibodies are produced sooner\no (because) rate of antibody production is faster\no (because) more antibodies produced\n\nIt is acceptable for students to refer to virus / chickenpox /\nmicroorganism / microbe for pathogen throughout\n\nFor Level 3 primary and secondary responses must be considered",
+     "schemeSource": "exact",
      "topic": "Organisation"
     }
    ]
@@ -150,10 +160,11 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "id": "aqa-8464-biology-paper1h:03.1",
      "label": "03.1",
      "marks": 1,
-     "prompt": "Which measuring cylinder should the student have used to give the most\naccurate results?\nTick () one box.\n\n10 cm3 measuring cylinder with intervals of 0.1 ± 0.01 cm3\n\n10 cm3 measuring cylinder with intervals of 0.2 ± 0.01 cm3\n\n20 cm3 measuring cylinder with intervals of 0.1 ± 0.02 cm3\n\n20 cm3 measuring cylinder with intervals of 0.2 ± 0.02 cm3",
+     "prompt": "Which measuring cylinder should the student have used to give the most\naccurate results?\nTick (✓) one box.\n\n10 cm³ measuring cylinder with intervals of 0.1 ± 0.01 cm³\n\n10 cm³ measuring cylinder with intervals of 0.2 ± 0.01 cm³\n\n20 cm³ measuring cylinder with intervals of 0.1 ± 0.02 cm³\n\n20 cm³ measuring cylinder with intervals of 0.2 ± 0.02 cm³",
      "page": 10,
      "kind": "self",
-     "scheme": "10 cm3 measuring cylinder with  1  AO1\nintervals of 0.1 ± 0.01 cm3  4.4.1.2\nRPA5\n\nAO /",
+     "scheme": "10 cm3 measuring cylinder with  1  AO1\nintervals of 0.1 ± 0.01 cm³  4.4.1.2\nRPA5\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Bioenergetics",
      "lead": "Photosynthesis is important for plant growth.\n\nA student used pondweed to investigate the rate of photosynthesis.\n\nFigure 3 shows the apparatus used.\n\nFigure 3\n\nThis is the method used.\n\n1. Set up the apparatus as shown in Figure 3.\n\n2. Switch on the lamp.\n\n3. After 2 hours, record the volume of oxygen collected in the measuring cylinder.\n\n4. Repeat steps 1 to 3 a further five times, increasing the distance between the lamp\nand the pondweed each time.\n\n5. Calculate the rate of oxygen production for each distance.\n\nFigure 4 shows the results.\n\nFigure 4",
      "seePaper": true
@@ -162,10 +173,11 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "id": "aqa-8464-biology-paper1h:03.2",
      "label": "03.2",
      "marks": 3,
-     "prompt": "Light intensity can be calculated using the inverse square law.\n\nThe equation shows the inverse square law.\n\nlight intensity ∝\n(distance from light source)2\n\nExplain how light intensity changed as the distance of the pondweed from the light\nsource was doubled.\n\nInclude calculations in your answer.\n\nUse data from Figure 4.\n\nThe student did the investigation at 10 °C.\n\nThe student repeated the investigation at 20 °C and again at 80 °C.",
+     "prompt": "Light intensity can be calculated using the inverse square law.\n\nThe equation shows the inverse square law.\n\nlight intensity ∝\n(distance from light source)²\n\nExplain how light intensity changed as the distance of the pondweed from the light\nsource was doubled.\n\nInclude calculations in your answer.\n\nUse data from Figure 4.\n\nThe student did the investigation at 10 °C.\n\nThe student repeated the investigation at 20 °C and again at 80 °C.",
      "page": 11,
      "kind": "self",
-     "scheme": "evidence of squaring  allow other appropriate values  1  AO2\nfor two distances that double:  throughout  4.4.1.2\n(10 cm and 20 cm)  RPA5\n100 and 400\nor\n(20 cm and 40 cm)\n400 and 1600\nor\n(30 cm and 60 cm)\n900 and 3600\n\ncalculate 1/d2 for two distances  1\nthat double:\n(10 cm and 20 cm)\n1  1\n0.01 /  and 0.0025 /\n100  400\n\nor\n(20 cm and 40 cm)\n1  1  allow 2 marks for these\n0.0025 /  and 0.000625 /  values without working\n400  1600\n\nor\n(30 cm and 60 cm)\n\n0.001(11…) /\n900\n\nand 0.00027(77…) /\n3600\n\n(therefore as distance doubles)  1\nlight intensity is quartered\n\nAO /",
+     "scheme": "evidence of squaring  allow other appropriate values  1  AO2\nfor two distances that double:  throughout  4.4.1.2\n(10 cm and 20 cm)  RPA5\n100 and 400\nor\n(20 cm and 40 cm)\n400 and 1600\nor\n(30 cm and 60 cm)\n900 and 3600\n\ncalculate 1/d² for two distances  1\nthat double:\n(10 cm and 20 cm)\n1  1\n0.01 /  and 0.0025 /\n100  400\n\nor\n(20 cm and 40 cm)\n1  1  allow 2 marks for these\n0.0025 /  and 0.000625 /  values without working\n400  1600\n\nor\n(30 cm and 60 cm)\n\n0.001(11…) /\n900\n\nand 0.00027(77…) /\n3600\n\n(therefore as distance doubles)  1\nlight intensity is quartered\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Bioenergetics",
      "seePaper": true
     },
@@ -177,6 +189,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "the rate of oxygen production  allow rate of photosynthesis  1  AO3\nincreases  increases\nignore the volume of oxygen\nproduction increases unqualified\n\n(because) reactants / particles /  allow reactants / particles /  1  AO2\nmolecules / enzymes have  molecules / enzymes move\ngreater (kinetic) energy  faster\n\n(so) collisions are more frequent  allow (so) more collisions in a  1  AO2\ngiven time\nallow (so) more successful\ncollisions  4.2.2.1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Organisation"
     },
     {
@@ -186,7 +199,8 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "prompt": "Explain how repeating the investigation at 80 °C would affect the results.",
      "page": 12,
      "kind": "self",
-     "scheme": "no / less oxygen (is produced)  allow photosynthesis is stopped  1  AO3\n/ reduced\nallow the rate of oxygen\nproduction is 0 (cm3/hour)\n\n(because) enzymes are  allow the enzymes are  1  AO2\ndestroyed  denatured\nallow active site has changed\nshape  4.2.2.1\ndo not accept the cells / plant /  4.4.1.2\npondweed is denatured\ndo not accept the enzymes are\nkilled",
+     "scheme": "no / less oxygen (is produced)  allow photosynthesis is stopped  1  AO3\n/ reduced\nallow the rate of oxygen\nproduction is 0 (cm³/hour)\n\n(because) enzymes are  allow the enzymes are  1  AO2\ndestroyed  denatured\nallow active site has changed\nshape  4.2.2.1\ndo not accept the cells / plant /  4.4.1.2\npondweed is denatured\ndo not accept the enzymes are\nkilled",
+     "schemeSource": "exact",
      "topic": "Organisation"
     }
    ]
@@ -203,8 +217,9 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "(takes account of) different  ignore were not all the same  1  AO2\nstarting masses  size  4.1.3.2\ndo not accept as a control  RPA2\nvariable\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Cell biology",
-     "lead": "A student investigated the effect of surface area on the mass of potato pieces\n\nplaced in water.\n\nThis is the method used.\n\n1. Cut 5 cylinders from one potato. Cut each cylinder to a length of 3 cm.\n\n2. Cut 4 of the cylinders into different numbers of pieces.\n\n3. Dry each piece of potato on a paper towel.\n\n4. Record the mass of each group of potato pieces.\n\n5. Put each group of potato pieces into different beakers containing distilled water as\nshown in Figure 5.\n\n6. After 30 minutes remove and dry each group of potato pieces.\n\n7. Record the mass of each group of potato pieces.\n\n8. Calculate the percentage increase in mass for each group of potato pieces.\n\nFigure 5\n\nTable 1 shows the results.\n\nTable 1\n\nTotal surface area of  Percentage (%)\nBeaker\npotato pieces in cm2  increase in mass\n\nA  7.4  4.4\n\nB  8.1  4.9\n\nC  8.9  5.3\n\nD  9.7  5.5\n\nE  10.5  5.6",
+     "lead": "A student investigated the effect of surface area on the mass of potato pieces\n\nplaced in water.\n\nThis is the method used.\n\n1. Cut 5 cylinders from one potato. Cut each cylinder to a length of 3 cm.\n\n2. Cut 4 of the cylinders into different numbers of pieces.\n\n3. Dry each piece of potato on a paper towel.\n\n4. Record the mass of each group of potato pieces.\n\n5. Put each group of potato pieces into different beakers containing distilled water as\nshown in Figure 5.\n\n6. After 30 minutes remove and dry each group of potato pieces.\n\n7. Record the mass of each group of potato pieces.\n\n8. Calculate the percentage increase in mass for each group of potato pieces.\n\nFigure 5\n\nTable 1 shows the results.\n\nTable 1\n\nTotal surface area of  Percentage (%)\nBeaker\npotato pieces in cm²  increase in mass\n\nA  7.4  4.4\n\nB  8.1  4.9\n\nC  8.9  5.3\n\nD  9.7  5.5\n\nE  10.5  5.6",
      "seePaper": true
     },
     {
@@ -215,6 +230,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "as (total) surface area increases  allow as one increases, so does  1  AO2\npercentage increase in mass  the other  4.1.3.2\nincreases  allow there is a positive\ncorrelation\n\nby a decreasing amount  allow description of decreasing  1\namount of increase\ndo not accept they are directly\nproportional\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Cell biology",
      "seePaper": true
     },
@@ -226,6 +242,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "water moved in by osmosis  allow water moved in by  1  AO1\ndiffusion  4.1.3.2\ndo not accept (water moves) by  RPA2\nactive transport\n\n(because water moves)  allow (because water moves)  1\nfrom a dilute solution to a  from a high(er) concentration of\nconcentrated solution (inside the  water to a low(er) concentration\ncell / potato)  of water (inside the cell / potato)\n\nallow (because water moves)\nfrom a high(er) water potential to\na low(er) water potential (inside\nthe cell / potato)\n\nallow (because water moves)\nfrom a lower concentration (of\nsolute) to a higher concentration\n(of solute inside the cell / potato)\n\nallow (because water moves)\ndown its concentration gradient\n\ndo not accept water moves\nalong / across a concentration\ngradient\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Cell biology"
     },
     {
@@ -236,6 +253,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "all the (groups of) potato pieces  1  AO2\nhad the same percentage\nchange in mass\n\n(because the) cell walls are  allow cells are turgid  1  AO3\ncompletely stretched\n\n(so) the cells cannot absorb any  1  AO3\nmore water\n\nRPA 2\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     },
     {
@@ -246,6 +264,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "(change the independent  1  AO3\nvariable to) different  4.1.3.2\nconcentrations of salt solution  RPA2\n\ndo not cut the potato into pieces  allow control the surface area of  1\nthe potato\nallow cut into the same number\nof pieces\nignore use the same shape /\nsize",
+     "schemeSource": "exact",
      "topic": "Cell biology",
      "seePaper": true
     }
@@ -259,10 +278,11 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "id": "aqa-8464-biology-paper1h:05.1",
      "label": "05.1",
      "marks": 2,
-     "prompt": "Some plants can respire anaerobically.\n\nWhich are the two products of anaerobic respiration in plants?\nTick () two boxes.\n\nCarbon dioxide\n\nEthanol\n\nGlucose\n\nLactic acid\n\nWater\n\nFigure 6 shows the structure of part of a leaf\n\nFigure 6",
+     "prompt": "Some plants can respire anaerobically.\n\nWhich are the two products of anaerobic respiration in plants?\nTick (✓) two boxes.\n\nCarbon dioxide\n\nEthanol\n\nGlucose\n\nLactic acid\n\nWater\n\nFigure 6 shows the structure of part of a leaf\n\nFigure 6",
      "page": 17,
      "kind": "self",
      "scheme": "carbon dioxide  1  AO1\n\nethanol  1\n\nAO /\n\nignore reference to cells",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "lead": "This question is about plants.",
      "seePaper": true
@@ -275,6 +295,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 18,
      "kind": "self",
      "scheme": "palisade (mesophyll layer)  1  AO1\n\nAO /\n\nignore name of tissue",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     },
     {
@@ -285,6 +306,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 18,
      "kind": "self",
      "scheme": "1  AO1\n(cells / tissue) contain many  allow (cells) are closely packed  4.2.3.1\nchloroplasts  together\nallow cells / tissue contain a lot\nof chlorophyll\n\n(to) absorb more light for  1\nphotosynthesis\nallow for 2 marks (cells / tissue)\ncontain many chloroplasts to\nabsorb light for photosynthesis\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Organisation"
     },
     {
@@ -295,6 +317,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 19,
      "kind": "self",
      "scheme": "(water absorbed from soil by  1  AO1\nosmosis / diffusion) into /\nthrough root hair (cells)\n\n(water) travels up through xylem  do not accept water travels up  1  AO1\n(vessels)  through the phloem\nor\n(water) through xylem (vessels)\nto the leaf\n\n(water) moves into the spongy  1  AO2\nmesophyll / layer by diffusion /\nosmosis\n\n(water) lost through stomata  1  AO1\n\n(water) lost by evaporation /  do not accept translocation  1  AO1\ntranspiration (to atmosphere)\n\nif no other mark awarded allow 1  4.2.3.2\nmark for transpiration stream",
+     "schemeSource": "exact",
      "topic": "Organisation"
     }
    ]
@@ -311,6 +334,7 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 20,
      "kind": "self",
      "scheme": "any one from:  1  AO3\n\n• high resolution  allow a high level of detail\n\n• high magnification\n\n• 3D image\n\n• cilia can be seen in detail  ignore subcellular structures can\nbe seen\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "lead": "Ciliated cells have small hair-like structures called cilia on the cell surface.\n\nCiliated cells are found in the trachea and in the oviducts.\n\nOviducts are part of the female reproductive system.\n\nFigure 7 shows cilia lining an oviduct.\n\nFigure 7",
      "seePaper": true
@@ -323,26 +347,29 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "page": 20,
      "kind": "self",
      "scheme": "move / transport egg / embryo /  ignore move / transport dust /  1  AO2\novum / mucus  bacteria / pathogens / sperm  4.1.1.3\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Cell biology"
     },
     {
      "id": "aqa-8464-biology-paper1h:06.3",
      "label": "06.3",
      "marks": 5,
-     "prompt": "The mean length of the cilia in an image was 6 mm.\n\nThe cilia were viewed at a magnification of 1.5 × 103\n\nCalculate the real mean length of the cilia.\n\nGive your answer in micrometres (µm).\n\nReal mean length =  µm\n\nRed blood cells are a type of cell found in humans.\n\nPeople with anaemia do not have enough red blood cells.",
+     "prompt": "The mean length of the cilia in an image was 6 mm.\n\nThe cilia were viewed at a magnification of 1.5 × 10³\n\nCalculate the real mean length of the cilia.\n\nGive your answer in micrometres (µm).\n\nReal mean length =  µm\n\nRed blood cells are a type of cell found in humans.\n\nPeople with anaemia do not have enough red blood cells.",
      "page": 21,
      "kind": "self",
      "scheme": "recall of equation  AO1\nsize of image  ignore use of equation triangle  1\nmagnification =\nsize of real object\n\nrearrangement of equation  AO2\nsize of image  1\nsize of real object =\nmagnification\n\nsubstitution\n6  allow  6  1  AO2\n1.5 × 10  3  1500\nallow substitution of incorrectly\nconverted value\n\n0.004 (mm)  allow answer using incorrectly  1  AO2\nconverted value\n\nconversion\n4 (µm)  allow conversion to µm at any  1  AO2\nstage\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     },
     {
      "id": "aqa-8464-biology-paper1h:06.4",
      "label": "06.4",
      "marks": 2,
-     "prompt": "Explain why a person with anaemia is likely to experience muscle fatigue.\n\nScientists have produced red blood cells from stem cells in a laboratory.\n\nThe scientists:\n• collected a sample of blood from a donor\n• extracted 5 × 105 stem cells from the sample.\n\nEach stem cell was developed into 100 000 red blood cells.\n\n35% of the red blood cells made from stem cells are suitable to use in a patient.",
+     "prompt": "Explain why a person with anaemia is likely to experience muscle fatigue.\n\nScientists have produced red blood cells from stem cells in a laboratory.\n\nThe scientists:\n• collected a sample of blood from a donor\n• extracted 5 × 10⁵ stem cells from the sample.\n\nEach stem cell was developed into 100 000 red blood cells.\n\n35% of the red blood cells made from stem cells are suitable to use in a patient.",
      "page": 22,
      "kind": "self",
-     "scheme": "less oxygen (is transported) to  allow less oxyhaemoglobin  1  AO2\ncells / tissues / organs / muscles  transported  4.2.2.3\n\n(so) anaerobic respiration  ignore less aerobic respiration  1\nproduces lactic acid  ignore reference to energy\n\nAO /\n\ntotal amount of red blood cells\nallow  5 × 1010",
+     "scheme": "less oxygen (is transported) to  allow less oxyhaemoglobin  1  AO2\ncells / tissues / organs / muscles  transported  4.2.2.3\n\n(so) anaerobic respiration  ignore less aerobic respiration  1\nproduces lactic acid  ignore reference to energy\n\nAO /\n\ntotal amount of red blood cells\nallow  5 × 10¹⁰",
+     "schemeSource": "exact",
      "topic": "Organisation"
     },
     {
@@ -352,17 +379,19 @@ export const aqa_8464_biology_paper1h: RealPaper = {
      "prompt": "Calculate the number of red blood cells made from the donor’s sample that could be\nused in a patient.\n\nGive your answer in standard form.\n\nNumber of red blood cells (in standard form) =",
      "page": 23,
      "kind": "self",
-     "scheme": "(5 × 105 × 100 000 =)  1  AO2\n50 000 000 000  4.2.2.3\n\npercentage calculation  allow  5 × 1010  1\n50 000 000 000  × 35\n× 35  100\n100\n\nallow  5 × 1010 × 0.35\n\nallow a correctly calculated\npercentage calculation from an\nincorrectly calculated number of\nred blood cells\n\n17 500 000 000  1\n\nstandard form\n1.75 × 1010  allow correct standard form from  1\nan incorrectly calculated number\nof red blood cells\n\nalternative route\n\n× 100 000 = 35 000 (1)\n100\n\n35 000 × 500 000 (1)\n\n17 500 000 000 (1)\n\n1.75 × 1010 (1)\n\nAO /",
+     "scheme": "(5 × 10⁵ × 100 000 =)  1  AO2\n50 000 000 000  4.2.2.3\n\npercentage calculation  allow  5 × 10¹⁰  1\n50 000 000 000  × 35\n× 35  100\n100\n\nallow  5 × 10¹⁰ × 0.35\n\nallow a correctly calculated\npercentage calculation from an\nincorrectly calculated number of\nred blood cells\n\n17 500 000 000  1\n\nstandard form\n1.75 × 10¹⁰  allow correct standard form from  1\nan incorrectly calculated number\nof red blood cells\n\nalternative route\n\n× 100 000 = 35 000 (1)\n100\n\n35 000 × 500 000 (1)\n\n17 500 000 000 (1)\n\n1.75 × 10¹⁰ (1)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Organisation"
     },
     {
      "id": "aqa-8464-biology-paper1h:06.6",
      "label": "06.6",
      "marks": 6,
-     "prompt": "Patients with anaemia are sometimes given a blood transfusion.\n\nA blood transfusion is when a patient is given blood.\n\nThe patient can be given red blood cells:\n• produced from stem cells in a laboratory\nor\n• from a whole blood donation.\n\nTable 2 gives information about the two sources of red blood cells.\n\nTable 2\n\nRed blood cells  Red blood cells\nproduced from stem cells  from a whole blood donation\n\n• A small sample of blood is  • 470 cm3 of blood is collected\ncollected from the patient.  from a donor.\n• The total cost is £15 per 10 cm3  • The blood donation is separated\nof cells produced.  into its different parts.\n• All of the new cells can function  • Red blood cells make up 45% of\nfor 120 days.  whole blood.\n• The total cost of a blood\ndonation is £130.\n• The cells can function for\nbetween 1 and 120 days.\n\nEvaluate the use of red blood cells:\n\n• produced from stem cells in a laboratory\n• from a whole blood donation.\n\nYou should refer to costs in your answer.\n\nExtra Space\n\nEND OF QUESTIONS\n\nANSWER IN THE SPACES PROVIDED\n\nQuestion  Additional page, if required.\nnumber  Write the question numbers in the left-hand margin.\n\nQuestion  Additional page, if required.\nnumber  Write the question numbers in the left-hand margin.\n\nFor confidentiality purposes, all acknowledgements of third-party copyright material are published in a separate booklet. This booklet\nis published after each live examination series and is available for free download from www.aqa.org.uk\n\nPermission to reproduce all copyright material has been applied for. In some cases, efforts to contact copyright-holders may have\nbeen unsuccessful and AQA will be happy to rectify any omissions of acknowledgements. If you have any queries please contact the\n\n*256g8464/b/1h*",
+     "prompt": "Patients with anaemia are sometimes given a blood transfusion.\n\nA blood transfusion is when a patient is given blood.\n\nThe patient can be given red blood cells:\n• produced from stem cells in a laboratory\nor\n• from a whole blood donation.\n\nTable 2 gives information about the two sources of red blood cells.\n\nTable 2\n\nRed blood cells  Red blood cells\nproduced from stem cells  from a whole blood donation\n\n• A small sample of blood is  • 470 cm³ of blood is collected\ncollected from the patient.  from a donor.\n• The total cost is £15 per 10 cm³  • The blood donation is separated\nof cells produced.  into its different parts.\n• All of the new cells can function  • Red blood cells make up 45% of\nfor 120 days.  whole blood.\n• The total cost of a blood\ndonation is £130.\n• The cells can function for\nbetween 1 and 120 days.\n\nEvaluate the use of red blood cells:\n\n• produced from stem cells in a laboratory\n• from a whole blood donation.\n\nYou should refer to costs in your answer.\n\nExtra Space\n\nEND OF QUESTIONS\n\nANSWER IN THE SPACES PROVIDED\n\nQuestion  Additional page, if required.\nnumber  Write the question numbers in the left-hand margin.\n\nQuestion  Additional page, if required.\nnumber  Write the question numbers in the left-hand margin.\n\nFor confidentiality purposes, all acknowledgements of third-party copyright material are published in a separate booklet. This booklet\nis published after each live examination series and is available for free download from www.aqa.org.uk\n\nPermission to reproduce all copyright material has been applied for. In some cases, efforts to contact copyright-holders may have\nbeen unsuccessful and AQA will be happy to rectify any omissions of acknowledgements. If you have any queries please contact the\n\n*256g8464/b/1h*",
      "page": 24,
      "kind": "self",
-     "scheme": "Level 3: A judgement, strongly linked and logically supported by a  5–6  AO2\nsufficient range of correct reasons, is given.\n\nLevel 2: Some logically linked reasons are given. There may also  3–4  AO3\nbe a simple judgement.\n\nLevel 1: Relevant points are made. They are not logically linked.  1–2  AO3\n\nNo relevant content  0  4.1.2.3\n\nIndicative content\n\nAdvantages of blood from stem cells:\n\n•  reduces the need for volunteer blood donors\n•  only a small sample of blood is required (to produce the\nnecessary blood cells)\n•  can produce a large(r) quantity of red blood cells\n•  (blood cells are all new) so last longer in the patient\n•  no rejection or no need to tissue match\n•  no ethical objection to receiving blood (because it is from the\npatient)\n•  we can produce blood that is a rare / specific blood group / type\n•  less / no risk of infection (from contaminated blood)\n\n•  whole blood donation takes more time / processing to separate\nthe blood into its parts\n\nDisadvantages of blood from stem cells:\n\no  a blood donation is still required\no  not tried and tested or it is a (relatively) new technology\no  white blood cells, plasma and platelets are not collected\no  cannot use for other purposes as only red blood cells collected\n\nCosts:\n red blood cells from donation are cheaper than blood from stem\ncells\n red blood cells from whole donation costs 61 / 62 pence per\ncm3\nor\nred blood cells from whole donation costs £6.15 per 10 cm3\n red blood cells from stem cells cost £1.50 per cm3\n\n  lab grown blood is 2 / 3 times more expensive than whole blood\ndonation\n  (470 cm3 of red blood cells) from stem cells cost £705\n  (211.5 cm3 of red blood cells) from stem cells cost £317.25\n  211.5 cm3 of red blood cells from whole donation costs £130\n\nFor Level 3, advantages and disadvantages for a treatment\nare needed and a reference to costs.\nFor Level 2, advantages / disadvantages for a treatment\nare needed and a reference to costs.\nFor Level 1, relevant points are made.",
+     "scheme": "Level 3: A judgement, strongly linked and logically supported by a  5–6  AO2\nsufficient range of correct reasons, is given.\n\nLevel 2: Some logically linked reasons are given. There may also  3–4  AO3\nbe a simple judgement.\n\nLevel 1: Relevant points are made. They are not logically linked.  1–2  AO3\n\nNo relevant content  0  4.1.2.3\n\nIndicative content\n\nAdvantages of blood from stem cells:\n\n•  reduces the need for volunteer blood donors\n•  only a small sample of blood is required (to produce the\nnecessary blood cells)\n•  can produce a large(r) quantity of red blood cells\n•  (blood cells are all new) so last longer in the patient\n•  no rejection or no need to tissue match\n•  no ethical objection to receiving blood (because it is from the\npatient)\n•  we can produce blood that is a rare / specific blood group / type\n•  less / no risk of infection (from contaminated blood)\n\n•  whole blood donation takes more time / processing to separate\nthe blood into its parts\n\nDisadvantages of blood from stem cells:\n\no  a blood donation is still required\no  not tried and tested or it is a (relatively) new technology\no  white blood cells, plasma and platelets are not collected\no  cannot use for other purposes as only red blood cells collected\n\nCosts:\n• red blood cells from donation are cheaper than blood from stem\ncells\n• red blood cells from whole donation costs 61 / 62 pence per\ncm³\nor\nred blood cells from whole donation costs £6.15 per 10 cm³\n• red blood cells from stem cells cost £1.50 per cm³\n\n•  lab grown blood is 2 / 3 times more expensive than whole blood\ndonation\n•  (470 cm³ of red blood cells) from stem cells cost £705\n•  (211.5 cm³ of red blood cells) from stem cells cost £317.25\n•  211.5 cm³ of red blood cells from whole donation costs £130\n\nFor Level 3, advantages and disadvantages for a treatment\nare needed and a reference to costs.\nFor Level 2, advantages / disadvantages for a treatment\nare needed and a reference to costs.\nFor Level 1, relevant points are made.",
+     "schemeSource": "exact",
      "topic": "Cell biology",
      "seePaper": true
     }

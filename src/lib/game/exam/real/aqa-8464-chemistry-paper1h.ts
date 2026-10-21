@@ -28,6 +28,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "ignore references to safety  AO3\nglasses or gloves  5.4.3.4\nRPA9\nany one from:  1\n\n• do experiment in a fume  allow use an extractor fan\ncupboard\n\n• do experiment in a  allow descriptions of well-\nwell-ventilated laboratory /  ventilated such as open\nroom  windows\n\nallow use a gas mask\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemical changes",
      "lead": "A teacher demonstrated the electrolysis of copper chloride solution.\n\nFigure 1 shows the apparatus.\n\nFigure 1\n\nThe teacher measured the mass of the negative electrode every 60 seconds.",
      "seePaper": true
@@ -40,6 +41,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "all 6 points plotted correctly  allow a tolerance of ± ½ a small  2  AO2\nsquare  5.4.3.4\nRPA9\nallow 1 mark for 4 or 5 points\nplotted correctly\n\nline of best fit  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemical changes",
      "seePaper": true
     },
@@ -51,6 +53,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "any one from:  1  AO3\n\n• the increase in mass (for  allow evidence of two correctly  5.4.3.4\nsuccessive 60 second  determined changes in mass  RPA9\nintervals) decreases  (for 60 second intervals) from\nTable 1\n\nallow the difference in mass\n(every 60 seconds) is not the\nsame\n\n• after 300 seconds the mass\nremains constant\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemical changes",
      "seePaper": true
     },
@@ -58,20 +61,22 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "id": "aqa-8464-chemistry-paper1h:01.4",
      "label": "01.4",
      "marks": 3,
-     "prompt": "25 cm3 of the solution of copper chloride contained 5.5 g of copper chloride.\n\nCalculate the concentration of the solution in g/dm3.\n\n1 dm3 = 1000 cm3\n\nConcentration =  g/dm3",
+     "prompt": "25 cm3 of the solution of copper chloride contained 5.5 g of copper chloride.\n\nCalculate the concentration of the solution in g/dm³.\n\n1 dm³ = 1000 cm³\n\nConcentration =  g/dm³",
      "page": 5,
      "kind": "self",
-     "scheme": "(volume conversion 25 cm3 =)  AO2\n0.025 (dm3)  1  5.3.2.5\n\n5.5  allow correct use of an incorrect  1\n( concentration =)  / no conversion of volume\n0.025\n\n= 220 (g/dm3)  1\n\nOR\n\n5.5\n(concentration =)  (1)\n\n= 0.22 (g/cm3) (1)\n\n(conversion = 0.22 × 1000)  allow correct use of an\n= 220 (g/dm3) (1)  incorrectly determined\nconcentration in g/cm3\nusing the values in the question\n\nOR\n\n1000\n(ratio of volume  =) 40 (1)\n\n(so ratio of mass =) 40 × 5.5 (1)\n\n= 220 (g/dm3) (1)\n\nAO /",
+     "scheme": "(volume conversion 25 cm³ =)  AO2\n0.025 (dm³)  1  5.3.2.5\n\n5.5  allow correct use of an incorrect  1\n( concentration =)  / no conversion of volume\n0.025\n\n= 220 (g/dm³)  1\n\nOR\n\n5.5\n(concentration =)  (1)\n\n= 0.22 (g/cm³) (1)\n\n(conversion = 0.22 × 1000)  allow correct use of an\n= 220 (g/dm³) (1)  incorrectly determined\nconcentration in g/cm³\nusing the values in the question\n\nOR\n\n1000\n(ratio of volume  =) 40 (1)\n\n(so ratio of mass =) 40 × 5.5 (1)\n\n= 220 (g/dm³) (1)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Quantitative chemistry"
     },
     {
      "id": "aqa-8464-chemistry-paper1h:01.5",
      "label": "01.5",
      "marks": 1,
-     "prompt": "The teacher also electrolysed potassium chloride solution.\n\nHydrogen gas was given off at the negative electrode.\n\nWhy was hydrogen gas given off?\nTick () one box.\n\nHydrogen is less reactive than potassium.\n\nHydrogen has the same reactivity as potassium.\n\nHydrogen is more reactive than potassium.  9",
+     "prompt": "The teacher also electrolysed potassium chloride solution.\n\nHydrogen gas was given off at the negative electrode.\n\nWhy was hydrogen gas given off?\nTick (✓) one box.\n\nHydrogen is less reactive than potassium.\n\nHydrogen has the same reactivity as potassium.\n\nHydrogen is more reactive than potassium.  9",
      "page": 6,
      "kind": "self",
      "scheme": "hydrogen is less reactive than  1  AO2\npotassium  5.4.3.4\nRPA9",
+     "schemeSource": "exact",
      "topic": "Chemical changes"
     }
    ]
@@ -88,6 +93,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "allow heat for energy  AO1\n\n(a reaction) which transfers  allow (a reaction) which  1\nenergy to the surroundings  releases energy (to the\nsurroundings)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)",
      "lead": "A student investigated an exothermic reaction.\n\nThe student reacted solid calcium oxide with water to produce calcium hydroxide."
     },
@@ -99,6 +105,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "(mass of oxygen = 2 × 16 =) 32  1  AO2\n\n32  allow correct use of an  1\n(percentage =)  × 100  incorrectly determined mass of\n\noxygen\n\n= 43.2 (%)  allow 43.2432 (%) correctly  1\nrounded to at least 2 significant\nfigures\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)"
     },
     {
@@ -109,6 +116,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "Level 3: The method would lead to the production of a valid  5–6  AO1\noutcome. All key steps are identified and logically sequenced.  5.5.1.1\nRPA10\n\nLevel 2: The method would not necessarily lead to a valid  3–4\noutcome. Most steps are identified, but the method is not fully\nlogically sequenced.\n\nLevel 1: The method would not lead to a valid outcome. Some  1–2\nrelevant steps are identified, but links are not made clear.\n\nNo relevant content  0\n\nIndicative content\n\n• measure volume of water\no using a measuring cylinder\no pour into a suitable container eg insulated cup\n\n• measure initial temperature of water\no using a thermometer\n\n• add known mass of calcium oxide\no measured with a balance\no stir\n\n• measure the highest temperature reached by the mixture\nor\nmeasure temperature reached after set time period\no determine the temperature change\n\n• repeat with different masses of calcium oxide\nor\nadd successive masses to the same mixture\n\n• use the same volume of water\no use the same initial temperature of water\n\nfor Level 3 all key steps should be described and the control\nvariable the same volume of water must be given",
+     "schemeSource": "exact",
      "topic": "Energy changes"
     }
    ]
@@ -121,10 +129,11 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "id": "aqa-8464-chemistry-paper1h:03.1",
      "label": "03.1",
      "marks": 2,
-     "prompt": "Figure 3 shows the results of the alpha particle scattering experiment.\n\nIn the experiment, alpha particles were fired at gold foil.\n\nAlpha particles are positively charged.\n\nFigure 3\n\nWhat two conclusions were made from the results?\nTick () two boxes.\n\nAtoms are very small.\n\nAtoms have a charged nucleus.\n\nElectrons orbit the nucleus at specific distances.\n\nIsotopes of an element have a different number of neutrons.\n\nThe mass of an atom is concentrated in the nucleus.\n\nParticle X consists of:\n\n• 35 protons\n• 44 neutrons\n• 36 electrons.",
+     "prompt": "Figure 3 shows the results of the alpha particle scattering experiment.\n\nIn the experiment, alpha particles were fired at gold foil.\n\nAlpha particles are positively charged.\n\nFigure 3\n\nWhat two conclusions were made from the results?\nTick (✓) two boxes.\n\nAtoms are very small.\n\nAtoms have a charged nucleus.\n\nElectrons orbit the nucleus at specific distances.\n\nIsotopes of an element have a different number of neutrons.\n\nThe mass of an atom is concentrated in the nucleus.\n\nParticle X consists of:\n\n• 35 protons\n• 44 neutrons\n• 36 electrons.",
      "page": 9,
      "kind": "self",
      "scheme": "atoms have a charged nucleus  1  AO1\n\nthe mass of an atom is  1\nconcentrated in the nucleus\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)",
      "lead": "This question is about atoms, ions and elements.",
      "seePaper": true
@@ -137,16 +146,18 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "(particle X) has more electrons  allow (particle X) has a different  1  AO3\nthan protons  number of protons and electrons  5.1.1.4\n\nallow because atoms have the\nsame number of protons and\nelectrons\n\ndo not accept (particle X) has a\ndifferent number of neutrons\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Atomic structure and the periodic table"
     },
     {
      "id": "aqa-8464-chemistry-paper1h:03.3",
      "label": "03.3",
      "marks": 1,
-     "prompt": "Which is the correct representation of particle X?\n\nUse the periodic table.\nTick () one box.\n\n79 +\nBr\n\n79 −\nBr\n\n79 +\nSe\n\n79 −\nSe\n\nGroup 7 elements are known as the halogens.",
+     "prompt": "Which is the correct representation of particle X?\n\nUse the periodic table.\nTick (✓) one box.\n\n79 +\nBr\n\n79 −\nBr\n\n79 +\nSe\n\n79 −\nSe\n\nGroup 7 elements are known as the halogens.",
      "page": 10,
      "kind": "self",
      "scheme": "79 −  1  AO2\nBr\n35  5.1.1.5\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Atomic structure and the periodic table",
      "seePaper": true
     },
@@ -158,6 +169,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "(going down the group)  allow (going down the group)  1  AO1\nmolecules increase in size  atoms increase in size  5.1.2.6\n\n(so the) forces between the  1\nmolecules increase\nor\n(so the) intermolecular forces\nincrease\n\n(so) more energy is needed to  allow (so) more energy is  1\nbreak the intermolecular forces  needed to separate the\nmolecules\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Atomic structure and the periodic table",
      "seePaper": true
     },
@@ -169,6 +181,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "covalent  ignore intermolecular forces  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)"
     },
     {
@@ -179,6 +192,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "chlorine + sodium bromide → bromine + sodium chloride  1  AO2\n\nallow Br2 for bromine\nallow NaCl for sodium chloride\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)"
     },
     {
@@ -189,6 +203,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "allow energy level for shell  AO1\n\n(going down the group the)\nthe outer shell / electrons  allow the atoms become larger  1\nbecome further from the nucleus\nallow the atoms have more\nshells\n\n(so) there is less (electrostatic)  allow (so) there is more  1\nattraction between the nucleus  shielding between the outer\nand the outer electron(s)  electron(s) and the nucleus\n\n(so) gaining an electron is more  1\ndifficult",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)"
     }
    ]
@@ -205,6 +220,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "iron is less reactive than carbon  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)",
      "lead": "This question is about metals.",
      "seePaper": true
@@ -217,6 +233,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "the mixture has a lower melting  1  AO1\npoint (than aluminium oxide)  5.4.3.3\n\n(so) less energy is used (to melt  1\nthe electrolyte)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemical changes"
     },
     {
@@ -227,6 +244,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "2 O2− → O2 + 4 e−  allow multiples  2  AO2\n\nallow 1 mark for O2−→ O2 + e−\nwith no / incorrect balancing\nnumbers\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)"
     },
     {
@@ -236,7 +254,8 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "prompt": "Which substance in the equation is reduced?\n\nTable 3 shows the relative cost of extracting equal masses of aluminium, chromium\nand iron.\n\nTable 3\n\nRelative cost of\nMetal\nextraction\n\nAluminium  2\n\nChromium  20\n\nIron  1",
      "page": 16,
      "kind": "self",
-     "scheme": "Cr2O3  allow Cr3+ ions  1  AO2\nor  5.4.1.3\nchromium oxide\n\nAO /",
+     "scheme": "Cr2O3  allow Cr³⁺ ions  1  AO2\nor  5.4.1.3\nchromium oxide\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemical changes",
      "seePaper": true
     },
@@ -248,6 +267,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "extracting aluminium uses more  1  AO3\nenergy (so costs more)  5.4.1.3\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemical changes",
      "seePaper": true
     },
@@ -259,6 +279,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "(extracting chromium costs  1  AO3\nmore because)  5.4.1.3\naluminium is used in the  5.4.3.3\nextraction of chromium\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemical changes",
      "seePaper": true
     },
@@ -270,6 +291,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "alloys contain different sized  allow alloys contain different  1  AO1\natoms  sized (positive) ions  5.2.2.7\n\n(so the) layers are distorted  1\n\n(so the) layers (of atoms) slide  allow (so the) atoms cannot  1\nless easily  slide over each other",
+     "schemeSource": "exact",
      "topic": "Bonding, structure and properties"
     }
    ]
@@ -286,6 +308,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 18,
      "kind": "self",
      "scheme": "(hydrogen chloride) g / (g)  1  AO2\nand  5.2.2.2\n(water) l / (l)\nand\n(hydrochloric acid) aq / (aq)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Bonding, structure and properties",
      "lead": "This question is about hydrogen chloride (HCl) and hydrogen chlorate (HOCl).\n\nHydrogen chloride and hydrogen chlorate both form acids when dissolved in water."
     },
@@ -293,10 +316,11 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "id": "aqa-8464-chemistry-paper1h:05.2",
      "label": "05.2",
      "marks": 1,
-     "prompt": "A solution of hydrochloric acid has:\n• a pH of 2.5\n• a concentration of H+ ions of 3.16 × 10−3 mol/dm3.\n\nWhat is the concentration of H+ ions in a solution of hydrochloric acid that has\na pH of 3.5?\n\nConcentration =  mol/dm3",
+     "prompt": "A solution of hydrochloric acid has:\n• a pH of 2.5\n• a concentration of H⁺ ions of 3.16 × 10⁻³ mol/dm³.\n\nWhat is the concentration of H⁺ ions in a solution of hydrochloric acid that has\na pH of 3.5?\n\nConcentration =  mol/dm³",
      "page": 18,
      "kind": "self",
-     "scheme": "3.16 × 10−4 (mol/dm3)  1  AO2\n\nAO /",
+     "scheme": "3.16 × 10⁻⁴ (mol/dm³)  1  AO2\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)"
     },
     {
@@ -306,7 +330,8 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "prompt": "Figure 5 shows the outer shells in one molecule of hydrogen chlorate (HOCl).\n\nComplete the dot and cross diagram to show the electrons in the outer shells.\n\nFigure 5",
      "page": 19,
      "kind": "self",
-     "scheme": "allow any combination of  AO2\nx, , e(−), ⚫ for electrons  5.2.1.1\n\n1 pair of electrons in both\noverlaps\n\n4 non-bonding electrons on  do not accept non-bonding  1\noxygen atom and 6 non-bonding  electrons on hydrogen\nelectrons on chlorine atom\n\nan answer of\n\nscores 2 marks\n\nAO /",
+     "scheme": "allow any combination of  AO2\nx, ○, e(−), ⚫ for electrons  5.2.1.1\n\n1 pair of electrons in both\noverlaps\n\n4 non-bonding electrons on  do not accept non-bonding  1\noxygen atom and 6 non-bonding  electrons on hydrogen\nelectrons on chlorine atom\n\nan answer of\n\nscores 2 marks\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Bonding, structure and properties",
      "seePaper": true
     },
@@ -318,6 +343,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 19,
      "kind": "self",
      "scheme": "a weak acid partially ionises in  1  AO1\nan aqueous solution  5.4.2.4\n\n(so) produces a lower  1\nconcentration of hydrogen ions\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemical changes"
     },
     {
@@ -328,6 +354,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 20,
      "kind": "self",
      "scheme": "(bonds broken = (4 × 413) + 243  1  AO2\n=) 1895  5.5.1.3\n\n(bonds made =\n(3 × 413) + 346 + 432 =)\n2017  1\n\n(energy change = 1895 − 2017  allow correct use of an\n=) (−) 122 (kJ/mol)  incorrectly determined value for  1\nbonds broken and / or bonds\nmade\n\nalternative approach\n\n(bonds broken = 413 + 243 =)\n656 (1)\n\n(bonds made = 346 + 432 =)\n778 (1)\n\n(energy change = 656 − 778 =)\n(−) 122 (kJ/mol) (1)\n\nallow correct use of an\nincorrectly determined value for\nbonds broken and / or bonds\nmade",
+     "schemeSource": "exact",
      "topic": "Energy changes",
      "seePaper": true
     }
@@ -345,6 +372,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 21,
      "kind": "self",
      "scheme": "a Bunsen burner reaches a  allow a water bath will not reach  1  AO3\nhigher temperature  a high enough temperature  5.3.1.3\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Quantitative chemistry",
      "lead": "Some reactions appear to involve a change in mass.\n\nA student investigated the change in mass when solids were heated.\n\nFigure 7 shows the apparatus.\n\nFigure 7\n\nThe student determined the mass of the contents of the crucible at regular intervals.",
      "seePaper": true
@@ -357,6 +385,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 23,
      "kind": "self",
      "scheme": "(magnesium)  1  AO2\n(contents of crucible) increase in  allow a value in the range 0.38\nmass (from 0.24 to 0.38 g)  to 0.39 for 0.38\n\n(because magnesium) gains  1  AO3\noxygen\n\n(magnesium carbonate)  1  AO2\n(contents of crucible) decrease  allow a value in the range 0.44\nin mass (from 0.84 to 0.44 g)  to 0.45 for 0.44\n\n(because) carbon dioxide is  allow (because) carbon dioxide  1  AO3\nreleased  gas is produced\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)",
      "seePaper": true
     },
@@ -368,6 +397,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 23,
      "kind": "self",
      "scheme": "both reactions produce 0.01 mol  1  AO3\nof magnesium oxide  5.3.1.3\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Quantitative chemistry",
      "seePaper": true
     },
@@ -379,6 +409,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 24,
      "kind": "self",
      "scheme": "(if solid escaped) the final mass  allow (solid cannot have  1  AO3\nwould be lower for the actual  escaped because) same mass  5.3.1.3\nresults than for the predicted  of solid product formed\nresults\nallow (solid cannot have\nescaped because) both form\n0.4 g of solid\n\nallow (solid cannot have\nescaped because) the final\nmass of the contents (of the\ncrucible) are the same\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Quantitative chemistry",
      "seePaper": true
     },
@@ -390,6 +421,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 25,
      "kind": "self",
      "scheme": "(ratio Fe : H2O) 3:4  1  AO2\n\n(formula) Fe3O4  allow formula correctly  1  5.3.2.1\ndetermined from incorrect ratio  5.3.2.2\n\n3 Fe + 4 H2O → Fe3O4 + 4 H2  allow multiples  2  5.4.1.2\n\nallow correct use of an\nincorrectly determined formula\nfor iron oxide\n\nallow 1 mark for Fe, H2O, Fe3O4\nand H2\nor\nallow 1 mark for Fe, H2O, H2 and\nan incorrectly determined\nformula for iron oxide",
+     "schemeSource": "exact",
      "topic": "Quantitative chemistry"
     }
    ]
@@ -406,6 +438,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 26,
      "kind": "self",
      "scheme": "(model A) does not show the 3D  allow (model A) only shows the  1  AO3\narrangement (of the ions /  2D arrangement (of the ions /  5.2.1.3\nparticles)  particles)\n\nallow (model A) does not show\nlattice arrangement (of the ions /\nparticles)\n\nallow (model A) only shows two\nions / particles\n\n(model A) does not show the  1\nrelative sizes of the ions /\nparticles\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Bonding, structure and properties",
      "lead": "This question is about bonding and structures.",
      "seePaper": true
@@ -414,10 +447,11 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "id": "aqa-8464-chemistry-paper1h:07.2",
      "label": "07.2",
      "marks": 1,
-     "prompt": "Aluminium sulfate consists of the ions:\n• Al3+\n• SO42–\n\nWhat is the formula of aluminium sulfate?",
+     "prompt": "Aluminium sulfate consists of the ions:\n• Al³⁺\n• SO42–\n\nWhat is the formula of aluminium sulfate?",
      "page": 26,
      "kind": "self",
      "scheme": "Al2(SO4)3  1  AO2\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Chemistry (mixed)"
     },
     {
@@ -428,6 +462,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 27,
      "kind": "self",
      "scheme": "aluminium has more delocalised  allow aluminium has more outer  1  AO2\nelectrons per atom than sodium  shell electrons per atom than  5.1.1.7\nsodium  5.2.1.5\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Atomic structure and the periodic table"
     },
     {
@@ -438,6 +473,7 @@ export const aqa_8464_chemistry_paper1h: RealPaper = {
      "page": 27,
      "kind": "self",
      "scheme": "Level 2: Scientifically relevant features are identified; the way(s) in  3–4  AO1\nwhich they are similar / different is made clear and (where  5.2.1.4\nappropriate) the magnitude of the similarity / difference is noted.  5.2.2.5\n\nLevel 1: Relevant features are identified and differences noted.  1–2\n\nNo relevant content  0\n\nIndicative content\n\nSimilarities\n• both have covalent bonding\no both form bonds by sharing electrons\n\n• both have atoms that form 4 bonds\no in silicon dioxide each silicon atom forms 4 bonds, in\npoly(ethene) each carbon atom forms 4 bonds\n\n• both substances have strong (covalent) bonds\n\nDifferences\n• silicon dioxide has atoms that form 2 bonds\no in silicon dioxide each oxygen atom forms 2 bonds\n• poly(ethene) has atoms that form 1 bond\no in poly(ethene) each hydrogen atom forms 1 bond\n\n• silicon dioxide only has covalent bonds\n• poly(ethene) has intermolecular forces between polymer\nmolecules\n\n• silicon dioxide is a giant structure\n• poly(ethene) has very large molecules\n\nFor Level 2 a comparison and reference to magnitude, structure\nand bonding is required",
+     "schemeSource": "exact",
      "topic": "Bonding, structure and properties"
     }
    ]

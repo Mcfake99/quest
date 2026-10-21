@@ -24,10 +24,11 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "id": "aqa-8464-physics-paper2h:01.1",
      "label": "01.1",
      "marks": 1,
-     "prompt": "What equation links distance travelled, speed and time?\nTick () one box.",
+     "prompt": "What equation links distance travelled, speed and time?\nTick (✓) one box.",
      "page": 2,
      "kind": "mcq",
      "scheme": "distance travelled = speed × time  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "lead": "In a dog-sled race, a team of dogs pull on a rope attached to a sled.\n\nFigure 1 shows a dog-sled team.\n\nFigure 1\n\nUse the Physics Equations Sheet to answer questions 01.1 and 01.2.",
      "options": [
@@ -48,8 +49,12 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 3,
      "kind": "numeric",
      "scheme": "1 500 000 = v × 670 000  1  AO2\n\n1 500 000  1\nv=\n670 000\n\nV = 2.2… (m/s)  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
-     "numeric": 2.2
+     "numeric": 2.2,
+     "accept": [
+      2.24
+     ]
     },
     {
      "id": "aqa-8464-physics-paper2h:01.3",
@@ -59,8 +64,9 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 3,
      "kind": "numeric",
      "scheme": "F = (6 × 370) - 520  1  AO2\n\nF = 1700 (N)  1\nif no other mark awarded allow\n1 mark for 370 - 520 = (-)150 (N)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
-     "numeric": 1700.0,
+     "numeric": 1700,
      "seePaper": true
     },
     {
@@ -71,6 +77,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "speed  allow velocity  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "seePaper": true
     },
@@ -78,10 +85,11 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "id": "aqa-8464-physics-paper2h:01.5",
      "label": "01.5",
      "marks": 1,
-     "prompt": "Later in the race, the sled moved at a constant speed along a flat, horizontal path.\n\nWhat was the relationship between the size of the horizontal forces acting when the\nsled moved at a constant speed?\nTick () one box.",
+     "prompt": "Later in the race, the sled moved at a constant speed along a flat, horizontal path.\n\nWhat was the relationship between the size of the horizontal forces acting when the\nsled moved at a constant speed?\nTick (✓) one box.",
      "page": 5,
      "kind": "mcq",
      "scheme": "friction + air resistance = pull of the rope on the sled  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "options": [
       "friction + air resistance < pull of the rope on the sled",
@@ -96,16 +104,16 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "id": "aqa-8464-physics-paper2h:01.6",
      "label": "01.6",
      "marks": 1,
-     "prompt": "The rope exerted a force on the sled when the sled was moving.\n\nWhat is the Newton’s Third Law pair to the force of the rope on the sled?\nTick () one box.",
+     "prompt": "The rope exerted a force on the sled when the sled was moving.\n\nWhat is the Newton’s Third Law pair to the force of the rope on the sled?\nTick (✓) one box.",
      "page": 5,
      "kind": "mcq",
      "scheme": "the force of the sled on the rope  1  AO1",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "options": [
       "The force of friction on the sled",
       "The force of the dogs on the rope",
-      "The force of the sled on the rope",
-      "9"
+      "The force of the sled on the rope"
      ],
      "answer": [
       "The force of the sled on the rope"
@@ -121,13 +129,17 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "id": "aqa-8464-physics-paper2h:02.1",
      "label": "02.1",
      "marks": 3,
-     "prompt": "The driver applies the brakes when the car is 24 m away from the roadworks.\n\nThe velocity of the car changes from 18 m/s to 0 m/s.\n\nCalculate the constant deceleration needed to stop the car in a distance of 24 m.\n\nUse the Physics Equations Sheet.\n\nDeceleration =  m/s2",
+     "prompt": "The driver applies the brakes when the car is 24 m away from the roadworks.\n\nThe velocity of the car changes from 18 m/s to 0 m/s.\n\nCalculate the constant deceleration needed to stop the car in a distance of 24 m.\n\nUse the Physics Equations Sheet.\n\nDeceleration =  m/s²",
      "page": 6,
      "kind": "numeric",
-     "scheme": "(02 –) 182 = 2 × a × 24  allow 182 = 2 × a × 24  1  AO2\n\n2  1\n(–)18\na=\n2 × 24\n\na = (–) 6.75 (m/s2)  allow (–) 6.8 (m/s2)  1\n\nAO /",
+     "scheme": "(02 –) 182 = 2 × a × 24  allow 18² = 2 × a × 24  1  AO2\n\n2  1\n(–)18\na=\n2 × 24\n\na = (–) 6.75 (m/s²)  allow (–) 6.8 (m/s²)  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "lead": "The stopping distance of a car is affected by the condition of the brakes and tyres.\n\nA car is being driven around a corner when the driver sees some roadworks.",
-     "numeric": 2.0
+     "numeric": 6.75,
+     "accept": [
+      6.8
+     ]
     },
     {
      "id": "aqa-8464-physics-paper2h:02.2",
@@ -137,6 +149,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "Level 3: Relevant points (reasons / causes) are identified, given in  5–6  AO2\ndetail and logically linked to form a clear account.\n\nLevel 2: Relevant points (reasons / causes) are identified, and  3–4  AO1\nthere are attempts at logical linking. The resulting account is not\nfully clear.\n\nLevel 1: Points are identified and stated simply, but their relevance  1–2  AO1\nis not clear and there is no attempt at logical linking.\n\nNo relevant content  0  6.5.4.3.1\n\nIndicative Content\n\nThinking distance\n• condition of brakes and tyres does not affect thinking distance\n\n• speed does not affect thinking / reaction time\n• decreased speed decreases thinking distance\n\nBraking distance\n• condition of tyres affects friction between tyres and road\n• poor condition of tyres and brakes increases braking distance\n\n• decreased speed decreases braking distance\n\nsafety\n• stopping distance = thinking distance + braking distance\n• poor condition of brakes and tyres increases stopping distance\n• decreased speed decreases stopping distance\n• decreased speed decreases the chance of the driver losing\ncontrol of the vehicle\n• decreased speed decreases the chance of a collision\n• decreased speed decreases the risk of injury during a collision\n\nfor Level 3, answers must include references to brakes / tyres,\nspeed, thinking distance, braking distance, and safety.\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Forces"
     },
     {
@@ -147,6 +160,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "frictional / braking force is  1  AO1\ngreater (for the faster car)\nor\nthe faster car has more kinetic\nenergy\n\n(so) more work done (by the  allow so more energy is  1  AO3\nbrakes to stop the faster car)  transferred (by the brakes to\nstop the faster car)\n\nignore more heating\n\n(so) the risk of the brakes  allow (at greater speed) there is  1  AO3\noverheating is greater (for the  a risk of overheating  6.5.4.3.4\nfast car)\nMP3 dependent on MP1 or MP2",
+     "schemeSource": "exact",
      "topic": "Forces"
     }
    ]
@@ -163,6 +177,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "oscillations / vibrations are  allow oscillations / vibrations are  2  AO1\nperpendicular to the direction of  perpendicular to the direction of  6.6.1.1\nenergy transfer  wave travel\n\nallow 1 mark for oscillations/\nvibrations are perpendicular\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Waves",
      "lead": "A pair of sunglasses has lenses that absorb all ultraviolet and some visible light."
     },
@@ -174,6 +189,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "skin cancer  allow skin cell mutation  1  AO1\nor  6.6.2.3\ncauses skin to age  ignore cancer unqualified\n(prematurely)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Waves"
     },
     {
@@ -184,16 +200,18 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "shorter  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)"
     },
     {
      "id": "aqa-8464-physics-paper2h:03.4",
      "label": "03.4",
      "marks": 4,
-     "prompt": "A wave of visible light has a frequency of 6.25 × 1014 Hz.\n\nspeed of light = 3.00 × 108 m/s\n\nCalculate the wavelength of this light.\n\nUse the Physics Equations Sheet.\n\nGive your answer in nanometres (nm).\n\nWavelength =  nm",
+     "prompt": "A wave of visible light has a frequency of 6.25 × 10¹⁴ Hz.\n\nspeed of light = 3.00 × 10⁸ m/s\n\nCalculate the wavelength of this light.\n\nUse the Physics Equations Sheet.\n\nGive your answer in nanometres (nm).\n\nWavelength =  nm",
      "page": 10,
      "kind": "self",
-     "scheme": "3.00 × 108 = 6.25 × 1014 × λ  1  AO2\n\n3.00 × 108  1\nλ=\n6.25 × 1014\n\nλ = 4.80 × 10–7 (m)  1\n\nλ = 480 (nm)  allow a correct conversion to nm  1\nof their incorrectly calculated\nvalue of λ using the numbers\nfrom the question\n\nAO /",
+     "scheme": "3.00 × 10⁸ = 6.25 × 10¹⁴ × λ  1  AO2\n\n3.00 × 10⁸  1\nλ=\n6.25 × 10¹⁴\n\nλ = 4.80 × 10⁻⁷ (m)  1\n\nλ = 480 (nm)  allow a correct conversion to nm  1\nof their incorrectly calculated\nvalue of λ using the numbers\nfrom the question\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)"
     },
     {
@@ -204,6 +222,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "the speed of the light / waves /  allow the speed of light / waves /  1  AO1\nwavefronts decreases (when  wavefronts is less in the lens  6.6.2.2\nentering the lens)  (than in air)\n\nignore lens has a higher density\nthan air\n\nignore references to refractive\nindex\n\n(so) one end of the wavefront  1\nslows before the other end\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Waves",
      "seePaper": true
     },
@@ -215,6 +234,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "normal line drawn  allow a normal line that only  1  AO2\nextends from the boundary into  6.6.2.2\nthe glass\n\nray drawn with an angle of refraction of 28°\n\nignore ray below the glass",
+     "schemeSource": "exact",
      "topic": "Waves",
      "seePaper": true
     }
@@ -232,6 +252,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "(at least) 2 concentric rings  1  AO1\naround the point where the wire  6.7.2.1\npasses through the card\n\nwith arrow(s) drawn in  1\nanticlockwise direction around\nthe wire\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Magnetism and electromagnetism",
      "lead": "When there is a current in a wire, there is a magnetic field around the wire.",
      "seePaper": true
@@ -242,10 +263,10 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "marks": 5,
      "prompt": "A student positioned a straight wire in the magnetic field between two magnets.\n\nThe wire was perpendicular to the magnetic field.\n\nThere was a current of 0.56 A in the wire.\n\nThe magnetic force on the wire was 2.1 mN.\n\nThe length of wire in the magnetic field was 0.050 m.\n\nCalculate the magnetic flux density of the magnetic field between the magnets.\n\nUse the Physics Equations Sheet.\n\nGive the unit.\n\nMagnetic flux density =  Unit",
      "page": 15,
-     "kind": "numeric",
-     "scheme": "2.1 mN = 0.0021 N  subsequent marks may be  1  AO2\nawarded if F is incorrectly / not\nconverted\n\n0.0021 = B × 0.56 × 0.050  1  AO2\n\n0.0021  1  AO2\nB=\n0.56 × 0.050\n\nB = 0.075  1  AO2\n\ntesla or T  1  AO1\n\nAO /",
-     "topic": "Physics (mixed)",
-     "numeric": 0.075
+     "kind": "self",
+     "scheme": "Answer: B = 0.075 tesla (T) — the unit is the fifth mark\n\n2.1 mN = 0.0021 N  subsequent marks may be  1  AO2\nawarded if F is incorrectly / not\nconverted\n\n0.0021 = B × 0.56 × 0.050  1  AO2\n\n0.0021  1  AO2\nB=\n0.56 × 0.050\n\nB = 0.075  1  AO2\n\ntesla or T  1  AO1\n\nAO /",
+     "schemeSource": "exact",
+     "topic": "Physics (mixed)"
     },
     {
      "id": "aqa-8464-physics-paper2h:04.3",
@@ -255,6 +276,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "there is a magnetic field  1  AO1\nbetween the poles of the  6.7.2.2\nmagnets  6.7.2.3\n\na current in a loop of wire  1\ncauses a magnetic field\n\nthe current is in opposite  1\ndirections in side A and side B\n\n(so) the (vertical) forces on side  1\nA and side B are in opposite\ndirections\n\nthe force on side A is  allow the forces on side A and  1\ndownwards  side B cause the loop to rotate\nor  anticlockwise\nthe force on side B is upwards",
+     "schemeSource": "exact",
      "topic": "Magnetism and electromagnetism",
      "seePaper": true
     }
@@ -272,6 +294,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 19,
      "kind": "self",
      "scheme": "random  1  AO3\n\nRPA 21\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)",
      "lead": "A student used a temperature probe to measure the temperature of melting ice.\n\nThis is the method used.\n\n1. Place the temperature probe in iced water and record the temperature.\n\n2. Remove the probe from the iced water and allow the probe to return to\nroom temperature.\n\n3. Repeat steps 1 and 2 four more times.\n\nThe measurements were:\n\n–0.5 °C  +0.2 °C  –0.3 °C  +0.5 °C  +0.1 °C"
     },
@@ -283,6 +306,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 19,
      "kind": "self",
      "scheme": "range = 0.5 – (–0.5)  allow  1  AO3\nor  0.5+0.2-0.3+0.5+0.1  6.6.2.2\nrange = 1  0.5- (  )  RPA 21\n\nor\n0.5 – (–0.5)  allow\nuncertainty =  0.5+0.2-0.3+0.5+0.1\n2  (  ) -0.5\n\nuncertainty = (±) 0.5 (°C)  1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Waves",
      "seePaper": true
     },
@@ -294,6 +318,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 21,
      "kind": "self",
      "scheme": "y-axis scale of 10 °C per cm  1  AO2\n\nall points plotted correctly  allow 1 mark for 3 or 4 points  2  AO2\nplotted correctly\n\nallow a tolerance of ± ½ small\nsquare’\n\ncurved line of best fit ignoring  1  AO3\nanomalous point at 8 minutes  6.6.2.2\nRPA 21\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Waves",
      "seePaper": true
     },
@@ -305,8 +330,12 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 22,
      "kind": "numeric",
      "scheme": "2 minutes = 120 seconds  subsequent marks may be  1  AO2\nawarded if time is incorrectly /  6.6.2.2\nnot converted  RPA21\n\n63 – 18  1\nrate =\n120\n\nrate = 0.375 (°C/s)  allow 0.38 (°C/s)  1\n\nAO /\n\nignore references to heat",
+     "schemeSource": "exact",
      "topic": "Waves",
-     "numeric": 0.375
+     "numeric": 0.375,
+     "accept": [
+      0.38
+     ]
     },
     {
      "id": "aqa-8464-physics-paper2h:05.5",
@@ -316,6 +345,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 23,
      "kind": "self",
      "scheme": "throughout  AO1\n\nblack surfaces are good  1  RPA21\nabsorbers (and emitters of\ninfrared / radiation)\n\nwhite surfaces are poor  1\nabsorbers (and emitters of\ninfrared / radiation)\n\nas the temperature of the cubes  1\nincreases the cubes emit\ninfrared / radiation at a greater\nrate\n\nat maximum / constant  1\ntemperature, each cube emits\ninfrared /radiation at the same\nrate that it absorbs infrared /\nradiation",
+     "schemeSource": "exact",
      "topic": "Physics (mixed)"
     }
    ]
@@ -328,10 +358,11 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "id": "aqa-8464-physics-paper2h:06.1",
      "label": "06.1",
      "marks": 1,
-     "prompt": "One athlete in a triathlon swims at a speed of 1.5 m/s.\n\nHow does the athlete’s swimming speed compare with the typical speed of a\nperson walking?\nTick () one box.\n\nathlete’s swimming speed > typical walking speed\n\nathlete’s swimming speed = typical walking speed\n\nathlete’s swimming speed < typical walking speed\n\nFigure 8 shows a speed–time graph for the athlete for the whole triathlon.\n\nFigure 8",
+     "prompt": "One athlete in a triathlon swims at a speed of 1.5 m/s.\n\nHow does the athlete’s swimming speed compare with the typical speed of a\nperson walking?\nTick (✓) one box.\n\nathlete’s swimming speed > typical walking speed\n\nathlete’s swimming speed = typical walking speed\n\nathlete’s swimming speed < typical walking speed\n\nFigure 8 shows a speed–time graph for the athlete for the whole triathlon.\n\nFigure 8",
      "page": 24,
      "kind": "self",
      "scheme": "athlete’s swimming speed =  1  AO1\ntypical walking speed  6.5.4.1.2\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Forces",
      "lead": "A triathlon race consists of swimming, cycling and running.",
      "seePaper": true
@@ -344,6 +375,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 25,
      "kind": "self",
      "scheme": "time taken = 1400  subsequent marks may be  1  6.5.2\nawarded if time taken is  6.5.4.1.5\ndetermined from the graph\n\n7.5 + 6.2  allow mean speed calculated  1\nmean speed =  using a maximum speed\n\nbetween 7.4 m/s and 7.6 m/s\n(= 6.85 m/s)\n\ndistance (= 6.85 × 1400)  allow a distance consistent with  1\n= 9590 (m)  their calculated mean speed\n\nsubsequent marks may only be\nawarded if values of speed and\ntime from the graph have been\nused to determine a distance\n\nsubsequent marks may be\nawarded using their value of\ntotal distance\n\n110 000 = F × 9590  1\n\n110 000\nF=  1\n9590\n\nF = 11(.470…) (N)  1\n\nOR\ncont.\n\ntime taken = 1400  (1) subsequent marks may be\nawarded if time taken is\ndetermined from the graph\n\narea of triangle  (1) allow area calculated using a\n= 0.5 × 1400 × (7.5 - 6.2)  maximum speed between 7.4\n(= 910)  m/s and 7.6 m/s\nand\narea of rectangle\n= 1400 × 6.2 (= 8680)\n\ndistance  (1) allow a distance consistent with\n(= 910 + 8680) = 9590 (m)  their calculated areas\n\nsubsequent marks may only be\nawarded if values of speed and\ntime from the graph have been\nused to determine a distance\n\nsubsequent marks may be\nawarded using their value of\ntotal distance\n\n110 000 = F × 9590  (1)\n\n110 000  (1)\nF=\n9590\n\nF = 11(.470…) (N)  (1)\n\nOR\ncont.\n\ntime taken = 1400  (1) subsequent marks may be\nawarded if time taken is\ndetermined from the graph\n\n6.2 - 7.5  (1) allow acceleration calculated\nacceleration=  using a maximum speed\n1400\nbetween 7.4 m/s and 7.6 m/s\n(= (-)0.00092857…)\nsubsequent marks may be\nawarded if their calculated value\nfor acceleration is rounded\n\ndistance  (1) allow a distance consistent with\n\n6.2 − 7.5  2  their calculated acceleration\n(=  )\n(−)2 × 0.00092857 …\n\n= 9590 (m)\n\nsubsequent marks may only be\nawarded if values of speed and\ntime from the graph have been\nused to determine a distance\n\nsubsequent marks may be\nawarded using their value of\ntotal distance\n\n110 000 = F × 9590  (1)\n\n110 000  (1)\nF=\n9590\n\nF = 11(.470…) (N)  (1)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Forces",
      "seePaper": true
     },
@@ -355,6 +387,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 26,
      "kind": "self",
      "scheme": "constant magnitude (of velocity)  allow speed was constant  1  AO2\n\nallow speed was 4 m/s\nallow (magnitude of) velocity\nwas 4 m/s\n\ndo not accept constant velocity\n\ndirection (of velocity) kept  1  AO1\nchanging\n\nif no other mark awarded allow 1  6.5.4.1.3\nmark for the velocity is\nconstantly changing\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Forces",
      "seePaper": true
     },
@@ -366,6 +399,7 @@ export const aqa_8464_physics_paper2h: RealPaper = {
      "page": 27,
      "kind": "self",
      "scheme": "the gradient is equal to the  1  AO3\ndeceleration / acceleration  6.5.4.1.5\n\n(and) the (magnitude of the)  1\ngradient increased",
+     "schemeSource": "exact",
      "topic": "Forces",
      "seePaper": true
     }

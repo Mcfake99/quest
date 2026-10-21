@@ -28,6 +28,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "How does Priestley present Gerald and Sheila’s changing relationship in An Inspector Calls?\n\nWrite about:\n\n• Gerald and Sheila’s relationship in the play\n• how Priestley presents Gerald and Sheila’s changing relationship.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Gerald and Sheila’s relationship at the start of the play\n• details of Gerald and Sheila’s reactions to the Inspector\n• details of Gerald and Sheila’s relationship as the play progresses\n• details of Gerald’s revelations about his previous behaviour\n• details of male and female attitudes to suitable behaviour/fidelity/marriage etc\n\n• the presentation of Gerald through his actions and words\n• the presentation of Sheila through her actions and words\n• the contrast between Gerald and Sheila and their expectations about their relationship\n• the handling of the gradual revelation of Gerald’s infidelity with Eva\n• the contrast between Sheila’s attitudes to Gerald and marriage at the start and the end of the play\n\n• ideas about societal expectations of the sexes\n• ideas about gender and social class\n• ideas about sexual hypocrisy\n• ideas about male-female relationships.\n\nJB Priestley: An Inspector Calls",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -45,6 +46,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "How does Priestley present ideas about power in An Inspector Calls?\n\nWrite about:\n\n• some of the ideas about power that are shown in the play\n• how Priestley presents ideas about power.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Mr Birling and his attempts to use his social class to intimidate the Inspector\n• details of the Inspector’s domination of the conversation and the other characters\n• details of Gerald’s attempts to use his social class to influence the investigation\n• details of Mrs Birling’s social class-based attempts to dismiss the Inspector\n• details of what happened to Eva/Daisy\n\n• the presentation of Mr and Mrs Birling through their manner of speech\n• the differing presentations of Sheila, Gerald and Eric in relation to the Inspector\n• the Inspector, his stage directions and his commanding manner of speech\n• the structural contrast before and after the arrival of the Inspector\n• the way the various revelations alter the power relationships in the play\n\n• ideas about the links between social class and power in a capitalist society\n• ideas about differences in attitudes to social class and how power is wielded\n• the Inspector’s ideas about how society could be differently organised\n• ideas about different expectations of the sexes.\n\nWilly Russell: Blood Brothers",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -62,6 +64,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "How does Russell present the changes in Mickey and Edward’s relationship throughout the play?\n\nWrite about:\n\n• Mickey and Edward’s relationship\n• how Russell presents the changes in Mickey and Edward’s relationship.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• what happens to and between Mickey and Edward when they meet aged seven\n• what happens to and between Mickey and Edward as teenagers\n• what happens to and between Mickey and Edward as adults\n• the influence of other characters on their relationship\n\n• differences in Mickey and Edward’s speech\n• the structure of the play to suggest the boys’ different paths\n• the Narrator’s commentary on the boys’ lives\n• the use of humour to suggest the boys’ similarities\n\n• ideas about class privilege but also isolation\n• ideas about class deprivation but also sense of community\n• ideas about young male development\n• ideas about the influence of girls/women on boys/men.\n\nWilly Russell: Blood Brothers",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -79,6 +82,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "How does Russell present the effects of social class in Blood Brothers?\n\nWrite about:\n\n• the effects of social class that are shown in the play\n• how Russell presents the effects of social class.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about the lives of the Lyons family and their friends\n• details about the lives of the Johnstone family\n• the Narrator’s comments on the ways the different classes are treated\n• various scenes including those between Mrs Johnstone and Mrs Lyons/the boys and the police/the\neducation system\n\n• the boys’ modes of speech and what they reveal about them\n• the parallel structure with its occasional crossovers\n• the Narrator’s commentary\n• the tragic nature of the ending and its apparent inevitability\n\n• ideas about social class as determiner of fate\n• ideas about the influence of poverty on families and individuals\n• ideas about the effects of wealth/poverty on the raising of children\n• ideas linked to the nature/nurture debate.\n\nChinonyerem Odimba: Princess & The Hustler",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -96,6 +100,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "How does Odimba present the relationship between Mavis and Princess in Princess & The Hustler?\n\nWrite about:\n\n• the relationship between Mavis and Princess\n• how Odimba presents the relationship between Mavis and Princess.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• initial portrayal of Mavis as a stern mother soon softened by their exchanges when alone eg\ndiscussion of Christmas\n• details of the reappearance of Wendell and the effect on the family, especially Princess\n• details of Princess’s attempts to persuade Mavis to let Wendell stay with them\n• penultimate scene when Mavis asks Princess to dance for her\n\n• use of particular scenes to develop characters/relationships eg Christmas dinner\n• use of contrasting characters eg Mavis and Margot to highlight aspects of character\n• use of dialect speech to establish character and authenticity\n• different forms within the play: realism, humour, kitchen-sink drama\n\n• ideas about protection, discipline and love in terms of parenting\n• ideas about children needing appropriate role models\n• ideas about redemption and forgiveness/importance of dreams\n• ideas about the reality and range of immigrant experience.\n\nChinonyerem Odimba: Princess & The Hustler",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -113,6 +118,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "How does Odimba present Princess’s dreams as important to her in Princess & The Hustler?\n\nWrite about:\n\n• what Princess dreams about\n• how Odimba presents Princess’s dreams as important to her.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Princess’s dreams and role-playing\n• details of scenes where Princess is affected by external events eg not being invited to friend’s party\n• details about Weston-Super-Mare and what it means to Princess\n• Princess’s ideas about beauty and success and how these change\n\n• fantasy sequences to illustrate Princess’s dreams and ambitions\n• presentation of Princess’s many moods and childishness\n• symbolic use of Princess’s cupboard and what it may represent\n• use of stage directions to develop plot and character\n\n• ideas about different kinds of beauty\n• ideas about ambition and dreams\n• ideas about the effects of racism\n• ideas about filial and parental love.\n\nDennis Kelly: DNA",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -130,6 +136,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "How does Kelly use the character of Leah to explore ideas about human nature in DNA?\n\nWrite about:\n\n• what Leah says and does\n• how Kelly uses Leah to explore ideas about human nature.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• Leah’s initial ‘conversation’ with Phil\n• her speech about bonobos\n• her interactions with the other characters in Act Two\n• her decision to leave the others in Act Three\n\n• Phil’s silence in contrast to Leah’s loquacity\n• the structuring of Leah’s speeches throughout the play\n• the ways in which Leah’s speeches are sometimes not directly related to the action but create a\nmoral framework for the play’s events\n• Leah’s reactions to the plan to kill Adam\n\n• ideas about the extreme behaviour of which humans are capable\n• ideas about the comparison between the human and animal kingdoms\n• debates about the ethical dilemma around allowable limits of self-protection\n• ideas about bullying and leadership.\n\nDennis Kelly: DNA",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -147,6 +154,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "How does Kelly use the character of Adam to explore ideas about bullying in DNA?\n\nWrite about:\n\n• what Adam says and does and what happens to him in the play\n• how Kelly uses Adam to explore ideas about bullying.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• what the other characters say to each other about Adam when they believe he is dead at the start of\nthe play\n• the other characters’ accounts of his first ‘death’\n• what happens when Adam is re-discovered\n• the characters’ reactions after they decide to abandon Adam\n\n• the use of tension built up by Adam’s delayed appearance\n• the range of different reactions the characters have to Adam\n• the stage directions suggesting the characters’ reactions and behaviour\n• ordinary, believable dialogue to establish characters’ authenticity\n\n• ideas about bullying and victims\n• ideas about ‘groupthink’ and the intimidation of individuals\n• ideas about morality and conscience\n• ideas about contemporary teenagers’ behaviour and values.\n\nWinsome Pinnock: Leave Taking",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -164,6 +172,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "How does Pinnock present difficult relationships between older and younger characters in Leave\nTaking?\n\nWrite about:\n\n• relationships between older and younger characters in the play\n• how Pinnock presents difficult relationships between older and younger characters.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about Enid’s relationship with Del\n• details about Enid’s relationship with Viv\n• details about Del and Viv’s relationship with Mai\n• details about Brod’s relationships with Enid, Del and Viv\n\n• the linear structure to enhance realism\n• the use of patois throughout to assert identity\n• the literal and symbolic functions of the two settings\n• the use of stage directions throughout to suggest possible interpretations\n\n• ideas about the importance of culture and heritage\n• ideas about superstition and religion\n• ideas about generational change\n• ideas about education and its importance for social advancement.\n\nWinsome Pinnock: Leave Taking",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -181,6 +190,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "How far does Pinnock present the character of Enid as a strong mother in Leave Taking?\n\nWrite about:\n\n• what Enid says and does\n• how far Pinnock presents Enid as a strong mother in the play.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Enid’s hopes for herself but mainly for her daughters\n• details of Enid’s severity as a mother but also her love and concern\n• details of Enid’s reasons for visiting and trusting Mai\n• details of Enid’s relationships with Del and Viv\n\n• use of other characters’ dialogue eg Brod and Del to cast light on Enid’s character\n• use of particular dramatic moments eg the slap, drinking alcohol, dancing to present character\n• use of seven scene structure to develop understanding of changing/deepening character\n• the slightly claustrophobic nature of the setting\n\n• ideas about the role and importance of parents\n• ideas about the importance of cultural heritage\n• ideas about generational differences\n• ideas about the importance of education.\n\nShelagh Delaney: A Taste of Honey",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -198,6 +208,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "How far does Delaney present Peter as a selfish and unpleasant character in A Taste of Honey?\n\nWrite about:\n\n• what Peter says and does\n• how far Delaney presents Peter as a selfish and unpleasant character.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about Peter’s relationship with Helen\n• details about Peter’s charm and sense of humour\n• details about Peter’s drinking and its effects on him and others\n• details about Peter’s rudeness and bursts of temper\n\n• realistic dialogue throughout\n• how his character is revealed through his relationships with Helen, Jo and Geof\n• the music-hall comedy of Peter’s pursuit of Helen and her continual rejection of him\n• the ways in which we are invited to laugh at Peter rather than with him\n\n• ideas about male expectations of women\n• ideas about the possibility and the nature of happiness\n• ideas about mixed-age relationships\n• ideas about good and bad parenting.\n\nShelagh Delaney: A Taste of Honey",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -215,6 +226,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "How does Delaney present characters in conflict with each other in A Taste of Honey?\n\nWrite about:\n\n• characters in conflict with each other\n• how Delaney presents characters in conflict with each other.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about the conflict between eg Peter and Helen\n• details about the conflict between eg Jo and Helen\n• possible details about other conflicts eg Jo and The Boy\n• possible discussion of causes of conflict between characters\n\n• the structure of the play used to highlight the shifting relationships between characters\n• the use of comedy to lighten the tone but also reinforce meanings\n• the play’s settings as backdrops to the action and dialogue\n• the use of pathos and angry confrontation in various scenes\n\n• ideas about the roles of men and women and/or parents and children and/or friendship\n• ideas about the possibility and nature of happiness\n• ideas about race and relationships\n• ideas about power in relationships.\n\nWilliam Golding: Lord of the Flies",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -232,6 +244,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "How does Golding present the changing relationship between Ralph and Jack in Lord of the Flies?\n\nWrite about:\n\n• what happens in Ralph and Jack’s relationship\n• how Golding presents the changing relationship between Ralph and Jack.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• Ralph and Jack’s first meetings and early relationship\n• developments in their relationship as the novel progresses\n• some of the reasons for the changes in their relationship\n• impact of other boys’ words and actions on the relationship\n\n• presentation of Ralph and Jack at various stages of the novel\n• structure of the novel eg the descent from relative civilisation to barbarism\n• metaphor and symbolism eg the conch/painted faces\n• the island as backdrop to their relationship\n\n• ideas about teenage boys and their development\n• ideas about power and control\n• ideas about political and religious influences\n• ideas about authorial perspective and influence.\n\nWilliam Golding: Lord of the Flies",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -249,6 +262,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "How far does Golding use the character of Simon to explore ideas about goodness in Lord of the\nFlies?\n\nWrite about:\n\n• what Simon says and does\n• how far Golding uses Simon to explore ideas about goodness.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about what Simon says and does\n• details about Simon’s concern for others\n• details about Simon’s capacity for insight\n• details about Simon’s death and how and why it happens\n\n• the adventure story format and Simon’s role within it\n• the use of foreshadowing\n• the use of allegory\n• the use of symbolism eg fire/the Beast\n\n• ideas about goodness and evil in mankind\n• ideas about kindness and support for the weak\n• ideas about male friendship\n• ideas about self-sacrifice.\n\nAQA Anthology: Telling Tales",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -266,6 +280,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "How do writers present characters dealing with loss in ‘Odour of Chrysanthemums’ and in one other\nstory from Telling Tales?\n\nWrite about:\n\n• the characters dealing with loss in the two stories\n• how the characters are presented.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are reminded that while a comparatively structured response is permitted,\ncomparative skills are not being assessed and should not be rewarded. Students are required\nto write about two stories from Telling Tales. In reference to questions 15 and 16 therefore\nwhere ‘whole text’ is referred to in the mark scheme it means two full stories.\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about what Elizabeth says and does\n• details of her changing feelings as the story progresses\n• details about her relationship with her husband\n• the ending of the story\n• relevant details from the second story eg the child in ‘Chemistry’/the father in ‘A Family Supper’\n\n• the use of narrative voice and dialect to convey Elizabeth’s emotional state\n• the way tension is built as the story progresses\n• the symbolism throughout of darkness and suffocation\n• the poignant ending\n• relevant treatment of loss in the second story\n\n• ideas about difficult marital relationships and the nature of love and loss\n• ideas about poverty and isolation\n• ideas about the different expectations of men and women\n• relevant contextual ideas about loss in the second story.\n\nAQA Anthology: Telling Tales",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -283,6 +298,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "How do writers present conflict between generations in ‘Korea’ and in one other story from Telling\nTales?\n\nWrite about:\n\n• conflict between generations in the two stories\n• how conflict is presented.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are reminded that while a comparatively structured response is permitted,\ncomparative skills are not being assessed and should not be rewarded. Students are required\nto write about two stories from Telling Tales. In reference to questions 15 and 16 therefore\nwhere ‘whole text’ is referred to in the mark scheme it means two full stories.\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• the anecdote of the execution\n• details about the tasks the man and boy are carrying out during the eel-catching trip\n• details about the father and the son’s appearance and behaviour\n• details about the father’s conversation with Mr Farrell\n• relevant details from the second story eg the children and Mrs Rutter in ‘The Darkness Out There’/\nRalph and the Grandfather in ‘Chemistry’\n\n• the anecdote told by the father but related by the son as an older man\n• vivid description of the fishing trip\n• the brisk dialogue between father and son\n• the revelation in the overheard conversation between his father and Mr Farrell\n• relevant presentation of conflict between generations in the second story\n\n• ideas about father-son relationships, including McGahern’s own\n• ideas about the links (or lack of them) between rural Ireland and the other world\n• ideas about the effects of time on memory\n• ideas about betrayal\n• relevant contextual ideas about the conflict between generations in the second story.\n\nGeorge Orwell: Animal Farm",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -300,6 +316,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "‘In Animal Farm Orwell suggests that no society can ever be truly equal.’\n\nHow far do you agree with this view of Animal Farm?\n\nWrite about:\n\n• examples of equality and inequality in the novel\n• how far Orwell presents society as unequal in the novel.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about the inequality of life under Mr Jones\n• details about the changes that occur immediately after the revolution then later\n• details about the pigs’ growing power\n• details about the perversion of the Commandments\n\n• descriptions/speeches about the idealism of the rebellion\n• structure of the novel to suggest inevitable failure\n• presentation of the animals as individual characters but also with wider resonance\n• the novel as an allegory and satire\n\n• ideas about power and inequality and how they inform the novel\n• links between the events of the novel and the Russian Revolution and more general indictment of\ninequality\n• broader ideas about the corruption of idealism and the exploitation of the weak\n• ideas about Orwell’s own beliefs and experiences.\n\nGeorge Orwell: Animal Farm",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -317,6 +334,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "How far does Orwell present Napoleon as responsible for the failure of the revolution in Animal Farm?\n\nWrite about:\n\n• what Napoleon says and does\n• how far Orwell presents Napoleon as responsible for the failure of the revolution.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Napoleon’s words and deeds in the novel and his lack of a conscience\n• details about Napoleon’s manipulation of language through Squealer\n• details about the pigs’ and dogs’ loyalty to Napoleon\n• details of Commandments being changed\n\n• presentation of Napoleon as a powerful, ruthless leader throughout\n• the way the structure allows the reader to see the gradual undermining of the revolution’s ideals\n• Napoleon as an allegorical/representative figure\n• the novel as satire\n\n• ideas about political ruthlessness and its efficacy\n• ideas about the betrayal of idealism for personal gain\n• links between the events of the novel and the Russian Revolution\n• ideas about the exploitation of weakness and stupidity\n• broader ideas about any kind of dictatorial rule and corruption of idealism.\n\nKit de Waal: My Name Is Leon",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -334,6 +352,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 13,
      "kind": "self",
      "scheme": "How does de Waal present the importance of Maureen in Leon’s life?\n\nWrite about:\n\n• the relationship that Maureen has with Leon\n• how de Waal presents the importance of Maureen in Leon’s life.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Leon’s life with Carol before he moves in with Maureen\n• details of the way Leon and Maureen’s relationship develops\n• details of the meeting between Leon, Maureen and Carol\n• details of Maureen’s hospitalisation and Leon’s reaction afterwards\n\n• the use and effects of the present tense to convey Leon’s experience\n• the use of Maureen as a foil to Carol\n• the use of Leon as an unreliable narrator to convey the divergence between Leon and the adults’\nperspectives\n• valid exploration of symbolic elements eg rucksack, bike\n\n• ideas about different kinds of love\n• ideas about different kinds of parenting\n• ideas about the effects of Leon’s background and upbringing on his behaviour and relationships\n• ideas about the effects of racism.\n\nKit de Waal: My Name Is Leon",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -351,6 +370,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 13,
      "kind": "self",
      "scheme": "How does de Waal explore ideas about loyalty in My Name Is Leon?\n\nWrite about:\n\n• examples of characters showing loyalty in the novel\n• how de Waal presents ideas about loyalty.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Leon’s fierce loyalty to Jake (and Carol)\n• details of Maureen and Leon’s relationship\n• details of Sylvia and Leon’s relationship\n• details of Tufty and Leon’s relationship\n\n• the use of the third-person narration which only explores Leon’s thoughts and feelings\n• the generally child-like vocabulary\n• the use of flashbacks to deepen our understanding of Leon\n• the use of foreshadowing and dramatic irony\n\n• ideas about the importance of family\n• ideas about growing up\n• ideas about loss and grief\n• ideas about race and broader issues of identity.\n\nMeera Syal: Anita and Me",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -368,6 +388,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "How far does Syal present Anita as a powerful character in Anita and Me?\n\nWrite about:\n\n• what Anita says and does in the novel\n• how far Syal presents Anita as a powerful character.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about Anita’s home background\n• details of Meena’s relationship with Anita\n• details of Anita’s bullying behaviour\n• details of Anita encouraging Meena (and others) to behave badly\n\n• the use of Meena as a reliable narrator\n• the novel as a kind of bildungsroman with its typical structure\n• tonal variety to suggest changing attitudes\n• the episodic structure which presents a broad picture of society\n\n• ideas about what constitutes true friendship\n• ideas about social class and community\n• ideas about racism\n• ideas about family values and common bonds across social and racial groups.\n\nMeera Syal: Anita and Me",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -385,6 +406,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "How does Syal use the setting of Tollington to explore ideas about how society is changing in Anita\nand Me?\n\nWrite about:\n\n• what Tollington is like and what happens there\n• how Syal uses Tollington to explore ideas about society changing.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details about Meena’s first impressions of Tollington\n• details of significant events that occur in Tollington\n• details about racism in Tollington, both witnessed and reported\n• details about the impact of the new motorway\n\n• Meena’s first-person recollected narrative\n• the wide range of characters Meena encounters in Tollington\n• the episodic structure which shows changes in the village over time\n• the descriptions of various settings in the novel\n\n• ideas about racism\n• ideas about social class and attitudes attached to it\n• ideas about culture and belonging\n• ideas about the impact of upbringing and environment on character.\n\nStephen Kelman: Pigeon English",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -402,6 +424,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "How does Kelman present the effects of violence on Harrison and his community in Pigeon English?\n\nWrite about:\n\n• the violence in the novel\n• how Kelman presents the effects of the violence.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of the novel’s in medias res opening\n• details of X-Fire’s comments about violence as something good\n• details of several robberies and acts of vandalism throughout by young people\n• details of Harrison’s murder\n\n• the novel as a coming-of-age novel in first person demotic style\n• the use of the in medias res opening for dramatic impact\n• the presentation of Harrison’s refusal to accept the boy’s death and his search for truth\n• the growing sense of inevitability about Harrison’s fate linked to novel’s being divided in months\n\n• ideas about masculinity in this society linked to violence\n• ideas about the difficulties of being a young person in this society\n• ideas about the attraction of violence for its own sake\n• ideas about friendship and the importance of family.\n\nStephen Kelman: Pigeon English",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -419,6 +442,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "How far does Kelman present Miquita as a frightening and threatening character in Pigeon English?\n\nWrite about:\n\n• what Miquita says and does\n• how far Kelman presents Miquita as a frightening and threatening character.\n\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Miquita’s relationships with Killa and her friendships with Lydia and Chanelle\n• details of her loyalty to the Dell Farm Crew\n• details of Miquita’s burning of Lydia and her vicious fight with Chanelle\n• details of her sexual assault of Harrison\n\n• the implications of the title as worked out throughout the novel\n• the repeated use of teenage slang and its impact on the reader\n• Miquita’s progressively more violent behaviour as the novel goes on\n• the lack of a back-story for Miquita and a lack of explained motive for her actions\n\n• ideas about the difficulties and desirability of assimilation\n• ideas about gang culture, and girls’ role in it\n• ideas about the importance of friendship and family\n• ideas about the impact of social inequality.\n\nSection B: Poetry – Questions 25–27 (30 marks – AO1=12, AO2=12, AO3=6)\n\nExaminers may well see responses that go beyond what is expected for GCSE and exceed the Level 6 descriptors. You are encouraged to use\nthe full range of marks available.\n\nLevel 6  AO1  • Critical, exploratory comparison.  At the top of the level, a candidate’s response is likely to be a\n• Judicious use of precise references to support  critical, exploratory, well-structured argument. It takes a\nConvincing,  interpretation(s).  conceptualised approach to the full task supported by a range of\ncritical  judicious references to the text. There will be a fine-grained and\nanalysis and  AO2  • Analysis of writer’s methods with subject  insightful analysis of methods supported by judicious use of\nexploration  terminology used judiciously.  subject terminology. Convincing exploration of themes/ideas/\n• Exploration of effects of writer’s methods to  perspectives/contextual factors/interpretations.\n26–30 marks  create meanings.\nAO3  • Exploration of themes/ideas/perspectives/  At the bottom of the level, a candidate will have Level 5 and\ncontextual factors shown by specific, detailed  be starting to demonstrate elements of exploratory thought\nlinks between context/text/task.  and/or analysis of writer’s methods and/or themes/ideas/\nperspectives/contextual factors.\nLev …",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -436,6 +460,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "Compare how poets present feelings about growing up in ‘Follower’ and in one other poem from ‘Love\nand relationships’.\n\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• valid comparison of admiration for an adult family figure, such as ‘Before You Were Mine’, or\n‘Climbing My Grandfather’\n• valid comparison of feelings about growing up, such as ‘Mother, Any Distance’\n• possible consideration of the influence of strength on growing up, such as ‘Climbing My\nGrandfather’\n• any valid treatment of the ways growing up changes feelings and attitudes, such as ‘Mother, Any\nDistance’ or how it develops in ‘Before You Were Mine’\n\n• any valid comparison of perspective/point of view, such as the child in ‘Before You Were Mine’ and\nthe adult in ‘Walking Away’\n• comparative presentation of parents, such as in ‘Eden Rock’, or ‘Before You Were Mine’ or the\ngrandfather in ‘Climbing My Grandfather’\n• use of memory/incidents as symbolic of ideas, such as ‘Before You Were Mine’, or ‘Mother, Any\nDistance’\n• use of imagery to present ideas, such as natural imagery in ‘Climbing My Grandfather’, or ‘Eden\nRock’\n\n• ideas about the influence of parents on childhood\n• ideas about identity and how this changes with growing up\n• ideas about changing attitudes towards parents over time\n• possible treatment of childhood perspective and how this might change with growing up\n• any valid ideas about responsibility towards others.\n\nPower and conflict",
+     "schemeSource": "exact",
      "topic": "Comparison"
     }
    ]
@@ -452,6 +477,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 19,
      "kind": "self",
      "scheme": "Compare how poets present ideas about conflict in ‘Exposure’ and in one other poem from ‘Power\nand conflict’.\n\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• any valid comparison of poems dealing with ideas about first-hand experience of conflict on the\nindividual, such as ‘Bayonet Charge’, or ‘Remains’\n• possible comparison between individual and collective experience of conflict, such as ‘War\nPhotographer’, or ‘Charge of the Light Brigade’, or ‘Kamikaze’\n• possible consideration of wider types of conflict, such as the impact of power dynamics in ‘London’,\nor in ‘Checking Out Me History’\n• valid comparison of different ideas about conflict, such as ‘War Photographer’, or ‘Poppies’\n• possible consideration of conflict with nature/the elements such as ‘Storm on the Island’\n\n• any valid comparison of presentation of the individual experience, such as ‘Remains’, or ‘Bayonet\nCharge’\n• use and effect of particular features to create meanings, such as effects of sibilance, or repetition,\nor imagery\n• relevant treatment of the use of natural imagery to present ideas about conflict, such as ‘Storm on\nthe Island’, or ‘Bayonet Charge’\n• possible contrast in perspective between, for example, ‘War Photographer’, or ‘Poppies’\n\n• ideas about patriotism/duty\n• ideas about power/powerlessness\n• possible exploration of ideas about the ways individuals are affected by wider conflict\n• ideas about conflict with the natural world\n• possible consideration of ideas about the impact of the powerful on society.\n\nWorlds and lives",
+     "schemeSource": "exact",
      "topic": "Comparison"
     }
    ]
@@ -468,6 +494,7 @@ export const aqa_8702_paper2: RealPaper = {
      "page": 21,
      "kind": "self",
      "scheme": "Compare how poets present the ways places affect people’s lives in ‘In a London Drawingroom’ and in\none other poem from ‘Worlds and lives’.\n\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• valid comparison of the ways places have the potential to affect people’s lives in different ways,\nsuch as the urban environment in ‘A Wider View’, or ‘Homing’, or the natural environment in ‘Shall\nearth no more inspire thee’ or ‘Lines Written in Early Spring’, or ‘With Birds You’re Never Lonely’\n• possible comparative treatment of how attitudes towards places can affect people’s lives, such as ‘A\nPortable Paradise’, or ‘With Birds You’re Never Lonely’\n• any valid treatment of different interpretations of ‘place’, such as memories of previously-known\nplaces in ‘Name Journeys’ or ‘With Birds You’re Never Lonely’ or ‘A Portable Paradise’, or\nsocially-constructed places such as societal structures and how these affect people’s lives, such as\n‘England in 1819’ or ‘A Century Later’ or ‘Thirteen’\n• any comparison of positive and negative effects of living in different places on people’s lives, such\nas ‘Pot’ or ‘Name Journeys’, or ‘On an Afternoon Train’\n\n• the use and effects of imagery to present ideas about urban/industrialised landscapes, such as ‘A\nWider View’ or ‘Homing’\n• possible contrast of the ways more natural types of places are presented, such as ‘A Portable\nParadise’, or ‘Lines Written in Early Spring’\n• different types of voice/perspective, such as nature’s voice in ‘Shall earth no more inspire thee’, or\nthe presentation of the effects of time in ‘A Portable Paradise’\n• possible comparison of the more formal mode of presentation with more anecdotal, lyrical forms\nsuch as ‘On an Afternoon Train’ or ‘Thirteen’\n• possible comparison between use of language to present ideas, such as prosaic language in\n‘Homing’, or more lyrical language in ‘Lines Written in Early Spring’\n• possible use/effects of structure to present important ideas, such as stanza forms in ‘Shall earth no\nmore inspire thee’, or narrative structure in ‘On an Afternoon Train’\n\n• ideas about the impact that places can have on people’s lives and attitudes\n• possible exploration of the negative impact of places on people’s lives, or sense of self, or attitudes\ntowards others\n• any valid exploration of ideas about society and its effects on individuals/groups\n• any valid treatment of different types of  …",
+     "schemeSource": "exact",
      "topic": "Comparison",
      "seePaper": true
     }
@@ -484,7 +511,8 @@ export const aqa_8702_paper2: RealPaper = {
      "prompt": "In ‘Table’, how does the poet present feelings about home and family?\n\nLike a Beacon\n\nIn London\nevery now and then\nI get this craving\nfor my mother’s food\n5  I leave art galleries\nin search of plantains\nsaltfish/sweet potatoes*\n\nI need this link\n\nI need this touch\n10 of home\nswinging my bag\nlike a beacon\nagainst the cold\n\n*Types of Caribbean food.\n\nGrace Nichols",
      "page": 22,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "Question 28.1\n\nIn ‘Table’, how does the poet present feelings about home and family?\n\n[24 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• ideas about family, memories, relationships and their effects on people\n• ideas about the possible pressures of family and past experiences\n• any valid treatment of wider ideas about the importance of home, family, or of memories\n• ideas about the permanent effects of home and family\n• possible treatment of the mixture of good and bad in terms of life experiences and how they shape\nand define us\n\n• possible effects of use of positive and/or negative language to present ideas about home/family:\n‘burn/dent/stain/grief/burned’, ‘laughter/candles’\n• valid treatment of symbolism of ‘table’ as representative for family/memories/past\n• possible examination of particular word choices to present ideas, such as suggestion of permanent\neffects of family suggested by ‘burn/dent/stain’\n• comments related to effects of repeated phrases/grammatical features such as repeated pattern of\n‘too much/too many’\n• possible examination of effects of structural elements, such as use and effects of first and last line\n• examination of use/effect of plural personal pronoun\n• use of symbolism to present wider ideas about the significance of home/family.",
+     "schemeSource": "heading",
      "topic": "Essay: set texts",
      "seePaper": true
     },
@@ -495,7 +523,8 @@ export const aqa_8702_paper2: RealPaper = {
      "prompt": "In both ‘Like a Beacon’ and ‘Table’ the speakers describe feelings about home and\nfamily.\n\nWhat are the similarities and/or differences between the methods the poets use to\npresent these feelings?\n\nEND OF QUESTIONS\n\nFor confidentiality purposes, all acknowledgements of third-party copyright material are published in a separate booklet. This booklet is published after\neach live examination series and is available for free download from www.aqa.org.uk\n\nPermission to reproduce all copyright material has been applied for. In some cases, efforts to contact copyright-holders may have been unsuccessful and\nAQA will be happy to rectify any omissions of acknowledgements. If you have any queries please contact the Copyright Team.\n\n*256g8702/2*",
      "page": 23,
      "kind": "self",
-     "scheme": "See the official mark scheme PDF for this part.",
+     "scheme": "Question 28.2\n\nIn both ‘Like a Beacon’ and ‘Table’ the speakers describe feelings about home and family.\n\nWhat are the similarities and/or differences between the methods the poets use to present these\nfeelings?\n\n[8 marks]\n\nMark  AO  Typical features of response\n\nLevel 4  • Critical, insightful comparison of poems.\n7–8  AO2\nmarks  • Analytical comparison of the effects of writers’ methods to create\nmeanings.\n\nLevel 3  • Thoughtful comparison of poems.\n5–6  AO2\nmarks  • Clear comparison of the effects of writers’ methods to create meanings.\n\nLevel 2  • Clear comparison of poems.\n3–4  AO2\nmarks  • Comments on the similarities/differences between the effects of\nmethods used to create meanings.\n\nLevel 1  • Simple comment on one or both poems and/or simple connection\n1–2  AO2  between poems.\nmarks\n• Identification of method(s).\n\n0 marks  Nothing worthy of credit/nothing written.\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• possible contrast between use of plural/singular person to present ideas\n• possible comparison/contrast between tone, such as more nuanced feelings in ‘Table’ compared\nwith unambiguous tone of ‘Like a Beacon’\n• use of symbolism in both poems, such as furniture/food\n• any valid treatment of connection between use of particular aspect of home as representative of\nwider ideas, such as food as nurture/connection\n• valid connection/contrast between use of titles to present ideas about connection, such as ‘table’\nand ‘beacon’.",
+     "schemeSource": "heading",
      "topic": "Writing",
      "seePaper": true
     }

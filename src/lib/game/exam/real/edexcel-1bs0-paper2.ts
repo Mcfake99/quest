@@ -28,6 +28,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 4,
      "kind": "mcq",
      "scheme": "The only correct answer is C – Growth  (1)\n\nA is not correct because it is not a stage in the product life cycle\n\nB is not correct because it is not a stage in the product life cycle\n\nD is not correct because it is not a stage in the product life cycle",
+     "schemeSource": "exact",
      "topic": "Marketing",
      "options": [
       "A – Branding",
@@ -48,6 +49,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 5,
      "kind": "mcq",
      "scheme": "The only correct answer is B – Day 18  (1)\n\nA is not correct because this is not the latest date that the buffer\nstock level is reached\n\nC is not correct because this is not the latest date that the buffer\nstock level is reached\n\nD is not correct because this is not the latest date that the buffer\nstock level is reached",
+     "schemeSource": "exact",
      "topic": "Operations",
      "options": [
       "A – Day 4",
@@ -68,6 +70,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "Award 1 mark for identification of a benefit, plus 2 further marks  (3)\nfor explaining this benefit up to a total of 3 marks.  AO1a=1\nAO1b=2\nThis may enhance the brand of the business (1). Therefore,\ncustomers may be willing to pay a higher price (1). As a result,\nthe profit margin may increase (1).\n\nThe business may get larger customer demand (1). Thus, its\nrevenues may increase (1). As a result, the business may gain\ngreater market share (1).\n\nAccept any other appropriate response. Answers that list more\nthan one benefit with no explanation will be awarded a maximum\nof 1 mark.",
+     "schemeSource": "exact",
      "topic": "Marketing"
     },
     {
@@ -78,6 +81,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "Award 1 mark for identification of an impact, plus 2 further marks  (3)\nfor explaining this impact up to a total of 3 marks.  AO1a=1\nAO1b=2\nThe business may have to change its production methods to\nmake them more ethical (1). As a result, the costs of production\nmay rise (1). Therefore, the profit made may fall (1).\n\nThe brand may be damaged by negative publicity from pressure\ngroup action (1). Therefore, the may have incur more marketing\ncosts to repair the damage (1). As a result, the profit per unit\nmay fall (1).\n\nAccept any other appropriate response. Answers that list more\nthan one impact with no explanation will be awarded a maximum\nof 1 mark.",
+     "schemeSource": "exact",
      "topic": "Marketing"
     }
    ]
@@ -94,6 +98,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 7,
      "kind": "mcq",
      "scheme": "The only correct answers are A – Accountancy and D –  (2)\nFinancial advice  AO1a\n\nB is not correct because this is a good\n\nC is not correct because this is a good\n\nE is not correct because this is a good",
+     "schemeSource": "exact",
      "topic": "Enterprise and the business environment",
      "options": [
       "A – Accountancy",
@@ -115,6 +120,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 7,
      "kind": "mcq",
      "scheme": "The only correct answers are B – Post sales service and D –  (2)\nResponse to customer feedback  AO1a\n\nA is not correct because it is not an element of the sales process\n\nC is not correct because it is not an element of the sales process\n\nE is not correct because it is not an element of the sales process",
+     "schemeSource": "exact",
      "topic": "Finance",
      "options": [
       "A – Focusing on market segments",
@@ -137,6 +143,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "Substitution into correct formula:  Award full marks for  (2)\ncorrect numerical  AO2\n((£3 000 000 ÷ 20 years) ÷ £600 000) x  answer without\n100 (1)  working.\n\nAnswer: 25% (1)",
+     "schemeSource": "exact",
      "topic": "Finance",
      "seePaper": true
     },
@@ -148,6 +155,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "Award 1 mark for identification of a benefit, plus 2 further marks  (3)\nfor explaining this benefit up to a total of 3 marks.  AO1a=1\nAO1b=2\nThis allows the business to increase the number/decrease the\nnumber of hours offered (1). This may allow the business to have\nmore employees available at times of high demand (1). Therefore,\ncustomer service may improve (1).\n\nEmployees may be more motivated (1). This is because flexible\nhour contracts may allow employees to change their hours to suit\nchildcare and other personal circumstances (1). Therefore,\nemployee loyalty may increase (1).\n\nAccept any other appropriate response. Answers that list more\nthan one benefit with no explanation will be awarded a maximum\nof 1 mark.",
+     "schemeSource": "exact",
      "topic": "People and HR"
     },
     {
@@ -158,6 +166,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "Award 1 mark for identification of a benefit, plus 2 further marks  (3)\nfor explaining this benefit up to a total of 3 marks.  AO1a=1\nAO1b=2\nCustomers may be encouraged to purchase the product (1). This\nmay encourage a greater level of initial sales (1). Therefore,\ncustomers to are more likely to repeat purchase in the future (1).\n\nCustomers may be encouraged to switch from rival brands (1).\nTherefore, sales may increase (1). As a result, market share may\nrise (1).\n\nAccept any other appropriate response. Answers that list more\nthan one benefit with no explanation will be awarded a maximum\nof 1 mark.",
+     "schemeSource": "exact",
      "topic": "Marketing"
     }
    ]
@@ -174,6 +183,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 9,
      "kind": "mcq",
      "scheme": "The only correct answer is B – Management of the  (1)\nmovement of goods  AO1a\n\nA is not correct because it is not a definition of the term ‘logistics’\n\nC is not correct because it is not a definition of the term ‘logistics’\n\nD is not correct because it is not a definition of the term ‘logistics’",
+     "schemeSource": "exact",
      "topic": "Finance",
      "options": [
       "A – Location of the retail outlets of a business",
@@ -194,6 +204,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "Substitution into correct formula:  Award full marks for  (2)\ncorrect numerical  AO2\n(£180 000 ÷ (£200 000 + £180 000 +  answer without\n£280 000 + £240 000)) x 100 (1)  working.\n\nAnswer: 20% (1)",
+     "schemeSource": "exact",
      "topic": "Finance",
      "seePaper": true
     },
@@ -205,6 +216,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "Award 1 mark for identification of a reason, plus 2 further marks  (3)\nfor explaining this reason, up to a total of 3 marks.  AO1a=1\nAO1b=2\nTraining may increase employee motivation (1). Therefore,\nemployees are less likely to leave the business (1). Thus,\nreducing the costs of recruiting new employees (1).\n\nEmployees may now be more skilled (1). As a result, productivity\ncould increase (1). Therefore, the cost of making the product may\nfall (1).\n\nAccept any other appropriate response. Answers that list more\nthan one reason with no explanation will be awarded a maximum\nof 1 mark.",
+     "schemeSource": "exact",
      "topic": "People and HR"
     },
     {
@@ -215,6 +227,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "Award 1 mark for identification of a method, plus 2 further  (3)\nmarks for explaining this method up to a total of 3 marks.  AO1a=1\nAO1b=2\nThe business may offer to pay higher levels of wage/salary (1).\nAs a result, existing employees will have a higher level of\nremuneration (1). Therefore, existing employees have fewer\nreasons to leave the business (1).\n\nThe business may offer employees performance reviews (1).\nTherefore, existing employees may feel like the business cares\nabout their career progression (1). As a result, employees may\nbelieve there are more opportunities for promotion (1).\n\nAccept any other appropriate response. Answers that list more\nthan one method with no explanation will be awarded a\nmaximum of 1 mark.\nQuestion  Indicative content  Mark",
+     "schemeSource": "exact",
      "topic": "People and HR"
     },
     {
@@ -225,6 +238,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "•  Additional tasks may make work become less boring for its  (6)\nemployees (AO1b).  AO1b=3\n•  The business may have to train workers to do the new  AO3a=3\ntasks that they are not familiar with (AO1b).\n\n•  Therefore, employee motivation may increase, leading to\nimprovements in productivity and lower unit costs (AO3a).\n•  Therefore, employees will spend time away from\nproducing/providing a good/service. Thus, costs of running\nthe business may increase (AO3a).\nLevel  Mark  Descriptor\n0  No rewardable material.\nLevel 1  1–2  • Demonstrates elements of knowledge and understanding of\nbusiness concepts and issues, with limited business terminology\nused (AO1b).\n• Attempts to deconstruct business information and/or issues,\nfinding limited connections between points (AO3a).\nLevel 2  3–4  • Demonstrates mostly accurate knowledge and understanding of\nbusiness concepts and issues, including appropriate use of\nbusiness terminology in places (AO1b).\n• Deconstructs business information and/or issues, finding\ninterconnected points with chains of reasoning, although there\nmay be some logical inconsistencies (AO3a).\nLevel 3  5–6  •  Demonstrates accurate knowledge and understanding of\nbusiness concepts and issues throughout, including appropriate\nuse of business terminology (AO1b).\n•  Deconstructs business information and/or issues, finding\ndetailed interconnected points with logical chains of reasoning\n(AO3a).\nSection B",
+     "schemeSource": "exact",
      "topic": "Enterprise and the business environment",
      "seePaper": true
     }
@@ -242,6 +256,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "Award up to 2 marks for linked points outlining a drawback to  (2)\nPladis of focusing on new market segments. Award a maximum of  AO2\n1 mark if points are not linked.\n\nIt may be expensive to target new market segments (1). This\nis because the company may have to develop new types of\nbiscuit (1).\n\nThe new market segments may be small (1). Therefore, they\nmay not be as profitable as the ones which include white\nchocolate digestives (1).\n\nAward any other valid answer. To award 2 marks there must\nlinked development and evidence of application.\n\nQuestion  Indicative content  Mark",
+     "schemeSource": "exact",
      "topic": "Marketing"
     },
     {
@@ -252,6 +267,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 13,
      "kind": "self",
      "scheme": "• Pladis may be able to avoid import tariffs and quotas when  (6)\nselling McVities biscuits in a foreign market. This is because  AO2=3\nthe biscuits are now produced in the foreign country and are  AO3a=3\nnot produced in the Carlisle factory (AO2).\n• Pladis may be able to reduce the costs of manufacturing its\nbiscuits, such as ‘Go Ahead Breaks’ (AO2).\n\n• As a result, the costs of selling to a foreign market may fall,\nallowing greater levels of profit to be generated (AO3a).\n• This is because labour costs may be lower in foreign\ncountries. As a result, total costs may fall allowing a greater\nprofit margin to be achieved (AO3a).\n\nLevel  Mark  Descriptor\nNo rewardable material.\nLevel 1  1–2  • Limited application of knowledge and understanding of business\nconcepts and issues to the business context (AO2).\n• Attempts to deconstruct business information and/or issues,\nfinding limited connections between points (AO3a).\nLevel 2  3–4  • Sound application of knowledge and understanding of business\nconcepts and issues to the business context although there may be\nsome inconsistencies (AO2).\n• Deconstructs business information and/or issues, finding\ninterconnected points with chains of reasoning, although there may\nbe some logical inconsistencies (AO3a).\nLevel 3  5–6  •  Detailed application of knowledge and understanding of\nbusiness concepts and issues to the business context\nthroughout (AO2).\n•  Deconstructs business information and/or issues, finding detailed\ninterconnected points with logical chains of reasoning (AO3a).",
+     "schemeSource": "exact",
      "topic": "Enterprise and the business environment"
     }
    ]
@@ -268,6 +284,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "Substitution into correct formula:  Award full marks for  (2)\ncorrect numerical  AO2\n(£755.2 million ÷ £2 544.1 million) x 100  answer without\n(1)  working.\n\nAnswer: 29.68% (1)",
+     "schemeSource": "exact",
      "topic": "Finance",
      "lead": "Table 2 contains information about the financial performance of Pladis in 2022.\n\n£ millions\n\nSales revenue  2 544.1\n\nCost of sales  1 788.9\n\nGross profit  755.2\n\nOther operating expenses and interest  662.2\n\n(Source: adapted from https://find-and-update.company-information.\nservice.gov.uk/company/09295357/filing-history)\n\nTable 2",
      "seePaper": true
@@ -280,6 +297,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "Substitution into correct formula:  Award full marks for  (2)\ncorrect numerical  AO2\n£755.2 million - £ 662.2 million (1)  answer without\nworking.\nAnswer: £93 million (1)\n\nQuestion  Indicative content  Mark",
+     "schemeSource": "exact",
      "topic": "Finance",
      "seePaper": true
     },
@@ -291,6 +309,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "• Batch production will not be as efficient compared to flow  (6)\nproduction because fewer biscuits can be made in the  AO2=3\nfactory in an hour. Therefore, the productivity of baking Hob  AO3a=3\nNobs may fall (AO2).\n• The machinery will have to be cleaned between different\nbatches since there should be no white chocolate on a batch\nof Go Ahead Breaks which are covered in yoghurt (AO2).\n\n• Therefore, unit costs may be higher than competitors, which\nmay lead to a lower profit margin (AO3a).\n• This may increase the amount of time spent producing the\nproduct. As a result, there may be less product to sell.\nTherefore, the business may not be able to satisfy demand.\n(AO3a).\nLevel  Mark  Descriptor\n0  No rewardable material.\nLevel 1  1–2  • Limited application of knowledge and understanding of business\nconcepts and issues to the business context (AO2).\n• Attempts to deconstruct business information and/or issues,\nfinding limited connections between points (AO3a).\nLevel 2  3–4  • Sound application of knowledge and understanding of business\nconcepts and issues to the business context although there may\nbe some inconsistencies (AO2).\n• Deconstructs business information and/or issues, finding\ninterconnected points with chains of reasoning, although there\nmay be some logical inconsistencies (AO3a).\nLevel 3  5–6  • Detailed application of knowledge and understanding of\nbusiness concepts and issues to the business context\nthroughout (AO2).\n• Deconstructs business information and/or issues, finding detailed\ninterconnected points with logical chains of reasoning (AO3a).",
+     "schemeSource": "exact",
      "topic": "Marketing"
     }
    ]
@@ -307,6 +326,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "Award 1 mark for stating one way that Pladis could improve the  (1)\nquality of its products.  AO2\n\nUse high-quality raw materials such as sugar or flour (1).\nPurchase new biscuit manufacturing machinery (1).\n\nTo award 1 mark there must be evidence of application.",
+     "schemeSource": "exact",
      "topic": "Marketing"
     },
     {
@@ -317,6 +337,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "Award up to 2 marks for linked points outlining a method of  (2)\nexternal growth that Pladis may use. Award a maximum of 1 mark  AO2\nif points are not linked.\n\nBy merging with a rival such as Nestlé (1). As a result,\nrevenues may increase (1).\n\nBy taking over rival biscuit manufacturers (1). Therefore,\nmarket share should increase (1).\n\nAward any other valid answer. To award 2 marks there must\nlinked development and evidence of application.\nQuestion  Indicative content  Mark",
+     "schemeSource": "exact",
      "topic": "Finance"
     },
     {
@@ -327,6 +348,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "• By floating on the stock exchange the company should be  (9)\nable to fund the £12 million required for its new enrobing  AO2=3\nmachines (AO2).  AO3a=3\n• Pladis’ dominant market position, being the second largest  AO3b=3\nbiscuit manufacturer by market share, means that it is likely\nthat it will be able to access a bank loan of £12 million to fund\nthe four new batch production lines (AO2).\n\n• This is because the business appears to be a dominant biscuit\nmanufacturer with several high-profile brands. Thus, it is\nlikely that any new shares offered for sale on the stock\nmarket would be popular, generating sufficient share capital\nto fund the investment.\n• As a result, Pladis will have to incur interest costs to service\nthe loan. The interest costs will add to the fixed costs of\nPladis, which may reduce the profit made by the company.\n\n•  However, by selling shares on the stock market existing\nPladis shareholders will have their percentage ownership of\nthe company diluted. This may not be an issue because it\ndepends on the number of shares issued as to the size of the\ndilution effect (AO3b).\n• However, the interest rate on the bank loans may be small\nsince Pladis may represent a low level risk to a bank due to\nits size and dominance in its market. As a result, the costs of\nservicing the loan may be relatively small due its large\ncollateral (AO3b).\nLevel  Mark  Descriptor\n0  No rewardable material.\nLevel 1  1–3  • Limited application of knowledge and understanding of business\nconcepts and issues to the business context (AO2).\n• Attempts to deconstruct business information and/or issues,\nfinding limited connections between points (AO3a).\n• Makes a judgement, providing a simple justification based on\nlimited evaluation of business information and issues relevant to\nthe choice made (AO3b).\nLevel 2  4-6  • Sound application of knowledge and understanding of business\nconcepts and issues to the business context although there may\nbe some inconsistencies (AO2).\n• Deconstructs business information and/or issues, finding\ninterconnected points with chains of reasoning, although there\nmay be some logical inconsistencies (AO3a).\n• Makes a judgement, providing a justification based on sound\nevaluation of business information and issues relevant to the\nchoice made (AO3b).\nLevel 3  7-9  •  Detailed application of knowledge and understanding of\nbusiness concepts and issues to the business context\nthroughout (AO2).\n•  Deconstructs business information and/or issues, finding\ndet …",
+     "schemeSource": "exact",
      "topic": "Enterprise and the business environment",
      "seePaper": true
     }
@@ -344,6 +366,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 19,
      "kind": "self",
      "scheme": "Award 1 mark for a document a business may send to an  (1)\napplicant during the recruitment process.  AO1a\n\nJob description (1).\nPerson/Job specification (1)\nApplication form (1).\nContract of employment (1)\n\nAward any other close interpretation of the documents listed\nabove and documents which may not be listed on the\nspecification such as ‘contract of employment’ and ‘job\nspecification’.",
+     "schemeSource": "exact",
      "topic": "People and HR",
      "seePaper": true
     },
@@ -355,6 +378,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 20,
      "kind": "self",
      "scheme": "Hybrid electric vehicles (EVs)  (1)",
+     "schemeSource": "exact",
      "topic": "Enterprise and the business environment",
      "seePaper": true
     },
@@ -366,6 +390,7 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 20,
      "kind": "self",
      "scheme": "Award up to 2 marks for linked points outlining an impact on  (2)\nPolestar resulting from globalisation. Award a maximum of 1 mark  AO2\nif points are not linked.\n\nPolestar may now avoid having to pay tariffs on imported\ncomponents (1). Therefore, the costs of producing an EV may\ndecrease (1).\n\nConsumers of Polestar cars may now be faced with lower prices\n(1). As a result, consumers may be more likely to purchase a\nPolestar car (1).\n\nAward any other valid answer. To award 2 marks there must\nlinked development and evidence of application.\nQuestion  Indicative content  Mark",
+     "schemeSource": "exact",
      "topic": "Finance"
     },
     {
@@ -376,16 +401,18 @@ export const edexcel_1bs0_paper2: RealPaper = {
      "page": 21,
      "kind": "self",
      "scheme": "•  Polestar is an EV manufacturing company. Technological  (9)\nchange is happening rapidly. Thus, it probably does not  AO2=3\nwant to hold stocks of components such as semi-conductors  AO3a=3\nand traction motors that can quickly become out of date  AO3b=3\nand may require expensive storage and insurance (AO2).\n•  Switching to new suppliers may mean that that that the\ncompany can reduce the cost of purchasing components\nsuch as batteries and traction motors (AO2).\n\n•  Therefore, holding no stock may reduce Polestar’s\nwarehousing costs and other stock holding costs. Therefore,\nPolestar’s fixed costs would be lower. This would reduce the\nunit cost of manufacturing an EV (AO3a).\n•  Therefore, the variable costs of producing an EV may fall,\nallowing the total costs of manufacturing an EV to also fall\n(AO3a).\n\n•  However, Polestar has benefitted from keeping stocks of\nsome components, due to the disruption in the global\nsupply chain. This has allowed Polestar to meet customer\ndemand when rivals have had to cancel or delay the\ncompletion of orders. This has allowed Polestar to reduce its\ncosts of running out of stock (AO3b).\n•  However, new suppliers may be unreliable leading to\nproduction delays and missed orders. These problems could\nlead to a significant increase in Polestar’s manufacturing\ncosts (AO3b).\nLevel  Mark  Descriptor\n0  No rewardable material.\nLevel 1  1–3  • Limited application of knowledge and understanding of business\nconcepts and issues to the business context (AO2).\n• Attempts to deconstruct business information and/or issues,\nfinding limited connections between points (AO3a).\n• Makes a judgement, providing a simple justification based on\nlimited evaluation of business information and issues relevant to\nthe choice made (AO3b).\nLevel 2  4-6  • Sound application of knowledge and understanding of business\nconcepts and issues to the business context although there may\nbe some inconsistencies (AO2).\n• Deconstructs business information and/or issues, finding\ninterconnected points with chains of reasoning, although there\nmay be some logical inconsistencies (AO3a).\n• Makes a judgement, providing a justification based on sound\nevaluation of business information and issues relevant to the\nchoice made (AO3b).\nLevel 3  7-9  • Detailed application of knowledge and understanding of\nbusiness concepts and issues to the business context\nthroughout (AO2).\n• Deconstructs business information and/or issues, finding detailed\ninterconnected points with logical chains …",
+     "schemeSource": "exact",
      "topic": "Enterprise and the business environment"
     },
     {
      "id": "edexcel-1bs0-paper2:7(e)",
      "label": "7(e)",
      "marks": 12,
-     "prompt": "Evaluate the importance of the aesthetics element of the design mix for Polestar’s\nelectric vehicles (EVs). You should use the information provided as well as your\nknowledge of business.\n\n\n\n\n\nPearson Edexcel Level 2 GCSE (9–1)\nFriday 16 May 2025\nAfternoon (Time: 1 hour 45 minutes)\nPaper\nreference  1BS0/02\nBusiness\n \n\nPAPER 2: Building a business\n\nSource Booklet\nDo not return this Booklet with the question paper.\n\nSECTION B\nLook at Figure 3 and read Extract A, then answer Questions 4, 5 and 6.\nExtract A\nPladis Ltd is the world’s second largest biscuit manufacturer. It owns 25 factories in\n11 countries, and produces over 75 different brands of biscuit including McVitie’s,\nGo Ahead, Flipz and BN.\nIn 2023, Pladis announced a £12 million investment in four new batch production\nlines at its Carlisle factory. As part of this investment Pladis will install new production\ntechnology, such as ‘enrobing machines’ that allow a biscuit to be covered in chocolate\nor yogurt. Pladis want to extend its product range to include a McVitie’s white chocolate\ndigestive biscuit and a new Go Ahead yogurt-covered bar called ‘Go Ahead Breaks’. The\nnew Go Ahead product will be aimed at more health-conscious consumers.\n\n(Source: © Go All The Way/Shutterstock (Ed))\n\nFigure 3\n\nPladis’ Carlisle biscuit factory\nPladis has focused on a combination of internal and external growth in recent years. It\nhas taken over Turkish biscuit manufacturer Ülker, invested in new types of biscuits and\nmoved into new markets, such as Brazil. The aim is to take market share off competitors\nwith dominant brands, such as Nestlé that make KitKat and Mondelēz International that\nmake Oreos.\n(Source: adapted from https://bakeryinfo.co.uk/manufacture/pladis-opens-new-2m-\nwarehouse-in-carlisle/681710.article and https://pladisglobal.com/about-us/)\n\n2  P78782RA\n\n\nSECTION C\nLook at Figure 4 and read Extract B, then answer Question 7.\nExtract B\nGeely Ltd is a Chinese multinational car manufacturer that already owns several\nglobally recognised petrol and diesel car brands such as Volvo and Lotus. However,\nit has now decided to move into the production of Electric Vehicles (EVs). Polestar\nis an EV manufacturer owned by Geely. Polestar cars are designed in Sweden and\nmanufactured in China.\nComponents for the EVs are imported from a variety of different countries. All car\nmanufacturers, including Polestar, use a just in time (JIT) stock control system. Since the\nglobal health crisis Polestar’s Chinese factories have always held stocks of important\ncomponents such as semi-conductors, headlights and traction motors. This allowed\nPolestar to export finished cars after the global health crisis, when disruption to the\nglobal supply chain of components meant that it was hard to get hold of important raw\nmaterials. Therefore, Polestar only had to change the headlights on its EVs to be able to\nsell its product, whereas rivals such as Tesla had to cancel or delay customer orders.\n\n(Source: © Mike Mareen/Shutterstock (Ed))\n\nFigure 4\n\nA Polestar Electric Vehicle (EV)\nPolestar EVs have been designed to be appealing luxury cars with a price range of\n£44,950 to £74,900. One of their main selling points is that they can be driven more\nthan 400 miles between charges. They are also attractive, with WhatCar magazine\nrating the Polestar 2 EV, 4 out of 5 for its exterior and internal looks. In terms of practical\nperformance, the Polestar 2 EV is behind its rivals such as the Tesla Model 3 EV, due to its\nhard-riding suspension, noisy acceleration and hard to use entertainment system.\n(Source: adapted from https://www.washingtonpost.com/technology/2022/11/26/\npolestar-china-ev/ and https://zgh.com/?lang=en)\n\nP78782RA  3\n\n\n4  P78782RA\n",
+     "prompt": "Evaluate the importance of the aesthetics element of the design mix for Polestar’s\nelectric vehicles (EVs). You should use the information provided as well as your\nknowledge of business.\n\n\n\n\n\nPearson Edexcel Level 2 GCSE (9–1)\nFriday 16 May 2025\nAfternoon (Time: 1 hour 45 minutes)\nPaper\nreference  1BS0/02\nBusiness\n \n\nPAPER 2: Building a business\n\nSource Booklet\nDo not return this Booklet with the question paper.\n\nSECTION B\nLook at Figure 3 and read Extract A, then answer Questions 4, 5 and 6.\nExtract A\nPladis Ltd is the world’s second largest biscuit manufacturer. It owns 25 factories in\n11 countries, and produces over 75 different brands of biscuit including McVitie’s,\nGo Ahead, Flipz and BN.\nIn 2023, Pladis announced a £12 million investment in four new batch production\nlines at its Carlisle factory. As part of this investment Pladis will install new production\ntechnology, such as ‘enrobing machines’ that allow a biscuit to be covered in chocolate\nor yogurt. Pladis want to extend its product range to include a McVitie’s white chocolate\ndigestive biscuit and a new Go Ahead yogurt-covered bar called ‘Go Ahead Breaks’. The\nnew Go Ahead product will be aimed at more health-conscious consumers.\n\n(Source: © Go All The Way/Shutterstock (Ed))\n\nFigure 3\n\nPladis’ Carlisle biscuit factory\nPladis has focused on a combination of internal and external growth in recent years. It\nhas taken over Turkish biscuit manufacturer Ülker, invested in new types of biscuits and\nmoved into new markets, such as Brazil. The aim is to take market share off competitors\nwith dominant brands, such as Nestlé that make KitKat and Mondelēz International that\nmake Oreos.\n(Source: adapted from https://bakeryinfo.co.uk/manufacture/pladis-opens-new-2m-\nwarehouse-in-carlisle/681710.article and https://pladisglobal.com/about-us/)\n\n2  P78782RA\n\n\nSECTION C\nLook at Figure 4 and read Extract B, then answer Question 7.\nExtract B\nGeely Ltd is a Chinese multinational car manufacturer that already owns several\nglobally recognised petrol and diesel car brands such as Volvo and Lotus. However,\nit has now decided to move into the production of Electric Vehicles (EVs). Polestar\nis an EV manufacturer owned by Geely. Polestar cars are designed in Sweden and\nmanufactured in China.\nComponents for the EVs are imported from a variety of different countries. All car\nmanufacturers, including Polestar, use a just in time (JIT) stock control system. Since the\nglobal health crisis Polestar’s Chinese factories have always held stocks of important\ncomponents such as semi-conductors, headlights and traction motors. This allowed\nPolestar to export finished cars after the global health crisis, when disruption to the\nglobal supply chain of components meant that it was hard to get hold of important raw\nmaterials. Therefore, Polestar only had to change the headlights on its EVs to be able to\nsell its product, whereas rivals such as Tesla had to cancel or delay customer orders.\n\n(Source: © Mike Mareen/Shutterstock (Ed))\n\nFigure 4\n\nA Polestar Electric Vehicle (EV)\nPolestar EVs have been designed to be appealing luxury cars with a price range of\n£44,950 to £74,900. One of their main selling points is that they can be driven more\nthan 400 miles between charges. They are also attractive, with WhatCar magazine\nrating the Polestar 2 EV, 4 out of 5 for its exterior and internal looks. In terms of practical\nperformance, the Polestar 2 EV is behind its rivals such as the Tesla Model 3 EV, due to its\nhard-riding suspension, noisy acceleration and hard to use entertainment system.\n(Source: adapted from https://www.washingtonpost.com/technology/2022/11/26/\npolestar-china-ev/ and https://zgh.com/?lang=en)\n\nP78782RA  3\n\n\n4  P78782RA\n",
      "page": 23,
      "kind": "self",
      "scheme": "•  Aesthetics is the visual appearance of the product within the  (12)\ndesign mix (AO1b).  AO1b=3\n•  There may be other factors within the design mix which may  AO2=3\nbe more important such as function or cost, as well as other  AO3a=3\n(AO1b).\n\n•  By improving the look of its EVs, Polestar may make its EVs\nmore attractive than rival EVs such as the Tesla Model 3.\nWhatCar magazine gave the car a 4/5 rating for its interior\nand external looks (AO2).\n•  Some EV consumers may be more attracted to the\nfunctionality of the car, considering it can be driven more\nthan 400 miles between charges (AO2).\n\n•  Thus, there may be some consumers who want to purchase\nan attractive looking EV, since their EV will stand out\ncompared to Polestar’s rivals. This may differentiate the\nPolestar 2 and thus may generate an increased number of\nEV sales (AO3a).\n•  Therefore, function may the critical factor in a consumer’s\nchoice of an EV, since being able to drive for longer between\ncharges makes the Polestar 2 highly attractive for those\nconsumers who may have to drive long distances (AO3a).\n\n•  However, EVs are an expensive purchase and some\nconsumers may go beyond the aesthetics of a certain brand\nof EV and may consider functionality and other factors\noutside of the design mix, such as price and build\nquality/reliability as more important. This may mean that\neven though it is an attractive EV visually, other EVs maybe\nmore desirable due to a range of other factors that may\ninfluence a car purchase (AO3b).\n•  However, it depends on the consumer. Some consumers\nmay believe that owning a visually attractive EV is much\nmore important compared to other customers who may\nmake more informed and rational decisions based on a wide\nrange of factors that go beyond just aesthetics (AO3b).\nLevel  Mark  Descriptor\n0  No rewardable material.\nLevel 1  1–4  • Demonstrates elements of knowledge and understanding of\nbusiness concepts and issues, with limited business\nterminology used (AO1b).\n• Limited application of knowledge and understanding of\nbusiness concepts and issues to the business context (AO2).\n• Attempts to deconstruct business information and/or issues,\nfinding limited connections between points (AO3a).\n• Draws a conclusion, supported by generic assertions from\nlimited evaluation of business information and issues (AO3b).\nLevel 2  5-8  • Demonstrates mostly accurate knowledge and understanding\nof business concepts and issues, including appropriate use of\nbusiness terminology in places  …",
+     "schemeSource": "exact",
      "topic": "Finance",
      "seePaper": true
     }

@@ -27,7 +27,8 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "prompt": "Draw one line from each term to the meaning of the term relating to genetics\nin rabbits.",
      "page": 3,
      "kind": "self",
-     "scheme": "AO /\n\n01.1\n\n1  AO1\n\ndo not accept more than one line from a box on the left\n\nAO /\n\n01.2\n\ngametes correct  allow in either position in  1  AO2\nPunnett square\n\noffspring genotypes correctly  allow correct derivation of  2  AO2\nderived  offspring genotypes from\nincorrect gametes\nallow 3 correctly derived\noffspring genotypes for 1 mark\n\nany bb offspring identified as  1  AO2\nhaving white fur\n\n0.5  probability must match offspring  1  AO3\ngenotypes if given\nallow 50% or 1 in 2 or\n1:1 or\n1  4.6.1.4\n\ndo not accept 1:2\n\nAO /\n\nallow gamete(s) or sex cells for",
+     "scheme": "Question 1\n\nAO /\nQuestion  Answers  Mark\nSpec. Ref.\n\n01.1\n\n1  AO1\n4.6.1.3\n4.6.1.4\n\ndo not accept more than one line from a box on the left\n\nAO /\nQuestion  Answers  Extra information  Mark\nSpec. Ref.\n\n01.2\n\ngametes correct  allow in either position in  1  AO2\nPunnett square\n\noffspring genotypes correctly  allow correct derivation of  2  AO2\nderived  offspring genotypes from\nincorrect gametes\nallow 3 correctly derived\noffspring genotypes for 1 mark\n\nany bb offspring identified as  1  AO2\nhaving white fur\n\n0.5  probability must match offspring  1  AO3\ngenotypes if given\nallow 50% or 1 in 2 or\n1:1 or¹  4.6.1.4\ndo not accept 1:2\n\nAO /\nQuestion  Answers  Extra information  Mark\nSpec. Ref.\nallow gamete(s) or sex cells for\n01.3  sperm throughout\n\nsperm have one of each  allow sperm have one set of  1  AO2\nchromosome (pair)  chromosomes / genes\nallow sperm (only) have one\nallele for each gene\nallow sperm are haploid\nallow sperm have half the\n(number / amount of)\nchromosomes (compared with a\nbody cell)\nallow sperm have 23 / 22\nchromosomes\n\nignore sperm have one allele\nignore sperm have half the DNA\n/ genes\n\nsperm are produced by meiosis  1  AO1\nor\nbody cells have two of each  allow body cells have pairs of  4.6.1.1\nchromosome  chromosomes  4.6.1.2\nallow body cells are diploid  4.6.1.4\n\nallow body cells have 46 / 44\nchromosomes\nallow B and b are (alleles) on 2\nchromosomes (of the same pair)\n\nAO /\nQuestion  Answers  Extra information  Mark\nSpec. Ref.\n\n01.4  44  allow 22 pairs  1  AO2\n4.6.1.6\n\nAO /\nQuestion  Answers  Extra information  Mark\nSpec. Ref.\n\n01.5  has two X (chromosomes)  allow XX  1  AO1\nallow the rabbit is not XY  4.6.1.6\nallow the rabbit does not have a\nY (chromosome)\nallow the rabbit only has X\n(chromosomes)\nallow both (X) sex\nchromosomes are the same size",
+     "schemeSource": "heading",
      "topic": "Inheritance, variation and evolution",
      "lead": "This question is about genetics.\n\nThe fur colour of rabbits is controlled by two alleles."
     },
@@ -38,7 +39,8 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "prompt": "In rabbits:\n\n• the allele for brown fur (B) is dominant\n• the allele for white fur (b) is recessive.\n\nA rabbit with the alleles Bb and a rabbit with the alleles bb breed together.\n\nDetermine the probability that one of the offspring will have white fur.\n\nYou should:\n• complete the Punnett square diagram\n• identify any offspring that will have white fur.\n\nProbability =",
      "page": 4,
      "kind": "self",
-     "scheme": "AO /\n\n01.1\n\n1  AO1\n\ndo not accept more than one line from a box on the left\n\nAO /\n\n01.2\n\ngametes correct  allow in either position in  1  AO2\nPunnett square\n\noffspring genotypes correctly  allow correct derivation of  2  AO2\nderived  offspring genotypes from\nincorrect gametes\nallow 3 correctly derived\noffspring genotypes for 1 mark\n\nany bb offspring identified as  1  AO2\nhaving white fur\n\n0.5  probability must match offspring  1  AO3\ngenotypes if given\nallow 50% or 1 in 2 or\n1:1 or\n1  4.6.1.4\n\ndo not accept 1:2\n\nAO /\n\nallow gamete(s) or sex cells for",
+     "scheme": "Question 1\n\nAO /\nQuestion  Answers  Mark\nSpec. Ref.\n\n01.1\n\n1  AO1\n4.6.1.3\n4.6.1.4\n\ndo not accept more than one line from a box on the left\n\nAO /\nQuestion  Answers  Extra information  Mark\nSpec. Ref.\n\n01.2\n\ngametes correct  allow in either position in  1  AO2\nPunnett square\n\noffspring genotypes correctly  allow correct derivation of  2  AO2\nderived  offspring genotypes from\nincorrect gametes\nallow 3 correctly derived\noffspring genotypes for 1 mark\n\nany bb offspring identified as  1  AO2\nhaving white fur\n\n0.5  probability must match offspring  1  AO3\ngenotypes if given\nallow 50% or 1 in 2 or\n1:1 or¹  4.6.1.4\ndo not accept 1:2\n\nAO /\nQuestion  Answers  Extra information  Mark\nSpec. Ref.\nallow gamete(s) or sex cells for\n01.3  sperm throughout\n\nsperm have one of each  allow sperm have one set of  1  AO2\nchromosome (pair)  chromosomes / genes\nallow sperm (only) have one\nallele for each gene\nallow sperm are haploid\nallow sperm have half the\n(number / amount of)\nchromosomes (compared with a\nbody cell)\nallow sperm have 23 / 22\nchromosomes\n\nignore sperm have one allele\nignore sperm have half the DNA\n/ genes\n\nsperm are produced by meiosis  1  AO1\nor\nbody cells have two of each  allow body cells have pairs of  4.6.1.1\nchromosome  chromosomes  4.6.1.2\nallow body cells are diploid  4.6.1.4\n\nallow body cells have 46 / 44\nchromosomes\nallow B and b are (alleles) on 2\nchromosomes (of the same pair)\n\nAO /\nQuestion  Answers  Extra information  Mark\nSpec. Ref.\n\n01.4  44  allow 22 pairs  1  AO2\n4.6.1.6\n\nAO /\nQuestion  Answers  Extra information  Mark\nSpec. Ref.\n\n01.5  has two X (chromosomes)  allow XX  1  AO1\nallow the rabbit is not XY  4.6.1.6\nallow the rabbit does not have a\nY (chromosome)\nallow the rabbit only has X\n(chromosomes)\nallow both (X) sex\nchromosomes are the same size",
+     "schemeSource": "heading",
      "topic": "Inheritance, variation and evolution",
      "seePaper": true
     },
@@ -50,6 +52,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "sperm throughout\n\nsperm have one of each  allow sperm have one set of  1  AO2\nchromosome (pair)  chromosomes / genes\nallow sperm (only) have one\nallele for each gene\nallow sperm are haploid\nallow sperm have half the\n(number / amount of)\nchromosomes (compared with a\nbody cell)\nallow sperm have 23 / 22\nchromosomes\n\nignore sperm have one allele\nignore sperm have half the DNA\n/ genes\n\nsperm are produced by meiosis  1  AO1\nor\nbody cells have two of each  allow body cells have pairs of  4.6.1.1\nchromosome  chromosomes  4.6.1.2\nallow body cells are diploid  4.6.1.4\n\nallow body cells have 46 / 44\nchromosomes\nallow B and b are (alleles) on 2\nchromosomes (of the same pair)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Inheritance, variation and evolution",
      "seePaper": true
     },
@@ -61,6 +64,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "44  allow 22 pairs  1  AO2\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "seePaper": true
     },
@@ -72,6 +76,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "has two X (chromosomes)  allow XX  1  AO1\nallow the rabbit is not XY  4.6.1.6\nallow the rabbit does not have a\nY (chromosome)\nallow the rabbit only has X\n(chromosomes)\nallow both (X) sex\nchromosomes are the same size",
+     "schemeSource": "exact",
      "topic": "Inheritance, variation and evolution",
      "seePaper": true
     }
@@ -89,6 +94,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "oestrogen  allow phonetic spelling  AO1\n1  4.5.3.3\nallow other correct named\nhormone eg progesterone\n\ndo not accept FSH / LH\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Homeostasis and response",
      "lead": "This question is about the hormones involved in reproduction."
     },
@@ -100,6 +106,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "any one from:  1  AO1\n\n• (stimulates / causes) sperm\nproduction\n\n• (stimulates / causes male)  allow (stimulates / causes)\nsecondary sexual  puberty\ncharacteristics  allow (stimulates / causes)\nnamed male secondary sexual\ncharacteristic(s) eg muscle\ngrowth\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     },
     {
@@ -110,6 +117,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "allow converse if clearly\nreferring to hormonal methods\n\nany one from:  1  AO3\n\n• protection / prevention against  allow protects / prevents against\nsexual transmitted  STD(s) / STI(s)\ndiseases(s)  allow protects / prevents against\nnamed STD / STI\n\n• fewer / no side effects  allow do not affect menstrual\ncycle\nallow fewer / no named\n(possible) side effects of\nhormonal contraceptives eg\nfewer / no headaches / nausea /\nacne\nignore do not affect hormones\nignore safer\n\n• immediate  allow quicker to use\nignore temporary\n\n• (may) contain a chemical to  allow (may) contain spermicide\nkill sperm\n\n• (more) easily accessible\n\n• described disadvantage of\nhormonal method(s) eg\n(contraceptive) pill could be\nforgotten\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     },
     {
@@ -120,6 +128,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "Level 2: Scientifically relevant facts, events or processes are  4–6  AO1\nidentified and given in detail to form an accurate account.  4.5.3.3\n\nLevel 1: Facts, events or processes are identified and simply  1–3\nstated but their relevance is not clear.\n\nNo relevant content  0\n\nIndicative content\n\nMethod\n• oral contraceptive or pill\nDetail of how the contraception is used\no taken daily or taken every 21/28 days or taken in a monthly cycle\no containing progesterone\no containing oestrogen\no (hormones) absorbed into the blood\n\nMethod\n• injection\n• patch\n• implant\n• intrauterine system / device or IUD or IUS or coil\nDetail of how the contraception is used\no last several weeks / months\no containing progesterone\no slow release of progesterone / hormone\no into blood\n\nDetail (that can apply to all hormonal contraceptive methods)\no to inhibit / reduce / prevent FSH (release)\no (lack of FSH) so no eggs mature / develop\n\no to inhibit / reduce / prevent LH (release)\no (lack of LH) so no eggs released (from ovary)\nor so prevents ovulation\n\no (progesterone) thickens (cervical) mucus\no (mucus) prevents / reduces sperm movement (to uterus)\no (oestrogen / progesterone) changes the thickness of the\nuterus lining\no (uterus lining thickening / thinning) makes implantation less likely\n\nFor Level 2, answers must give details for the method(s) described.",
+     "schemeSource": "exact",
      "topic": "Homeostasis and response"
     }
    ]
@@ -136,6 +145,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "distance from the tree  allow distance  1  AO2\n\nRPA7\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "lead": "Buttercups are small plants.\n\nStudents investigated the distribution of buttercup plants at different distances from\na tree.\n\nFigure 2 shows quadrats being used to sample two areas.\n\nFigure 2",
      "seePaper": true
@@ -148,6 +158,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "7 (squares)  1  AO2\n\n× 100  allow 0.28 × 100\n\nallow correct working shown\nfrom an incorrect attempt at  1  AO3\ncounting squares (in the range 6\nto 10) covered by buttercups\n\n28 (%)  allow a correct calculation from  1  AO2\nan incorrect attempt at counting\nsquares (in the range 6 to 10)\ncovered by buttercups  4.7.2.1\nRPA7\n\nalternative route\n(percentage cover of one small\nsquare)\n100\n(  =) 4\n\n7×4\nallow correct working shown\nwith incorrectly calculated\npercentage cover of one small\nsquare\n\n28 (%)\nallow a correct calculation from\nan incorrect attempt at counting\nsquares (in the range 6 to 10)\ncovered by buttercups\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Ecology",
      "seePaper": true
     },
@@ -159,6 +170,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 11,
      "kind": "self",
      "scheme": "any two from:  2  AO3\n• whether the sample is  4.7.2.1\nrepresentative  RPA7\n\n• the size of the quadrat\n\n• the number of students  allow the number of quadrats\n(available)\n\n• how many quadrats fit around  allow size of tree\nthe tree at 1 m  allow if the same (quadrat) area\nis being sampled repeatedly\n\n• factors such as buildings or\nother tree(s)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Ecology"
     },
     {
@@ -168,7 +180,8 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "prompt": "Figure 3 shows two different quadrats.\n\nFigure 3\n\nExplain two advantages of using quadrat B instead of quadrat A in the investigation.\n\nYou should include calculations in your answer.\n\nA point quadrat can also be used to estimate the percentage cover of plants in\n\nan area.\n\nFigure 4 shows a point quadrat.\n\nFigure 4\n\nWhen using a point quadrat, the pins are pushed down to the soil.\n\nThe number of pins that touch a buttercup plant is counted.",
      "page": 12,
      "kind": "self",
-     "scheme": "allow converse if clearly  AO3\nreferring to quadrat A  4.7.2.1\nRPA7\nignore references to time\n(quadrat B) samples a larger  allow (quadrat B) is larger /  1\narea  wider\n\n(because) 0.25 (m2) rather than  1\nallow (m2) rather than\n\n(m2)  1\n0.0625 (m2)  4  16\n\nallow 2500 cm2 rather than 625\ncm2\n\nallow by 4 times\n\n(quadrat B) gives more accurate  allow (quadrat B) is more  1\n/ precise results  representative\n\nallow (quadrat B) has greater\nresolution\n\nallow need to use quadrat A\n4 times (as many times) to have\nthe same accuracy / precision\nas quadrat B\n\nignore (quadrat B) is more\nreliable / valid / repeatable\n\n(because) to the nearest 1% (of  allow (because) quadrat B has  1\nthe quadrat) rather than nearest  100 (small) squares rather than\n4%  25 (small) squares\n\ndo not accept quadrat B has\nsmaller squares (within quadrat)\n\nAO /",
+     "scheme": "allow converse if clearly  AO3\nreferring to quadrat A  4.7.2.1\nRPA7\nignore references to time\n(quadrat B) samples a larger  allow (quadrat B) is larger /  1\narea  wider\n\n(because) 0.25 (m²) rather than  1\nallow (m2) rather than\n\n(m2)  1\n0.0625 (m²)  4  16\n\nallow 2500 cm² rather than 625\ncm2\n\nallow by 4 times\n\n(quadrat B) gives more accurate  allow (quadrat B) is more  1\n/ precise results  representative\n\nallow (quadrat B) has greater\nresolution\n\nallow need to use quadrat A\n4 times (as many times) to have\nthe same accuracy / precision\nas quadrat B\n\nignore (quadrat B) is more\nreliable / valid / repeatable\n\n(because) to the nearest 1% (of  allow (because) quadrat B has  1\nthe quadrat) rather than nearest  100 (small) squares rather than\n4%  25 (small) squares\n\ndo not accept quadrat B has\nsmaller squares (within quadrat)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Ecology",
      "seePaper": true
     },
@@ -176,10 +189,11 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "id": "aqa-8464-biology-paper2h:03.5",
      "label": "03.5",
      "marks": 2,
-     "prompt": "What are two advantages of using a point quadrat compared with using\na square quadrat?\nTick () two boxes.\n\nWith a point quadrat, a plant that is smaller than half a square\nis more likely to be counted.\n\nWith a point quadrat, each species of plant is easier to identify.\n\nWith a point quadrat, no judgement of cover is needed.\n\nWith a square quadrat, a buttercup plant covering other plants cannot\nbe counted.\n\nWith a square quadrat, the results are less likely to be biased.",
+     "prompt": "What are two advantages of using a point quadrat compared with using\na square quadrat?\nTick (✓) two boxes.\n\nWith a point quadrat, a plant that is smaller than half a square\nis more likely to be counted.\n\nWith a point quadrat, each species of plant is easier to identify.\n\nWith a point quadrat, no judgement of cover is needed.\n\nWith a square quadrat, a buttercup plant covering other plants cannot\nbe counted.\n\nWith a square quadrat, the results are less likely to be biased.",
      "page": 13,
      "kind": "self",
      "scheme": "with a point quadrat, a plant that  1  AO3\nis smaller than half a square is  4.7.2.1\nmore likely to be counted  RPA7\n\nwith a point quadrat, no  1\njudgement of cover is needed\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Ecology"
     },
     {
@@ -190,8 +204,9 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 14,
      "kind": "numeric",
      "scheme": "n  n  1  AO2\n7=  × 100  allow 7 =  × 100\n30 × 50  1500  4.7.2.1\n\n7  allow n = 0.07 × 1500  1\nn=  × 1500\n100  allow n = 7 × 15\nallow a correct rearrangement\nusing 50 pins as total number of\npins used\nallow correct rearrangement\nwith an incorrect calculation of\nnumber of pins used\n\nn = 105  allow a correct calculation using  1\n50 pins as total number of pins\nused\nallow correct calculation with an\nincorrect calculation of number\nof pins used\n\nallow 2 marks for:\n\n(  × 50 =) 3.5\n100",
+     "schemeSource": "exact",
      "topic": "Ecology",
-     "numeric": 105.0
+     "numeric": 105
     }
    ]
   },
@@ -207,6 +222,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "herbicide is added / sprayed (on  1  AO1\nsoil / land / field / crop / maize)\n\n(so) weeds killed and (GM)  allow (so) unwanted plants killed  1  AO2\nmaize / crop not killed  and (GM) maize / crop not killed\nallow only the weeds are killed\n\n(so) (GM) maize / crop has less  allow (so) (GM) maize / crop has  1  AO2\ncompetition for light / water /  more light / water / minerals /\nminerals / ions / space  ions / space\n\nignore reference to nutrients\nignore (GM) maize / crop has\nless competition unqualified\n\n(so more) photosynthesis to  allow (so more) photosynthesis  1  AO2\nproduce glucose which  to produce glucose which\nproduces protein / cellulose /  produces amino acids (for\nstarch / fat (for growth)  growth)  4.4.1.1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Bioenergetics",
      "lead": "Farmers can increase crop yield by controlling the conditions the plants grow in."
     },
@@ -218,6 +234,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 15,
      "kind": "self",
      "scheme": "use of herbicide kills weeds /  allow increased use of herbicide  1  AO3\nwildflowers / plants (that are not  / weedkiller  4.6.2.4\nthe crop)\n\nignore (more) use of pesticides\nignore herbicide kills animals /\ninsects\n\n(causes) fewer weeds or fewer  allow fewer wildflowers therefore  1\nother plants therefore less food  less food for animals / insects\nfor animals / insects\nallow less variety of food\ntherefore lower number of\nspecies of animals / insects\n\nallow fewer weeds / wildflowers\nor fewer other plants\ntherefore more competition for\nfood\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Inheritance, variation and evolution"
     },
     {
@@ -228,6 +245,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "crops / plants may be insect /  allow for pollination  1  AO2\nbee pollinated  4.7.1.1\nallow a description eg  1  4.7.2.1\ninsects may be predators of\n(crop) pests  insects eat crop pests\nallow bees may be predators of\n(crop) pests\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Ecology"
     },
     {
@@ -238,6 +256,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "provides source of food / shelter  allow protection / hiding from  1  AO2\n(for insects / bees / pollinators)  predators  4.7.3.6\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Ecology"
     },
     {
@@ -248,6 +267,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "(as oxygen level increases  allow (aerobic) respiration of  1  AO2\ndecay increases due to aerobic)  bacteria / fungi / decomposers\nrespiration of microorganisms\n\n(which) releases carbon dioxide  allow (which) releases carbon  1  AO1\ncausing global warming  dioxide which is a greenhouse\ngas\n\nallow (which) releases carbon  4.7.3.3\ndioxide causing the greenhouse  4.7.3.5\neffect  4.7.2.2\n\nignore (which) releases carbon\ndioxide causing climate change",
+     "schemeSource": "exact",
      "topic": "Ecology"
     }
    ]
@@ -264,6 +284,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "behaviour(al)  allow functional  1  AO2\n\nAO /\n\nignore habitat",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "lead": "Plesiosaurs are extinct reptiles that lived in the ocean.\n\nFigure 5 shows a fossil of a plesiosaur.\n\nFigure 5",
      "seePaper": true
@@ -276,6 +297,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 17,
      "kind": "self",
      "scheme": "ignore competition unqualified\nany two from:  2\n\nallow hunters / poachers  4.6.3.3\n• (new) predators\n\n• (new) disease / pathogen  allow named example\n\n• competition for food  allow lack of food\n\n• lack of mates  allow competition for mates\n\nAO /\n\nallow skeleton or hard parts for",
+     "schemeSource": "exact",
      "topic": "Inheritance, variation and evolution"
     },
     {
@@ -286,6 +308,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 18,
      "kind": "self",
      "scheme": "bones throughout\n\nignore compression\nignore reference to oxygen\n\n(plesiosaur) died and sank (to  1  AO2\nbottom of ocean / sea)\n\nany two from:  2  AO1\n• (plesiosaur died and) is  do not accept plesiosaur (died\nburied in sediment / sand /  and) is buried in rock(s)  4.6.3.2\nmud / silt\n\n•  (only) soft parts decayed /\neaten\nor\nbones were not decayed /\neaten\n\n•  bone(s) / remains replaced  allow mineralisation of bones\nby minerals  allow bone(s) left imprint in mud\n/ sand / sediment (that then\nhardened to rock)\nignore bones turned to stone /\nrock\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Inheritance, variation and evolution",
      "seePaper": true
     },
@@ -297,6 +320,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 18,
      "kind": "self",
      "scheme": "any two from:  2  AO2\n\n• fossil record may be  allow not all fossils have been\n\nincomplete  found\nallow (some) fossils may have\nbeen destroyed\nallow there are not enough\nfossils (to study)\n\n• DNA will be destroyed by  allow chromosomes / genes /\nfossil formation  alleles will be destroyed by fossil\nformation\nallow fossils do not contain DNA\n/ chromosomes / genes / alleles\n\n• no evidence of soft tissues\nwhich are decomposed\n(before fossilisation)\n\n• only able to study phenotype  allow only able to study\n(from fossils)  observable characteristics (of\nbones / skeleton)\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     },
     {
@@ -307,6 +331,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 19,
      "kind": "self",
      "scheme": "2 marks for 4 correct  2  AO1\nClassification  Name  1 mark for 2 or 3 correct  AO2\ngroup  No marks for 1 correct  4.6.4\n\neukaryota /\neukaryote(s)\n\nphylum / phyla\n\norder\nfamily\n\nignore italics and upper / lower\ncase letters\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Inheritance, variation and evolution",
      "seePaper": true
     },
@@ -318,6 +343,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 19,
      "kind": "self",
      "scheme": "Cryptoclidus eurymerus  ignore italics and upper / lower  1  AO2\ncase letters  4.6.4\ndo not accept\nCryptoclididae eurymerus",
+     "schemeSource": "exact",
      "topic": "Inheritance, variation and evolution",
      "seePaper": true
     }
@@ -331,17 +357,18 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "id": "aqa-8464-biology-paper2h:06.1",
      "label": "06.1",
      "marks": 1,
-     "prompt": "Which equation represents a linear relationship?\nTick () one box.",
+     "prompt": "Which equation represents a linear relationship?\nTick (✓) one box.",
      "page": 20,
      "kind": "mcq",
      "scheme": "y = mx + c  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "lead": "The human body makes the hormone insulin and a chemical called C-peptide.\n\nC-peptide concentration in the blood has a linear relationship with the amount of\ninsulin the body produces.",
      "options": [
       "y = mc + x",
-      "y = mc2 + x",
+      "y = mc² + x",
       "y = mx + c",
-      "y = mx2 + c"
+      "y = mx² + c"
      ],
      "answer": [
       "y = mx + c"
@@ -355,16 +382,18 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 21,
      "kind": "self",
      "scheme": "Level 3: Relevant points (reasons / causes) are identified, given in  5–6  AO3\ndetail and logically linked to form a clear account.\n\nLevel 2: Relevant points (reasons / causes) are identified, and  3–4\n\nthere are attempts at logical linking. The resulting account is not\nfully clear.\n\nLevel 1: Points are identified and stated simply, but their relevance  1–2  AO1\nis not clear and there is no attempt at logical linking.\n\nNo relevant content  0\n\nIndicative content\n\nType 1\n• in Type 1 (diabetes) the pancreas does not produce (enough)\ninsulin\n• (so) C-peptide (concentration in blood) would be low(er)\n• even if patient is taking / injecting insulin\n\nType 2\n• in Type 2 (diabetes) the body / cells no longer respond to insulin\n• in Type 2 (diabetes) insulin is produced\n• (so) C-peptide (concentration in blood) would be\nhigh(er) / normal\n\nThe importance…\n• if patient has Type 2 (diabetes) they could stop insulin injections\n• insulin injections have side effects\n• insulin injections are expensive\n• (Type 2 diabetes) can be treated with a carbohydrate-controlled\ndiet and / or (increased) exercise\n• (Type 2 diabetes) can be treated with other medication (that is\nnot injected)\n\nFor Level 3, details of Type 1 and Type 2 diabetes must be\nconsidered, with the link to C-peptide and the importance of the test\ndescribed.\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     },
     {
      "id": "aqa-8464-biology-paper2h:06.3",
      "label": "06.3",
      "marks": 1,
-     "prompt": "Which organ produces glucagon?\nTick () one box.",
+     "prompt": "Which organ produces glucagon?\nTick (✓) one box.",
      "page": 22,
      "kind": "mcq",
      "scheme": "pancreas  1  AO1\n\nAO /",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)",
      "options": [
       "Liver",
@@ -384,6 +413,7 @@ export const aqa_8464_biology_paper2h: RealPaper = {
      "page": 22,
      "kind": "self",
      "scheme": "(in people with glucagon  allow (in people without  1  AO1\ndeficiency)  glucagon deficiency) when\nwhen blood glucose  blood glucose concentration is\nconcentration is low not enough  low glucagon is produced\nglucagon is produced\nignore reference to organ that\nproduces glucagon\n\n(so) less / no glycogen  allow (so) less glucose  1  AO1\nconverted to glucose  produced from glycogen\n\n(so) less glucose for respiration  1  AO2\n\n(so) less energy released /  do not accept less energy  1  AO2\ntransferred  produced / made / created",
+     "schemeSource": "exact",
      "topic": "Biology (mixed)"
     }
    ]

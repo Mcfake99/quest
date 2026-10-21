@@ -28,6 +28,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 4,
      "kind": "self",
      "scheme": "Starting with this speech, explore how far Shakespeare presents Macbeth as an ambitious character.\n\nWrite about:\n\n• how far Shakespeare presents Macbeth as an ambitious character in this speech\n• how far Shakespeare presents Macbeth as an ambitious character in the play as a whole.\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Macbeth’s references to ambition in the extract\n• details of ambition as a driving force in Macbeth\n• comments on Macbeth’s ambition being partly driven by his wife: has to be persuaded to fulfil it\n• details of Macbeth’s relationship with the witches in relation to his ambition\n• comments on extremes Macbeth goes to fulfil his ambition and to sustain the fruits of it\n\n• use of metaphors, eg the riding metaphor at the end of Macbeth’s soliloquy\n• Lady Macbeth’s language in the persuasion scene when Macbeth’s ambition is waning\n• use of contrast: Banquo’s/Macbeth’s reaction to the witches’ prophecies\n• use of soliloquies to reveal Macbeth’s thoughts in relation to his ambition\n\n• fear of the afterlife\n• implications of murdering Duncan – Divine Right of Kings\n• influence on Macbeth of the witches/the supernatural\n• influence of Lady Macbeth and Macbeth’s relationship with her.\n\nRomeo and Juliet",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -45,6 +46,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 6,
      "kind": "self",
      "scheme": "Starting with this moment in the play, explore how Shakespeare presents relationships between\nparents and children in Romeo and Juliet.\n\nWrite about:\n\n• how Shakespeare presents the relationship between Capulet and Juliet at this moment in the play\n• how Shakespeare presents relationships between parents and children in the play as a whole.\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of Capulet’s response to Juliet’s decision not to marry Paris\n• comments on Capulet’s expectations of Juliet\n• comments on the Montagues’ attitude to Romeo’s actions\n• details of Romeo’s and Juliet’s response to their parents; they turn to the Friar/the Nurse\n\n• language used to present the strength of Capulet’s feelings about Juliet\n• contrast between the extract and Capulet’s conciliatory attitude at the end of the play\n• presentation of Montague’s concern for Romeo expressed to Benvolio\n• presentation of Lady Capulet’s coldness when talking to Juliet about marriage\n• terms of abuse from Capulet to Juliet, eg ‘young baggage, disobedient wretch’\n\n• issues resulting from a patriarchal society\n• ideas about arranged marriages\n• expectations of obedience from children; Juliet goes against this\n• ideas about family loyalty.\n\nThe Tempest",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -62,6 +64,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 7,
      "kind": "self",
      "scheme": "Starting with this speech, explore how far Shakespeare presents Caliban as a victim in The Tempest.\n\nWrite about:\n\n• how Shakespeare presents Caliban in this speech\n• how far Shakespeare presents Caliban as a victim in the play as a whole.\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of what Caliban wishes would be inflicted on Prospero\n• details of what Prospero may inflict on Caliban\n• comments on Caliban as a victim of Prospero’s tyranny/bullying; also their better earlier relationship\n• comments on Caliban’s villainous acts, eg he tries to rape Miranda after she has befriended him\n• details of Caliban’s appreciation of the beauty of the island and what it means to him\n\n• language used by Caliban to present himself as a victim in this extract and other speeches\n• Caliban is referred to by a wide variety of names because of his appearance, eg ‘demi-devil’,\n‘hag-born’\n• contrast between Prospero’s treatment of Ariel and his treatment of Caliban\n• language used by Caliban to describe the revenge he wishes to take on Prospero\n\n• ideas about master-slave relationships\n• ideas about colonialism\n• ideas about Caliban’s otherness: his behaviour and his looks – he is judged by human standards\n• ideas about power/control/revenge.\n\nThe Merchant of Venice",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -79,6 +82,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 8,
      "kind": "self",
      "scheme": "Starting with this conversation, explore how Shakespeare presents attitudes to wealth in\nThe Merchant of Venice.\n\nWrite about:\n\n• how Shakespeare presents attitudes to wealth in this conversation\n• how Shakespeare presents attitudes to wealth in the play as a whole.\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• comments on the importance of wealth to Shylock – perhaps in contrast with the importance of his\ndaughter\n• references to the different attitudes to wealth in the casket scene\n• attitudes to wealth of Antonio and/or Bassanio and/or Portia\n• details of the court scene in relation to attitudes to wealth\n\n• any relevant comment on the language/exclamatory remarks made by Shylock\n• the language of finance used throughout the play, eg ‘money’, ‘debt’, ‘borrow’\n• the bond between Shylock and Antonio drives much of the narrative\n• the language used by Portia’s three suitors to reveal their attitudes to wealth\n• contrast between Venice and Belmont\n\n• Venice – a city of trade/wealth/money lending\n• ideas about wealth in connection with relationships\n• ideas about wealth and religion\n• setting of Belmont in relation to wealth.\n\nMuch Ado About Nothing",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -96,6 +100,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 9,
      "kind": "self",
      "scheme": "Starting with this conversation, explore how far Shakespeare presents women as powerless in\nMuch Ado About Nothing.\n\nWrite about:\n\n• how far Shakespeare presents Hero as powerless in this conversation\n• how far Shakespeare presents women as powerless in the play as a whole.\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of what is said about Hero in this conversation\n• details of Hero as powerless elsewhere in the play\n• examples of Beatrice as far from powerless\n• references to men’s attitudes to women, eg Leonato to Hero – and women’s response\n\n• language used to portray Hero as a possession to be given away, eg ‘take her back again’\n• drama of Hero fainting after having abuse hurled at her\n• examples of Beatrice’s language when voicing her independent views and resulting humour\n• impact of Beatrice’s mouth being ‘stopped’ by Benedick’s kiss\n• use of contrast between Hero and Beatrice in terms of powerlessness\n\n• range of gender issues/roles\n• ideas about marriage\n• ideas about parental roles\n• ideas about power relationships.\n\nJulius Caesar",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -113,6 +118,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 10,
      "kind": "self",
      "scheme": "Starting with this speech, explore how Shakespeare presents ideas about loyalty in Julius Caesar.\n\nWrite about:\n\n• how Shakespeare presents Antony’s loyalty to Caesar in this speech\n• how Shakespeare presents ideas about loyalty in the play as a whole.\n[30 marks]\nAO4 [4 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• details of how Antony shows loyalty to Caesar in extract and rest of play\n• comments on the changing loyalty of the plebeians\n• conflict between loyalty to Caesar/loyalty to Rome, eg Brutus\n• references to Calpurnia’s loyalty to Caesar\n• loyalty with reference to Cassius\n\n• how Antony shows loyalty in the extract, eg language/images/direct address\n• Cassius refers to Antony’s ‘ingrafted love’ for Caesar\n• use of contrast, eg Brutus ‘Not that I loved Caesar less, but that I loved Rome more’\n• Cassius’ abusive language about the plebeians, eg ‘sheep’/‘offal’\n\n• ideas about loyalty/betrayal\n• patriotism/loyalty to Rome [but not to the plebeians]\n• ideas about loyalty versus friendship\n• ideas about loyalty/pursuing selfish ends.\n\nRobert Louis Stevenson: The Strange Case of Dr. Jekyll and Mr. Hyde",
+     "schemeSource": "exact",
      "topic": "Writing",
      "spag": 4
     }
@@ -130,6 +136,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 12,
      "kind": "self",
      "scheme": "Starting with this extract, explore how Stevenson presents ideas about hidden lives and secrets.\n\nWrite about:\n\n• how Stevenson presents ideas about hidden lives and secrets in this extract\n• how Stevenson presents ideas about hidden lives and secrets in the novel as a whole.\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• Dr Jekyll’s hidden life/alter ego\n• Mr Hyde as Dr Jekyll’s secret\n• Dr Lanyon keeping knowledge of Jekyll’s secret\n• Utterson keeping the secrets of others\n• secret places: back door, Hyde’s rooms, Jekyll’s laboratory\n• secrets and the unknown: eg Jekyll’s will, Carew’s reason to be out late at night, Utterson’s\nsuppressed vices\n\n• imagery of doors, locks and the safe\n• imagery of sealed envelopes, instructions, inscriptions on letter and will\n• imagery of darkness and light\n• sense of mystery and unknown throughout novel\n• Hyde’s name\n\n• ideas about public and private lives\n• ideas about society and reputation, respectability and shame\n• ideas about the duality of man, hidden/secret side of man\n• ideas about what constitutes human nature, Stevenson’s message regarding human nature.\n\nCharles Dickens: A Christmas Carol",
+     "schemeSource": "exact",
      "topic": "Writing"
     }
    ]
@@ -146,6 +153,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 14,
      "kind": "self",
      "scheme": "Starting with this extract, explore how Dickens presents the importance of kindness in A Christmas\nCarol.\n\nWrite about:\n\n• how Dickens presents kindness in this extract\n• how Dickens presents the importance of kindness in the novel as a whole.\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• the Cratchits as an example of familial love and kindness\n• Tiny Tim embodying kindness and compassion to all\n• the Ghost of Christmas Present embodying the values of Christmas and generosity\n• other kind characters in the novel, for example Fezziwig\n• Scrooge’s transformation from cold and heartless to kind and compassionate\n\n• the fire as a symbol of warmth and kindness\n• repetition of “God bless us”\n• emotive portrayal of Tiny Tim, for example ‘withered hand’, crutch\n• the echo of “surplus population” and the uncharitable, callous attitudes it shows\n• exploration of the metaphor of the insect on the leaf\n\n• ideas about the importance of kindness and compassion\n• ideas about Christian values and the meaning of Christmas\n• ideas about family values, of love, care and compassion\n• ideas about society and class\n• Dickens’ message about human nature and what is important.\n\nCharles Dickens: Great Expectations",
+     "schemeSource": "exact",
      "topic": "Writing",
      "seePaper": true
     }
@@ -163,6 +171,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 16,
      "kind": "self",
      "scheme": "Starting with this extract, explore how far Dickens presents Miss Havisham as a victim.\n\nWrite about:\n\n• how Dickens presents Miss Havisham in this extract\n• how far Dickens presents Miss Havisham as a victim in the novel as a whole.\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• Miss Havisham’s treatment of Pip\n• Miss Havisham’s treatment of Estella\n• Miss Havisham’s repentance and remorse\n• how Miss Havisham has been treated by Compeyson and her reaction to this\n• Miss Havisham’s experience and understanding of love\n\n• repetition of question “What have I done?”\n• imagery of light/dark\n• imagery of disease\n• contrast with dynamic of relationship at start of the novel\n• Pip/narrator’s judgment of Miss Havisham\n\n• ideas about victimhood\n• ideas about revenge and redemption\n• ideas about love and relationships\n• ideas about social status and power\n• ideas about morality and values.\n\nCharlotte Brontë: Jane Eyre",
+     "schemeSource": "exact",
      "topic": "Writing"
     }
    ]
@@ -179,6 +188,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 18,
      "kind": "self",
      "scheme": "Starting with this extract, explore how far Brontë presents Jane Eyre as a vulnerable character.\n\nWrite about:\n\n• how Brontë presents Jane in this extract\n• how far Brontë presents Jane as a vulnerable character in the novel as a whole.\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• Jane as orphan, isolated and alone\n• Jane as ward of others\n• Jane’s social status and financial insecurity and how these contribute to vulnerability\n• Jane and determination, principles, courage, all the things which give her strength\n\n• symbolism of the red-room\n• use of colour\n• ideas about the contents of the room: ‘looking-glass’, ‘pale throne’, ‘blinds half drawn’\n• use of setting to develop ideas about character\n\n• ideas about strength and vulnerability\n• ideas about dependence and independence\n• ideas about gender, and women’s position in society\n• ideas about financial status\n• ideas about moral strength and weakness.\n\nMary Shelley: Frankenstein",
+     "schemeSource": "exact",
      "topic": "Writing",
      "seePaper": true
     }
@@ -196,6 +206,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 20,
      "kind": "self",
      "scheme": "Starting with this extract, explore how Shelley presents the importance of family in Frankenstein.\n\nWrite about:\n\n• how Shelley presents the importance of family in this extract\n• how Shelley presents the importance of family in the novel as a whole.\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• Frankenstein’s relationships with his own family: father, mother, Elizabeth\n• DeLacey family and mutual love and support there\n• Monster’s desperation for a partner\n• Frankenstein’s role as creator/father\n• Monster’s lack of family and the effect this has upon him\n\n• metaphor of Frankenstein’s father as gardener protecting his mother\n• religious imagery associated with family; ‘reverence’, ‘worship’, ‘idol’\n• metaphor of ‘guided by a silken cord’\n• use of letters between family members\n• portrayal of other family, absence of family\n\n• ideas about importance of family and identity\n• ideas about family and love, kindness and support\n• ideas about parenting\n• ideas about nurture\n• ideas about absence of family – on creature, impact of loss on Frankenstein.\n\nJane Austen: Pride and Prejudice",
+     "schemeSource": "exact",
      "topic": "Writing"
     }
    ]
@@ -212,6 +223,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 22,
      "kind": "self",
      "scheme": "Starting with this extract, explore how far Austen presents Elizabeth as a character who changes her\nviews of others.\n\nWrite about:\n\n• how Austen presents Elizabeth in this extract\n• how far Austen presents Elizabeth as a character who changes her views of others in the novel as a\nwhole.\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• Elizabeth’s changing view of Darcy\n• Elizabeth’s changing view of Wickham\n• Elizabeth’s changing view of Caroline Lucas\n• Elizabeth’s unchanging view of Mr Collins and Lady Catherine\n• Elizabeth’s views on other characters\n\n• structure of novel, character arc and development\n• contrast with attitudes and behaviour at start of novel\n• irony of Lady Catherine’s intervention and constancy of Elizabeth’s frankness\n• imagery of love and affection\n• examples of how Elizabeth’s views are presented\n\n• ideas about love\n• ideas about judgment and prejudice\n• ideas about growth and maturity\n• ideas about character and human nature\n• ideas about change, changing perceptions and transformation.\n\nArthur Conan Doyle: The Sign of Four",
+     "schemeSource": "exact",
      "topic": "Writing"
     }
    ]
@@ -228,6 +240,7 @@ export const aqa_8702_paper1: RealPaper = {
      "page": 24,
      "kind": "self",
      "scheme": "Starting with this extract, explore how Conan Doyle creates an atmosphere of mystery and suspense\nin The Sign of Four.\n\nWrite about:\n\n• how Conan Doyle creates an atmosphere of mystery and suspense in this extract\n• how Conan Doyle creates an atmosphere of mystery and suspense in the novel as a whole.\n[30 marks]\n\nIndicative content\n\nExaminers are encouraged to reward any valid interpretations. Answers might, however,\ninclude some of the following:\n\n• interruption at crucial point in story\n• strange, frightening, unexplained face at window\n• sudden and unexpected death\n• unexplained clues: single footprint, ‘The sign of the four’\n• the novel’s strange and exotic settings and characters\n\n• interruption to narrative\n• sudden, abrupt shouting, repetition of “Keep him out!”\n• unpleasant appearance of face at window\n• Mary Morston’s reaction\n• other portrayals of mysterious settings, characters and incidents\n• Watson as narrator being in the dark about events\n\n• genre of novel – mystery (and suspense) central to detective story\n• mystery and suspense used to foreground themes of good and evil\n• ideas about mystery being used to develop the idea of Holmes the exceptional detective\n• mystery and suspense appealing to Victorian and contemporary readership.",
+     "schemeSource": "exact",
      "topic": "Writing"
     }
    ]

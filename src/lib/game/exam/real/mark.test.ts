@@ -39,3 +39,10 @@ test("paper score is capped at the cover maximum", () => {
   };
   assert.deepEqual(paperScore(paper, { a: 25, b: 20 }), { score: 30, max: 30, pct: 100 });
 });
+
+test("numeric parts accept the scheme's alternative answers", () => {
+  const part = { id: "x", label: "1", marks: 3, prompt: "", page: 1, kind: "numeric", numeric: 6.75, accept: [6.8], scheme: "", topic: "" } as RealPart;
+  assert.equal(autoMark(part, "6.8"), 3);
+  assert.equal(autoMark(part, "6.75 m/s²"), 3);
+  assert.equal(autoMark(part, "2"), null);
+});

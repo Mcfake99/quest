@@ -6,3 +6,4 @@ dist/
 attachments/
 screenshots/
 .env
+__pycache__/

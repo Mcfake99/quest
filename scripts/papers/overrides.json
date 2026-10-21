@@ -1,0 +1,223 @@
+{
+ "_note": "Hand-checked against rendered QP/MS pages (June 2025). Applied last by extract.py. prompt/lead replace text; answer is prepended to the scheme as 'Answer: …'; numeric/accept enable auto-marking; kind 'self' disables it.",
+ "edexcel-1ma1-paper1h:2(a)": {
+  "prompt": "Colour: red, white, blue, green\nProbability: red 0.3, white 0.1, blue 2x, green x\n\nWork out the probability that Chris will take a blue counter."
+ },
+ "edexcel-1ma1-paper1h:2(b)": {
+  "lead": "There are 45 red counters in the bag."
+ },
+ "edexcel-1ma1-paper1h:4(a)": {
+  "lead": "There are 280 chocolates in a box.\nThere are only dark chocolates, milk chocolates and white chocolates.\n\n1/7 of the 280 chocolates are dark chocolates.\nThe number of milk chocolates : the number of white chocolates = 1 : 3\nThe number of white chocolates : the number of dark chocolates = n : 1",
+  "prompt": "Work out the value of n.\nYou must show all your working.\n\nn = ____"
+ },
+ "edexcel-1ma1-paper1h:4(b)": {
+  "lead": "10 milk chocolates from the box are eaten."
+ },
+ "edexcel-1ma1-paper1h:6": {
+  "prompt": "AB, BC, CD and DE are four sides of a regular polygon with n sides.\n\nBCX is an equilateral triangle.\nCDYX is a square.\nWork out the value of n.\nYou must show all your working.\n\nn = ____"
+ },
+ "edexcel-1ma1-paper1h:7(a)": {
+  "prompt": "Simplify  3(2 − m)² / (2 − m)",
+  "answer": "6 − 3m (accept 3(2 − m))"
+ },
+ "edexcel-1ma1-paper1h:7(b)": {
+  "prompt": "Solve  7 + x ≤ 5x/2 − 8",
+  "answer": "x ≥ 10"
+ },
+ "edexcel-1ma1-paper1h:8(b)": {
+  "prompt": "ED = 20 cm, CB = 30 cm, AC = 18 cm\nWork out the length of EC.\n\n____ cm",
+  "numeric": [
+   6
+  ],
+  "answer": "6 cm (scale factor 1.5, AE = 18 ÷ 1.5 = 12, EC = 18 − 12)"
+ },
+ "edexcel-1ma1-paper1h:8(a)": {
+  "prompt": "AEC and ADB are straight lines.\nED is parallel to CB.\nProve that triangle ABC is similar to triangle ADE."
+ },
+ "edexcel-1ma1-paper1h:9(b)": {
+  "prompt": "Enlarge the triangle by scale factor ½, centre (−1, −3)"
+ },
+ "edexcel-1ma1-paper1h:12(a)(i)": {
+  "answer": "an estimate of the gradient (about 10) from a tangent drawn at t = 3; the scheme accepts a range"
+ },
+ "edexcel-1ma1-paper1h:13": {
+  "prompt": "x = 0.2̇   y = 0.68̇1̇  (recurring decimals)\nWork out the value of xy.\nGive your answer as a fraction in its simplest form.",
+  "answer": "5/33  (x = 2/9, y = 15/22)"
+ },
+ "edexcel-1ma1-paper1h:15": {
+  "answer": "130/400 = 13/40 (oe)"
+ },
+ "edexcel-1ma1-paper1h:16(a)": {
+  "prompt": "Rationalise the denominator of  35/√7\nGive your answer in its simplest form.",
+  "answer": "5√7"
+ },
+ "edexcel-1ma1-paper1h:16(b)": {
+  "lead": "(√27 − 1) / (2 − √3) can be written in the form a + b√3 where a and b are integers.",
+  "prompt": "Work out the value of a and the value of b.\n\na = ____  b = ____",
+  "answer": "a = 7, b = 5"
+ },
+ "edexcel-1ma1-paper2h:1(a)": {
+  "answer": "2 × 5³"
+ },
+ "edexcel-1ma1-paper2h:2": {
+  "answer": "Sid £1380, Tam £2070, Musa £3450"
+ },
+ "edexcel-1ma1-paper2h:3(a)": {
+  "prompt": "Work out the number of bags of gravel Macsen will need.\n\n____ bags"
+ },
+ "edexcel-1ma1-paper2h:3(b)": {
+  "lead": "Macsen finds that each bag of gravel only covers an area of 11 m²"
+ },
+ "edexcel-1ma1-paper2h:5": {
+  "prompt": "This year the total weight of potatoes grown on a farm is 1/5 less than last year.\n\nThis year the total weight of potatoes grown is 8000 tonnes.\nWork out the total weight of potatoes grown last year.\n\n____ tonnes",
+  "numeric": [
+   10000
+  ]
+ },
+ "edexcel-1ma1-paper2h:9": {
+  "prompt": "3x⁻¹(4x − x³) = a + bxⁿ for all the values of x that are not zero.\nFind the value of a, the value of b and the value of n.\n\na = ____\nb = ____\nn = ____",
+  "answer": "a = 12, b = −3, n = 2"
+ },
+ "edexcel-1ma1-paper2h:10": {
+  "prompt": "Solve  (14 − x)/3 = 3x\n\nx = ____",
+  "numeric": [
+   1.4
+  ]
+ },
+ "edexcel-1ma1-paper2h:12(b)": {
+  "prompt": "Work out an estimate for the number of these actors with an age between 31 years and 42 years.",
+  "numeric": [
+   16
+  ]
+ },
+ "edexcel-1ma1-paper2h:12(c)": {
+  "lead": "Mary says,\n“At least one of the actors is 35 years old because the median is 35”"
+ },
+ "edexcel-1ma1-paper2h:13": {
+  "prompt": "Show that (2x + 3)(x − 1)(x + 2) can be written in the form\nax³ + bx² + cx + d where a, b, c and d are integers."
+ },
+ "edexcel-1ma1-paper2h:14": {
+  "numeric": [
+   27720
+  ]
+ },
+ "edexcel-1ma1-paper2h:15(a)": {
+  "prompt": "On the grid, show by shading, the region that satisfies all of these inequalities.\n\nx + y < 5   y > 1   x > 2   y < 3x − 2\n\nLabel the region R."
+ },
+ "edexcel-1ma1-paper2h:15(b)": {
+  "lead": "Ron says,\n“I can remove one of the four inequalities from the grid so that the region R will not change.”\nRon is correct."
+ },
+ "edexcel-1ma1-paper2h:16(a)": {
+  "lead": "Two jars are mathematically similar.\nThe larger jar has height 12 cm and volume 1350 cm³.\nThe smaller jar has height h cm and volume 90 cm³.",
+  "prompt": "Work out the height, h cm, of the smaller jar.\nGive your answer correct to 1 decimal place.\n\n____ cm",
+  "numeric": [
+   4.9
+  ]
+ },
+ "edexcel-1ma1-paper2h:16(b)": {
+  "lead": "The surface area of the smaller jar is A cm²\nThe surface area of the larger jar is pA cm²",
+  "answer": "p = 15^(2/3) = ∛225 (oe, e.g. (∛15)²)"
+ },
+ "edexcel-1ma1-paper2h:17": {
+  "answer": "k = 2/3 (accept 0.67 or better)",
+  "numeric": [
+   0.6667,
+   0.67
+  ]
+ },
+ "edexcel-1ma1-paper2h:18": {
+  "prompt": "At the start of year n, the population of deer in a park is Dₙ\nAt the start of the following year, the population of the deer is Dₙ₊₁\n\nDₙ₊₁ = K·Dₙ  where K is a constant.\n\nAt the start of 2019, the population of the deer was 2000\nAt the start of 2020, the population of the deer was 2400\nShow that, at the start of 2022, the population of the deer was greater than 3000"
+ },
+ "edexcel-1ma1-paper2h:20": {
+  "prompt": "In the diagram\nA is the point (0, 8)\nB is the point (16, 0)\nThe point D divides the line segment AB in the ratio 1 : 3\nThe line L passes through D.\nThe gradient of L is 3\nL passes through the point with coordinates (−2, f)\nShow that f < −4"
+ },
+ "edexcel-1ma1-paper2h:21": {
+  "answer": "−2/5 < x < 1/3"
+ },
+ "edexcel-1ma1-paper2h:22": {
+  "prompt": "The equation of circle A is x² + y² = 25\n\nCircle A is translated by the vector (0, −2) (column vector: 0 across, −2 up) to give circle B.\n\nSketch circle B.\nShow the coordinates of\nthe centre of circle B\nand the points where circle B meets the y-axis.",
+  "answer": "circle radius 5, centre (0, −2), meeting the y-axis at (0, 3) and (0, −7)"
+ },
+ "edexcel-1ma1-paper2h:23": {
+  "prompt": "ABCD is a quadrilateral (the side lengths and angles are on the diagram in the paper: 6 cm, 9 cm, 12 cm and 125°).\nFind the size of angle ABC.\nGive your answer correct to the nearest degree.\n\n____ °"
+ },
+ "edexcel-1ma1-paper3h:1": {
+  "prompt": "The table shows information about the distances that 60 people travel to work.\n\nDistance (d miles) | Frequency\n0 < d ≤ 10 | 12\n10 < d ≤ 20 | 25\n20 < d ≤ 30 | 10\n30 < d ≤ 40 | 8\n40 < d ≤ 50 | 5\n\nDraw a frequency polygon for the information in the table."
+ },
+ "edexcel-1ma1-paper3h:2(a)": {
+  "lead": "Ben is trying to make m the subject of  p = m/3 + 5\n\nHere is his working.\n  p − 5 = m/3\n  3 × p − 5 = m\n  m = 3p − 5\nBen’s answer is wrong.",
+  "prompt": "What mistake has Ben made?"
+ },
+ "edexcel-1ma1-paper3h:2(b)": {
+  "answer": "2xy(x² + 2y)"
+ },
+ "edexcel-1ma1-paper3h:5": {
+  "answer": "23.75 ≤ n < 23.85"
+ },
+ "edexcel-1ma1-paper3h:7": {
+  "prompt": "ABC is a straight line.\nPoint A has coordinates (2, 7)\nPoint B has coordinates (8, 12)\nBC = ½ AB\nFind the coordinates of point C.\n\n( ____ , ____ )",
+  "answer": "(11, 14.5)"
+ },
+ "edexcel-1ma1-paper3h:9(b)": {
+  "prompt": "Write 0.035 in standard form.",
+  "answer": "3.5 × 10⁻²"
+ },
+ "edexcel-1ma1-paper3h:10": {
+  "prompt": "Use your calculator to work out  (1.8³ × cos 35°)² / ∛(17.4 − tan 85°)\nGive your answer correct to 3 significant figures."
+ },
+ "edexcel-1ma1-paper3h:11(a)": {
+  "lead": "(3ⁿ × 3²⁰) / 3⁸ = 3¹⁴",
+  "prompt": "Find the value of n.\n\nn = ____"
+ },
+ "edexcel-1ma1-paper3h:11(b)": {
+  "prompt": "Write  (64m¹²)^(2/3)  in the form amᵇ where a and b are integers.",
+  "answer": "16m⁸"
+ },
+ "edexcel-1ma1-paper3h:12(b)": {
+  "lead": "Tina sells bikes.\nIn November, Tina sold 25% fewer bikes than she sold in October.\nIn December, Tina sold 50% more bikes than she sold in November.\nIn December, Tina sold 180 bikes."
+ },
+ "edexcel-1ma1-paper3h:12(a)": {
+  "prompt": "The price of a holiday is increased by 10%\nAfter the increase, the price of the holiday is £440\n\nJim says,\n“10% of £440 is £44 so the price of the holiday before the increase was £396”\nIs Jim correct?\nExplain your answer."
+ },
+ "edexcel-1ma1-paper3h:13": {
+  "prompt": "Here are some graphs, labelled A to H (see the paper).\nEach equation in the table is the equation of one of the graphs.\nComplete the table with the letter of the graph for each equation.\n\ny = x³\ny = 1/x\ny = 5 − x²\ny = 3ˣ",
+  "answer": "y = x³ → E;  y = 1/x → C;  y = 5 − x² → B;  y = 3ˣ → H"
+ },
+ "edexcel-1ma1-paper3h:14": {
+  "prompt": "Here is triangle ABC (see the diagram in the paper: sides 9.8 cm and 8.3 cm with the 35° angle between them).\nCalculate the area of triangle ABC.\nGive your answer correct to 3 significant figures.\n\n____ cm²"
+ },
+ "edexcel-1ma1-paper3h:15": {
+  "prompt": "There are only 7 blue pens and 3 red pens in a box.\nRaja takes at random one of the pens.\nHe notes the colour of the pen and puts the pen back into the box.\nRaja does this two more times.\nShow that the probability that Raja takes at least two blue pens is 98/125"
+ },
+ "edexcel-1ma1-paper3h:16": {
+  "prompt": "The diagram shows a solid shape made from a cylinder and a cone.\n\nVolume of cone = ⅓πr²h\n\nThe cone has a base radius of 8 cm.\nThe cylinder has a radius of 8 cm.\nThe vertical height of the cone is three times the height of the cylinder.\nThe volume of the solid shape is 640π cm³\nWork out the vertical height of the cone.\nYou must show all your working.\n\n____ cm"
+ },
+ "edexcel-1ma1-paper3h:17": {
+  "prompt": "Solve  5x/(3x − 1) − 2x/(3x + 1) = 1\n\nx = ____",
+  "answer": "x = −1/7"
+ },
+ "edexcel-1ma1-paper3h:18(a)": {
+  "lead": "Magda carried out a survey to find out the drinks that people like.\nShe asked 100 people if they like coffee (C) or tea (T) or hot chocolate (H).\n\n32 people like all three drinks.\n15 people like coffee and hot chocolate but not tea.\n43 people like coffee and tea.\n39 people like tea and hot chocolate.\n67 people like coffee.\n58 people like hot chocolate.\n5 people like only tea.",
+  "prompt": "Complete the Venn diagram for this information."
+ },
+ "edexcel-1ma1-paper3h:18(b)": {
+  "lead": "One of the people is chosen at random.\nGiven that this person likes coffee,",
+  "prompt": "find the probability that this person also likes hot chocolate.",
+  "answer": "47/67"
+ },
+ "edexcel-1ma1-paper3h:21": {
+  "prompt": "Solve algebraically the simultaneous equations\n\n3x² + 2y² = 44\n3x + y = 2",
+  "answer": "x = 2, y = −4  and  x = −6/7, y = 32/7"
+ },
+ "edexcel-1ma1-paper3h:23": {
+  "prompt": "OACB is a quadrilateral.\nACP is a straight line.\nM is the midpoint of OA.\nN is the point on BC such that BN : NC = 5 : 3\nOA = a, OB = 3b, AC = 2b  (vectors)\nCP = k × AC where k is a scalar.\nGiven that MNP is a straight line, find the value of k.\nYou must show all your working.\n\nk = ____",
+  "answer": "k = 15/4 (3.75)",
+  "numeric": [
+   3.75
+  ]
+ },
+ "aqa-8464-physics-paper2h:04.2": {
+  "kind": "self",
+  "answer": "B = 0.075 tesla (T) — the unit is the fifth mark"
+ }
+}

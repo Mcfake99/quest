@@ -24,10 +24,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:1",
      "label": "1",
      "marks": 2,
-     "prompt": "The table shows information about the distances that 60 people travel to work.\n\nDistance (d miles)  Frequency\n\n0 < d  10  12\n\n10 < d  20  25\n\n20 < d  30  10\n\n30 < d  40  8\n\n40 < d  50  5\n\nDraw a frequency polygon for the information in the table.\n\nFrequency\n\n0  10  20  30  40  50\nDistance (d miles)\n\nm",
+     "prompt": "The table shows information about the distances that 60 people travel to work.\n\nDistance (d miles) | Frequency\n0 < d ≤ 10 | 12\n10 < d ≤ 20 | 25\n20 < d ≤ 30 | 10\n30 < d ≤ 40 | 8\n40 < d ≤ 50 | 5\n\nDraw a frequency polygon for the information in the table.",
      "page": 2,
      "kind": "self",
      "scheme": "Points plotted  B2  for correct plotting of all 5 points at midpoints and joining with line  Ignore any histogram drawn\nat (5, 12)  segments  Ignore any part of the frequency\n(15, 25)  polygon outside of the range of the\n(25, 10)  (B1  for correct plotting of all 5 points at midpoints joined with a curve or  first and last point plotted.\n(35, 8)  missing / no line segments\n(45, 5)\nand joined with  or for a frequency polygon with one point incorrect\nline segments\nor for a frequency polygon with first and last point joined directly\n\nor for plotting of all 5 points at the correct heights consistent within  for example, at 0, 10, 20, 30, 40\nintervals (including end points) and joining with line segments  or at 10, 20, 30, 40, 50",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
      "seePaper": true
     }
@@ -45,17 +46,19 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "page": 3,
      "kind": "self",
      "scheme": "Mistake identified  C1  for identifying the mistake\n\nAcceptable examples\np −5 should be multiplied by 3\n(−)5 should be multiplied by 3\nAll of left side / everything should be multiplied by 3\nHe failed to multiply the 5 as well\nHe should have / didn’t put brackets around the p – 5\n(The 3p – 5) should be 3p – 15\n(The – 5) should be – 15 / (the 5) should be 15\n(The answer should be) m = 3p – 15 / m = 3(p – 5)\nHe only times the p by 3\n\nNot acceptable examples\nThe first line should be 3p = m + 5\nHe should have multiplied everything\nBen didn’t divide p – 5 by 3\nHe failed to multiply the p – 5\nHe failed to multiply the (–)5\nHe only times the p\nHe should have multiplied by 3 first\nHe only multiplied one side by 3\nHe needs to get rid of the fraction\nShould have used brackets\nJust circling the 3 × p – 5 and / or the m = 3p – 5\nNeeds to multiply the 5 by −3\nHe should have done p – 5 × 3",
+     "schemeSource": "exact",
      "topic": "Number",
-     "lead": "Ben is trying to make m the subject of p =  +5\n\nHere is his working.\nm\np–5=\n3×p–5=m\nm = 3p – 5\nBen’s answer is wrong."
+     "lead": "Ben is trying to make m the subject of  p = m/3 + 5\n\nHere is his working.\n  p − 5 = m/3\n  3 × p − 5 = m\n  m = 3p − 5\nBen’s answer is wrong."
     },
     {
      "id": "edexcel-1ma1-paper3h:2(b)",
      "label": "2(b)",
      "marks": 2,
-     "prompt": "Factorise fully 2x3y + 4xy2",
+     "prompt": "Factorise fully 2x³y + 4xy²",
      "page": 3,
      "kind": "self",
-     "scheme": "2xy(x2 + 2y)  B2  2  2\nfor 2xy(x + 2y) oe eg 2(x + 2y)xy\n\n(B1  for 2x(x2y + 2y2) or 2y(x3 + 2xy) or xy(2x2 + 4y)\n\nor for correctly identifying the HCF in the factorisation of the form  ... can be numerical or algebraic but\n2xy(ax2 ± ...) or 2xy(... ± by) where a and b are integers  not equal to 0 or absent\n\nor (x2 + 2y) as a factor eg 2x(x2 + 2y)",
+     "scheme": "Answer: 2xy(x² + 2y)\n\n2xy(x² + 2y)  B2  2  2\nfor 2xy(x + 2y) oe eg 2(x + 2y)xy\n\n(B1  for 2x(x²y + 2y²) or 2y(x³ + 2xy) or xy(2x² + 4y)\n\nor for correctly identifying the HCF in the factorisation of the form  ... can be numerical or algebraic but\n2xy(ax² ± ...) or 2xy(... ± by) where a and b are integers  not equal to 0 or absent\n\nor (x² + 2y) as a factor eg 2x(x² + 2y)",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]
@@ -71,9 +74,10 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "prompt": "Mia pays £25 for 200 oranges.\nMia puts the oranges into bags.\n\nShe puts 5 oranges into each bag.\nMia sells all the bags of oranges for £1 each bag.\nWork out Mia’s percentage profit.\n\n____ %",
      "page": 4,
      "kind": "numeric",
-     "scheme": "60  P1  for process to find SP of 200 oranges or number of bags,  Working can be in either pounds or\neg 200 ÷ 5 (= 40) oe  pence\nSP = Selling Price\nor for process to find the overall profit, eg 200 ÷ 5 – 25 (= 15) oe\n\nor for process to find CP of 1 orange, eg 25 ÷ 200 (= 0.125) oe  CP = Cost Price\nor SP of 1 orange, eg 1 ÷ 5 (= 0.2) oe\n1.6 implies P1\nor for process to find CP of 5 oranges,\neg 25 ÷ (200 ÷ 5) (= 0.625) oe\n\nor for process to find number of oranges bought per £,\neg 200 ÷ 25 (= 8)\n\nP1  (dep) for start to a process to find percentage profit,\n\"40\"− 25  \"15\"\neg  (= 0.6) oe or  (= 0.6) oe\n25  25\n\"40\"  \"0.2\"− \"0.125\"\nor  × 100 (= 160) oe or  (= 0.6) oe\n25  \"0.125\"\n1  1 − \"0.625\"\nor  × 100 (= 160) oe or  (= 0.6) oe\n\"0.625\"  \"0.625\"\n\"8\"− 5  \"8\"  \"8\" \"15\"\nor  (= 0.6) oe or  × 100 (= 160) oe or  (= 0.6) oe\n5  5  200\nA1  cao",
+     "scheme": "60  P1  for process to find SP of 200 oranges or number of bags,  Working can be in either pounds or\neg 200 ÷ 5 (= 40) oe  pence\nSP = Selling Price\nor for process to find the overall profit, eg 200 ÷ 5 – 25 (= 15) oe\n\nor for process to find CP of 1 orange, eg 25 ÷ 200 (= 0.125) oe  CP = Cost Price\nor SP of 1 orange, eg 1 ÷ 5 (= 0.2) oe\n1.6 implies P1\nor for process to find CP of 5 oranges,\neg 25 ÷ (200 ÷ 5) (= 0.625) oe\n\nor for process to find number of oranges bought per £,\neg 200 ÷ 25 (= 8)\n\nP1  (dep) for start to a process to find percentage profit,\n\"40\"− 25  \"15\"\neg  (= 0.6) oe or  (= 0.6) oe\n25  25\n\"40\"  \"0.2\"− \"0.125\"\nor  × 100 (= 160) oe or  (= 0.6) oe\n25  \"0.125\"\n1  1 − \"0.625\"\nor  × 100 (= 160) oe or  (= 0.6) oe\n\"0.625\"  \"0.625\"\n\"8\"− 5  \"8\"  \"8\"× \"15\"\nor  (= 0.6) oe or  × 100 (= 160) oe or  (= 0.6) oe\n5  5  200\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Ratio and proportion",
-     "numeric": 60.0
+     "numeric": 60
     }
    ]
   },
@@ -89,6 +93,7 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "page": 5,
      "kind": "self",
      "scheme": "New York  P1  for a conversion between kg and lbs,  See page at end of mark scheme\n(supported)  eg 2 × 2.2 (= 4.4) or 5 ÷ 2.2 (= 2.27...)\n\nP1  for a conversion between pounds and US dollars,\neg 3.75 × 1.2(0) (= 4.50) or 4.9(0) ÷ 1.2(0) (= 4.08...)\n\nP1  for a process to find figures to compare,\neg 3.75 ÷ “4.4” (= 0.85...) and “4.08…” ÷ 5 (= 0.81(6…))  £ per lb\nor “4.50” ÷ 2 (= 2.25) and 4.9(0) ÷ “2.27...” (= 2.15(6...))  US dollars per kg\nor “4.4” ÷ 3.75 (= 1.17…) and 5 ÷ “4.08” (= 1.22…)  lbs per £\nor 2 ÷ “4.5” (= 0.44…) and “2.27” ÷ 4.9(0) (= 0.46 …)  kg per US dollar\n\nCondone the incorrect assignment of\nunits for all 3 P marks\n\nC1  for New York with correct comparable figures,  Final comparable values can be\neg 0.85… and 0.81(6…) OR 2.25 and 2.15(6...)  rounded or truncated, they just need\nto be accurate enough to allow a\ncomparison.",
+     "schemeSource": "exact",
      "topic": "Geometry and measures"
     }
    ]
@@ -101,10 +106,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:5",
      "label": "5",
      "marks": 2,
-     "prompt": "Karim rounds a number, n, to 1 decimal place.\nThe result is 23.8\n\nComplete the error interval for n.\n\n____   n <  ____",
+     "prompt": "Karim rounds a number, n, to 1 decimal place.\nThe result is 23.8\n\nComplete the error interval for n.\n\n____  ≤ n <  ____",
      "page": 6,
      "kind": "self",
-     "scheme": "23.75 and 23.85  B1  for 23.75 in the correct position\n\nB1  for 23.85 in the correct position  Accept 23.849 or 23.8499(9...)",
+     "scheme": "Answer: 23.75 ≤ n < 23.85\n\n23.75 and 23.85  B1  for 23.75 in the correct position\n\nB1  for 23.85 in the correct position  Accept 23.849 or 23.8499(9...)",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]
@@ -121,8 +127,9 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "page": 6,
      "kind": "numeric",
      "scheme": "630  M1  for converting time,\n24  2\neg 24 minutes =  (= 0.4 (hours)) oe eg  (hours)\n60  5\n24  2\nor 2 hours 24 minutes = 2 +  (= 2.4 (hours)) oe eg 2 (hours)\n60  5\nor 2 hours 24 minutes = 2 × 60 + 24 (= 144 (minutes)) oe  10.5 or 0.175 imply M1\n\nor 2 hours 24 minutes = 2 × 60 × 60 + 24 × 60 (= 8640 (seconds)) oe\n\nOR for using distance ÷ time,  [distance] can be 1512 or the result of\neg 1512 ÷ [time] oe or [distance] ÷ [time] oe  an attempt to convert 1512 km to a\ndifferent unit, it must have the digits\n1512 eg 151.2 or 1 512 000\n\n[time] can be any value they believe\nto be the time the plane takes to fly\n\nM1  for a complete method using distance ÷ time,\n\neg 1512 ÷ “2.4” or 1512 ÷ “ 2 ”\n\nor 1512 ÷ “144” × 60 oe or 1512 ÷ “8640” × 60 × 60 oe\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 630.0
+     "numeric": 630
     }
    ]
   },
@@ -134,10 +141,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:7",
      "label": "7",
      "marks": 3,
-     "prompt": "ABC is a straight line.\n\ny\n\nC\nB (8, 12)\n\nA (2, 7)\n\nO  x\n\nPoint A has coordinates (2, 7)\nPoint B has coordinates (8, 12)\nBC =  AB\nFind the coordinates of point C.\n\n( ____ ,  ____ )",
+     "prompt": "ABC is a straight line.\nPoint A has coordinates (2, 7)\nPoint B has coordinates (8, 12)\nBC = ½ AB\nFind the coordinates of point C.\n\n( ____ , ____ )",
      "page": 7,
      "kind": "self",
-     "scheme": "(11, 14.5)  P1  for process to work with coordinates,  Working may be seen on the diagram\nAllow alternative notation\neg 8 – 2 (= 6) or 12 – 7 (= 5)  eg (6, 5) or (5, 6)\nor  or (5, 9.5) or (9.5, 5)\neg (2 + 8) ÷ 2 (= 5) or (7 + 12) ÷ 2 (= 9.5)  ____  12 − 7\nImplied by  or  even if\n8−2  ____\ndiff in x\nusing\ndiff in y\n\nP1  for process to use proportion,  Allow alternative notation\neg “6” ÷ 2 (= 3) oe or “5” ÷ 2 (= 2.5) oe  eg (3, 2.5) or (2.5, 3)\nImplied by\nor 2 + “6” × 1.5 (= 11) or 2 + 9 (= 11) oe  8 + “3” (= 11) or 12 + “2.5” (= 14.5)\nor 7 + “5” × 1.5 (= 14.5) or 7 + 7.5 (= 14.5) oe\n\nor “5” + “6” (= 11) or 8 + “5” – 2 (= 11) oe\nor “9.5” + “5” (= 14.5) or 12 + “9.5” – 7 (= 14.5) oe\n\nor (11, a) where a ≠ 14.5 or (b, 14.5) where b ≠ 11  Award P2 for (14.5, 11)\n\nA1  for (11, 14.5) oe",
+     "scheme": "Answer: (11, 14.5)\n\n(11, 14.5)  P1  for process to work with coordinates,  Working may be seen on the diagram\nAllow alternative notation\neg 8 – 2 (= 6) or 12 – 7 (= 5)  eg (6, 5) or (5, 6)\nor  or (5, 9.5) or (9.5, 5)\neg (2 + 8) ÷ 2 (= 5) or (7 + 12) ÷ 2 (= 9.5)  ____  12 − 7\nImplied by  or  even if\n8−2  ____\ndiff in x\nusing\ndiff in y\n\nP1  for process to use proportion,  Allow alternative notation\neg “6” ÷ 2 (= 3) oe or “5” ÷ 2 (= 2.5) oe  eg (3, 2.5) or (2.5, 3)\nImplied by\nor 2 + “6” × 1.5 (= 11) or 2 + 9 (= 11) oe  8 + “3” (= 11) or 12 + “2.5” (= 14.5)\nor 7 + “5” × 1.5 (= 14.5) or 7 + 7.5 (= 14.5) oe\n\nor “5” + “6” (= 11) or 8 + “5” – 2 (= 11) oe\nor “9.5” + “5” (= 14.5) or 12 + “9.5” – 7 (= 14.5) oe\n\nor (11, a) where a ≠ 14.5 or (b, 14.5) where b ≠ 11  Award P2 for (14.5, 11)\n\nA1  for (11, 14.5) oe",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]
@@ -150,10 +158,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:8",
      "label": "8",
      "marks": 5,
-     "prompt": "The diagram shows trapezium ABCD.\n\nD  C\n\n8 cm\n\nA  12 cm  B\n\nAB = 12 cm\nAD = 8 cm\nThe trapezium has an area of 112 cm2\nWork out the perimeter of the trapezium.\nGive your answer correct to 3 significant figures.\n\n____  cm",
+     "prompt": "The diagram shows trapezium ABCD.\n\nD  C\n\n8 cm\n\nA  12 cm  B\n\nAB = 12 cm\nAD = 8 cm\nThe trapezium has an area of 112 cm²\nWork out the perimeter of the trapezium.\nGive your answer correct to 3 significant figures.\n\n____  cm",
      "page": 8,
      "kind": "numeric",
-     "scheme": "44.9  P1  for process to find an expression for the area of the trapezium,  x is the length of the line from C to\neg ½ (12 + CD) 8 or 8 × 12 + ½ × 8 × x  where perpendicular from B meets\nCD\nor for process to find the area of the triangle,  Allow use of other letters in place of\neg 112 – 8 × 12 (= 16)  CD and x (do not have to be defined\nunless otherwise stated)\nAward P1 for 112 – 8 × 12 (= 16)\neven if not used\n\nP1  for forming an equation and isolating terms in the unknown length,  Award P2 for CD = 16 or x = 4 even\neg 4CD = 112 – 48  if not used unless clearly from\nor ½ × 8 × x = 112 – 8 × 12 or ½ × 8 × x = “16”  incorrect working eg 12 – 8 (= 4)\nor CD = 16 or x = 4  Only award P2 for 16 if it is clearly\nidentified as CD\n\nP1  for start of process to find length of BC,  [their x] can be any value less than 12\neg 82 + “4”2 (= 80) or 82 + [their x]2  or clearly identified as the length of\n \"4\"   −1  8 \nthe line from C to where\nor tan −1    (= 26.5…) oe or tan    (= 63.4…)  perpendicular from B meets CD (may\n 8    \"4\"   be seen on the diagram)\nwhere “4” can be [their x]\n\nP1  Award P4 for (BC =) 80 or 4 5\nfor  82 + \"4\"2 or 64 + \"16\" or 80 or 4 5 (= 8.9…) oe\nor 8.9... unless x = 4 is clearly from\nor  82 + [their x]2  incorrect working\n\"4\"  8  8\nor  or  or\nsin\"26.5...\" cos\"26.5...\"  sin\"63.4...\"\n\"4\"\nor  where “4” can be [their x]\ncos\"63.4...\"\nA1  for answer in the range 44.9 to 44.95  If an answer is shown in the range in\nworking and then incorrectly rounded\naward full marks",
+     "scheme": "44.9  P1  for process to find an expression for the area of the trapezium,  x is the length of the line from C to\neg ½ (12 + CD) 8 or 8 × 12 + ½ × 8 × x  where perpendicular from B meets\nCD\nor for process to find the area of the triangle,  Allow use of other letters in place of\neg 112 – 8 × 12 (= 16)  CD and x (do not have to be defined\nunless otherwise stated)\nAward P1 for 112 – 8 × 12 (= 16)\neven if not used\n\nP1  for forming an equation and isolating terms in the unknown length,  Award P2 for CD = 16 or x = 4 even\neg 4CD = 112 – 48  if not used unless clearly from\nor ½ × 8 × x = 112 – 8 × 12 or ½ × 8 × x = “16”  incorrect working eg 12 – 8 (= 4)\nor CD = 16 or x = 4  Only award P2 for 16 if it is clearly\nidentified as CD\n\nP1  for start of process to find length of BC,  [their x] can be any value less than 12\neg 8² + “4”2 (= 80) or 8² + [their x]²  or clearly identified as the length of\n \"4\"   −1  8 \nthe line from C to where\nor tan −1    (= 26.5…) oe or tan    (= 63.4…)  perpendicular from B meets CD (may\n 8    \"4\"   be seen on the diagram)\nwhere “4” can be [their x]\n\nP1  Award P4 for (BC =) 80 or 4 5\nfor  8² + \"4\"2 or 64 + \"16\" or 80 or 4 5 (= 8.9…) oe\nor 8.9... unless x = 4 is clearly from\nor  8² + [their x]²  incorrect working\n\"4\"  8  8\nor  or  or\nsin\"26.5...\" cos\"26.5...\"  sin\"63.4...\"\n\"4\"\nor  where “4” can be [their x]\ncos\"63.4...\"\nA1  for answer in the range 44.9 to 44.95  If an answer is shown in the range in\nworking and then incorrectly rounded\naward full marks",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
      "numeric": 44.9,
      "seePaper": true
@@ -168,20 +177,22 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:9(a)",
      "label": "9(a)",
      "marks": 1,
-     "prompt": "Write 5.73 × 106 as an ordinary number.",
+     "prompt": "Write 5.73 × 10⁶ as an ordinary number.",
      "page": 9,
      "kind": "self",
      "scheme": "5 730 000  B1  cao",
+     "schemeSource": "exact",
      "topic": "Number"
     },
     {
      "id": "edexcel-1ma1-paper3h:9(b)",
      "label": "9(b)",
      "marks": 1,
-     "prompt": "Write 0.035 in standard form.\n\n1.8  cos 35",
+     "prompt": "Write 0.035 in standard form.",
      "page": 9,
      "kind": "self",
-     "scheme": "3.5 × 10–2  B1  cao",
+     "scheme": "Answer: 3.5 × 10⁻²\n\n3.5 × 10⁻²  B1  cao",
+     "schemeSource": "exact",
      "topic": "Geometry and measures"
     }
    ]
@@ -194,10 +205,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:10",
      "label": "10",
      "marks": 2,
-     "prompt": "Use your calculator to work out  3\n17.4 \u001b tan 85\nGive your answer correct to 3 significant figures.\n\n3n  320",
+     "prompt": "Use your calculator to work out  (1.8³ × cos 35°)² / ∛(17.4 − tan 85°)\nGive your answer correct to 3 significant figures.",
      "page": 9,
      "kind": "numeric",
-     "scheme": "12.6  M1  for partial evaluation,\neg (4.777(294722))2 or 3 5.969(47697)\nor 22.822(54486) or 1.814(081699)\n\nA1  for answer in the range 12.58 to 12.6  12.58077014\nIf an answer is shown in the range in\nworking and then incorrectly rounded\naward full marks",
+     "scheme": "12.6  M1  for partial evaluation,\neg (4.777(294722))² or³ 5.969(47697)\nor 22.822(54486) or 1.814(081699)\n\nA1  for answer in the range 12.58 to 12.6  12.58077014\nIf an answer is shown in the range in\nworking and then incorrectly rounded\naward full marks",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
      "numeric": 12.6
     }
@@ -211,22 +223,24 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:11(a)",
      "label": "11(a)",
      "marks": 2,
-     "prompt": "Find the value of n.\n\nn =  ____",
+     "prompt": "Find the value of n.\n\nn = ____",
      "page": 10,
      "kind": "numeric",
-     "scheme": "2  M1  for a correct start, using one rule of indices,\neg 3n  312 = 314 or 3n  320 = 322 or 320  38 = 312 or 314  38 = 322\n3n + 20 14\nor  8\n= 3 or 3n−8  320 = 314\n\nor for forming an equation in n,\neg n + 20 – 8 = 14 oe or (n =) 14 + 8 – 20\n\nA1  cao  Allow an answer of 3n = 32\n\nSCB1 for an answer of 32 if M0 scored  An answer of 9 or 3n = 9, n ≠ 2 on its\nown is to be awarded 0 marks",
+     "scheme": "2  M1  for a correct start, using one rule of indices,\neg 3ⁿ × 312 = 314 or 3n × 320 = 322 or 320 ÷ 38 = 312 or 314 × 38 = 322\n3n + 20 14\nor  8\n= 3 or 3n−8 × 320 = 314\n\nor for forming an equation in n,\neg n + 20 – 8 = 14 oe or (n =) 14 + 8 – 20\n\nA1  cao  Allow an answer of 3ⁿ = 3²\n\nSCB1 for an answer of 3² if M0 scored  An answer of 9 or 3ⁿ = 9, n ≠ 2 on its\nown is to be awarded 0 marks",
+     "schemeSource": "exact",
      "topic": "Algebra",
-     "lead": "314",
-     "numeric": 2.0
+     "lead": "(3ⁿ × 3²⁰) / 3⁸ = 3¹⁴",
+     "numeric": 2
     },
     {
      "id": "edexcel-1ma1-paper3h:11(b)",
      "label": "11(b)",
      "marks": 2,
-     "prompt": "Write  64m  in the form am where a and b are integers.\n12 3  b",
+     "prompt": "Write  (64m¹²)^(2/3)  in the form amᵇ where a and b are integers.",
      "page": 10,
      "kind": "self",
-     "scheme": "16m8  M1  for an intention to find the cube root and square,  Do not condone missing brackets\n( 64m ) or ( 4m ) or\n\n12 2  4 2  3  24\neg  3  12\n64m  or  3  4096m  16 or m8 imply M1\nb\n\nor for am with a ≠ 16 or 16m with b ≠ 8  Allow multiplication sign for M1\n\nA1  cao  Accept a = 16, b = 8",
+     "scheme": "Answer: 16m⁸\n\n16m8  M1  for an intention to find the cube root and square,  Do not condone missing brackets\n( 64m ) or ( 4m ) or\n\n12 2  4 2  3  24\neg  3  12\n64m  or  3  4096m  16 or m⁸ imply M1\nb\n\nor for am with a ≠ 16 or 16m with b ≠ 8  Allow multiplication sign for M1\n\nA1  cao  Accept a = 16, b = 8",
+     "schemeSource": "exact",
      "topic": "Number"
     }
    ]
@@ -239,10 +253,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:12(a)",
      "label": "12(a)",
      "marks": 1,
-     "prompt": "Is Jim correct?\nExplain your answer.\n\nTina sells bikes.\nIn November, Tina sold 25% fewer bikes than she sold in October.\nIn December, Tina sold 50% more bikes than she sold in November.\nIn December, Tina sold 180 bikes.",
+     "prompt": "The price of a holiday is increased by 10%\nAfter the increase, the price of the holiday is £440\n\nJim says,\n“10% of £440 is £44 so the price of the holiday before the increase was £396”\nIs Jim correct?\nExplain your answer.",
      "page": 11,
      "kind": "self",
      "scheme": "No with reason  C1  No with reason\nAcceptable examples\nIt’s 10% of the original price, not 10% of 440\nHe found the percentage of the new amount not the original amount\nHe found 10% of the increased value\nThe original price is £400\n100% is £400 / 100% is not £440 / 110% is £440\n10% is £40 / 10% is not £44 / 11% is £44\n99% is 396\n10% of 396 is 39.6(0)\n110% of 396 is 435.6(0)\nHe should have divided by 1.1\n\nNot acceptable examples\nNo, 440 minus 10% is not 396\n100% is not £396\n£440 is the price after the increase / The original price is not £440\nHe has to find 90% of 440\nHe has to find 110% of 440\nIt should be £484\nJim is correct / Yes  ____ ..",
+     "schemeSource": "exact",
      "topic": "Ratio and proportion",
      "lead": "The price of a holiday is increased by 10%\nAfter the increase, the price of the holiday is £440\n\nJim says,\n“10% of £440 is £44 so the price of the holiday before the increase was £396”"
     },
@@ -254,8 +269,10 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "page": 11,
      "kind": "numeric",
      "scheme": "160  P1  for process to find the number sold in November,\neg 180 ÷ 150 × 100 or 180 ÷ 1.5 (= 120) oe\n\nor for 0.75 × 1.5 (= 1.125) oe or for 75 × 1.5 (= 112.5) oe\n\nP1  for a process to find the number sold in October,  [value] can be any value they believe\neg “120” ÷ 75 × 100 oe eg “120” ÷ 0.75  to be the number of bikes sold in\nor 180 ÷ “1.125” oe eg 180 ÷ “112.5” × 100  November or 180\nor [value] ÷ 0.75 oe\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Number",
-     "numeric": 160.0
+     "numeric": 160,
+     "lead": "Tina sells bikes.\nIn November, Tina sold 25% fewer bikes than she sold in October.\nIn December, Tina sold 50% more bikes than she sold in November.\nIn December, Tina sold 180 bikes."
     }
    ]
   },
@@ -267,10 +284,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:13",
      "label": "13",
      "marks": 3,
-     "prompt": "Here are some graphs.\n\nA  y  B  y  C  y\n\nO  x  O  x  O  x\n\nD  y  E  y  F  y\n\nO  x  O  x  O  x\n\nG  y  H  y\n\nO  x  O  x\n\nEach equation in the table is the equation of one of the graphs.\nComplete the table.\n\nEquation  Letter of graph\n\ny = x3\n\ny=\nx\n\ny = 5 – x2\n\ny = 3x",
+     "prompt": "Here are some graphs, labelled A to H (see the paper).\nEach equation in the table is the equation of one of the graphs.\nComplete the table with the letter of the graph for each equation.\n\ny = x³\ny = 1/x\ny = 5 − x²\ny = 3ˣ",
      "page": 12,
      "kind": "self",
-     "scheme": "ECBH  B3  for a fully correct table\n\n(B2  for 3 correct)\n\n(B1  for 2 correct)",
+     "scheme": "Answer: y = x³ → E;  y = 1/x → C;  y = 5 − x² → B;  y = 3ˣ → H\n\nECBH  B3  for a fully correct table\n\n(B2  for 3 correct)\n\n(B1  for 2 correct)",
+     "schemeSource": "exact",
      "topic": "Algebra",
      "seePaper": true
     }
@@ -284,10 +302,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:14",
      "label": "14",
      "marks": 2,
-     "prompt": "Here is triangle ABC.\n\nA\n\n9.8 cm\n8.3 cm\n\nB  C\n\nCalculate the area of triangle ABC.\nGive your answer correct to 3 significant figures.\n\n____  cm2",
+     "prompt": "Here is triangle ABC (see the diagram in the paper: sides 9.8 cm and 8.3 cm with the 35° angle between them).\nCalculate the area of triangle ABC.\nGive your answer correct to 3 significant figures.\n\n____ cm²",
      "page": 13,
      "kind": "numeric",
-     "scheme": "23.3  1\nM1  for a complete method eg  8.3  9.8  sin 35\n\nA1  for answer in range 23.3 to 23.33  If an answer is shown in the range in\nworking and then incorrectly rounded\naward full marks",
+     "scheme": "23.3  1\nM1  for a complete method eg × 8.3 × 9.8 × sin 35\n\nA1  for answer in range 23.3 to 23.33  If an answer is shown in the range in\nworking and then incorrectly rounded\naward full marks",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
      "numeric": 23.3
     }
@@ -301,10 +320,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:15",
      "label": "15",
      "marks": 4,
-     "prompt": "There are only 7 blue pens and 3 red pens in a box.\nRaja takes at random one of the pens.\n\nHe notes the colour of the pen and puts the pen back into the box.\nRaja does this two more times.\nShow that the probability that Raja takes at least two blue pens is\n125",
+     "prompt": "There are only 7 blue pens and 3 red pens in a box.\nRaja takes at random one of the pens.\nHe notes the colour of the pen and puts the pen back into the box.\nRaja does this two more times.\nShow that the probability that Raja takes at least two blue pens is 98/125",
      "page": 14,
      "kind": "self",
-     "scheme": "Shown  M1  for one correct product  Throughout accept probabilities given\n7 7 7  343  7 7 3  147  as decimals or percentages\neg    (=  ) oe or    (=  ) oe  Condone sampling without\n10 10 10 1000  10 10 10 1000\nreplacement for the first method mark\n3 3 3  27  3 3 7  63\nor    (=  ) oe or    (=  ) oe  only provided it is in the form\n10 10 10 1000  10 10 10 1000  a b c\n7 7  49  3 3  9    where a, b, c are integers\nor   (=  ) oe or   (=  ) oe  10 9 8\n10 10 100  10 10 100  and a < 10 and b < 9 and c < 8\n\nCondone any labelling, even if\nM1  7 7 7  343  7 7 3  147  incorrect for the method marks ÷\nfor    (=  ) oe and    (=  ) oe\n10 10 10 1000  10 10 10 1000\n3 3 3  27  3 3 7  63\nor    (=  ) oe and    (=  ) oe\n10 10 10 1000  10 10 10 1000\n7 7  49  7 7 3  147\nor   (=  ) oe and    (=  ) oe\n10 10 100  10 10 10 1000\n3 3  9  3 3 7  63\nor   (=  ) oe and    (=  ) oe\n10 10 100  10 10 10 1000\n\nM1  7 7 7  7 7 3\nfor    oe and 3 ×   oe\n10 10 10  10 10 10\n3 3 3  3 3 7\nor    oe and 3     oe\n10 10 10  10 10 10\n7 7  7 7 3\nor    oe and 2 ×    oe\n10 10  10 10 10\n3 3  3 3 7\nor    oe and 2     oe\n10 10  10 10 10\n\nC1  for a complete method and chain of reasoning leading to\n125\n7 7 7  7 7 3  98\neg    +3×    =\n10 10 10  10 10 10 125\n3 3 3  3 3 7  98\nor 1 –    – 3    =\n10 10 10  10 10 10 125\n7 7  7 7 3 98\nor    +2×    =\n10 10  10 10 10 125\n3 3  3 3 7  98\nor 1 –    – 2    =\n10 10  10 10 10 125",
+     "scheme": "Shown  M1  for one correct product  Throughout accept probabilities given\n7 7 7  343  7 7 3  147  as decimals or percentages\neg  × × (=  ) oe or  × × (=  ) oe  Condone sampling without\n10 10 10 1000  10 10 10 1000\nreplacement for the first method mark\n3 3 3  27  3 3 7  63\nor  × × (=  ) oe or  × × (=  ) oe  only provided it is in the form\n10 10 10 1000  10 10 10 1000  a b c\n7 7  49  3 3  9  × × where a, b, c are integers\nor  × (=  ) oe or  × (=  ) oe  10 9 8\n10 10 100  10 10 100  and a < 10 and b < 9 and c < 8\n\nCondone any labelling, even if\nM1  7 7 7  343  7 7 3  147  incorrect for the method marks ÷\nfor  × × (=  ) oe and  × × (=  ) oe\n10 10 10 1000  10 10 10 1000\n3 3 3  27  3 3 7  63\nor  × × (=  ) oe and  × × (=  ) oe\n10 10 10 1000  10 10 10 1000\n7 7  49  7 7 3  147\nor  × (=  ) oe and  × × (=  ) oe\n10 10 100  10 10 10 1000\n3 3  9  3 3 7  63\nor  × (=  ) oe and  × × (=  ) oe\n10 10 100  10 10 10 1000\n\nM1  7 7 7  7 7 3\nfor  × × oe and 3 × × × oe\n10 10 10  10 10 10\n3 3 3  3 3 7\nor  × × oe and 3 × × ×  oe\n10 10 10  10 10 10\n7 7  7 7 3\nor  ×  oe and 2 ×  × × oe\n10 10  10 10 10\n3 3  3 3 7\nor  ×  oe and 2 × × ×  oe\n10 10  10 10 10\n\nC1  for a complete method and chain of reasoning leading to\n125\n7 7 7  7 7 3  98\neg  × × +3× × ×  =\n10 10 10  10 10 10 125\n3 3 3  3 3 7  98\nor 1 –  × × – 3× × ×  =\n10 10 10  10 10 10 125\n7 7  7 7 3 98\nor  ×  +2×  × × =\n10 10  10 10 10 125\n3 3  3 3 7  98\nor 1 –  ×  – 2× × ×  =\n10 10  10 10 10 125",
+     "schemeSource": "exact",
      "topic": "Probability and statistics"
     }
    ]
@@ -317,12 +337,13 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:16",
      "label": "16",
      "marks": 4,
-     "prompt": "The diagram shows a solid shape made from a cylinder and a cone.\n\nVolume of cone =\n1 2\nπr h  h\n3  r\n8 cm\n\nThe cone has a base radius of 8 cm.\nThe cylinder has a radius of 8 cm.\nThe vertical height of the cone is three times the height of the cylinder.\nThe volume of the solid shape is 640π cm3\nWork out the vertical height of the cone.\nYou must show all your working.\n\n____ cm\n\n5x  2x",
+     "prompt": "The diagram shows a solid shape made from a cylinder and a cone.\n\nVolume of cone = ⅓πr²h\n\nThe cone has a base radius of 8 cm.\nThe cylinder has a radius of 8 cm.\nThe vertical height of the cone is three times the height of the cylinder.\nThe volume of the solid shape is 640π cm³\nWork out the vertical height of the cone.\nYou must show all your working.\n\n____ cm",
      "page": 15,
      "kind": "numeric",
-     "scheme": "15  P1  for process to find volume of cylinder or volume of cone,  h = height of the cone\nh  1  H = height of the cylinder\neg   8   oe or    8  h oe\n2  2\nx = total height of the shape\n3  3\nAllow any letter for h, H and x, does\n\nor   82  H oe or    8  3H oe  not have to be defined for the award\n\n3  of the marks\nx  1  3x  The award of all marks requires the\nor   8  oe or    8 \n2  2\noe  substitution of r = 8, allow this to be\n4  3  4\ndone at a later stage in the question\n\nP1  (dep P1) for setting up an equation in terms of one variable,  A correct equation implies the first P1\nh  1  Allow inconsistent use of π within\neg \"  8  \"+ \"    8  h \" = 640 oe\n2  2\ntheir equation provided the correct\n3  3\nvolumes are seen previously\n\nor \"  8  H \"+ \"    8  3H \" = 640 oe\n2  2\n\nx  1  3x\nor \"  8  \"+ \"    8  \" = 640 oe\n2  2\n\n4  3  4\nh  1\nor \"  8  \" = 320 oe or \"    8  h \" = 320 oe\n2  2\n\n3  3\n\nor \"  82  H \" = 320 oe or \"    8  3H \" = 320 oe\n\nx  1  3x\nor \"  8  \" = 320 oe or \"    8  \" = 320 oe\n2  2\n\n4  3  4\n\nP1  (dep P2) for process to solve for h or H or x\n\n640  3  640\neg (h =)  oe eg (h =)\n1  1  \"64 \"+ \"64 \"\n\"    82 \"+ \"    82 \"  Can be an equation in the form ah = p\n3  3  or bH = q or cx = r where a or b or c\n640  640  is an integer\nor ( H =)  (= 5) oe eg (h =)  (= 5)\n1  \"64 \"+ \"64 \"\n\"  82 \"+ \"    82  3\"\n\n640  640\nor ( x = )  (= 20) oe eg ( x =)  (= 20)\n1  1  3  \"32 \"\n\"  82  \"+ \"    82  \"\n4  3  4\n\nA1  cao  Award 0 marks for a correct answer\nwith no (or incorrect) supportive\nworking",
+     "scheme": "15  P1  for process to find volume of cylinder or volume of cone,  h = height of the cone\nh  1  H = height of the cylinder\neg π × 8 ×  oe or × π × 8 × h oe\n2  2\nx = total height of the shape\n3  3\nAllow any letter for h, H and x, does\n\nor π × 82 × H oe or × π × 8 × 3H oe  not have to be defined for the award\n\n3  of the marks\nx  1  3x  The award of all marks requires the\nor π × 8 × oe or × π × 8 ×\n2  2\noe  substitution of r = 8, allow this to be\n4  3  4\ndone at a later stage in the question\n\nP1  (dep P1) for setting up an equation in terms of one variable,  A correct equation implies the first P1\nh  1  Allow inconsistent use of π within\neg \"π × 8 × \"+ \" × π × 8 × h \" = 640π oe\n2  2\ntheir equation provided the correct\n3  3\nvolumes are seen previously\n\nor \"π × 8 × H \"+ \" × π × 8 × 3H \" = 640π oe\n2  2\n\nx  1  3x\nor \"π × 8 × \"+ \" × π × 8 × \" = 640π oe\n2  2\n\n4  3  4\nh  1\nor \"π × 8 × \" = 320π oe or \" × π × 8 × h \" = 320π oe\n2  2\n\n3  3\n\nor \"π × 82 × H \" = 320π oe or \" × π × 8 × 3H \" = 320π oe\n\nx  1  3x\nor \"π × 8 × \" = 320π oe or \" × π × 8 × \" = 320π oe\n2  2\n\n4  3  4\n\nP1  (dep P2) for process to solve for h or H or x\n\n640π  3 × 640π\neg (h =)  oe eg (h =)\n1  1  \"64π \"+ \"64π \"\n\" × π × 82 \"+ \" × π × 82 \"  Can be an equation in the form ah = p\n3  3  or bH = q or cx = r where a or b or c\n640π  640π  is an integer\nor ( H =)  (= 5) oe eg (h =)  (= 5)\n1  \"64π \"+ \"64π \"\n\"π × 82 \"+ \" × π × 82 × 3\"\n\n640π  640π\nor ( x = )  (= 20) oe eg ( x =)  (= 20)\n1  1  3  \"32π \"\n\"π × 82 × \"+ \" × π × 82 × \"\n4  3  4\n\nA1  cao  Award 0 marks for a correct answer\nwith no (or incorrect) supportive\nworking",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 15.0,
+     "numeric": 15,
      "seePaper": true
     }
    ]
@@ -335,10 +356,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:17",
      "label": "17",
      "marks": 3,
-     "prompt": "Solve  1\n3x  1 3x  1\n\nx =  ____",
+     "prompt": "Solve  5x/(3x − 1) − 2x/(3x + 1) = 1\n\nx = ____",
      "page": 16,
      "kind": "self",
-     "scheme": "1  M1  for using a common denominator  Allow one error in total in all the\n−  5 x(3x + 1) − 2 x(3x − 1)  expansions (may be a sign error)\n7  eg  (= 1)\n(3x − 1)(3x + 1)\nor for removing the fraction\neg 5x(3x + 1) − 2 x(3x − 1) = (3x − 1)(3x + 1)\n\nM1  for correct methods to remove all fraction(s) and expand the brackets,\neg 15x2 + 5x − 6 x2 + 2 x = 9 x2 + 3x − 3x − 1\n\nA1  for −  oe  1\n7  Allow –0.14(2…) for −",
+     "scheme": "Answer: x = −1/7\n\n1  M1  for using a common denominator  Allow one error in total in all the\n−  5 x(3x + 1) − 2 x(3x − 1)  expansions (may be a sign error)\n7  eg  (= 1)\n(3x − 1)(3x + 1)\nor for removing the fraction\neg 5x(3x + 1) − 2 x(3x − 1) = (3x − 1)(3x + 1)\n\nM1  for correct methods to remove all fraction(s) and expand the brackets,\neg 15x² + 5x − 6 x² + 2 x = 9 x² + 3x − 3x − 1\n\nA1  for −  oe  1\n7  Allow –0.14(2…) for −",
+     "schemeSource": "exact",
      "topic": "Algebra"
     }
    ]
@@ -351,12 +373,13 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:18(a)",
      "label": "18(a)",
      "marks": 4,
-     "prompt": "Complete the Venn diagram for this information.\n\nE\nC\nT\n\nH\n\nOne of the people is chosen at random.\nGiven that this person likes coffee,",
+     "prompt": "Complete the Venn diagram for this information.",
      "page": 17,
      "kind": "self",
      "scheme": "Venn diagram  C4  fully correct Venn diagram  Ignore all entries except the region\nyou are marking for each C mark\nRepeated digits in the diagram should\n(C3  6 or 7 of the 8 regions correct)  be counted as 2 elements\n\n(C2  4 or 5 of the 8 regions correct)\n\n(C1  2 or 3 of the 8 regions correct)",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "lead": "Magda carried out a survey to find out the drinks that people like.\nShe asked 100 people if they like coffee (C ) or tea (T ) or hot chocolate (H ).\n\n32 people like all three drinks.\n15 people like coffee and hot chocolate but not tea.\n43 people like coffee and tea.\n39 people like tea and hot chocolate.\n67 people like coffee.\n58 people like hot chocolate.\n5 people like only tea.",
+     "lead": "Magda carried out a survey to find out the drinks that people like.\nShe asked 100 people if they like coffee (C) or tea (T) or hot chocolate (H).\n\n32 people like all three drinks.\n15 people like coffee and hot chocolate but not tea.\n43 people like coffee and tea.\n39 people like tea and hot chocolate.\n67 people like coffee.\n58 people like hot chocolate.\n5 people like only tea.",
      "seePaper": true
     },
     {
@@ -365,10 +388,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "marks": 2,
      "prompt": "find the probability that this person also likes hot chocolate.",
      "page": 17,
-     "kind": "numeric",
-     "scheme": "47  47  \"47\"  Need not be written in correct form at\nM1  for  where b > 47 or ft  where b > “47”\n67  b  b  this stage eg could be a ratio 47 : 67\n“47” = “15” + “32”\n“67” = “9” + “11” + “32” +”15”\na  a\nor  where 0 < a < 67 or ft  where 0 < a < “67”\n67  \"67\"\n\nA1  47  \"47\"  Accept any equivalent fraction,\nfor  oe or ft  oe  decimal form 0.70(14..) or percentage\n67  \"67\"\nform 70(.14…)%",
+     "kind": "self",
+     "scheme": "Answer: 47/67\n\n47  47  \"47\"  Need not be written in correct form at\nM1  for  where b > 47 or ft  where b > “47”\n67  b  b  this stage eg could be a ratio 47 : 67\n“47” = “15” + “32”\n“67” = “9” + “11” + “32” +”15”\na  a\nor  where 0 < a < 67 or ft  where 0 < a < “67”\n67  \"67\"\n\nA1  47  \"47\"  Accept any equivalent fraction,\nfor  oe or ft  oe  decimal form 0.70(14..) or percentage\n67  \"67\"\nform 70(.14…)%",
+     "schemeSource": "exact",
      "topic": "Probability and statistics",
-     "numeric": 47.0
+     "lead": "One of the people is chosen at random.\nGiven that this person likes coffee,"
     }
    ]
   },
@@ -383,9 +407,10 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "prompt": "There are some sheets of paper in a pile.\nThe height of the pile is 10.4 cm, correct to the nearest mm.\n\nThe thickness of each sheet of paper is 0.17 mm, correct to 2 significant figures.\nCalculate the upper bound for the number of sheets of paper in the pile.\nYou must show all your working.",
      "page": 18,
      "kind": "numeric",
-     "scheme": "633  B1  for stating any correct bound,  Accept 10.449 or 10.4499(9… ) for\neg 10.35 or 10.45 or 103.5 or 104.5  10.45\nor 0.165 or 0.175 or 0.0165 or 0.0175\nAccept 0.1749 or 0.17499(9… ) for\n0.175\n\nP1  for process to find the upper bound,  104 < [UB of height] ≤ 104.5 and\neg [UB of height] ÷ [LB of thickness]  0.165 ≤ [LB of thickness] < 0.17\nor 104.5 ÷ 0.165  or\nor 10.45 ÷ 0.0165  10.4 < [UB of height] ≤ 10.45 and\n0.0165 ≤ [LB of thickness] < 0.017\n\nor  or\neg [UB of height] ÷ [LB of thickness]  10  10.4 < [UB of height] ≤ 10.45 and\nor 10.45 ÷ 0.165  10  0.165 ≤ [LB of thickness] < 0.17\n\nA1  (dep on all previous marks) for an answer of 633 or 633(.33…)  Condone 630 from a correct\nclearly coming from working with correct values  calculation\neg 104.5 ÷ 0.165 = 633  If correct answer is seen and then\nincorrectly rounded award full marks\nAward 0 marks for a correct answer\nwith no (or incorrect) supportive\nworking",
+     "scheme": "633  B1  for stating any correct bound,  Accept 10.449 or 10.4499(9… ) for\neg 10.35 or 10.45 or 103.5 or 104.5  10.45\nor 0.165 or 0.175 or 0.0165 or 0.0175\nAccept 0.1749 or 0.17499(9… ) for\n0.175\n\nP1  for process to find the upper bound,  104 < [UB of height] ≤ 104.5 and\neg [UB of height] ÷ [LB of thickness]  0.165 ≤ [LB of thickness] < 0.17\nor 104.5 ÷ 0.165  or\nor 10.45 ÷ 0.0165  10.4 < [UB of height] ≤ 10.45 and\n0.0165 ≤ [LB of thickness] < 0.017\n\nor  or\neg [UB of height] ÷ [LB of thickness] × 10  10.4 < [UB of height] ≤ 10.45 and\nor 10.45 ÷ 0.165 × 10  0.165 ≤ [LB of thickness] < 0.17\n\nA1  (dep on all previous marks) for an answer of 633 or 633(.33…)  Condone 630 from a correct\nclearly coming from working with correct values  calculation\neg 104.5 ÷ 0.165 = 633  If correct answer is seen and then\nincorrectly rounded award full marks\nAward 0 marks for a correct answer\nwith no (or incorrect) supportive\nworking",
+     "schemeSource": "exact",
      "topic": "Number",
-     "numeric": 633.0
+     "numeric": 633
     }
    ]
   },
@@ -400,9 +425,10 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "prompt": "A, B, C and D are points on a circle with centre O.\n\nA\n\nO\n\nD  43\nB\n\nC\n\nFind the size of angle OBC.\nWrite down any circle theorems that you use.\n\n°",
      "page": 19,
      "kind": "numeric",
-     "scheme": "57  M1  for method to find angle BCD  Angles may be seen on diagram\neg BCD = 180 – 80 (= 100)  Method marks can be awarded in\neither order\nM1  for method to find angle DOB  Correct method can be implied from\neg DOB = 80 × 2 (= 160)  angles on the diagram if no ambiguity\nor contradiction.\neg Angle O = 160 is too ambiguous\naccept angle C = 100\n\nA1  for OBC = 57\n\nC1  (dep on M1) for one correct circle theorem appropriate to their method  Underlined words need to be shown;\neg The angle at the centre of a circle is twice the angle at the  reasons need to be linked to their\ncircumference  method.\nor The angle at the circumference of a circle is half the angle at the  Accept \"\" for “angle” and\ncentre  \"s \" for “angles”\nor Opposite angles of a cyclic quadrilateral add up to 180  Accept “4-sided shape” for\n“quadrilateral”",
+     "scheme": "57  M1  for method to find angle BCD  Angles may be seen on diagram\neg BCD = 180 – 80 (= 100)  Method marks can be awarded in\neither order\nM1  for method to find angle DOB  Correct method can be implied from\neg DOB = 80 × 2 (= 160)  angles on the diagram if no ambiguity\nor contradiction.\neg Angle O = 160 is too ambiguous\naccept angle C = 100\n\nA1  for OBC = 57\n\nC1  (dep on M1) for one correct circle theorem appropriate to their method  Underlined words need to be shown;\neg The angle at the centre of a circle is twice the angle at the  reasons need to be linked to their\ncircumference  method.\nor The angle at the circumference of a circle is half the angle at the  Accept \"∠\" for “angle” and\ncentre  \"∠s \" for “angles”\nor Opposite angles of a cyclic quadrilateral add up to 180  Accept “4-sided shape” for\n“quadrilateral”",
+     "schemeSource": "exact",
      "topic": "Geometry and measures",
-     "numeric": 57.0
+     "numeric": 57
     }
    ]
   },
@@ -414,10 +440,11 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:21",
      "label": "21",
      "marks": 5,
-     "prompt": "Solve algebraically the simultaneous equations\n\n3x2 + 2y2 = 44\n\n3x + y = 2",
+     "prompt": "Solve algebraically the simultaneous equations\n\n3x² + 2y² = 44\n3x + y = 2",
      "page": 20,
      "kind": "self",
-     "scheme": "6  32  for substitution of a rearranged equation into a correct equation to form  Allow (2  3x) for (2 – 3x)\nx= − ,y=  M1  an equation in one variable.\n7  7   2  y   2− y\nx = 2, y = –4  2− y\n2  (or    for   )\neg 3x2 + 2(2 – 3x)2 = 44 or 3   + 2 y = 44\n2   3    3 \n 3   Implied by a correct equation\n(simplified or unsimplified) in terms\nof x or y\neg 3x2 + 2(4 – 12x + 9x2) = 44\nor 3x2 + 8 – 24x + 18x2 = 44\nor 21x2 – 24x = 36\n\n(dep on first M1) for multiplying out all brackets and collecting terms  Look out for signs reversed\nM1  to form a simplified three term quadratic in any form of  The quadratic does not have to equal\nax2 + bx + c (= 0) where at least 2 coefficients (a, b, c) are correct  0, ie accept 21x2 – 24x = 36\n\neg 21x2 – 24x – 36 (= 0) or 7x2 – 8x – 12 (= 0)\nor 7y2 – 4y – 128 (= 0)\n\n(dep on first M1) for a suitable method to solve their 3 term quadratic  Can be implied by both x values or\nM1  using any correct method,  both y values correct (condone\nincorrect labelling) if the quadratic is\nfor factorising, eg (7x + 6)(x – 2) or (7x + 6)(3x – 6)  correct\nor (21x + 18)(x – 2) or (7y – 32)(y + 4)  If using the quadratic formula\n(condone one sign error, omission of\nor correct use of formula,  brackets around the b in the b2 – 4ac\n8  ( −8) 2 − 4  7  −12  4  ( −4) 2 − 4  7  −128  and the fraction line not being under\neg  or  the – in the –b. Allow some\n27  27\nsimplification – as far as eg\nor completing the square\n8  64 + 336\n\nor if factorising allow brackets which\nexpand to give 2 out of 3 terms\ncorrect for their quadratic\n\n(dep on first M1) for substituting their 2 found values of x or y in a  Condone substitution into their\nM1  suitable equation   2  y \nor (dep on first M1) for one correct pair of values following from a  (2  3x) or   \ncorrect quadratic   3 \n\nAllow – 0.85(7…) or – 0.86 for −\n\nAllow 4.57(1…) for\n\nIf values of x or y are incorrect then\nworking must be shown\n\n6  32  Accept as coordinates\nA1  for x = −  oe, y =  oe and x = 2, y = – 4  Assume correct pairing unless clearly\n7  7  6  32\nincorrect eg (− 7 , −4), (2, 7 )\n\nAllow – 0.85(7…) or – 0.86 for −\n\nAllow 4.57(1…) for\n\nIf an answer is shown in the range in\nworking and then incorrectly rounded\naward full marks\n\nA correct answer with no supportive\nworking gets 0 marks",
+     "scheme": "Answer: x = 2, y = −4  and  x = −6/7, y = 32/7\n\n6  32  for substitution of a rearranged equation into a correct equation to form  Allow (±2 ± 3x) for (2 – 3x)\nx= − ,y=  M1  an equation in one variable.\n7  7   ±2 ± y   2− y\nx = 2, y = –4  2− y\n2  (or    for   )\neg 3x² + 2(2 – 3x)² = 44 or 3   + 2 y = 44\n2   3    3 \n 3   Implied by a correct equation\n(simplified or unsimplified) in terms\nof x or y\neg 3x² + 2(4 – 12x + 9x²) = 44\nor 3x² + 8 – 24x + 18x² = 44\nor 21x² – 24x = 36\n\n(dep on first M1) for multiplying out all brackets and collecting terms  Look out for signs reversed\nM1  to form a simplified three term quadratic in any form of  The quadratic does not have to equal\nax2 + bx + c (= 0) where at least 2 coefficients (a, b, c) are correct  0, ie accept 21x² – 24x = 36\n\neg 21x² – 24x – 36 (= 0) or 7x² – 8x – 12 (= 0)\nor 7y² – 4y – 128 (= 0)\n\n(dep on first M1) for a suitable method to solve their 3 term quadratic  Can be implied by both x values or\nM1  using any correct method,  both y values correct (condone\nincorrect labelling) if the quadratic is\nfor factorising, eg (7x + 6)(x – 2) or (7x + 6)(3x – 6)  correct\nor (21x + 18)(x – 2) or (7y – 32)(y + 4)  If using the quadratic formula\n(condone one sign error, omission of\nor correct use of formula,  brackets around the b in the b² – 4ac\n8 ± ( −8) 2 − 4 × 7 × −12  4 ± ( −4) 2 − 4 × 7 × −128  and the fraction line not being under\neg  or  the – in the –b. Allow some\n2×7  2×7\nsimplification – as far as eg\nor completing the square\n8 ± 64 + 336\n\nor if factorising allow brackets which\nexpand to give 2 out of 3 terms\ncorrect for their quadratic\n\n(dep on first M1) for substituting their 2 found values of x or y in a  Condone substitution into their\nM1  suitable equation   ±2 ± y \nor (dep on first M1) for one correct pair of values following from a  (±2 ± 3x) or   \ncorrect quadratic   3 \n\nAllow – 0.85(7…) or – 0.86 for −\n\nAllow 4.57(1…) for\n\nIf values of x or y are incorrect then\nworking must be shown\n\n6  32  Accept as coordinates\nA1  for x = −  oe, y =  oe and x = 2, y = – 4  Assume correct pairing unless clearly\n7  7  6  32\nincorrect eg (− 7 , −4), (2, 7 )\n\nAllow – 0.85(7…) or – 0.86 for −\n\nAllow 4.57(1…) for\n\nIf an answer is shown in the range in\nworking and then incorrectly rounded\naward full marks\n\nA correct answer with no supportive\nworking gets 0 marks",
+     "schemeSource": "exact",
      "topic": "Geometry and measures"
     }
    ]
@@ -433,7 +460,8 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "prompt": "C is a circle with centre (0, 0)\nThe straight line with equation 3x – 2y = 52 is the tangent to C at the point P.\n\nFind the coordinates of P.\n\n( ____ ,  ____ )",
      "page": 21,
      "kind": "self",
-     "scheme": "(12, –8)  for process to rearrange the equation to give y in terms of x,  Condone an incorrect value for the y\nP1\n3x − 52  3  3  intercept (= c)\neg y =  or y = x − 26 or m =\n2  2  2\n\nP1  for process to find gradient of OP,  Where [m] is clearly identified as the\n3  2  gradient of the straight line\neg –1 ÷ “ ” (= − ) or –1 ÷ [m]  3x – 2y = 52\n2  3\n\nAllow 0.66(6…) or 0.67 for\n\nthroughout\n−1\nP1  (dep on equation of the form y =  x for the radius may be implied  Where [m] is clearly identified as the\n[ m]\ngradient of the straight line\nin subsequent working)  3x – 2y = 52\n−1\nfor starting to solve 3x – 2y = 52 with y =  x simultaneously to find\n[ m]  Can be done by elimination\nthe value of x or y  Award P1 for a correct method to\n−2  −1  eliminate x or y: coefficient of x or y\neg substituting y =  x or y =  x into  the same and correct operator to\n3  [ m]  eliminate selected variable\n3  3  eg\ny = x − 26 or 3x – 2y = 52 or an equation of the form y = x + c\n2  2  9x – 6y = 156  6x – 4y = 104\n+ 4x + 6y = 0  – 6x + 9y = 0\n2  3   2   2  3\neg − x = x − 26 or 3x − 2  − x  = 52 or − x = x + c  (13x  = 156)  (– 13y = 104)\n3  2   3   3  2\n1  3   1   1  3\nor −  x = x − 26 or 3x − 2  −  x  = 52 or −  x= x+c\n[ m]  2   [m]   [ m]  2\n\nA1  cao",
+     "scheme": "(12, –8)  for process to rearrange the equation to give y in terms of x,  Condone an incorrect value for the y\nP1\n3x − 52  3  3  intercept (= c)\neg y =  or y = x − 26 or m =\n2  2  2\n\nP1  for process to find gradient of OP,  Where [m] is clearly identified as the\n3  2  gradient of the straight line\neg –1 ÷ “ ” (= − ) or –1 ÷ [m]  3x – 2y = 52\n2  3\n\nAllow 0.66(6…) or 0.67 for\n\nthroughout\n−1\nP1  (dep on equation of the form y =  x for the radius may be implied  Where [m] is clearly identified as the\n[ m]\ngradient of the straight line\nin subsequent working)  3x – 2y = 52\n−1\nfor starting to solve 3x – 2y = 52 with y =  x simultaneously to find\n[ m]  Can be done by elimination\nthe value of x or y  Award P1 for a correct method to\n−2  −1  eliminate x or y: coefficient of x or y\neg substituting y =  x or y =  x into  the same and correct operator to\n3  [ m]  eliminate selected variable\n3  3  eg\ny = x − 26 or 3x – 2y = 52 or an equation of the form y = x + c\n2  2  9x – 6y = 156  6x – 4y = 104\n+ 4x + 6y = 0  – 6x + 9y = 0\n2  3   2   2  3\neg − x = x − 26 or 3x − 2  − x  = 52 or − x = x + c  (13x  = 156)  (– 13y = 104)\n3  2   3   3  2\n1  3   1   1  3\nor −  x = x − 26 or 3x − 2  −  x  = 52 or −  x= x+c\n[ m]  2   [m]   [ m]  2\n\nA1  cao",
+     "schemeSource": "exact",
      "topic": "Geometry and measures"
     }
    ]
@@ -446,12 +474,13 @@ export const edexcel_1ma1_paper3h: RealPaper = {
      "id": "edexcel-1ma1-paper3h:23",
      "label": "23",
      "marks": 5,
-     "prompt": "OACB is a quadrilateral.\nACP is a straight line.\n\nA  C  P\n\nN\nM\n\nO  B\n\nM is the midpoint of OA.\nN is the point on BC such that BN : NC = 5 : 3\n→  →  →\nOA = a  OB = 3b  AC = 2b\n→  →\nCP = k × AC where k is a scalar.\nGiven that MNP is a straight line, find the value of k.\nYou must show all your working.\n\nk =  ____\n\n",
+     "prompt": "OACB is a quadrilateral.\nACP is a straight line.\nM is the midpoint of OA.\nN is the point on BC such that BN : NC = 5 : 3\nOA = a, OB = 3b, AC = 2b  (vectors)\nCP = k × AC where k is a scalar.\nGiven that MNP is a straight line, find the value of k.\nYou must show all your working.\n\nk = ____",
      "page": 22,
      "kind": "numeric",
-     "scheme": "15  P1  for process to find BC or CB ,  Vectors must be unambiguously\n4  identified\neg BC = −3b + a + 2b oe (= a – b) or CB = −2b − a + 3b oe (= –a + b)\nAccept BC for BC etc throughout\nAllow a for a and b for b throughout\nVectors could be written on the\nP1  for process that uses the ratio 5 : 3,  diagram and may be in either\ndirection.\n5  5  5  5  5  Throughout, do not condone missing\neg BN = (−3b + a + 2b) (=  a − b ) or NB = − a + b oe  brackets unless recovered\n8  8  8  8  8\nFollow through candidates BC or\n3  3 3  3  3  CB provided full method to find\nor CN = (−2b − a + 3b) (= −  a + b ) or NC = a − b oe  subsequent vectors is clearly shown\n8  8 8  8  8\nA correct expression for BN or NB\nor CN or NC implies the previous\nP mark\nP1  for a process to find an expression, in terms of a and b, for MN or MP  Follow through candidates BN or\nor NP  NB or CN or NC provided full\n1  5  1 19  method to find subsequent vectors is\neg MN = − a + 3b + (a − b) oe (= a + b )\n2  8  8  8  clearly shown\n1  3  1 19  May use NM or PM or PN\nor MN = a + 2b + (−a + b) oe (= a + b )  Allow equivalent vectors throughout\n2  8  8  8\n1  1\nor MP = a + 2b + k (2b) oe  eg MP = a + 2b +  (b)\n2  2\nThis mark may be awarded without\n3  3\nor NP = a − b + k (2b) oe  the previous mark being awarded\n8  8\n\nP1  for a process to find a correct expression, in terms of a and b  Vectors do not have to be simplified\nfor the same vector eg MP or NP  May use NM or PM or PN\nor parallel vectors eg MP and MN or NP and MN  Condone use of same variable for\nequivalent vector journeys\n1   1 19 \neg MP = a + 2b + k (2b) oe and MP =   a + b  oe  Condone lack of labelling if vector\n2  8  8   journeys are correctly equated\n3  3   1 19 \nor NP = a − b + k (2b) oe and NP =   a + b  oe\n8  8  8  8 \n1  1 19\nor MP = a + 2b + k (2b) oe and MN = a +  b oe\n2  8  8\n3  3  1 19\nor NP = a − b + k (2b) oe and MN = a + b oe\n8  8  8  8\n\nOR\nfor a process to find a correct expression in terms of a and b,  May use PA or PC\nfor AP or CP using MN  1   1 19 \nNB: CP = − a − 2b +   a + b \n1  1  19   3  3   1 19   2  8  8 \nAP = − a +   a + b  oe or CP = − a + b +   a + b  oe\n2  8  8   8  8  8  8 \nOR\nfor a process to find a correct expression in terms of a and b  May use PB or PO\nfor the same vector BP or OP\n5  5  1  19 \nBP = a − b + k ( 2b) oe and BP = a − b +   a + b  oe\n8  8  8  8 \n1   1 19 \nOP = a + 2b + k ( 2b ) oe and OP = a +   a + b  oe\n2  8  8 \nA1  15  Award 0 marks for a correct answer …",
+     "scheme": "Answer: k = 15/4 (3.75)\n\n15  P1  for process to find BC or CB ,  Vectors must be unambiguously\n4  identified\neg BC = −3b + a + 2b oe (= a – b) or CB = −2b − a + 3b oe (= –a + b)\nAccept BC for BC etc throughout\nAllow a for a and b for b throughout\nVectors could be written on the\nP1  for process that uses the ratio 5 : 3,  diagram and may be in either\ndirection.\n5  5  5  5  5  Throughout, do not condone missing\neg BN = (−3b + a + 2b) (=  a − b ) or NB = − a + b oe  brackets unless recovered\n8  8  8  8  8\nFollow through candidates BC or\n3  3 3  3  3  CB provided full method to find\nor CN = (−2b − a + 3b) (= −  a + b ) or NC = a − b oe  subsequent vectors is clearly shown\n8  8 8  8  8\nA correct expression for BN or NB\nor CN or NC implies the previous\nP mark\nP1  for a process to find an expression, in terms of a and b, for MN or MP  Follow through candidates BN or\nor NP  NB or CN or NC provided full\n1  5  1 19  method to find subsequent vectors is\neg MN = − a + 3b + (a − b) oe (= a + b )\n2  8  8  8  clearly shown\n1  3  1 19  May use NM or PM or PN\nor MN = a + 2b + (−a + b) oe (= a + b )  Allow equivalent vectors throughout\n2  8  8  8\n1  1\nor MP = a + 2b + k (2b) oe  eg MP = a + 2b + μ (b)\n2  2\nThis mark may be awarded without\n3  3\nor NP = a − b + k (2b) oe  the previous mark being awarded\n8  8\n\nP1  for a process to find a correct expression, in terms of a and b  Vectors do not have to be simplified\nfor the same vector eg MP or NP  May use NM or PM or PN\nor parallel vectors eg MP and MN or NP and MN  Condone use of same variable for\nequivalent vector journeys\n1   1 19 \neg MP = a + 2b + k (2b) oe and MP = λ  a + b  oe  Condone lack of labelling if vector\n2  8  8   journeys are correctly equated\n3  3   1 19 \nor NP = a − b + k (2b) oe and NP = λ  a + b  oe\n8  8  8  8 \n1  1 19\nor MP = a + 2b + k (2b) oe and MN = a +  b oe\n2  8  8\n3  3  1 19\nor NP = a − b + k (2b) oe and MN = a + b oe\n8  8  8  8\n\nOR\nfor a process to find a correct expression in terms of a and b,  May use PA or PC\nfor AP or CP using MN  1   1 19 \nNB: CP = − a − 2b + μ  a + b \n1  1  19   3  3   1 19   2  8  8 \nAP = − a + μ  a + b  oe or CP = − a + b + μ  a + b  oe\n2  8  8   8  8  8  8 \nOR\nfor a process to find a correct expression in terms of a and b  May use PB or PO\nfor the same vector BP or OP\n5  5  1  19 \nBP = a − b + k ( 2b) oe and BP = a − b + μ  a + b  oe\n8  8  8  8 \n1   1 19 \nOP = a + 2b + k ( 2b ) oe and OP = a + μ  a + b  oe\n2  8  8 \nA1  15  Award 0 marks for a correct answer …",
+     "schemeSource": "exact",
      "topic": "Algebra",
-     "numeric": 15.0
+     "numeric": 3.75
     }
    ]
   }
