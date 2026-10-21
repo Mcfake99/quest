@@ -42,7 +42,19 @@ async function main() {
     return;
   }
 
-  const pool = new pg.Pool({ connectionString: databaseUrl, max: 1 });
+  const pool = new pg.Pool({
+    connectionString: databaseUrl,
+    max: 1,
+    // Same rule as pgSsl() in src/lib/db.ts.
+    ssl:
+      process.env.PGSSL === "disable"
+        ? false
+        : process.env.PGSSL === "require" ||
+            /sslmode=(require|verify)/.test(databaseUrl) ||
+            /\.(neon\.tech|render\.com)$/.test(new URL(databaseUrl).hostname)
+          ? { rejectUnauthorized: false }
+          : false,
+  });
   const client = await pool.connect();
   try {
     await client.query(

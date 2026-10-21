@@ -85,6 +85,26 @@ function toSql(run: Run): Sql {
   return sql;
 }
 
+/**
+ * SSL for node-postgres: Neon / Render *external* hosts (…render.com) need TLS;
+ * Render *internal* hosts (dpg-…-a, private network) and localhost do not.
+ * PGSSL=disable|require overrides.
+ */
+export function pgSsl(url: string | undefined): false | { rejectUnauthorized: false } {
+  const force = process.env.PGSSL?.trim();
+  if (force === "disable") return false;
+  if (force === "require") return { rejectUnauthorized: false };
+  if (!url) return false;
+  let host = "";
+  try {
+    host = new URL(url).hostname;
+  } catch {
+    return false;
+  }
+  if (/sslmode=(require|verify)/.test(url)) return { rejectUnauthorized: false };
+  return /\.(neon\.tech|render\.com)$/.test(host) ? { rejectUnauthorized: false } : false;
+}
+
 function createNeonSql(): Promise<Sql> {
   globalRef.__pgSqlPromise__ ??= (async () => {
     // Regular Postgres driver: node-postgres (`pg`) — works directly with Neon's
@@ -93,7 +113,7 @@ function createNeonSql(): Promise<Sql> {
     types.setTypeParser(OID_INT8, Number);
     types.setTypeParser(OID_DATE, identity);
     types.setTypeParser(OID_INTERVAL, identity);
-    const pool = new Pool({ connectionString: databaseUrl });
+    const pool = new Pool({ connectionString: databaseUrl, ssl: pgSsl(databaseUrl) });
     return toSql(async <T>(text: string, params: unknown[]) => {
       const res = await pool.query(text, params);
       return res.rows as T[];
