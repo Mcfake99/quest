@@ -1,5 +1,6 @@
 import { useEffect, type ReactNode } from "react";
 import { CloudSync } from "@/components/game/CloudSync";
+import { PapersSync } from "@/components/game/PapersSync";
 import { useGameStore } from "@/lib/game/store";
 
 function ThemeApplier() {
@@ -40,6 +41,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
     <>
       <ThemeApplier />
       <CloudSync />
+      <PapersSync />
       {children}
     </>
   );

@@ -28,6 +28,10 @@ type PapersState = {
   attempts: Record<string, MockAttempt[]>;
   flash: Record<string, CardProgress>;
   mistakes: Record<string, Mistake>;
+  /** partId -> when cleared (for cross-device merge). */
+  cleared: Record<string, number>;
+  /** Replace progress with a merged copy from the server. */
+  applyProgress: (p: { attempts: Record<string, MockAttempt[]>; flash: Record<string, CardProgress>; mistakes: Record<string, Mistake>; cleared: Record<string, number> }) => void;
   start: (paperId: string, minutes: number) => void;
   answer: (paperId: string, partId: string, value: RealAnswer) => void;
   go: (paperId: string, index: number) => void;
@@ -48,6 +52,9 @@ export const usePapersStore = create<PapersState>()(
       attempts: {},
       flash: {},
       mistakes: {},
+      cleared: {},
+
+      applyProgress: (p) => set({ attempts: p.attempts, flash: p.flash, mistakes: p.mistakes, cleared: p.cleared }),
 
       start: (paperId, minutes) => {
         const now = Date.now();
@@ -113,14 +120,18 @@ export const usePapersStore = create<PapersState>()(
         const xp = 20 + Math.round(score / 2) + Math.max(0, score - prevBest);
         const attempt: MockAttempt = { at: Date.now(), score, max, pct, xp };
         const mistakes = { ...get().mistakes };
+        const cleared = { ...get().cleared };
         for (const part of parts) {
           const got = s.awarded[part.id] ?? 0;
           if (got < part.marks) mistakes[part.id] = { paperId, partId: part.id, at: Date.now(), got, of: part.marks };
-          else delete mistakes[part.id];
+          else if (mistakes[part.id]) {
+            delete mistakes[part.id];
+            cleared[part.id] = Date.now();
+          }
         }
         const sittings = { ...get().sittings };
         delete sittings[paperId];
-        set({ attempts: { ...get().attempts, [paperId]: [...(get().attempts[paperId] ?? []), attempt] }, mistakes, sittings });
+        set({ attempts: { ...get().attempts, [paperId]: [...(get().attempts[paperId] ?? []), attempt] }, mistakes, cleared, sittings });
         useGameStore.getState().grant(xp, Math.max(1, Math.round(pct / 10)));
         return attempt;
       },
@@ -140,23 +151,27 @@ export const usePapersStore = create<PapersState>()(
 
       logResult: (paperId, partId, got, of) => {
         const mistakes = { ...get().mistakes };
+        const cleared = { ...get().cleared };
         if (got < of) mistakes[partId] = { paperId, partId, at: Date.now(), got, of };
-        else delete mistakes[partId];
-        set({ mistakes });
+        else if (mistakes[partId]) {
+          delete mistakes[partId];
+          cleared[partId] = Date.now();
+        }
+        set({ mistakes, cleared });
         if (got > 0) useGameStore.getState().grant(3 * got, got >= of ? 1 : 0);
       },
 
       clearMistake: (partId) => {
         const mistakes = { ...get().mistakes };
         delete mistakes[partId];
-        set({ mistakes });
+        set({ mistakes, cleared: { ...get().cleared, [partId]: Date.now() } });
       },
     }),
     {
       name: "questforge-papers-v1",
       version: 1,
       storage: createJSONStorage(() => (typeof window === "undefined" ? memory : window.localStorage)),
-      partialize: (s) => ({ sittings: s.sittings, attempts: s.attempts, flash: s.flash, mistakes: s.mistakes }),
+      partialize: (s) => ({ sittings: s.sittings, attempts: s.attempts, flash: s.flash, mistakes: s.mistakes, cleared: s.cleared }),
     },
   ),
 );

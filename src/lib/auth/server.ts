@@ -35,7 +35,7 @@ import { tanstackStartCookies } from "better-auth/tanstack-start";
 import { getCookie } from "@tanstack/react-start/server";
 import { randomBytes } from "node:crypto";
 import { Pool } from "pg";
-import { ensureDbReady, getPglite, pgSsl } from "../db";
+import { ensureDbReady, getPglite, getSql, pgSsl } from "../db";
 import { emailAndPasswordEnabled } from "./email-password";
 import { GATE_PROVIDER_ID, gateIdentitySessions } from "./gate-session.server";
 import { GROK_PROVIDERS } from "./providers";
@@ -179,6 +179,23 @@ export const auth = betterAuth({
   // globalThis so HMR doesn't invalidate PGLite-backed sessions (see above).
   secret: env("BETTER_AUTH_SECRET") ?? previewAuthSecret(),
   database,
+
+  // Admin tracking: every new session is a sign-in (email/password, OAuth, …).
+  // Best-effort — a logging failure must never block signing in.
+  databaseHooks: {
+    session: {
+      create: {
+        after: async (session) => {
+          try {
+            const sql = await getSql();
+            await sql`insert into activity_events (user_id, type) values (${session.userId}, 'sign_in')`;
+          } catch (err) {
+            console.error("[activity] sign_in log failed", err);
+          }
+        },
+      },
+    },
+  },
 
   // CSRF / origin check for credentialed auth POSTs (email sign-up/sign-in, …).
   // See `trustedOrigins` construction above — must cover live preview hosts AND

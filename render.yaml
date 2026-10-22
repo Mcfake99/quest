@@ -26,6 +26,10 @@ services:
       # If unset, the app falls back to Render's RENDER_EXTERNAL_URL.
       - key: BETTER_AUTH_URL
         sync: false
+      # Comma-separated emails allowed into /admin (e.g. owner@example.com).
+      # Unset = nobody can open the admin area.
+      - key: ADMIN_EMAILS
+        sync: false
 
 databases:
   - name: questforge-db
