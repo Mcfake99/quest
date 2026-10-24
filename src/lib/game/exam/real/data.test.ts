@@ -44,6 +44,23 @@ for (const paper of papers) {
     else assert.equal(paper.totalMarks, paper.coverMarks);
   });
 
+  test(`${paper.id}: nothing from after the end of the paper or page furniture`, () => {
+    const banned =
+      /E\s*N\s*D\s*O\s*F\s*Q\s*U\s*E\s*S\s*T\s*I\s*O\s*N\s*S|T\s*O\s*T\s*A\s*L\s*F\s*O\s*R\s*P\s*A\s*P\s*E\s*R|Copyright ©|©\s*20\d\d AQA|acknowledgements of third-party|Additional page|There are no questions printed|ANSWER IN THE SPACES PROVIDED|Source Booklet\s*\n\s*Do not return|Turn over|Do not write outside|DO NOT WRITE IN THIS AREA|\*P\d{5}[A-Z]\d+\*|IB\/[A-Z]\/Jun|\(Total for Question \d+|\[\d+ marks?\]|Extra space\s*$/i;
+    for (const q of paper.questions) {
+      q.parts.forEach((p, i) => {
+        for (const [field, text] of [["prompt", p.prompt], ["lead", p.lead ?? ""]] as const) {
+          assert.ok(!banned.test(text), `${p.id} ${field} contains post-end/page text: ${text.match(banned)?.[0]}`);
+          for (const line of text.split("\n")) {
+            assert.ok(!/^\s*(_+\s*)?\d{1,3}\s*$|^\s*_{2,}\s*$/.test(line) || /\S/.test(line.replace(/[\d_\s]/g, "")), `${p.id} ${field} has a stray number/box line: ${line}`);
+          }
+          if (paper.board === "AQA" && i === q.parts.length - 1 && field === "prompt")
+            assert.ok(!new RegExp(`\\s{2,}${q.marks}\\s*$`).test(text), `${p.id} ends with the question-total box (${q.marks})`);
+        }
+      });
+    }
+  });
+
   test(`${paper.id}: auto-marked answers are well formed`, () => {
     for (const p of parts) {
       if (p.kind === "mcq") {

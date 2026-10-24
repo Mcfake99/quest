@@ -97,7 +97,7 @@ JUNK = re.compile(
     r"continues on the next page|^\s*\d{1,2}\s*$|^\s*[\.\s…]{6,}$|Question \d+ continues|"
     r"©\s*20\d\d Pearson|^\s*P\d{5}[A-Z]{1,2}\s*$|^\s*[A-Z]:\d(/\d)*/?\s*$|BLANK PAGE|"
     r"^\s*\*\d{2}\*\s*$|^\s*number\s*$|MARK SCHEME\s*[–-]|^\s*Total Question \d+|Key idea\s+Answer|^\s*Question\s*$|"
-    r"There are no questions printed|^\s*Copyright|^\s*AO\d\s*$|Answer ALL questions|Write your answers in"
+    r"There are no questions printed|^\s*Copyright|^\s*AO\d\s*$|Answer ALL questions|Write your answers in|ANSWER IN THE SPACES PROVIDED"
 )
 
 
@@ -146,6 +146,18 @@ def dedent_page(page):
     margin = min(len(l) - len(l.lstrip()) for l in real)
     return [l[margin:] if len(l) - len(l.lstrip()) >= margin else l.lstrip() for l in lines]
 
+END_RE = re.compile(r"E\s*N\s*D\s*O\s*F\s*Q\s*U\s*E\s*S\s*T\s*I\s*O\s*N\s*S", re.I)
+PAPER_END_RE = re.compile(r"T\s*O\s*T\s*A\s*L\s*F\s*O\s*R\s*P\s*A\s*P\s*E\s*R", re.I)
+
+
+def strip_end(text):
+    """Remove an end-of-paper marker and anything after it."""
+    if not text:
+        return text
+    m = END_RE.search(text) or PAPER_END_RE.search(text)
+    return text[: m.start()].rstrip() if m else text
+
+
 def parse_qp(text, board):
     pages = text.split("\f")
     totals = {int(n) for n in re.findall(r"\(Total for Question (\d+) (?:is|=)", text)}
@@ -154,7 +166,11 @@ def parse_qp(text, board):
     qnum = 0
     for pno, page in enumerate(pages, start=1):
         plines = dedent_page(page)
+        ended = False
         for li, line in enumerate(plines):
+            if END_RE.search(line) or (board != "AQA" and PAPER_END_RE.search(line)):
+                ended = True
+                break
             started = None
             if board != "AQA" and re.fullmatch(r"\s{0,3}(\d{1,2})\s*", line) and int(line) == qnum + 1:
                 nxt = [l for l in plines[li + 1 : li + 6] if l.strip()]
@@ -233,6 +249,8 @@ def parse_qp(text, board):
                     continue
             cur["lines"].append(line)
             cur["pages"].add(pno)
+        if ended:
+            break
     return parts
 
 
@@ -455,7 +473,7 @@ def apply_override(part, o):
 def tidy(text, rich):
     if not text:
         return text
-    text = richtext.repair(text.translate(PUA), rich)
+    text = strip_end(richtext.repair(text.translate(PUA), rich))
     # Standard form with a negative power, e.g. "× 10−3" or "× 10–7" -> "× 10⁻³".
     text = re.sub(r"× 10\s?[−–-](\d{1,2})\b", lambda m: "× 10⁻" + m.group(1).translate(richtext.SUP), text)
     return text
@@ -581,6 +599,14 @@ def build(stem, subj_dir, files):
     qs = []
     for n, ps in sorted(questions.items()):
         own = sum(x["marks"] + x.get("spag", 0) for x in ps)
+        if board == "AQA" and ps:
+            # The "total for this question" box prints its mark at the end of the last answer line.
+            last = ps[-1]
+            last["prompt"] = re.sub(rf"\s{{2,}}{own}\s*$", "", last["prompt"]).rstrip()
+        for part in ps:
+            for fld in ("prompt", "lead"):
+                if part.get(fld):
+                    part[fld] = re.sub(r"\s*\bExtra space\s*$", "", part[fld], flags=re.I).rstrip()
         q = {"number": n, "marks": own, "parts": ps}
         if n in official and own > official[n] and len({x["marks"] for x in ps}) == 1:
             # Either/or tasks: each option carries the full question total.
