@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useMemo } from "react";
 import { QuizSession } from "@/components/game/QuizSession";
 import { todayKey } from "@/lib/game/date";
-import { pickQuestions, questionById, reviewIds } from "@/lib/game/questions";
+import { pickQuestions, questionById, reviewIds, withShuffledOptions } from "@/lib/game/questions";
 import { useGameStore } from "@/lib/game/store";
 import { isSubjectId, SUBJECTS, type PlayKind } from "@/lib/game/types";
 
@@ -76,7 +76,7 @@ function Play() {
         .map((id) => questionById(id))
         .filter((q): q is NonNullable<typeof q> => Boolean(q))
         .slice(0, count);
-      if (picked.length > 0) return picked;
+      if (picked.length > 0) return picked.map((q) => withShuffledOptions(q, `${date}-review-${quest}`));
     }
     return pickQuestions({
       count,

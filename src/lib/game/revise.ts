@@ -1,5 +1,5 @@
 import { mulberry32, seedFromString } from "./date";
-import { ALL_QUESTIONS } from "./questions";
+import { ALL_QUESTIONS, withShuffledOptions } from "./questions";
 import type { CardProgress, Question, RevisionState, SubjectId } from "./types";
 
 /** Thirty minutes of questions, then a five-minute Pomodoro break. */
@@ -178,7 +178,8 @@ export function pickRunQuestion(reviews: Record<string, CardProgress>, used: rea
   if (pool.length === 0) return null;
   const rng = mulberry32(seedFromString(`${seed}:${used.length}:${today}`));
   const index = Math.floor(rng() * pool.length);
-  return pool[index] ?? null;
+  const q = pool[index];
+  return q ? withShuffledOptions(q, `${seed}:${today}`) : null;
 }
 
 export function feynmanFor(seed: string, doneIds: readonly string[]): FeynmanPrompt {

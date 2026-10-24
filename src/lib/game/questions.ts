@@ -31,6 +31,17 @@ export function questionById(id: string): Question | undefined {
   return ALL_QUESTIONS.find((q) => q.id === id);
 }
 
+/**
+ * Deterministically reorder an MCQ's options for one attempt, so the correct
+ * answer's position (and the bank's authoring order) gives nothing away.
+ * Seeded by attempt seed + question id, so SSR and hydration agree.
+ */
+export function withShuffledOptions(q: Question, seed: string): Question {
+  if (q.type !== "mcq" || !q.options || q.options.length < 3) return q;
+  const rng = mulberry32(seedFromString(`opts:${seed}:${q.id}`));
+  return { ...q, options: shuffle(q.options, rng) };
+}
+
 export function pickQuestions(opts: {
   count: number;
   seed: string;
@@ -80,7 +91,7 @@ export function pickQuestions(opts: {
     if (q) picked.push(q);
     else break;
   }
-  return picked.slice(0, opts.count);
+  return picked.slice(0, opts.count).map((q) => withShuffledOptions(q, opts.seed));
 }
 
 export function weakestSubject(
