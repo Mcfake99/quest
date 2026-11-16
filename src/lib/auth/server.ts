@@ -30,12 +30,14 @@
  * a verified id via `@/lib/auth/middleware`.
  */
 import { betterAuth } from "better-auth";
+import { createAuthMiddleware } from "better-auth/api";
 import { bearer, genericOAuth } from "better-auth/plugins";
 import { tanstackStartCookies } from "better-auth/tanstack-start";
 import { getCookie } from "@tanstack/react-start/server";
 import { randomBytes } from "node:crypto";
 import { Pool } from "pg";
 import { ensureDbReady, getPglite, getSql, pgSsl } from "../db";
+import { touchVisit } from "../admin/visits.server";
 import { emailAndPasswordEnabled } from "./email-password";
 import { GATE_PROVIDER_ID, gateIdentitySessions } from "./gate-session.server";
 import { GROK_PROVIDERS } from "./providers";
@@ -182,6 +184,18 @@ export const auth = betterAuth({
 
   // Admin tracking: every new session is a sign-in (email/password, OAuth, …).
   // Best-effort — a logging failure must never block signing in.
+  // Admin tracking: someone who stays signed in never signs in again, so also
+  // count every session read (app load / tab refocus) as a visit. touchVisit is
+  // throttled + deduped and runs after the response is built.
+  hooks: {
+    after: createAuthMiddleware(async (ctx) => {
+      if (ctx.path !== "/get-session") return;
+      const r = ctx.context.returned as { user?: { id?: unknown } } | null | undefined;
+      const id = r && typeof r === "object" && !(r instanceof Response) ? r.user?.id : undefined;
+      if (typeof id === "string") void touchVisit(id);
+    }),
+  },
+
   databaseHooks: {
     session: {
       create: {

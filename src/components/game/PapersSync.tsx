@@ -2,7 +2,8 @@ import { useEffect, useRef } from "react";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { progressEqual, sanitizeProgress, type PapersProgress } from "@/lib/game/papers-merge";
 import { usePapersStore } from "@/lib/game/papers-store";
-import { recordVisit, syncPapersProgress } from "@/lib/game/progress-sync";
+import { recordStudy, recordVisit, syncPapersProgress } from "@/lib/game/progress-sync";
+import { flushStudyLog, setStudyLogOwner } from "@/lib/game/study-log";
 
 function localProgress(): PapersProgress {
   const s = usePapersStore.getState();
@@ -17,6 +18,19 @@ export function PapersSync() {
 
   // Visit heartbeat: on open, on returning to the tab, and every 10 min while open
   // (the server dedupes to one row per 30 min).
+  // Study-session log: send queued entries now, and whenever the tab hides.
+  useEffect(() => {
+    if (isPending) return;
+    setStudyLogOwner(userId, userId ? (entries) => recordStudy({ data: entries }) : null);
+    if (!userId) return;
+    const onHide = () => document.visibilityState === "hidden" && void flushStudyLog();
+    document.addEventListener("visibilitychange", onHide);
+    return () => {
+      document.removeEventListener("visibilitychange", onHide);
+      setStudyLogOwner(null, null);
+    };
+  }, [userId, isPending]);
+
   useEffect(() => {
     if (isPending || !userId) return;
     const ping = () => void recordVisit().catch(() => undefined);

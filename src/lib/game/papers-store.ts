@@ -4,6 +4,8 @@ import type { RealAnswer } from "@/lib/game/exam/real/mark";
 import { todayKey } from "@/lib/game/date";
 import { advanceCard } from "@/lib/game/revise";
 import { useGameStore } from "@/lib/game/store";
+import { logStudy } from "@/lib/game/study-log";
+import type { StudyEntry } from "@/lib/game/study-log-core";
 import type { CardProgress } from "@/lib/game/types";
 
 export type MockSitting = {
@@ -73,6 +75,7 @@ export const usePapersStore = create<PapersState>()(
             },
           },
         });
+        logStudy(mockEntry(paperId, now, { status: "in_progress" }));
       },
 
       answer: (paperId, partId, value) => {
@@ -97,12 +100,14 @@ export const usePapersStore = create<PapersState>()(
       submit: (paperId, endedBy, auto) => {
         const s = get().sittings[paperId];
         if (!s || s.submittedAt) return;
+        const submittedAt = Date.now();
         set({
           sittings: {
             ...get().sittings,
-            [paperId]: { ...s, submittedAt: Date.now(), endedBy, index: 0, awarded: { ...auto } },
+            [paperId]: { ...s, submittedAt, endedBy, index: 0, awarded: { ...auto } },
           },
         });
+        logStudy(mockEntry(paperId, s.startedAt, { status: "marking", endedBy, endedAt: submittedAt }));
       },
 
       award: (paperId, partId, marks) => {
@@ -132,11 +137,24 @@ export const usePapersStore = create<PapersState>()(
         const sittings = { ...get().sittings };
         delete sittings[paperId];
         set({ attempts: { ...get().attempts, [paperId]: [...(get().attempts[paperId] ?? []), attempt] }, mistakes, cleared, sittings });
+        logStudy(
+          mockEntry(paperId, s.startedAt, {
+            status: "completed",
+            endedBy: s.endedBy,
+            endedAt: s.submittedAt,
+            score,
+            max,
+            mode: String(attempt.at), // links this sitting to the saved attempt
+            items: parts.map((p) => [p.id, s.awarded[p.id] ?? 0, p.marks]),
+          }),
+        );
         useGameStore.getState().grant(xp, Math.max(1, Math.round(pct / 10)));
         return attempt;
       },
 
       discard: (paperId) => {
+        const s = get().sittings[paperId];
+        if (s) logStudy(mockEntry(paperId, s.startedAt, { status: "abandoned", endedAt: s.submittedAt ?? Date.now(), endedBy: s.endedBy }));
         const sittings = { ...get().sittings };
         delete sittings[paperId];
         set({ sittings });
@@ -175,6 +193,11 @@ export const usePapersStore = create<PapersState>()(
     },
   ),
 );
+
+/** One log entry per sitting, keyed by its start time so start → finish upserts. */
+function mockEntry(paperId: string, startedAt: number, patch: Partial<StudyEntry> & Pick<StudyEntry, "status">): StudyEntry {
+  return { id: `mock:${paperId}:${startedAt}`, kind: "mock", ref: paperId, startedAt, items: [], ...patch };
+}
 
 const mem = new Map<string, string>();
 const memory = {

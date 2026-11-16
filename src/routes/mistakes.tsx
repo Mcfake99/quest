@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { autoMark, type RealAnswer } from "@/lib/game/exam/real/mark";
 import { realPart } from "@/lib/game/exam/real/lookup";
 import { usePapersStore } from "@/lib/game/papers-store";
+import { trackPractice } from "@/lib/game/study-log";
 
 export const Route = createFileRoute("/mistakes")({
   component: Mistakes,
@@ -86,6 +87,7 @@ function Mistakes() {
                         disabled={awarded === undefined}
                         onClick={() => {
                           logResult(paper.id, part.id, awarded ?? 0, part.marks + (part.spag ?? 0));
+                          trackPractice("mistakes", String(paper.subjectId), [part.id, awarded ?? 0, part.marks + (part.spag ?? 0)]);
                           reset(null);
                         }}
                       >

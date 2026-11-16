@@ -7,6 +7,7 @@ import { partsForTopic, topicsFor } from "@/lib/game/exam/real/lookup";
 import { usePapersStore } from "@/lib/game/papers-store";
 import { isSubjectId, SUBJECTS } from "@/lib/game/types";
 import { cn } from "@/lib/utils";
+import { trackPractice } from "@/lib/game/study-log";
 
 type Search = { topic: string };
 
@@ -67,6 +68,7 @@ function TopicQuiz() {
   function next() {
     if (!current || awarded === undefined) return;
     logResult(current.paper.id, current.part.id, awarded, current.part.marks);
+    trackPractice("paper-quiz", subject, [current.part.id, awarded, current.part.marks], { mode: topic || null, title: topic || "All topics" });
     setScore((s) => ({ got: s.got + awarded, of: s.of + current.part.marks }));
     setIndex((i) => i + 1);
     setAnswer(undefined);

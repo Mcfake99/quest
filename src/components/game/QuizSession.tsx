@@ -11,6 +11,8 @@ import { clueFor } from "@/lib/game/clues";
 import { getSubject, type PlayKind, type Question, type QuizResult } from "@/lib/game/types";
 import { answersMatch, comboMultiplier, levelFromXp, scoreAnswer } from "@/lib/game/scoring";
 import { isBoosted, useGameStore } from "@/lib/game/store";
+import { logStudy, studyId } from "@/lib/game/study-log";
+import type { StudyItem } from "@/lib/game/study-log-core";
 import { cn } from "@/lib/utils";
 
 export type QuizConfig = {
@@ -52,6 +54,27 @@ export function QuizSession({ config }: { config: QuizConfig }) {
   const [shake, setShake] = useState(0);
   const [remaining, setRemaining] = useState(config.timed ? config.seconds * 1000 : null);
   const [pop, setPop] = useState<{ xp: number; combo: number; hinted: boolean } | null>(null);
+
+  // Study log (admin dashboard): one entry per run, updated after every answer.
+  const logRef = useRef<{ id: string; startedAt: number; items: StudyItem[] } | null>(null);
+  if (!logRef.current) logRef.current = { id: studyId("quiz", config.kind, config.questId), startedAt: Date.now(), items: [] };
+  function logRun(status: "in_progress" | "completed") {
+    const run = logRef.current!;
+    const subjects = new Set(config.questions.map((q) => q.subject));
+    logStudy({
+      id: run.id,
+      kind: "quiz",
+      mode: config.kind,
+      subjectId: subjects.size === 1 ? [...subjects][0]! : null,
+      title: config.title,
+      status,
+      startedAt: run.startedAt,
+      endedAt: Date.now(),
+      score: run.items.reduce((n, i) => n + i[1], 0),
+      max: status === "completed" ? config.questions.length : run.items.length,
+      items: run.items,
+    });
+  }
 
   const phaseRef = useRef<Phase>(phase);
   phaseRef.current = phase;
@@ -115,6 +138,8 @@ export function QuizSession({ config }: { config: QuizConfig }) {
       hinted,
     });
     recordAnswer(question.id, ok);
+    logRef.current!.items = [...logRef.current!.items.filter((i) => i[0] !== question.id), [question.id, ok ? 1 : 0, 1]];
+    logRun("in_progress");
     if (scored.xp || scored.marks) grant(scored.xp, scored.marks);
     setChosen(given);
     setCorrectThis(ok);
@@ -168,6 +193,7 @@ export function QuizSession({ config }: { config: QuizConfig }) {
         timedOut,
       };
       const outcome = finishQuest(config.questId, result);
+      logRun("completed");
       setNewBadges(outcome.badges);
       setCratesGained(outcome.crates);
       setJackpotMarks(outcome.jackpotMarks);

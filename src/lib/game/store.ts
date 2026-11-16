@@ -9,6 +9,7 @@ import { rollCrate, type LootDrop } from "./loot";
 import { defaultSave, mergeSave, sanitizeSave, snapshotSave } from "./save";
 import { checkInReward, levelFromXp, rankForLevel } from "./scoring";
 import { SHOP_ITEMS } from "./shop";
+import { trackPractice } from "./study-log";
 import type { DailyBoard, QuizResult, SaveState } from "./types";
 
 export { defaultSave, sanitizeSave, snapshotSave } from "./save";
@@ -446,6 +447,7 @@ export const useGameStore = create<GameStore>()(
         const date = todayKey();
         const rev = save.revision;
         if (!rev || rev.date !== date || rev.phase !== "focus") return;
+        trackPractice("revision", null, [questionId, correct ? 1 : 0, 1], { title: "Revision run" });
         const rec = save.answers?.[questionId] ?? { c: 0, w: 0 };
         const gainedXp = correct ? xp : 0;
         const gainedMarks = correct ? marks : 0;

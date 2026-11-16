@@ -6,6 +6,7 @@ import { cardsFor } from "@/lib/game/flashcards";
 import { dueCards, usePapersStore } from "@/lib/game/papers-store";
 import { isSubjectId, SUBJECTS } from "@/lib/game/types";
 import { cn } from "@/lib/utils";
+import { trackPractice } from "@/lib/game/study-log";
 
 export const Route = createFileRoute("/flashcards/$subject")({
   component: Flashcards,
@@ -43,6 +44,7 @@ function Flashcards() {
   function rate(known: boolean) {
     if (!card) return;
     rateCard(card.id, known);
+    trackPractice("flashcards", subject, [card.id, known ? 1 : 0, 1], { mode: deck || null, title: deck || "All decks" });
     setFlipped(false);
     setSeen((n) => n + 1);
   }
